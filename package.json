@@ -9,7 +9,8 @@
     "fetch": "node scripts/fetch-sources.mjs",
     "normalize": "node scripts/normalize-items.mjs",
     "dataset": "node scripts/build-dataset.mjs",
-    "refresh": "npm run fetch && npm run normalize && npm run dataset && npm run build",
+    "changelog": "node scripts/build-changelog.mjs",
+    "refresh": "npm run fetch && npm run normalize && npm run dataset && npm run changelog && npm run build",
     "build": "node scripts/build.mjs"
   },
   "devDependencies": {

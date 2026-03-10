@@ -12,9 +12,9 @@ python3 -m http.server 4173
 
 Åpne deretter <http://localhost:4173>.
 
-## V2 fase 1
+## V2 fase 1–3
 
-Prosjektet er nå satt opp med en enkel ingest-pipeline:
+Prosjektet er nå satt opp med en enkel ingest-pipeline og automatisering via GitHub Actions / GitHub Pages:
 
 - `sources/source-config.js` – kilderegister
 - `data/raw/` – lagrede råkilder fra Microsoft Learn / TechCommunity
@@ -23,7 +23,10 @@ Prosjektet er nå satt opp med en enkel ingest-pipeline:
 - `scripts/fetch-sources.mjs` – henter råkilder
 - `scripts/normalize-items.mjs` – normaliserer råkildene
 - `scripts/build-dataset.mjs` – bygger `app/data/news-data.js`
+- `scripts/build-changelog.mjs` – genererer en enkel changelog for siste saker
 - `scripts/build.mjs` – kopierer appen til `dist/`
+- `.github/workflows/update-news.yml` – henter nye kilder, regenererer data og committer endringer automatisk
+- `.github/workflows/deploy-pages.yml` – bygger og publiserer `dist/` til GitHub Pages
 
 ## NPM-scripts
 
@@ -31,9 +34,23 @@ Prosjektet er nå satt opp med en enkel ingest-pipeline:
 npm run fetch
 npm run normalize
 npm run dataset
+npm run changelog
 npm run build
 npm run refresh
 ```
+
+## GitHub Actions / Pages
+
+For å få automatisk publisering i GitHub:
+
+1. Gå til **Settings → Pages**
+2. Sett **Source** til **GitHub Actions**
+3. La workflowene kjøre fra `main`
+
+Da vil repoet:
+- oppdatere datagrunnlaget automatisk hver morgen
+- committe endringer hvis Microsoft-kildene har endret seg
+- publisere ny versjon til GitHub Pages ved push til `main`
 
 ## Kilder
 

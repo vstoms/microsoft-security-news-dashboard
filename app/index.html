@@ -11,14 +11,14 @@
       <header class="hero">
         <p class="eyebrow">2026 • Microsoft Security</p>
         <h1>Nyhetsdashboard for Microsoft Security</h1>
-        <p class="hero-copy">Se hva som faktisk har landet i Microsofts sikkerhetsportefølje, filtrer på produkt, og få en kort analyse av hvorfor endringen betyr noe i praksis.</p>
+        <p class="hero-copy">Se hva som faktisk har landet i Microsofts sikkerhetsportefølje, filtrer på produkt og status, og prioriter det som krever handling før det blir et driftsproblem.</p>
         <div class="hero-stats" id="hero-stats"></div>
       </header>
 
       <section class="controls">
-        <label class="search">
+        <label class="search control-wide">
           <span>Søk</span>
-          <input id="search" type="search" placeholder="Søk i tittel, analyse eller produkt" />
+          <input id="search" type="search" placeholder="Søk i tittel, analyse, produkt eller tema" />
         </label>
         <label>
           <span>Produkt</span>
@@ -27,6 +27,30 @@
         <label>
           <span>Måned</span>
           <select id="month-filter"></select>
+        </label>
+        <label>
+          <span>Status</span>
+          <select id="stage-filter"></select>
+        </label>
+        <label>
+          <span>Kilde</span>
+          <select id="source-filter"></select>
+        </label>
+        <label>
+          <span>Tema</span>
+          <select id="theme-filter"></select>
+        </label>
+        <label>
+          <span>Påvirkning</span>
+          <select id="impact-filter"></select>
+        </label>
+        <label>
+          <span>Sorter</span>
+          <select id="sort-filter">
+            <option value="priority">Mest kritisk først</option>
+            <option value="newest">Nyeste først</option>
+            <option value="product">Produkt A–Å</option>
+          </select>
         </label>
       </section>
 
@@ -37,19 +61,18 @@
             <div id="product-chips" class="chip-list"></div>
           </div>
           <div class="panel">
-            <h2>Analysefokus</h2>
-            <ul class="insight-list">
-              <li>Mer konsolidering mot Unified SecOps / XDR.</li>
-              <li>Flere endringer flytter arbeid fra manuelle kontroller til policy + automatisering.</li>
-              <li>Mange oppdateringer er operative: API-endringer, deprecations, portalbytter og hygiene-forbedringer.</li>
-            </ul>
+            <h2>Rask prioritering</h2>
+            <ul class="insight-list" id="priority-list"></ul>
           </div>
         </aside>
 
         <main>
           <div class="results-header">
-            <h2>Oppdateringer</h2>
-            <p id="result-count"></p>
+            <div>
+              <h2>Oppdateringer</h2>
+              <p id="result-count"></p>
+            </div>
+            <div id="active-filters" class="chip-list"></div>
           </div>
           <div id="news-list" class="news-list"></div>
         </main>
@@ -60,12 +83,23 @@
       <article class="card">
         <div class="card-top">
           <div>
+            <div class="badge-row">
+              <span class="badge badge-stage"></span>
+              <span class="badge badge-impact"></span>
+              <span class="badge badge-source"></span>
+            </div>
             <p class="meta"></p>
             <h3></h3>
           </div>
           <a class="source-link" target="_blank" rel="noreferrer">Kilde</a>
         </div>
         <p class="summary"></p>
+        <dl class="detail-grid">
+          <div><dt>Produkt</dt><dd class="detail-product"></dd></div>
+          <div><dt>Kategori</dt><dd class="detail-category"></dd></div>
+          <div><dt>Kilde</dt><dd class="detail-source"></dd></div>
+          <div><dt>Publisert</dt><dd class="detail-date"></dd></div>
+        </dl>
         <div class="tags"></div>
         <div class="analysis-block">
           <h4>Hvorfor dette betyr noe</h4>

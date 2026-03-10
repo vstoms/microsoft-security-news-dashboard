@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-03-10T20:22:06.735Z
+Generated: 2026-03-10T22:44:57.537Z
 
 - 2026-09-01 • Microsoft Entra • Ikke oppgitt • Microsoft Entra update 1
 - 2026-09-01 • Microsoft Entra • Preview • Public Preview - App management policies portal experience

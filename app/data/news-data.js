@@ -964,25 +964,23 @@ export const newsItems = [
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
     "title": "Preview",
-    "summary": "On-demand malware scanning of Azure Files in Microsoft Defender for Storage March 04, 2026",
+    "summary": "Code to runtime enrichment for recommendations March 10, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Preview",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
     "category": "Cloud Security",
     "themes": [
-      "Cloud"
+      "Generelt"
     ],
-    "platforms": [
-      "Cloud"
-    ],
+    "platforms": [],
     "tags": [
       "Preview",
-      "Cloud"
+      "Generelt"
     ],
     "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
     ]
@@ -1026,7 +1024,7 @@ export const newsItems = [
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
     "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary": "On-demand malware scanning of Azure Files in Microsoft Defender for Storage (Preview) March 10, 2026 On-demand malware scanning for Azure Files in Microsoft Defender for Storage is now in preview. This preview extends the existing on-demand malware scan feature and lets you scan entire Azure Storage accounts that contain blobs and files. You can start scans in the Azure portal UI or with the Representational State Transfer (REST) application programming interface (API). You can also automate scans with Azure Logic Apps, Azure Automation playbooks, and PowerShell scripts.",
+    "summary": "Code to runtime enrichment for recommendations (Preview) March 10, 2026 Microsoft Defender for Cloud now provides Code to runtime capabilities, enabling end-to-end visibility across the software development lifecycle (SDLC). This feature helps security teams trace runtime security issues back to their source code origins and understand the full blast radius of vulnerabilities. Key capabilities:",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1034,8 +1032,7 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Cloud Security",
     "themes": [
-      "Identitet",
-      "Automatisering",
+      "Teams",
       "Cloud"
     ],
     "platforms": [
@@ -1043,8 +1040,7 @@ export const newsItems = [
     ],
     "tags": [
       "Preview",
-      "Identitet",
-      "Automatisering",
+      "Teams",
       "Cloud"
     ],
     "analysis": [

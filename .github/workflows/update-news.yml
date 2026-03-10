@@ -41,6 +41,6 @@ jobs:
             echo "No changes detected"
             exit 0
           fi
-          git add data/ app/data/ dist/ README.md
+          git add data/normalized/ app/data/ README.md
           git commit -m "chore: refresh Microsoft security news"
           git push

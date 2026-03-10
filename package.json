@@ -5,6 +5,10 @@
   "type": "module",
   "scripts": {
     "start": "python3 -m http.server 4173",
+    "fetch": "node scripts/fetch-sources.mjs",
+    "normalize": "node scripts/normalize-items.mjs",
+    "dataset": "node scripts/build-dataset.mjs",
+    "refresh": "npm run fetch && npm run normalize && npm run dataset && npm run build",
     "build": "node scripts/build.mjs"
   }
 }

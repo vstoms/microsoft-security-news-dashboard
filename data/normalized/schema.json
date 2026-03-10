@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Microsoft Security News Item",
+  "type": "object",
+  "required": [
+    "id",
+    "product_slug",
+    "product",
+    "category",
+    "source_type",
+    "source_name",
+    "title",
+    "summary_no",
+    "impact_no",
+    "published_at",
+    "month",
+    "month_label",
+    "release_stage",
+    "theme_tags",
+    "url"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "product_slug": { "type": "string" },
+    "product": { "type": "string" },
+    "category": { "type": "string" },
+    "source_type": { "type": "string" },
+    "source_name": { "type": "string" },
+    "title": { "type": "string" },
+    "summary_no": { "type": "string" },
+    "impact_no": { "type": "string" },
+    "published_at": { "type": "string" },
+    "month": { "type": "string" },
+    "month_label": { "type": "string" },
+    "release_stage": { "type": "string" },
+    "platforms": { "type": "array", "items": { "type": "string" } },
+    "theme_tags": { "type": "array", "items": { "type": "string" } },
+    "url": { "type": "string" }
+  }
+}

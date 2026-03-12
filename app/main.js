@@ -15,29 +15,27 @@ const el = {
   stats: document.querySelector('#hero-stats'),
   activeFilters: document.querySelector('#active-filters'),
   priorityList: document.querySelector('#priority-list'),
-  template: document.querySelector('#card-template')
+  criticalList: document.querySelector('#critical-list'),
+  template: document.querySelector('#card-template'),
+  criticalTemplate: document.querySelector('#critical-template')
 };
 
 const state = {
   search: '', product: 'Alle', month: 'Alle', stage: 'Alle', source: 'Alle', theme: 'Alle', impact: 'Alle', sort: 'priority'
 };
 
-const priorityWeight = {
-  'Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.': 3,
-  'Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.': 2,
-  'Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.': 1
-};
 const stageWeight = { 'Action required': 4, Deprecation: 3, GA: 2, Preview: 1, 'Ikke oppgitt': 0 };
 const stageClass = (value) => ({ 'Action required': 'stage-action', Deprecation: 'stage-deprecation', GA: 'stage-ga', Preview: 'stage-preview' }[value] || 'stage-unknown');
-const impactClass = (value) => value.startsWith('Høy') ? 'impact-high' : value.startsWith('Middels') ? 'impact-medium' : 'impact-low';
+const impactClass = (value) => value === 'Høy' ? 'impact-high' : value === 'Middels' ? 'impact-medium' : 'impact-low';
 const sourceLabel = (value) => ({ 'whats-new': 'What\'s new', 'release-notes': 'Release notes', blog: 'Blogg' }[value] || value);
+const impactLabel = (value) => value === 'Høy' ? 'Høy påvirkning' : value === 'Middels' ? 'Middels påvirkning' : 'Lav påvirkning';
 
 function fillSelect(select, values) {
   select.innerHTML = ['Alle', ...values].map((value) => `<option value="${value}">${value}</option>`).join('');
 }
 
 function buildStats() {
-  const urgent = newsItems.filter((item) => stageWeight[item.releaseStage] >= 3 || priorityWeight[item.impact] >= 3).length;
+  const urgent = newsItems.filter((item) => stageWeight[item.releaseStage] >= 3 || item.impactLevel === 'Høy').length;
   el.stats.innerHTML = [
     `Totalt ${newsItems.length} normaliserte oppdateringer`,
     `${products.length} produkter`,
@@ -52,52 +50,65 @@ function populateFilters() {
   fillSelect(el.stage, releaseStages);
   fillSelect(el.source, sourceTypes.map(sourceLabel));
   fillSelect(el.theme, themes);
-  fillSelect(el.impact, ['Høy', 'Middels', 'Lav']);
+  fillSelect(el.impact, impacts);
 
   el.chips.innerHTML = products.map((product) => `<button class="chip" data-product="${product}">${product}</button>`).join('');
   buildStats();
   renderPriorityList();
+  renderCriticalList();
 }
 
 function matchesImpact(item, selected) {
-  if (selected === 'Alle') return true;
-  if (selected === 'Høy') return item.impact.startsWith('Høy');
-  if (selected === 'Middels') return item.impact.startsWith('Middels');
-  return item.impact.startsWith('Lav');
+  return selected === 'Alle' || item.impactLevel === selected;
 }
 
 function filterItems() {
   const q = state.search.trim().toLowerCase();
   return newsItems.filter((item) => {
     const haystack = [item.title, item.summary, item.product, item.category, item.sourceName, item.sourceType, item.releaseStage, item.impact, item.analysis.join(' '), item.themes.join(' ')].join(' ').toLowerCase();
-    const searchMatch = !q || haystack.includes(q);
-    const productMatch = state.product === 'Alle' || item.product === state.product;
-    const monthMatch = state.month === 'Alle' || item.month === state.month;
-    const stageMatch = state.stage === 'Alle' || item.releaseStage === state.stage;
-    const sourceMatch = state.source === 'Alle' || sourceLabel(item.sourceType) === state.source;
-    const themeMatch = state.theme === 'Alle' || item.themes.includes(state.theme);
-    const impactMatch = matchesImpact(item, state.impact);
-    return searchMatch && productMatch && monthMatch && stageMatch && sourceMatch && themeMatch && impactMatch;
+    return (!q || haystack.includes(q))
+      && (state.product === 'Alle' || item.product === state.product)
+      && (state.month === 'Alle' || item.month === state.month)
+      && (state.stage === 'Alle' || item.releaseStage === state.stage)
+      && (state.source === 'Alle' || sourceLabel(item.sourceType) === state.source)
+      && (state.theme === 'Alle' || item.themes.includes(state.theme))
+      && matchesImpact(item, state.impact);
   });
 }
 
 function sortItems(items) {
   const sorted = [...items];
   if (state.sort === 'newest') return sorted.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.title.localeCompare(b.title, 'no'));
-  if (state.sort === 'product') return sorted.sort((a, b) => a.product.localeCompare(b.product, 'no') || b.publishedAt.localeCompare(a.publishedAt));
-  return sorted.sort((a, b) => (stageWeight[b.releaseStage] - stageWeight[a.releaseStage]) || (priorityWeight[b.impact] - priorityWeight[a.impact]) || b.publishedAt.localeCompare(a.publishedAt));
+  if (state.sort === 'product') return sorted.sort((a, b) => a.product.localeCompare(b.product, 'no') || b.priorityScore - a.priorityScore);
+  return sorted.sort((a, b) => b.priorityScore - a.priorityScore || b.publishedAt.localeCompare(a.publishedAt));
 }
 
 function renderActiveFilters() {
-  const active = [
-    ['Produkt', state.product], ['Måned', state.month], ['Status', state.stage], ['Kilde', state.source], ['Tema', state.theme], ['Påvirkning', state.impact]
-  ].filter(([, value]) => value !== 'Alle');
+  const active = [['Produkt', state.product], ['Måned', state.month], ['Status', state.stage], ['Kilde', state.source], ['Tema', state.theme], ['Påvirkning', state.impact]].filter(([, value]) => value !== 'Alle');
   el.activeFilters.innerHTML = active.length ? active.map(([label, value]) => `<span class="chip active-chip">${label}: ${value}</span>`).join('') : '<span class="chip">Ingen aktive filtre</span>';
 }
 
 function renderPriorityList() {
   const top = sortItems(newsItems).slice(0, 5);
   el.priorityList.innerHTML = top.map((item) => `<li><strong>${item.product}</strong>: ${item.title}</li>`).join('');
+}
+
+function renderCriticalList() {
+  const critical = newsItems.filter((item) => item.releaseStage === 'Action required' || item.releaseStage === 'Deprecation' || item.impactLevel === 'Høy').slice(0, 6);
+  el.criticalList.innerHTML = '';
+  for (const item of critical) {
+    const node = el.criticalTemplate.content.firstElementChild.cloneNode(true);
+    const badges = node.querySelectorAll('.badge');
+    badges[0].textContent = item.releaseStage;
+    badges[0].classList.add(stageClass(item.releaseStage));
+    badges[1].textContent = impactLabel(item.impactLevel);
+    badges[1].classList.add(impactClass(item.impactLevel));
+    node.querySelector('h3').textContent = item.title;
+    node.querySelector('.highlight-meta').textContent = `${item.product} • ${item.publishedAt}`;
+    node.querySelector('.highlight-summary').textContent = item.summary;
+    node.querySelector('.source-link').href = item.url;
+    el.criticalList.appendChild(node);
+  }
 }
 
 function render() {
@@ -114,18 +125,17 @@ function render() {
     const badges = node.querySelectorAll('.badge');
     badges[0].textContent = item.releaseStage;
     badges[0].classList.add(stageClass(item.releaseStage));
-    badges[1].textContent = item.impact.startsWith('Høy') ? 'Høy påvirkning' : item.impact.startsWith('Middels') ? 'Middels påvirkning' : 'Lav påvirkning';
-    badges[1].classList.add(impactClass(item.impact));
+    badges[1].textContent = impactLabel(item.impactLevel);
+    badges[1].classList.add(impactClass(item.impactLevel));
     badges[2].textContent = sourceLabel(item.sourceType);
-    node.querySelector('.meta').textContent = `${item.product} • ${item.date}`;
+    node.querySelector('.meta').textContent = `${item.product} • ${item.date} • score ${item.priorityScore}`;
     node.querySelector('h3').textContent = item.title;
     node.querySelector('.summary').textContent = item.summary;
     node.querySelector('.detail-product').textContent = item.product;
     node.querySelector('.detail-category').textContent = item.category;
     node.querySelector('.detail-source').textContent = `${item.sourceName} / ${sourceLabel(item.sourceType)}`;
     node.querySelector('.detail-date').textContent = item.publishedAt;
-    const link = node.querySelector('.source-link');
-    link.href = item.url;
+    node.querySelector('.source-link').href = item.url;
     node.querySelector('.tags').innerHTML = item.themes.map((tag) => `<span class="tag">${tag}</span>`).join('');
     node.querySelector('.analysis-list').innerHTML = item.analysis.map((line) => `<li>${line}</li>`).join('');
     el.list.appendChild(node);

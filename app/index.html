@@ -15,6 +15,16 @@
         <div class="hero-stats" id="hero-stats"></div>
       </header>
 
+      <section class="highlights">
+        <div class="panel critical-panel">
+          <div class="section-header">
+            <h2>Krever handling</h2>
+            <p>Oppdateringer med tydelig operativ konsekvens, deadlines eller lifecycle-endringer.</p>
+          </div>
+          <div id="critical-list" class="highlight-list"></div>
+        </div>
+      </section>
+
       <section class="controls">
         <label class="search control-wide">
           <span>Søk</span>
@@ -78,6 +88,19 @@
         </main>
       </section>
     </div>
+
+    <template id="critical-template">
+      <article class="highlight-card">
+        <div class="badge-row compact-badges">
+          <span class="badge badge-stage"></span>
+          <span class="badge badge-impact"></span>
+        </div>
+        <h3></h3>
+        <p class="highlight-meta"></p>
+        <p class="highlight-summary"></p>
+        <a class="source-link" target="_blank" rel="noreferrer">Åpne kilde</a>
+      </article>
+    </template>
 
     <template id="card-template">
       <article class="card">

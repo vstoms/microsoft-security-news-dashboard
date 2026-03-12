@@ -21,10 +21,21 @@ export function stripHtml(html) {
 }
 
 export function cleanLines(text) {
+  const noise = [
+    /^skip to main content$/i,
+    /^ask learn$/i,
+    /^table of contents$/i,
+    /^feedback$/i,
+    /^read in english$/i,
+    /^add to plan$/i,
+    /^summarize this article/i,
+    /^access to this page requires authorization/i
+  ];
   return text
     .split(/\n+/)
     .map((line) => line.trim())
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter((line) => !noise.some((pattern) => pattern.test(line)));
 }
 
 export function monthNameToNumber(name) {
@@ -43,36 +54,76 @@ export function norwegianMonthLabel(month) {
   return labels[month] || month;
 }
 
+export function normalizeWhitespace(value) {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+export function sanitizeTitle(value) {
+  return normalizeWhitespace(value)
+    .replace(/^[:\-|]+/, '')
+    .replace(/^\((preview|ga)\)\s*/i, '')
+    .replace(/^(preview\/?ga|preview|ga|new feature|type|date|category|update|description|data governance)$/i, '')
+    .replace(/\s*:\s*$/, '')
+    .trim();
+}
+
+export function sanitizeSummary(value) {
+  return normalizeWhitespace(value)
+    .replace(/^[:\-|]+/, '')
+    .replace(/^(type|feature|preview\/ga|date|category|update|service category|product capability):?/i, '')
+    .replace(/\s*learn more\.?$/i, '')
+    .replace(/\s*for more information.*$/i, '')
+    .trim();
+}
+
 export function inferReleaseStage(text) {
   const haystack = text.toLowerCase();
-  if (haystack.includes('action required') || haystack.includes('call to action')) return 'Action required';
-  if (haystack.includes('deprecation') || haystack.includes('retired')) return 'Deprecation';
-  if (haystack.includes('general availability') || haystack.includes(' is now ga') || haystack.includes('(ga)')) return 'GA';
-  if (haystack.includes('preview')) return 'Preview';
+  if (/action required|call to action|required action|must update|to avoid service disruption/.test(haystack)) return 'Action required';
+  if (/deprecation|deprecated|retired|retirement|end of support|out of support|no longer supported/.test(haystack)) return 'Deprecation';
+  if (/general availability|generally available|is now generally available|now ga|\(ga\)/.test(haystack)) return 'GA';
+  if (/public preview|preview|in preview/.test(haystack)) return 'Preview';
   return 'Ikke oppgitt';
 }
 
-export function inferOperationalImpact(text) {
+export function inferOperationalImpactLevel(text) {
   const haystack = text.toLowerCase();
-  if (/action required|deprecation|retired|block|fail|migration|before june|before july/.test(haystack)) return 'Høy';
-  if (/ga|generally available|new alert|contain|runtime|policy|onboarding/.test(haystack)) return 'Medium';
+  if (/action required|call to action|required action|must update|service disruption|will fail|before \w+ \d{1,2},? 2026|before june|before july|migrate|migration|deprecated|retired|out of support/.test(haystack)) return 'Høy';
+  if (/generally available|preview|new alert|contain user|runtime|policy|onboarding|hard match|private link|data lake|ueba|oauth|mfa/.test(haystack)) return 'Middels';
   return 'Lav';
+}
+
+export function impactLabel(level) {
+  if (level === 'Høy') return 'Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.';
+  if (level === 'Middels') return 'Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.';
+  return 'Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.';
 }
 
 export function inferThemeTags(text) {
   const haystack = text.toLowerCase();
   const tags = [];
   const map = {
-    Identitet: /entra|identity|oauth|mfa|account|user containment/,
-    Hunting: /hunting|ueba|behavior|kql/,
-    Automatisering: /automation|automatisering|playbook|source control|api/,
+    Identitet: /entra|identity|oauth|mfa|account|user containment|hard match/,
+    Hunting: /hunting|ueba|behavior|kql|query/,
+    Automatisering: /automation|automatisering|playbook|source control|api|repository/,
     AI: /\bai\b|copilot|agent(s)?\b/,
-    Container: /container|kubernetes|aks|eks|gke/,
-    Endpoint: /endpoint|device|windows|macos|linux|avd/,
+    Container: /container|kubernetes|aks|eks|gke|binary drift/,
+    Endpoint: /endpoint|device|windows|macos|linux|avd|antivirus/,
     Teams: /teams/,
-    Governance: /purview|data quality|governance/,
-    Cloud: /cloud|aws|azure|gcp|private link/
+    Governance: /purview|data quality|governance|classification/,
+    Cloud: /cloud|aws|azure|gcp|private link|sql|ciem/,
+    Lifecycle: /retire|retired|deprecation|out of support|migrate|migration/
   };
   for (const [tag, regex] of Object.entries(map)) if (regex.test(haystack)) tags.push(tag);
   return tags.length ? tags : ['Generelt'];
+}
+
+export function priorityScore({ releaseStage, impactLevel, title, summary, themeTags }) {
+  let score = 0;
+  score += ({ 'Action required': 90, Deprecation: 75, GA: 45, Preview: 30, 'Ikke oppgitt': 15 }[releaseStage] || 10);
+  score += ({ Høy: 30, Middels: 18, Lav: 8 }[impactLevel] || 0);
+  const haystack = `${title} ${summary}`.toLowerCase();
+  if (/service disruption|will fail|deadline|before june|before july/.test(haystack)) score += 15;
+  if (themeTags.includes('Lifecycle')) score += 10;
+  if (themeTags.includes('Identitet') || themeTags.includes('Automatisering')) score += 5;
+  return score;
 }

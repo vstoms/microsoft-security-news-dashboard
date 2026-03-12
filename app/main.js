@@ -105,7 +105,8 @@ function renderCriticalList() {
     badges[1].classList.add(impactClass(item.impactLevel));
     node.querySelector('h3').textContent = item.title;
     node.querySelector('.highlight-meta').textContent = `${item.product} • ${item.publishedAt}`;
-    node.querySelector('.highlight-summary').textContent = item.summary;
+    const summary = item.summary.length > 220 ? `${item.summary.slice(0, 217).trim()}…` : item.summary;
+    node.querySelector('.highlight-summary').textContent = summary;
     node.querySelector('.source-link').href = item.url;
     el.criticalList.appendChild(node);
   }

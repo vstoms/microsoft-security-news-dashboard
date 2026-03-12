@@ -1,18 +1,18 @@
 [
   {
-    "id": "microsoft-defender-xdr-03-the-proactive-user-containment-contain-user-action-as-part-of-the-predictive",
+    "id": "microsoft-defender-xdr-03-preview-customers-can-now-use-filters-on-very-large-incidents-with-many-alerts-and-entities-or-hide-specific-entities-to-simplify-complex-incident-graphs-by-simplifying-the-graphs-they-can-focus-their-investigations-on-what-matters-most",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "The proactive user containment (contain user) action as part of the predictive",
-    "summary_no": "proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
+    "title": "Preview) Customers can now use filters on very large incidents with many alerts and entities or hide specific entities to simplify complex incident graphs. By simplifying the graphs, they can focus their investigations on what matters most.",
+    "summary_no": "Learn more The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
     "month": "2026-03",
     "month_label": "Mars",
-    "release_stage": "Ikke oppgitt",
+    "release_stage": "Preview",
     "platforms": [],
     "theme_tags": [
       "Identitet"
@@ -436,6 +436,26 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
+    "id": "microsoft-defender-for-identity-03-continued-rollout-of-new-health-alert-sensor-v3-x-rpc-audit-misconfigured",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Continued rollout of new health alert: Sensor v3.x RPC Audit Misconfigured",
+    "summary_no": "The Sensor v3.x RPC Audit Misconfigured health alert is continuing to be rolled out gradually to customers. The new health alert helps identify v3.x sensors where Enhanced RPC auditing configuration is either missing or incorrectly applied. Enhanced RPC auditing is required for some Microsoft Defender for Identity advanced identity detections. For more information, see Configure RPC on sensors v3.x",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet"
+    ],
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-identity-02-defender-for-identity-sensor-updates",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
@@ -622,15 +642,35 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-03-date-category-update-march-10-2026",
+    "id": "microsoft-defender-for-cloud-03-date-category-update-march-11-2026",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
     "category": "Cloud Security",
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
-    "title": "Date Category Update March 10, 2026",
-    "summary_no": "Category Update March 10, 2026",
+    "title": "Date Category Update March 11, 2026",
+    "summary_no": "Category Update March 11, 2026",
     "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-03-ga-severity-based-risk-assignment-for-not-evaluated-recommendations-march-10-2026",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "GA Severity‑based risk assignment for \"Not evaluated\" recommendations March 10, 2026",
+    "summary_no": "Severity‑based risk assignment for \"Not evaluated\" recommendations March 10, 2026",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
     "month": "2026-03",
     "month_label": "Mars",
@@ -678,29 +718,6 @@
     "platforms": [],
     "theme_tags": [
       "Container"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-03-new-individual-recommendations-format-in-azure-portal-preview",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary_no": "Code to runtime enrichment for recommendations (Preview) March 10, 2026 Microsoft Defender for Cloud now provides Code to runtime capabilities, enabling end-to-end visibility across the software development lifecycle (SDLC). This feature helps security teams trace runtime security issues back to their source code origins and understand the full blast radius of vulnerabilities. Key capabilities:",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-03-01",
-    "month": "2026-03",
-    "month_label": "Mars",
-    "release_stage": "Preview",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Teams",
-      "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },

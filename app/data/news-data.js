@@ -1,16 +1,16 @@
 export const newsItems = [
   {
-    "id": "microsoft-defender-xdr-03-the-proactive-user-containment-contain-user-action-as-part-of-the-predictive",
+    "id": "microsoft-defender-xdr-03-preview-customers-can-now-use-filters-on-very-large-incidents-with-many-alerts-and-entities-or-hide-specific-entities-to-simplify-complex-incident-graphs-by-simplifying-the-graphs-they-can-focus-their-investigations-on-what-matters-most",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "The proactive user containment (contain user) action as part of the predictive",
-    "summary": "proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
+    "title": "Preview) Customers can now use filters on very large incidents with many alerts and entities or hide specific entities to simplify complex incident graphs. By simplifying the graphs, they can focus their investigations on what matters most.",
+    "summary": "Learn more The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "releaseStage": "Ikke oppgitt",
+    "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
@@ -20,7 +20,7 @@ export const newsItems = [
     ],
     "platforms": [],
     "tags": [
-      "Ikke oppgitt",
+      "Preview",
       "Identitet"
     ],
     "analysis": [
@@ -646,6 +646,36 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-identity-03-continued-rollout-of-new-health-alert-sensor-v3-x-rpc-audit-misconfigured",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Continued rollout of new health alert: Sensor v3.x RPC Audit Misconfigured",
+    "summary": "The Sensor v3.x RPC Audit Misconfigured health alert is continuing to be rolled out gradually to customers. The new health alert helps identify v3.x sensors where Enhanced RPC auditing configuration is either missing or incorrectly applied. Enhanced RPC auditing is required for some Microsoft Defender for Identity advanced identity detections. For more information, see Configure RPC on sensors v3.x",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-identity-02-defender-for-identity-sensor-updates",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
@@ -926,15 +956,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-03-date-category-update-march-10-2026",
+    "id": "microsoft-defender-for-cloud-03-date-category-update-march-11-2026",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Date Category Update March 10, 2026",
-    "summary": "Category Update March 10, 2026",
+    "title": "Date Category Update March 11, 2026",
+    "summary": "Category Update March 11, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -951,6 +981,36 @@ export const newsItems = [
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-03-ga-severity-based-risk-assignment-for-not-evaluated-recommendations-march-10-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "GA Severity‑based risk assignment for \"Not evaluated\" recommendations March 10, 2026",
+    "summary": "Severity‑based risk assignment for \"Not evaluated\" recommendations March 10, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
     ]
@@ -1011,40 +1071,6 @@ export const newsItems = [
     ],
     "analysis": [
       "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-03-new-individual-recommendations-format-in-azure-portal-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary": "Code to runtime enrichment for recommendations (Preview) March 10, 2026 Microsoft Defender for Cloud now provides Code to runtime capabilities, enabling end-to-end visibility across the software development lifecycle (SDLC). This feature helps security teams trace runtime security issues back to their source code origins and understand the full blast radius of vulnerabilities. Key capabilities:",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Teams",
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "tags": [
-      "Preview",
-      "Teams",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
     ]
@@ -2798,9 +2824,9 @@ export const months = [
   "September"
 ];
 export const releaseStages = [
-  "Ikke oppgitt",
-  "GA",
   "Preview",
+  "GA",
+  "Ikke oppgitt",
   "Deprecation",
   "Action required"
 ];

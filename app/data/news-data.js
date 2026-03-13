@@ -790,6 +790,51 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-03-new-individual-recommendations-format-in-azure-portal-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-12",
+    "title": "New individual recommendations format in Azure portal (Preview)",
+    "summary": "Kubernetes gated deployment support for AKS Automatic (GA)",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Identitet",
+      "Automatisering",
+      "Container",
+      "Endpoint",
+      "Teams",
+      "Cloud"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Automatisering",
+      "Container",
+      "Endpoint",
+      "Teams",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-xdr-03-customers-can-now-use-filters-on-very-large-incidents-with-many-alerts-and-entities-or-hide-specific-entities-to-simplify-complex-incident-graphs-by-simplifying-the-graphs-they-can-focus-their-investigations-on-what-matters-most",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -2014,46 +2059,33 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-03-new-individual-recommendations-format-in-azure-portal-preview",
+    "id": "microsoft-defender-for-cloud-03-kubernetes-gated-deployment-support-for-aks-automatic-ga",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-11",
-    "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary": "Severity‑based risk assignment for \"Not evaluated\" recommendations",
+    "title": "Kubernetes gated deployment support for AKS Automatic (GA)",
+    "summary": "GA Kubernetes gated deployment support for AKS Automatic (GA) March 11, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
     "category": "Cloud Security",
     "themes": [
-      "Identitet",
-      "Automatisering",
-      "Container",
-      "Endpoint",
-      "Teams",
-      "Cloud"
+      "Container"
     ],
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
+    "platforms": [],
     "priorityScore": 53,
     "tags": [
-      "Preview",
-      "Identitet",
-      "Automatisering",
-      "Container",
-      "Endpoint",
-      "Teams",
-      "Cloud"
+      "GA",
+      "Container"
     ],
     "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
     ]

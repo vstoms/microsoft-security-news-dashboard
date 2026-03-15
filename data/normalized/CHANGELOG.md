@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-03-14T06:41:52.764Z
+Generated: 2026-03-15T06:53:34.858Z
 
 - 2026-09-01 • Microsoft Entra • Deprecation • Public Preview - Trigger workflows for inactive employees and guests in Lifecycle Workflows
 - 2026-09-01 • Microsoft Entra • Deprecation • Deprecation - Automatically capture sign-in fields for an app in Microsoft Entra admin center.

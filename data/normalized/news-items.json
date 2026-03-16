@@ -119,58 +119,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-entra-09-public-preview-trigger-workflows-for-inactive-employees-and-guests-in-lifecycle-workflows",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - Trigger workflows for inactive employees and guests in Lifecycle Workflows",
-    "summary_no": "Lifecycle Workflows now enables customers to configure custom workflows to proactively manage dormant user accounts by automating identity lifecycle actions based on sign-in inactivity. After detecting inactivity, the workflow automatically executes predefined tasks—such as sending inactivity notifications, disabling accounts, or initiating offboarding—for users that exceed the inactivity threshold. Admins can configure the inactivity threshold and scope, ensuring dormant accounts are handled efficiently and consistently - reducing security exposure, reducing license waste, and enforcing governance policies at scale.",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Deprecation",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "Hunting",
-      "Automatisering",
-      "Governance",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "priority_score": 120,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
-    "id": "microsoft-entra-09-deprecation-automatically-capture-sign-in-fields-for-an-app-in-microsoft-entra-admin-center",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Deprecation - Automatically capture sign-in fields for an app in Microsoft Entra admin center.",
-    "summary_no": "Automatically capture sign-in fields for an app",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Deprecation",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet",
-      "Lifecycle"
-    ],
-    "priority_score": 120,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "unified-secops",
     "product": "Unified SecOps",
@@ -1297,101 +1245,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-entra-09-public-preview-app-management-policies-portal-experience",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - App management policies portal experience",
-    "summary_no": "App management policies allow administrators to improve the security of their organization by setting rules on how applications in their organization can be configured. They can use them to block insecure configurations like password credentials. These policies have been available through the Microsoft Graph API, but can now also be configured using the Microsoft Entra admin center, under the Enterprise applications experience.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet",
-      "Automatisering"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
-    "id": "microsoft-entra-09-public-preview-reprocess-failed-users-and-workflows-in-lifecycle-workflows",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - Reprocess failed users and workflows in Lifecycle Workflows",
-    "summary_no": "Lifecycle Workflows now supports reprocessing of your workflows to help organizations streamline the reprocessing of workflows when errors or failures are discovered. This feature includes the ability to reprocess previous runs of workflows including failed runs or just runs that you might want to process again. Customers can choose from the following options to fit their needs:",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet",
-      "Governance"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
-    "id": "microsoft-entra-09-public-preview-global-secure-access-internet-profile-support-for-ios-client",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - Global Secure Access Internet profile support for iOS client",
-    "summary_no": "We're excited to announce the Internet Access support with iOS app. This feature protects access to internet and SaaS apps with an identity-based Secure Web Gateway (SWG), blocking threats, unsafe content, and malicious traffic from the iPhones and iPads.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Endpoint"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
-    "id": "microsoft-entra-09-public-preview-basic-html-support-in-lifecycle-workflow-custom-email-notifications",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - Basic HTML support in Lifecycle Workflow custom email notifications",
-    "summary_no": "Now customers can further customize their Lifecycle workflows email notifications to personalize, or emphasize, specific information using basic HTML elements. Email notifications can now be customized to include sending links using HTML hyperlinks and basic text formatting like bold, italics, and underline.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet",
-      "Governance"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
     "id": "microsoft-defender-for-cloud-03-kubernetes-gated-deployment-support-for-aks-automatic-ga",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1652,28 +1505,6 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-entra-09-public-preview-delegate-approvals-in-my-access",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - Delegate approvals in My Access",
-    "summary_no": "Users can now delegate their access package approvals in My Access. Approvers can assign another individual to respond to access package approval requests on their behalf. The original approvers can still respond to their approvals during the delegation period.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
-    ],
-    "priority_score": 48,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
     "id": "microsoft-defender-for-cloud-03-code-to-runtime-enrichment-for-recommendations",
@@ -2085,28 +1916,6 @@
     ],
     "priority_score": 33,
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
-  },
-  {
-    "id": "microsoft-entra-09-we-auto-upgrade-customers-where-supported-for-customers-who-wish-to-be-auto-upgraded",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "We auto-upgrade customers where supported. For customers who wish to be auto-upgraded,",
-    "summary_no": "ensure that you have auto-upgrade configured",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-09-01",
-    "month": "2026-09",
-    "month_label": "September",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet"
-    ],
-    "priority_score": 28,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
     "id": "microsoft-defender-for-identity-03-continued-rollout-of-new-health-alert-sensor-v3-x-rpc-audit-misconfigured",

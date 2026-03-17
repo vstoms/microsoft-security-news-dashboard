@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-03-16T07:13:19.150Z
+Generated: 2026-03-17T07:00:58.451Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
@@ -16,9 +16,9 @@ Generated: 2026-03-16T07:13:19.150Z
 - 2026-03-04 • Microsoft Defender for Cloud • Preview • On-demand malware scanning of Azure Files in Microsoft Defender for Storage
 - 2026-03-01 • Microsoft Defender for Cloud • Deprecation • with additional
 - 2026-03-01 • Microsoft Defender for Endpoint • GA • The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.
-- 2026-03-01 • Microsoft Defender for Endpoint • Preview • Proactive user containment (contain user)
-- 2026-03-01 • Microsoft Defender for Identity • Ikke oppgitt • Continued rollout of new health alert: Sensor v3.x RPC Audit Misconfigured
-- 2026-03-01 • Microsoft Defender XDR • GA • Customers can now use filters on very large incidents with many alerts and entities or hide specific entities to simplify complex incident graphs. By simplifying the graphs, they can focus their investigations on what matters most.
+- 2026-03-01 • Microsoft Defender for Endpoint • Preview • Release - macOS
+- 2026-03-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Release version 20.126012.15.0 released: See
+- 2026-03-01 • Microsoft Defender for Identity • Ikke oppgitt • Updates to Secure Score category calculations for increased accuracy
+- 2026-03-01 • Microsoft Defender XDR • GA • To improve accuracy and better protect organizational identities, we've made updates to the Secure Score category calculations. Some security recommendations categorized as
 - 2026-03-01 • Microsoft Purview • GA • General availability (GA)
 - 2026-03-01 • Microsoft Sentinel • Action required • Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 2026
-- 2026-03-01 • Microsoft Sentinel • Preview • Preview API versions (click to expand)

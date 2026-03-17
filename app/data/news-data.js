@@ -757,15 +757,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-03-customers-can-now-use-filters-on-very-large-incidents-with-many-alerts-and-entities-or-hide-specific-entities-to-simplify-complex-incident-graphs-by-simplifying-the-graphs-they-can-focus-their-investigations-on-what-matters-most",
+    "id": "microsoft-defender-xdr-03-to-improve-accuracy-and-better-protect-organizational-identities-we-ve-made-updates-to-the-secure-score-category-calculations-some-security-recommendations-categorized-as",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Customers can now use filters on very large incidents with many alerts and entities or hide specific entities to simplify complex incident graphs. By simplifying the graphs, they can focus their investigations on what matters most.",
-    "summary": "(Preview) Customers can now use filters on very large incidents with many alerts and entities or hide specific entities to simplify complex incident graphs. By simplifying the graphs, they can focus their investigations on what matters most.",
+    "title": "To improve accuracy and better protect organizational identities, we've made updates to the Secure Score category calculations. Some security recommendations categorized as",
+    "summary": "recommendations are now considered identity‑related and grouped under the",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -774,13 +774,17 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "XDR",
     "themes": [
-      "Identitet"
+      "Identitet",
+      "Cloud"
     ],
-    "platforms": [],
+    "platforms": [
+      "Cloud"
+    ],
     "priorityScore": 68,
     "tags": [
       "GA",
-      "Identitet"
+      "Identitet",
+      "Cloud"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1326,6 +1330,8 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
+      "AI",
+      "Container",
       "Governance",
       "Cloud"
     ],
@@ -1335,6 +1341,8 @@ export const newsItems = [
     "priorityScore": 63,
     "tags": [
       "GA",
+      "AI",
+      "Container",
       "Governance",
       "Cloud"
     ],
@@ -1873,38 +1881,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-proactive-user-containment-contain-user",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Proactive user containment (contain user)",
-    "summary": "Description Feature",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "priorityScore": 53,
-    "tags": [
-      "Preview",
-      "Identitet"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
     "id": "microsoft-sentinel-03-preview-api-versions-click-to-expand",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -2290,6 +2266,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-03-release-macos",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Release - macOS",
+    "summary": "Description Release - macOS",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-02-database-level-recommendations-experience-for-sql-vulnerability-assessment-findings-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -2637,6 +2647,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-15-0-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Release version 20.126012.15.0 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "priorityScore": 38,
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-identity-02-defender-for-identity-sensor-updates",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
@@ -2814,15 +2856,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-03-continued-rollout-of-new-health-alert-sensor-v3-x-rpc-audit-misconfigured",
+    "id": "microsoft-defender-for-identity-03-updates-to-secure-score-category-calculations-for-increased-accuracy",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Continued rollout of new health alert: Sensor v3.x RPC Audit Misconfigured",
-    "summary": "health alert is continuing to be rolled out gradually to customers. The new health alert helps identify v3.x sensors where Enhanced RPC auditing configuration is either missing or incorrectly applied. Enhanced RPC auditing is required for some Microsoft Defender for Identity advanced identity detections.",
+    "title": "Updates to Secure Score category calculations for increased accuracy",
+    "summary": "s to Secure Score category calculations for increased accuracy",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -2831,18 +2873,58 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Identity Security",
     "themes": [
-      "Identitet"
+      "Identitet",
+      "Cloud"
     ],
-    "platforms": [],
+    "platforms": [
+      "Cloud"
+    ],
     "priorityScore": 28,
     "tags": [
       "Ikke oppgitt",
-      "Identitet"
+      "Identitet",
+      "Cloud"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity Security"
+    ]
+  },
+  {
+    "id": "security-exposure-management-03-updates-to-secure-score-category-calculations-for-increased-accuracy",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Updates to Secure Score category calculations for increased accuracy",
+    "summary": "s to Secure Score category calculations for increased accuracy",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "Identitet",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 28,
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
     ]
   },
   {

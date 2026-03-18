@@ -1,16 +1,16 @@
 [
   {
-    "id": "microsoft-sentinel-06-call-to-action-update-older-microsoft-sentinel-content-as-code-sentinel-repositories-api-versions-before-june-2026",
+    "id": "microsoft-sentinel-06-call-to-action-update-older-microsoft-sentinel-content-as-code-sentinel-repositories-api-versions-before-june-15-2026",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
     "category": "SIEM/SOAR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 2026",
+    "title": "Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 15, 2026",
     "summary_no": "will no longer be supported. This change impacts all",
     "impact_level": "Høy",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-06-01",
+    "published_at": "2026-06-15",
     "month": "2026-06",
     "month_label": "Juni",
     "release_stage": "Action required",
@@ -20,28 +20,6 @@
       "Lifecycle"
     ],
     "priority_score": 150,
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-sentinel-03-call-to-action-update-older-microsoft-sentinel-content-as-code-sentinel-repositories-api-versions-before-june-2026",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 2026",
-    "summary_no": "Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 2026",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-03-01",
-    "month": "2026-03",
-    "month_label": "Mars",
-    "release_stage": "Action required",
-    "platforms": [],
-    "theme_tags": [
-      "Automatisering"
-    ],
-    "priority_score": 140,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
@@ -903,10 +881,30 @@
       "Cloud"
     ],
     "theme_tags": [
-      "AI",
-      "Container",
       "Governance",
       "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-purview-03-dlp-supports-adaptive-scopes-for-scoping-sharepoint-policies",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "DLP supports adaptive scopes for scoping SharePoint policies.",
+    "summary_no": "categorization can significantly reduce the time it takes to complete processing and the amount of Data Security Investigation Compute Units (compute unit) needed for categorization.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "AI"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -1536,25 +1534,45 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-release-macos",
+    "id": "microsoft-defender-for-endpoint-03-new-microsoft-secure-score-recommendations",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Release - macOS",
-    "summary_no": "Description Release - macOS",
+    "title": "New Microsoft Secure Score recommendations",
+    "summary_no": "Description Feature",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
     "month": "2026-03",
     "month_label": "Mars",
     "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
+    "platforms": [],
     "theme_tags": [
-      "Endpoint"
+      "Generelt"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-reduce-exposure-to-common-attack-techniques-involving-remote-access-and-authentication-relay-attacks",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Microsoft Secure Score now includes new recommendations to help organizations reduce exposure to common attack techniques involving remote access and authentication relay attacks",
+    "summary_no": "Microsoft Secure Score now includes new recommendations to help organizations reduce exposure to common attack techniques involving remote access and authentication relay attacks:",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -2039,6 +2057,30 @@
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-block-file-transfer-over-rdp",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Block file transfer over RDP",
+    "summary_no": "Restricts file transfer capabilities in Remote Desktop Protocol (RDP) sessions. This helps prevent attackers from using RDP sessions to transfer malicious files into the environment or exfiltrate sensitive data.",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-cloud-02-scanning-support-for-minimus-and-photon-os-container-images",

@@ -897,15 +897,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-entra-02-general-availability-external-auth-methods-is-generally-available",
+    "id": "microsoft-entra-02-general-availability-external-mfa-is-generally-available",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
     "month": "Februar",
     "monthKey": "2026-02",
     "date": "Februar 2026",
     "publishedAt": "2026-02-01",
-    "title": "General Availability - External Auth Methods is Generally Available",
-    "summary": "We’re excited to announce that External Authentication Methods (EAM) in Microsoft Entra ID has reached General Availability. EAM enables organizations to integrate their preferred third-party MFA solutions seamlessly with Microsoft Entra ID for enhanced security and flexibility. This release includes full registration support and updated documentation to help you get started.",
+    "title": "General Availability - External MFA is Generally Available",
+    "summary": "We're excited to announce that external authentication methods in Microsoft Entra ID is now generally available under a new name: External Multifactor Authentication (External MFA). This capability enables organizations to meet multifactor authentication requirements while continuing to use their preferred MFA provider. Microsoft Entra ID remains the identity control plane, performing full policy evaluation and access decisions on every sign in, including real time Conditional Access enforcement and sign in risk assessment.",
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2262,15 +2262,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-new-microsoft-secure-score-recommendations",
+    "id": "microsoft-defender-for-endpoint-03-release-macos",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "New Microsoft Secure Score recommendations",
-    "summary": "Description Feature",
+    "title": "Release - macOS",
+    "summary": "Description Release - macOS",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2279,13 +2279,15 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Generelt"
+      "Endpoint"
     ],
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Generelt"
+      "Endpoint"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3015,6 +3017,38 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-17-0-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Release version 20.126012.17.0 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {

@@ -604,14 +604,14 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-entra-02-general-availability-external-auth-methods-is-generally-available",
+    "id": "microsoft-entra-02-general-availability-external-mfa-is-generally-available",
     "product_slug": "microsoft-entra",
     "product": "Microsoft Entra",
     "category": "Identity & Access",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "General Availability - External Auth Methods is Generally Available",
-    "summary_no": "We’re excited to announce that External Authentication Methods (EAM) in Microsoft Entra ID has reached General Availability. EAM enables organizations to integrate their preferred third-party MFA solutions seamlessly with Microsoft Entra ID for enhanced security and flexibility. This release includes full registration support and updated documentation to help you get started.",
+    "title": "General Availability - External MFA is Generally Available",
+    "summary_no": "We're excited to announce that external authentication methods in Microsoft Entra ID is now generally available under a new name: External Multifactor Authentication (External MFA). This capability enables organizations to meet multifactor authentication requirements while continuing to use their preferred MFA provider. Microsoft Entra ID remains the identity control plane, performing full policy evaluation and access decisions on every sign in, including real time Conditional Access enforcement and sign in risk assessment.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-02-01",
@@ -1534,23 +1534,25 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-new-microsoft-secure-score-recommendations",
+    "id": "microsoft-defender-for-endpoint-03-release-macos",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "New Microsoft Secure Score recommendations",
-    "summary_no": "Description Feature",
+    "title": "Release - macOS",
+    "summary_no": "Description Release - macOS",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
     "month": "2026-03",
     "month_label": "Mars",
     "release_stage": "Preview",
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "theme_tags": [
-      "Generelt"
+      "Endpoint"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -2057,6 +2059,28 @@
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-17-0-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 20.126012.17.0 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-block-file-transfer-over-rdp",

@@ -470,38 +470,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-03-with-additional",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "with additional",
-    "summary": "tag. These tags indicate that the recommendation is in an early state and doesn't affect Secure Score yet, as well as allowing you to filter the recommendations by it.",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Governance"
-    ],
-    "platforms": [],
-    "priorityScore": 105,
-    "tags": [
-      "Deprecation",
-      "Governance"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-entra-01-general-availability-ability-to-convert-source-of-authority-of-synced-on-premises-ad-users-to-cloud-users-is-now-available",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
@@ -686,9 +654,9 @@ export const newsItems = [
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
-    "publishedAt": "2026-03-12",
+    "publishedAt": "2026-03-22",
     "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary": "Kubernetes gated deployment support for AKS Automatic (GA)",
+    "summary": "File Integrity Monitoring requires MDE agent version 10.8799+ for legacy Windows machines",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -699,6 +667,7 @@ export const newsItems = [
     "themes": [
       "Identitet",
       "Automatisering",
+      "AI",
       "Container",
       "Endpoint",
       "Teams",
@@ -713,6 +682,7 @@ export const newsItems = [
       "GA",
       "Identitet",
       "Automatisering",
+      "AI",
       "Container",
       "Endpoint",
       "Teams",
@@ -761,6 +731,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-03-library-management-for-live-response-is-now-generally-available-this-feature-provides-a-centralized-view-for-managing-files-and-scripts-used-during-live-response-sessions",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Library management for live response is now generally available. This feature provides a centralized view for managing files and scripts used during live response sessions.",
+    "summary": "GA Library management for live response is now generally available. This feature provides a centralized view for managing files and scripts used during live response sessions. Release - macOS",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-endpoint-03-the-proactive-user-containment-contain-user-action-as-part-of-the-predictive-shielding-feature-is-now-generally-available-this-action-infuses-activity-data-with-exposure-data-to-identify-exposed-credentials-at-risk-of-being-compromised-and-reused-to-conduct-malicious-activity",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -790,6 +796,47 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity-03-new-defender-for-identity-security-alerts",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "New Defender for Identity security alerts",
+    "summary": "These new alerts were added to the Defender for Identity security alerts:",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Cloud"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
     ]
   },
   {
@@ -1120,7 +1167,6 @@ export const newsItems = [
       "Automatisering",
       "AI",
       "Endpoint",
-      "Teams",
       "Cloud"
     ],
     "platforms": [
@@ -1135,7 +1181,6 @@ export const newsItems = [
       "Automatisering",
       "AI",
       "Endpoint",
-      "Teams",
       "Cloud"
     ],
     "analysis": [
@@ -2262,15 +2307,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-release-macos",
+    "id": "microsoft-defender-for-endpoint-03-library-management-for-live-response",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Release - macOS",
-    "summary": "Description Release - macOS",
+    "title": "Library management for live response",
+    "summary": "Description Feature",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2279,15 +2324,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Endpoint"
+      "Generelt"
     ],
-    "platforms": [
-      "Endpoint"
-    ],
+    "platforms": [],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Endpoint"
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2884,42 +2927,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-03-updates-to-secure-score-category-calculations-for-increased-accuracy",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Updates to Secure Score category calculations for increased accuracy",
-    "summary": "s to Secure Score category calculations for increased accuracy",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet",
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 28,
-    "tags": [
-      "Ikke oppgitt",
-      "Identitet",
-      "Cloud"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
-    ]
-  },
-  {
     "id": "security-exposure-management-03-updates-to-secure-score-category-calculations-for-increased-accuracy",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
@@ -2985,6 +2992,42 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-03-march-22-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-22",
+    "title": "March 22, 2026",
+    "summary": "File Integrity Monitoring requires MDE agent version 10.8799+ for legacy Windows machines",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "AI",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "AI",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
     ]
   },
   {

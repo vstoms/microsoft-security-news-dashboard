@@ -465,14 +465,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-xdr-03-to-improve-accuracy-and-better-protect-organizational-identities-we-ve-made-updates-to-the-secure-score-category-calculations-some-security-recommendations-categorized-as",
+    "id": "microsoft-defender-xdr-03-the-following-advanced-hunting-schema-tables-are-now-available-for-preview",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "To improve accuracy and better protect organizational identities, we've made updates to the Secure Score category calculations. Some security recommendations categorized as",
-    "summary_no": "recommendations are now considered identity‑related and grouped under the",
+    "title": "The following advanced hunting schema tables are now available for preview",
+    "summary_no": "(Preview) The following advanced hunting schema tables are now available for preview:",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
@@ -484,6 +484,7 @@
     ],
     "theme_tags": [
       "Identitet",
+      "Hunting",
       "Cloud"
     ],
     "priority_score": 68,
@@ -537,14 +538,14 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
-    "id": "microsoft-defender-for-identity-03-new-defender-for-identity-security-alerts",
+    "id": "microsoft-defender-for-identity-03-defender-for-identity-sensor-updates",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
     "category": "Identity Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "New Defender for Identity security alerts",
-    "summary_no": "These new alerts were added to the Defender for Identity security alerts:",
+    "title": "Defender for Identity sensor updates",
+    "summary_no": "Sensor versions now display the full version number (for example, 2.255.19201.14651) instead of only the major/minor version (for example, 2.255). This makes it easier to identify the exact update installed on each sensor.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
@@ -935,7 +936,8 @@
     "release_stage": "GA",
     "platforms": [],
     "theme_tags": [
-      "AI"
+      "AI",
+      "Governance"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -1852,13 +1854,13 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-15-0-released-see",
+    "id": "microsoft-defender-for-endpoint-03-release-version-30-126012-0007-0-released-see",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Release version 20.126012.15.0 released: See",
+    "title": "Release version 30.126012.0007.0 released: See",
     "summary_no": "enhancements and features for this release",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2120,6 +2122,30 @@
     "source_name": "Microsoft Learn",
     "title": "Block file transfer over RDP",
     "summary_no": "Restricts file transfer capabilities in Remote Desktop Protocol (RDP) sessions. This helps prevent attackers from using RDP sessions to transfer malicious files into the environment or exfiltrate sensitive data.",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-15-0-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 20.126012.15.0 released: See",
+    "summary_no": "enhancements and features for this release",
     "impact_level": "Lav",
     "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-03-01",

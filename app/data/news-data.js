@@ -695,15 +695,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-03-to-improve-accuracy-and-better-protect-organizational-identities-we-ve-made-updates-to-the-secure-score-category-calculations-some-security-recommendations-categorized-as",
+    "id": "microsoft-defender-xdr-03-the-following-advanced-hunting-schema-tables-are-now-available-for-preview",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "To improve accuracy and better protect organizational identities, we've made updates to the Secure Score category calculations. Some security recommendations categorized as",
-    "summary": "recommendations are now considered identity‑related and grouped under the",
+    "title": "The following advanced hunting schema tables are now available for preview",
+    "summary": "(Preview) The following advanced hunting schema tables are now available for preview:",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -713,6 +713,7 @@ export const newsItems = [
     "category": "XDR",
     "themes": [
       "Identitet",
+      "Hunting",
       "Cloud"
     ],
     "platforms": [
@@ -722,6 +723,7 @@ export const newsItems = [
     "tags": [
       "GA",
       "Identitet",
+      "Hunting",
       "Cloud"
     ],
     "analysis": [
@@ -799,15 +801,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-03-new-defender-for-identity-security-alerts",
+    "id": "microsoft-defender-for-identity-03-defender-for-identity-sensor-updates",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "New Defender for Identity security alerts",
-    "summary": "These new alerts were added to the Defender for Identity security alerts:",
+    "title": "Defender for Identity sensor updates",
+    "summary": "Sensor versions now display the full version number (for example, 2.255.19201.14651) instead of only the major/minor version (for example, 2.255). This makes it easier to identify the exact update installed on each sensor.",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1379,13 +1381,15 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
-      "AI"
+      "AI",
+      "Governance"
     ],
     "platforms": [],
     "priorityScore": 63,
     "tags": [
       "GA",
-      "AI"
+      "AI",
+      "Governance"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2718,14 +2722,14 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-15-0-released-see",
+    "id": "microsoft-defender-for-endpoint-03-release-version-30-126012-0007-0-released-see",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Release version 20.126012.15.0 released: See",
+    "title": "Release version 30.126012.0007.0 released: See",
     "summary": "enhancements and features for this release",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Ikke oppgitt",
@@ -3104,6 +3108,40 @@ export const newsItems = [
     "publishedAt": "2026-03-01",
     "title": "Block file transfer over RDP",
     "summary": "Restricts file transfer capabilities in Remote Desktop Protocol (RDP) sessions. This helps prevent attackers from using RDP sessions to transfer malicious files into the environment or exfiltrate sensitive data.",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-15-0-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Release version 20.126012.15.0 released: See",
+    "summary": "enhancements and features for this release",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

@@ -470,6 +470,49 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-identity-03-migrate-defender-for-identity-sensors-from-v2-x-to-v3-x",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Migrate Defender for Identity sensors from v2.x to v3.x",
+    "summary": "You can now migrate Defender for Identity sensors from v2.x to v3.x directly from the Microsoft Defender portal. The v2.x sensor continues running during the migration until the v3.x sensor is ready, so there's no downtime. Eligible servers appear as",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "GA",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 90,
+    "tags": [
+      "GA",
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
+    ]
+  },
+  {
     "id": "microsoft-entra-01-general-availability-ability-to-convert-source-of-authority-of-synced-on-premises-ad-users-to-cloud-users-is-now-available",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
@@ -695,15 +738,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-03-the-following-advanced-hunting-schema-tables-are-now-available-for-preview",
+    "id": "microsoft-defender-xdr-03-identity-security-enhancements",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "The following advanced hunting schema tables are now available for preview",
-    "summary": "(Preview) The following advanced hunting schema tables are now available for preview:",
+    "title": "Identity security enhancements",
+    "summary": "New identity security capabilities help you monitor and manage identity security for human and non-human identities:",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -798,47 +841,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-identity-03-defender-for-identity-sensor-updates",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Defender for Identity sensor updates",
-    "summary": "Sensor versions now display the full version number (for example, 2.255.19201.14651) instead of only the major/minor version (for example, 2.255). This makes it easier to identify the exact update installed on each sensor.",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet",
-      "AI",
-      "Endpoint",
-      "Cloud"
-    ],
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "priorityScore": 68,
-    "tags": [
-      "GA",
-      "Identitet",
-      "AI",
-      "Endpoint",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
     ]
   },
   {
@@ -1381,6 +1383,7 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
+      "Hunting",
       "AI",
       "Governance"
     ],
@@ -1388,6 +1391,7 @@ export const newsItems = [
     "priorityScore": 63,
     "tags": [
       "GA",
+      "Hunting",
       "AI",
       "Governance"
     ],

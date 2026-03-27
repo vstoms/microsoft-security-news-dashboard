@@ -812,38 +812,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-the-proactive-user-containment-contain-user-action-as-part-of-the-predictive-shielding-feature-is-now-generally-available-this-action-infuses-activity-data-with-exposure-data-to-identify-exposed-credentials-at-risk-of-being-compromised-and-reused-to-conduct-malicious-activity",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
-    "summary": "GA The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "priorityScore": 68,
-    "tags": [
-      "GA",
-      "Identitet"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-xdr-02-microsoft-defender-experts-for-hunting-customers-can-now-set-up",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -2315,15 +2283,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-library-management-for-live-response",
+    "id": "microsoft-defender-for-endpoint-03-release-windows",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Library management for live response",
-    "summary": "Description Feature",
+    "title": "Release - Windows",
+    "summary": "Windows Defender Antivirus: Platform 4.18.26020.6 / Engine 1.1.26020.3",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2332,13 +2300,15 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Generelt"
+      "Endpoint"
     ],
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Generelt"
+      "Endpoint"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3068,6 +3038,38 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-enhancements-and-features-for-this-release",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "enhancements and features for this release",
+    "summary": "GA See enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {

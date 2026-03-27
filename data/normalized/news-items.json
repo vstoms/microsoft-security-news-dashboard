@@ -545,28 +545,6 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-the-proactive-user-containment-contain-user-action-as-part-of-the-predictive-shielding-feature-is-now-generally-available-this-action-infuses-activity-data-with-exposure-data-to-identify-exposed-credentials-at-risk-of-being-compromised-and-reused-to-conduct-malicious-activity",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
-    "summary_no": "GA The proactive user containment (contain user) action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-03-01",
-    "month": "2026-03",
-    "month_label": "Mars",
-    "release_stage": "GA",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet"
-    ],
-    "priority_score": 68,
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
     "id": "microsoft-defender-xdr-02-microsoft-defender-experts-for-hunting-customers-can-now-set-up",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
@@ -1569,23 +1547,25 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-library-management-for-live-response",
+    "id": "microsoft-defender-for-endpoint-03-release-windows",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Library management for live response",
-    "summary_no": "Description Feature",
+    "title": "Release - Windows",
+    "summary_no": "Windows Defender Antivirus: Platform 4.18.26020.6 / Engine 1.1.26020.3",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-03-01",
     "month": "2026-03",
     "month_label": "Mars",
     "release_stage": "Preview",
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "theme_tags": [
-      "Generelt"
+      "Endpoint"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -2092,6 +2072,28 @@
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-enhancements-and-features-for-this-release",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "enhancements and features for this release",
+    "summary_no": "GA See enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-03-01",
+    "month": "2026-03",
+    "month_label": "Mars",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-17-0-released-see",

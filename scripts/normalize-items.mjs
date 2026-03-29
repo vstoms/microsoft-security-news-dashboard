@@ -104,11 +104,20 @@ function normalizeChunk(source, section, chunk, index) {
 
 const items = [];
 for (const source of sourceCatalog) {
-  const raw = JSON.parse(await readFile(new URL(`${source.id}.json`, rawDir), 'utf8'));
+  const rawPath = new URL(`${source.id}.json`, rawDir);
+  let rawText;
+  try {
+    rawText = await readFile(rawPath, 'utf8');
+  } catch {
+    console.warn(`Skipping ${source.id}: raw file not found (source may have failed during fetch)`);
+    continue;
+  }
+  const raw = JSON.parse(rawText);
   const lines = cleanLines(stripHtml(raw.html));
   const sections = parseMonthSections(lines);
   for (const section of sections) {
-    chunkSection(section).slice(0, 8).forEach((chunk, index) => items.push(normalizeChunk(source, section, chunk, index)));
+    const chunks = chunkSection(section).slice(0, 8);
+    chunks.forEach((chunk, index) => items.push(normalizeChunk(source, section, chunk, index)));
   }
 }
 

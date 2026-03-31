@@ -191,50 +191,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-03-deprecation-of-preview-of-container-and-container-images-vulnerability-recommendations",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-04",
-    "title": "Deprecation of preview of container and container images vulnerability recommendations",
-    "summary": "As part of the transition to individual recommendations, Microsoft Defender for Cloud is deprecating existing grouped container vulnerability recommendations. This change enables more granular visibility, prioritization, and governance of container security findings.",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Hunting",
-      "Automatisering",
-      "Container",
-      "Governance",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 120,
-    "tags": [
-      "Deprecation",
-      "Hunting",
-      "Automatisering",
-      "Container",
-      "Governance",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-cloud-01-cloud-posture-management-adds-serverless-protection-for-azure-and-aws-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -470,6 +426,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-03-deprecation-of-preview-of-container-and-container-images-vulnerability-recommendations",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-04",
+    "title": "Deprecation of preview of container and container images vulnerability recommendations",
+    "summary": "Deprecation of preview of container and container images vulnerability recommendations March 04, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Deprecation",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container",
+      "Lifecycle"
+    ],
+    "platforms": [],
+    "priorityScore": 103,
+    "tags": [
+      "Deprecation",
+      "Container",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-identity-03-migrate-defender-for-identity-sensors-from-v2-x-to-v3-x",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
@@ -697,9 +687,9 @@ export const newsItems = [
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
-    "publishedAt": "2026-03-22",
+    "publishedAt": "2026-03-30",
     "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary": "File Integrity Monitoring requires MDE agent version 10.8799+ for legacy Windows machines",
+    "summary": "AI model security for Azure Machine Learning (Preview)",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -809,6 +799,48 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-purview-03-dlp-supports-adaptive-scopes-for-scoping-sharepoint-policies",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "DLP supports adaptive scopes for scoping SharePoint policies.",
+    "summary": "categorization can significantly reduce the time it takes to complete processing and the amount of Data Security Investigation Compute Units (compute unit) needed for categorization.",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Governance",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Governance",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
     ]
   },
   {
@@ -1326,42 +1358,6 @@ export const newsItems = [
       "GA",
       "Governance",
       "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Data Security & Governance"
-    ]
-  },
-  {
-    "id": "microsoft-purview-03-dlp-supports-adaptive-scopes-for-scoping-sharepoint-policies",
-    "product": "Microsoft Purview",
-    "productSlug": "microsoft-purview",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "DLP supports adaptive scopes for scoping SharePoint policies.",
-    "summary": "categorization can significantly reduce the time it takes to complete processing and the amount of Data Security Investigation Compute Units (compute unit) needed for categorization.",
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Data Security & Governance",
-    "themes": [
-      "Hunting",
-      "AI",
-      "Governance"
-    ],
-    "platforms": [],
-    "priorityScore": 63,
-    "tags": [
-      "GA",
-      "Hunting",
-      "AI",
-      "Governance"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2217,6 +2213,81 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-03-ai-model-security-for-azure-machine-learning-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-29",
+    "title": "AI model security for Azure Machine Learning (Preview)",
+    "summary": "Preview AI model security for Azure Machine Learning (Preview) March 29, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "AI",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "AI",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-03-expanded-multicloud-coverage-for-aws-and-gcp-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-22",
+    "title": "Expanded multicloud coverage for AWS and GCP (Preview)",
+    "summary": "File Integrity Monitoring requires MDE agent version 10.8799+ for legacy Windows machines",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "AI",
+      "Endpoint",
+      "Cloud"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "AI",
+      "Endpoint",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-03-code-to-runtime-enrichment-for-recommendations",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -2938,42 +3009,6 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-03-march-22-2026",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-22",
-    "title": "March 22, 2026",
-    "summary": "File Integrity Monitoring requires MDE agent version 10.8799+ for legacy Windows machines",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "AI",
-      "Endpoint"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "AI",
-      "Endpoint"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
     ]
   },
   {
@@ -3732,9 +3767,9 @@ export const products = [
 export const months = [
   "Juni",
   "Juli",
-  "Mars",
   "Januar",
-  "Februar"
+  "Februar",
+  "Mars"
 ];
 export const releaseStages = [
   "Action required",

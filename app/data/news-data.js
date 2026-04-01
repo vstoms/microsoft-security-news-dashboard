@@ -681,53 +681,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-03-new-individual-recommendations-format-in-azure-portal-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-30",
-    "title": "New individual recommendations format in Azure portal (Preview)",
-    "summary": "AI model security for Azure Machine Learning (Preview)",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Identitet",
-      "Automatisering",
-      "AI",
-      "Container",
-      "Endpoint",
-      "Teams",
-      "Cloud"
-    ],
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "priorityScore": 68,
-    "tags": [
-      "GA",
-      "Identitet",
-      "Automatisering",
-      "AI",
-      "Container",
-      "Endpoint",
-      "Teams",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-xdr-03-identity-security-enhancements",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -822,6 +775,8 @@ export const newsItems = [
       "Identitet",
       "Hunting",
       "AI",
+      "Container",
+      "Teams",
       "Governance",
       "Cloud"
     ],
@@ -834,6 +789,8 @@ export const newsItems = [
       "Identitet",
       "Hunting",
       "AI",
+      "Container",
+      "Teams",
       "Governance",
       "Cloud"
     ],
@@ -2354,15 +2311,47 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-release-linux",
+    "id": "microsoft-defender-for-endpoint-03-new-microsoft-secure-score-recommendations",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Release - Linux",
-    "summary": "Description Release - Linux",
+    "title": "New Microsoft Secure Score recommendations",
+    "summary": "Description Feature",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Generelt"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-proactively-prevent-common-endpoint-attack-techniques",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Microsoft Secure Score now includes new recommendations to help organizations proactively prevent common endpoint attack techniques",
+    "summary": "Microsoft Secure Score now includes new recommendations to help organizations proactively prevent common endpoint attack techniques:",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2380,38 +2369,6 @@ export const newsItems = [
     "tags": [
       "Preview",
       "Endpoint"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-03-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-reduce-exposure-to-common-attack-techniques-involving-remote-access-and-authentication-relay-attacks",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Microsoft Secure Score now includes new recommendations to help organizations reduce exposure to common attack techniques involving remote access and authentication relay attacks",
-    "summary": "Microsoft Secure Score now includes new recommendations to help organizations reduce exposure to common attack techniques involving remote access and authentication relay attacks:",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Generelt"
-    ],
-    "platforms": [],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2839,6 +2796,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-04-april-1-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "April 1, 2026",
+    "summary": "to Defender for SQL servers on machines plan for Fairfax customers",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "AI",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 33,
+    "tags": [
+      "Ikke oppgitt",
+      "AI",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-01-microsoft-security-private-link-enables-private-connectivity-between-defender-for-cloud-and-your-workloads-the-connection-is-established-by-creating-private-endpoints-in-your-virtual-network-allowing-defender-for-cloud-traffic-to-remain-on-the-microsoft-backbone-network-and-avoid-exposure-to-the-public-internet",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -2944,6 +2937,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-03-malware-automated-remediation-in-defender-for-storage",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-31",
+    "title": "Malware automated remediation in Defender for Storage",
+    "summary": "Support for additional Azure regions for Defender for APIs and API security posture management with Defender CSPM",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Automatisering",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 28,
+    "tags": [
+      "Ikke oppgitt",
+      "Automatisering",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "security-exposure-management-03-updates-to-secure-score-category-calculations-for-increased-accuracy",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
@@ -3041,6 +3070,40 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-block-outbound-network-connections-from-microsoft-html-application-host-mshta-exe",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Block outbound network connections from Microsoft HTML Application Host (mshta.exe)",
+    "summary": "Block outbound network connections from Microsoft HTML Application Host (mshta.exe):",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {
@@ -3142,15 +3205,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-block-file-transfer-over-rdp",
+    "id": "microsoft-defender-for-endpoint-03-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-reduce-exposure-to-common-attack-techniques-involving-remote-access-and-authentication-relay-attacks",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Block file transfer over RDP",
-    "summary": "Restricts file transfer capabilities in Remote Desktop Protocol (RDP) sessions. This helps prevent attackers from using RDP sessions to transfer malicious files into the environment or exfiltrate sensitive data.",
+    "title": "Microsoft Secure Score now includes new recommendations to help organizations reduce exposure to common attack techniques involving remote access and authentication relay attacks",
+    "summary": "Microsoft Secure Score now includes new recommendations to help organizations reduce exposure to common attack techniques involving remote access and authentication relay attacks:",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -3159,49 +3222,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Endpoint"
+      "Generelt"
     ],
-    "platforms": [
-      "Endpoint"
-    ],
+    "platforms": [],
     "priorityScore": 23,
     "tags": [
       "Ikke oppgitt",
-      "Endpoint"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-03-release-version-20-126012-15-0-released-see",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Release version 20.126012.15.0 released: See",
-    "summary": "enhancements and features for this release",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Endpoint"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Endpoint"
+      "Generelt"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -3769,7 +3796,8 @@ export const months = [
   "Juli",
   "Januar",
   "Februar",
-  "Mars"
+  "Mars",
+  "April"
 ];
 export const releaseStages = [
   "Action required",

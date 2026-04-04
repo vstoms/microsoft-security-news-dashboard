@@ -144,6 +144,44 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-entra-05-if-your-organization-has-conditional-access-policies-scoped-to-the",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": ", if your organization has Conditional Access policies scoped to the",
+    "summary": "user action, those policies will be evaluated during credential registration for Windows Hello for Business and macOS Platform SSO. Rollout begins in late April 2026. This ensures that your security requirements are met when users set up these credentials, not just when they sign in. Organizations without CA policies targeting this user action aren't affected by this change.",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Action required",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 125,
+    "tags": [
+      "Action required",
+      "Identitet",
+      "Hunting",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Unified SecOps",
     "productSlug": "unified-secops",
@@ -681,6 +719,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-entra-05-general-availability",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "General Availability",
+    "summary": "Microsoft Entra ID now supports synced passkeys as a generally available authentication method. Synced passkeys are FIDO2-based credentials that can be stored in built-in or third-party passkey providers and made available across a user’s devices. Administrators can manage the use of synced passkeys alongside device-bound passkeys through passkey profiles in the authentication methods policy. Existing passkey configurations can be managed using the same Entra ID authentication policies and reporting surfaces.",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
     "id": "microsoft-defender-xdr-03-identity-security-enhancements",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -752,42 +826,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-entra-03-general-availability",
-    "product": "Microsoft Entra",
-    "productSlug": "microsoft-entra",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "General Availability",
-    "summary": "Microsoft Entra ID now supports synced passkeys as a generally available authentication method. Synced passkeys are FIDO2-based credentials that can be stored in built-in or third-party passkey providers and made available across a user’s devices. Administrators can manage the use of synced passkeys alongside device-bound passkeys through passkey profiles in the authentication methods policy. Existing passkey configurations can be managed using the same Entra ID authentication policies and reporting surfaces.",
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity & Access",
-    "themes": [
-      "Identitet",
-      "Endpoint"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 68,
-    "tags": [
-      "GA",
-      "Identitet",
-      "Endpoint"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity & Access"
     ]
   },
   {
@@ -1604,13 +1642,13 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-entra-03-general-availability-synced-passkeys-in-microsoft-entra-id",
+    "id": "microsoft-entra-05-general-availability-synced-passkeys-in-microsoft-entra-id",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
     "title": "General Availability - Synced passkeys in Microsoft Entra ID",
     "summary": "General Availability - Synced passkeys in Microsoft Entra ID Type:",
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
@@ -1636,13 +1674,13 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-entra-03-general-availability-scim-2-0-apis-for-microsoft-entra-id",
+    "id": "microsoft-entra-05-general-availability-scim-2-0-apis-for-microsoft-entra-id",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
     "title": "General Availability - SCIM 2.0 APIs for Microsoft Entra ID",
     "summary": "General Availability - SCIM 2.0 APIs for Microsoft Entra ID Type:",
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
@@ -1961,6 +1999,104 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-entra-05-public-preview-microsoft-entra-backup-and-recovery-is-now-available",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Public Preview - Microsoft Entra Backup and Recovery is now available",
+    "summary": "Public Preview - Microsoft Entra Backup and Recovery is now available Type:",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-05-public-preview",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Public Preview",
+    "summary": "Microsoft Entra Backup and Recovery is a built-in solution to help restore your tenant after accidental changes or malicious updates. Always on by default, it automatically backs up critical directory objects — including users, groups, applications, service principals, managed identities, conditional Access policies, named locations, agent IDs, and authentication and authorization policy, so admins can quickly restore them to a previously known good state.",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "AI"
+    ],
+    "platforms": [],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "AI"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-05-public-preview-entra-hybrid-join-using-entra-kerberos",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Public Preview - Entra Hybrid Join using Entra Kerberos",
+    "summary": "Public Preview - Entra Hybrid Join using Entra Kerberos Type:",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
     "id": "microsoft-purview-04-general-availability-ga",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
@@ -2054,104 +2190,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
-    ]
-  },
-  {
-    "id": "microsoft-entra-03-public-preview-microsoft-entra-backup-and-recovery-is-now-available",
-    "product": "Microsoft Entra",
-    "productSlug": "microsoft-entra",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Public Preview - Microsoft Entra Backup and Recovery is now available",
-    "summary": "Public Preview - Microsoft Entra Backup and Recovery is now available Type:",
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity & Access",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "priorityScore": 53,
-    "tags": [
-      "Preview",
-      "Identitet"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity & Access"
-    ]
-  },
-  {
-    "id": "microsoft-entra-03-public-preview",
-    "product": "Microsoft Entra",
-    "productSlug": "microsoft-entra",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Public Preview",
-    "summary": "Microsoft Entra Backup and Recovery is a built-in solution to help restore your tenant after accidental changes or malicious updates. Always on by default, it automatically backs up critical directory objects — including users, groups, applications, service principals, managed identities, conditional Access policies, named locations, agent IDs, and authentication and authorization policy, so admins can quickly restore them to a previously known good state.",
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity & Access",
-    "themes": [
-      "Identitet",
-      "AI"
-    ],
-    "platforms": [],
-    "priorityScore": 53,
-    "tags": [
-      "Preview",
-      "Identitet",
-      "AI"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity & Access"
-    ]
-  },
-  {
-    "id": "microsoft-entra-03-public-preview-entra-hybrid-join-using-entra-kerberos",
-    "product": "Microsoft Entra",
-    "productSlug": "microsoft-entra",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Public Preview - Entra Hybrid Join using Entra Kerberos",
-    "summary": "Public Preview - Entra Hybrid Join using Entra Kerberos Type:",
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity & Access",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "priorityScore": 53,
-    "tags": [
-      "Preview",
-      "Identitet"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity & Access"
     ]
   },
   {
@@ -3375,6 +3413,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-office-365-03-expanding-user-reporting-in-teams-to-include-calls",
+    "product": "Microsoft Defender for Office 365",
+    "productSlug": "microsoft-defender-for-office-365",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Expanding User reporting in Teams to include Calls",
+    "summary": "Users can reported completed or missed one-to-one",
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Email & Collaboration Security",
+    "themes": [
+      "Teams"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Teams"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-endpoint-03-block-outbound-network-connections-from-microsoft-html-application-host-mshta-exe",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -3536,6 +3606,40 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-entra-03-plan-for-change-conditional-access-enforcement-during-credential-registration-for-windows-hello-for-business-and-macos-platform-sso",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Plan for change – Conditional Access enforcement during credential registration for Windows Hello for Business and macOS Platform SSO",
+    "summary": "Plan for change – Conditional Access enforcement during credential registration for Windows Hello for Business and macOS Platform SSO Type: Plan for Change",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
     ]
   },
   {
@@ -4096,6 +4200,7 @@ export const products = [
 export const months = [
   "Juni",
   "Juli",
+  "Mai",
   "Januar",
   "Februar",
   "Mars",

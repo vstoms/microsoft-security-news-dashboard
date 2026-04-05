@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-04-04T06:57:51.479Z
+Generated: 2026-04-05T07:02:46.650Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.

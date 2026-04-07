@@ -945,6 +945,28 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
+    "id": "microsoft-purview-04-general-availability-ga",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General availability (GA)",
+    "summary_no": "capability is available to all customers. Pricing for advanced resource sets is consistent with existing rates for",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Governance"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
     "id": "microsoft-purview-03-general-availability-ga",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -1418,28 +1440,6 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
-    "id": "microsoft-purview-04-general-availability-ga",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "General availability (GA)",
-    "summary_no": "capability is available to all customers. Pricing for advanced resource sets is consistent with existing rates for",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "GA",
-    "platforms": [],
-    "theme_tags": [
-      "Governance"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-defender-for-cloud-03-kubernetes-gated-deployment-support-for-aks-automatic-ga",

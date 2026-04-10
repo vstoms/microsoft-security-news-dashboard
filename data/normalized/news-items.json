@@ -443,6 +443,7 @@
     "theme_tags": [
       "Hunting",
       "AI",
+      "Teams",
       "Cloud",
       "Lifecycle"
     ],
@@ -2331,6 +2332,30 @@
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
+    "id": "microsoft-defender-for-endpoint-04-release-version-20-126022-20-0-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 20.126022.20.0 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
     "id": "microsoft-defender-for-endpoint-04-release-version-20-126022-18-0-released-see",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
@@ -2338,6 +2363,28 @@
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
     "title": "Release version 20.126022.18.0 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-build-1-0-8805-0103-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Build 1.0.8805.0103 released: See",
     "summary_no": "enhancements and features for this release",
     "impact_level": "Lav",
     "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

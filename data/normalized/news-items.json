@@ -965,14 +965,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-purview-04-general-availability-ga",
+    "id": "microsoft-purview-04-collection-policies-support",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
     "category": "Data Security & Governance",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "General availability (GA)",
-    "summary_no": "capability is available to all customers. Pricing for advanced resource sets is consistent with existing rates for",
+    "title": "Collection policies support",
+    "summary_no": "for scoping detection to items with specific sensitivity labels applied. This condition is supported with browser and network cloud apps detection.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
@@ -980,11 +980,35 @@
     "month_label": "April",
     "release_stage": "GA",
     "platforms": [
-      "Endpoint"
+      "Endpoint",
+      "Cloud"
     ],
     "theme_tags": [
       "Endpoint",
-      "Governance"
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-purview-04-email-notifications-for-browser-and-network-dlp",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Email notifications for browser and network DLP",
+    "summary_no": "rules notify end users via email when their activity is blocked. Notifications use a rolling 10-minute batching window to prevent excessive emails.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -1727,6 +1751,30 @@
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-purview-04-dlp-policies-for-unmanaged-cloud-apps-support-a-new",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "DLP policies for unmanaged cloud apps support a new",
+    "summary_no": "condition that detects when the URL of the cloud app contains specified text strings. You can use it as a condition to scope DLP rules to specific URLs, or as an exception to exclude specific URLs from policy enforcement.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Preview",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-defender-for-cloud-03-ai-model-security-for-azure-machine-learning-preview",

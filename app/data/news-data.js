@@ -1432,15 +1432,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-purview-04-general-availability-ga",
+    "id": "microsoft-purview-04-collection-policies-support",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "General availability (GA)",
-    "summary": "capability is available to all customers. Pricing for advanced resource sets is consistent with existing rates for",
+    "title": "Collection policies support",
+    "summary": "for scoping detection to items with specific sensitivity labels applied. This condition is supported with browser and network cloud apps detection.",
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1450,16 +1450,51 @@ export const newsItems = [
     "category": "Data Security & Governance",
     "themes": [
       "Endpoint",
-      "Governance"
+      "Governance",
+      "Cloud"
     ],
     "platforms": [
-      "Endpoint"
+      "Endpoint",
+      "Cloud"
     ],
     "priorityScore": 63,
     "tags": [
       "GA",
       "Endpoint",
-      "Governance"
+      "Governance",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
+    "id": "microsoft-purview-04-email-notifications-for-browser-and-network-dlp",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Email notifications for browser and network DLP",
+    "summary": "rules notify end users via email when their activity is blocked. Notifications use a rolling 10-minute batching window to prevent excessive emails.",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2546,6 +2581,40 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-purview-04-dlp-policies-for-unmanaged-cloud-apps-support-a-new",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "DLP policies for unmanaged cloud apps support a new",
+    "summary": "condition that detects when the URL of the cloud app contains specified text strings. You can use it as a condition to scope DLP rules to specific URLs, or as an exception to exclude specific URLs from policy enforcement.",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
     ]
   },
   {

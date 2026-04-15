@@ -500,15 +500,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-03-migrate-defender-for-identity-sensors-from-v2-x-to-v3-x",
+    "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-additional-identity-roles",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Migrate Defender for Identity sensors from v2.x to v3.x",
-    "summary": "You can now migrate Defender for Identity sensors from v2.x to v3.x directly from the Microsoft Defender portal. The v2.x sensor continues running during the migration until the v3.x sensor is ready, so there's no downtime. Eligible servers appear as",
+    "title": "Sensor v3.x support for domain controllers with additional identity roles",
+    "summary": "Defender for Identity sensor v3.x now supports domain controllers that also run AD FS, AD CS, or Microsoft Entra Connect identity roles. Detections and identity security posture management (ISPM) recommendations for these roles will roll out gradually, starting with Microsoft Entra Connect. For v3, these domain controllers require Windows Server 2019 or later with at least the",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "GA",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -1488,13 +1488,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
-      "Generelt"
+      "Hunting"
     ],
     "platforms": [],
     "priorityScore": 63,
     "tags": [
       "GA",
-      "Generelt"
+      "Hunting"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3453,15 +3453,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-04-microsoft-defender-experts-for-xdr-customers-can-now-see",
+    "id": "microsoft-defender-xdr-04-microsoft-defender-now-integrates-with-microsoft-agent-365-to-provide-comprehensive-security-for-ai-agents-onboarded-to-a365-microsoft-defender-discovers-agents-registered-with-agent-365-and-provides-visibility-into-agent-inventory-and-configuration-agents-that-integrate-the",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Microsoft Defender Experts for XDR customers can now see",
-    "summary": "as a distinct entry in the Microsoft Defender portal navigation menu. This feature adds to the existing home page status card as in-portal experiences that provide consistent and predictable access to the service.",
+    "title": "Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
+    "summary": "enable threat detection and investigation through near‑real‑time detections, alerts, and Advanced Hunting. Agents onboarded through the Agent Tooling Gateway (ATG) are protected by real-time protection, which evaluates and can block unsafe agent-initiated tool actions before execution.",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -3470,13 +3470,15 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "XDR",
     "themes": [
-      "Generelt"
+      "Hunting",
+      "AI"
     ],
     "platforms": [],
     "priorityScore": 23,
     "tags": [
       "Ikke oppgitt",
-      "Generelt"
+      "Hunting",
+      "AI"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

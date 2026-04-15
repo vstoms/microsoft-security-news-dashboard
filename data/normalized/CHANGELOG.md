@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-04-14T07:27:14.128Z
+Generated: 2026-04-15T07:27:46.085Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
@@ -14,7 +14,7 @@ Generated: 2026-04-14T07:27:14.128Z
 - 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Release version 20.126022.20.0 released: See
 - 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Release version 20.126022.18.0 released: See
 - 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Build 1.0.8805.0103 released: See
-- 2026-04-01 • Microsoft Defender XDR • Ikke oppgitt • Microsoft Defender Experts for XDR customers can now see
+- 2026-04-01 • Microsoft Defender XDR • Ikke oppgitt • Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the
 - 2026-04-01 • Microsoft Purview • GA • Collection policies support
 - 2026-04-01 • Microsoft Purview • GA • Email notifications for browser and network DLP
 - 2026-04-01 • Microsoft Purview • Preview • DLP policies for unmanaged cloud apps support a new

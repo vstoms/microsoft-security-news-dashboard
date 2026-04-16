@@ -1047,15 +1047,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-01-custom-detections-rules-in-microsoft-defender-now-support-near-real-time-nrt-configuration-on",
+    "id": "microsoft-defender-xdr-01-custom-detection-rules-in-microsoft-defender-now-support-near-real-time-nrt-configuration-on",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Januar",
     "monthKey": "2026-01",
     "date": "Januar 2026",
     "publishedAt": "2026-01-01",
-    "title": "Custom detections rules in Microsoft Defender now support Near Real-Time (NRT) configuration on",
-    "summary": "(Preview) Custom detections rules in Microsoft Defender now support Near Real-Time (NRT) configuration on",
+    "title": "Custom detection rules in Microsoft Defender now support Near Real-Time (NRT) configuration on",
+    "summary": "(Preview) Custom detection rules in Microsoft Defender now support Near Real-Time (NRT) configuration on",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2550,15 +2550,49 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-04-release-macos",
+    "id": "microsoft-defender-xdr-04-microsoft-defender-now-integrates-with-microsoft-agent-365-to-provide-comprehensive-security-for-ai-agents-onboarded-to-a365-microsoft-defender-discovers-agents-registered-with-agent-365-and-provides-visibility-into-agent-inventory-and-configuration-agents-that-integrate-the",
+    "product": "Microsoft Defender XDR",
+    "productSlug": "microsoft-defender-xdr",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
+    "summary": "(Preview) Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "XDR",
+    "themes": [
+      "Hunting",
+      "AI"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Hunting",
+      "AI"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: XDR"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-release-windows",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Release - macOS",
-    "summary": "Description Release - macOS",
+    "title": "Release - Windows",
+    "summary": "Windows Defender Antivirus: Platform 4.18.26030.3011 / Engine 1.1.26030.3008",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3453,37 +3487,37 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-04-microsoft-defender-now-integrates-with-microsoft-agent-365-to-provide-comprehensive-security-for-ai-agents-onboarded-to-a365-microsoft-defender-discovers-agents-registered-with-agent-365-and-provides-visibility-into-agent-inventory-and-configuration-agents-that-integrate-the",
-    "product": "Microsoft Defender XDR",
-    "productSlug": "microsoft-defender-xdr",
+    "id": "microsoft-defender-for-endpoint-04-enhancements-and-features-for-this-release",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
-    "summary": "enable threat detection and investigation through near‑real‑time detections, alerts, and Advanced Hunting. Agents onboarded through the Agent Tooling Gateway (ATG) are protected by real-time protection, which evaluates and can block unsafe agent-initiated tool actions before execution.",
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "title": "enhancements and features for this release",
+    "summary": "GA See enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
-    "category": "XDR",
+    "category": "Endpoint Security",
     "themes": [
-      "Hunting",
-      "AI"
+      "Endpoint"
     ],
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "priorityScore": 23,
     "tags": [
       "Ikke oppgitt",
-      "Hunting",
-      "AI"
+      "Endpoint"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: XDR"
+      "Kategori: Endpoint Security"
     ]
   },
   {

@@ -992,23 +992,26 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-purview-04-email-notifications-for-browser-and-network-dlp",
+    "id": "microsoft-purview-04-data-loss-prevention-policy-tip-reference-for-outlook-for-android-ios-and-macos",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
     "category": "Data Security & Governance",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Email notifications for browser and network DLP",
-    "summary_no": "rules notify end users via email when their activity is blocked. Notifications use a rolling 10-minute batching window to prevent excessive emails.",
+    "title": "Data loss prevention policy tip reference for Outlook for Android, iOS, and macOS",
+    "summary_no": ". A new reference article covering DLP policy tips, supported conditions, oversharing dialogs, and override capabilities for Outlook on Android, iOS, and macOS.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
     "month": "2026-04",
     "month_label": "April",
     "release_stage": "GA",
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "theme_tags": [
-      "Hunting"
+      "Hunting",
+      "Endpoint"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -1729,14 +1732,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-04-microsoft-defender-now-integrates-with-microsoft-agent-365-to-provide-comprehensive-security-for-ai-agents-onboarded-to-a365-microsoft-defender-discovers-agents-registered-with-agent-365-and-provides-visibility-into-agent-inventory-and-configuration-agents-that-integrate-the",
+    "id": "microsoft-defender-xdr-04-aiagentsinfo",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
-    "summary_no": "(Preview) Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
+    "title": "AIAgentsInfo",
+    "summary_no": "table in advanced hunting now includes additional columns that provide deeper visibility into AI agents operating in your Microsoft 365 environment. These fields expand coverage beyond Copilot Studio to all agent types, including Microsoft Foundry, third-party marketplace, and custom line-of-business agents.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
@@ -1795,6 +1798,28 @@
     ],
     "theme_tags": [
       "Cloud"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-purview-04-email-notifications-for-browser-and-network-dlp",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Email notifications for browser and network DLP",
+    "summary_no": "rules notify end users via email when their activity is blocked. Notifications use a rolling 10-minute batching window to prevent excessive emails.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -2307,6 +2332,32 @@
     ],
     "priority_score": 33,
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+  },
+  {
+    "id": "security-exposure-management-04-new-predefined-classifications",
+    "product_slug": "security-exposure-management",
+    "product": "Security Exposure Management",
+    "category": "Exposure Management",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New predefined classifications",
+    "summary_no": "classification rule was added to the critical assets list:",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Automatisering",
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 28,
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
   },
   {
     "id": "microsoft-defender-for-cloud-03-malware-automated-remediation-in-defender-for-storage",

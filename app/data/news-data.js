@@ -1471,15 +1471,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-purview-04-email-notifications-for-browser-and-network-dlp",
+    "id": "microsoft-purview-04-data-loss-prevention-policy-tip-reference-for-outlook-for-android-ios-and-macos",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Email notifications for browser and network DLP",
-    "summary": "rules notify end users via email when their activity is blocked. Notifications use a rolling 10-minute batching window to prevent excessive emails.",
+    "title": "Data loss prevention policy tip reference for Outlook for Android, iOS, and macOS",
+    "summary": ". A new reference article covering DLP policy tips, supported conditions, oversharing dialogs, and override capabilities for Outlook on Android, iOS, and macOS.",
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1488,13 +1488,17 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
-      "Hunting"
+      "Hunting",
+      "Endpoint"
     ],
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "priorityScore": 63,
     "tags": [
       "GA",
-      "Hunting"
+      "Hunting",
+      "Endpoint"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2550,15 +2554,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-04-microsoft-defender-now-integrates-with-microsoft-agent-365-to-provide-comprehensive-security-for-ai-agents-onboarded-to-a365-microsoft-defender-discovers-agents-registered-with-agent-365-and-provides-visibility-into-agent-inventory-and-configuration-agents-that-integrate-the",
+    "id": "microsoft-defender-xdr-04-aiagentsinfo",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
-    "summary": "(Preview) Microsoft Defender now integrates with Microsoft Agent 365 to provide comprehensive security for AI agents onboarded to A365. Microsoft Defender discovers agents registered with Agent 365 and provides visibility into agent inventory and configuration. Agents that integrate the",
+    "title": "AIAgentsInfo",
+    "summary": "table in advanced hunting now includes additional columns that provide deeper visibility into AI agents operating in your Microsoft 365 environment. These fields expand coverage beyond Copilot Studio to all agent types, including Microsoft Foundry, third-party marketplace, and custom line-of-business agents.",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2644,6 +2648,38 @@ export const newsItems = [
     "tags": [
       "Preview",
       "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
+    "id": "microsoft-purview-04-email-notifications-for-browser-and-network-dlp",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Email notifications for browser and network DLP",
+    "summary": "rules notify end users via email when their activity is blocked. Notifications use a rolling 10-minute batching window to prevent excessive emails.",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3380,6 +3416,44 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SecOps Platform"
+    ]
+  },
+  {
+    "id": "security-exposure-management-04-new-predefined-classifications",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "New predefined classifications",
+    "summary": "classification rule was added to the critical assets list:",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "Automatisering",
+      "Governance",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 28,
+    "tags": [
+      "Ikke oppgitt",
+      "Automatisering",
+      "Governance",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
     ]
   },
   {

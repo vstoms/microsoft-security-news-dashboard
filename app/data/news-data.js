@@ -500,15 +500,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-additional-identity-roles",
+    "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-microsoft-entra-connect-identity-roles",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Mars",
     "monthKey": "2026-03",
     "date": "Mars 2026",
     "publishedAt": "2026-03-01",
-    "title": "Sensor v3.x support for domain controllers with additional identity roles",
-    "summary": "Defender for Identity sensor v3.x now supports domain controllers that also run AD FS, AD CS, or Microsoft Entra Connect identity roles. Detections and identity security posture management (ISPM) recommendations for these roles will roll out gradually, starting with Microsoft Entra Connect. For v3, these domain controllers require Windows Server 2019 or later with at least the",
+    "title": "Sensor v3.x support for domain controllers with Microsoft Entra Connect identity roles",
+    "summary": "Defender for Identity sensor v3.x now supports domain controllers that run Microsoft Entra Connect, including detections and identity security posture management (ISPM) recommendations.",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "GA",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -711,6 +711,48 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-04-general-availability-of-container-security-capabilities-in-azure-government-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "General availability of container security capabilities in Azure Government cloud",
+    "summary": "to Defender for SQL servers on machines plan for Fairfax customers",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Container",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Container",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
     ]
   },
   {
@@ -1392,46 +1434,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-04-general-availability-of-container-security-capabilities-in-azure-government-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-01",
-    "title": "General availability of container security capabilities in Azure Government cloud",
-    "summary": "to Defender for SQL servers on machines plan for Fairfax customers",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Hunting",
-      "AI",
-      "Container",
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 63,
-    "tags": [
-      "GA",
-      "Hunting",
-      "AI",
-      "Container",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-purview-04-collection-policies-support",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
@@ -2102,6 +2104,40 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-04-general-availability-of-defender-for-storage-integration-in-azure-portal-storage-center",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "General availability of Defender for Storage integration in Azure Portal Storage Center",
+    "summary": "GA General availability of Defender for Storage integration in Azure Portal Storage Center April 1, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
     ]
   },
   {

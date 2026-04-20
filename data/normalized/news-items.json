@@ -336,14 +336,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-additional-identity-roles",
+    "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-microsoft-entra-connect-identity-roles",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
     "category": "Identity Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Sensor v3.x support for domain controllers with additional identity roles",
-    "summary_no": "Defender for Identity sensor v3.x now supports domain controllers that also run AD FS, AD CS, or Microsoft Entra Connect identity roles. Detections and identity security posture management (ISPM) recommendations for these roles will roll out gradually, starting with Microsoft Entra Connect. For v3, these domain controllers require Windows Server 2019 or later with at least the",
+    "title": "Sensor v3.x support for domain controllers with Microsoft Entra Connect identity roles",
+    "summary_no": "Defender for Identity sensor v3.x now supports domain controllers that run Microsoft Entra Connect, including detections and identity security posture management (ISPM) recommendations.",
     "impact_level": "Høy",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
     "published_at": "2026-03-01",
@@ -477,6 +477,34 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-04-general-availability-of-container-security-capabilities-in-azure-government-cloud",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "General availability of container security capabilities in Azure Government cloud",
+    "summary_no": "to Defender for SQL servers on machines plan for Fairfax customers",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Container",
+      "Cloud"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-xdr-03-identity-security-enhancements",
@@ -938,33 +966,6 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-04-general-availability-of-container-security-capabilities-in-azure-government-cloud",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "General availability of container security capabilities in Azure Government cloud",
-    "summary_no": "to Defender for SQL servers on machines plan for Fairfax customers",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "GA",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Hunting",
-      "AI",
-      "Container",
-      "Cloud"
-    ],
-    "priority_score": 63,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
     "id": "microsoft-purview-04-collection-policies-support",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -1423,6 +1424,30 @@
     ],
     "priority_score": 58,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-04-general-availability-of-defender-for-storage-integration-in-azure-portal-storage-center",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "General availability of Defender for Storage integration in Azure Portal Storage Center",
+    "summary_no": "GA General availability of Defender for Storage integration in Azure Portal Storage Center April 1, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-03-kubernetes-gated-deployment-support-for-aks-automatic-ga",

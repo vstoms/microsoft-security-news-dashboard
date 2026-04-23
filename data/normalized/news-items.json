@@ -1780,14 +1780,14 @@
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
-    "id": "microsoft-defender-for-endpoint-04-release-windows",
+    "id": "microsoft-defender-for-endpoint-04-release-macos",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Release - Windows",
-    "summary_no": "Windows Defender Antivirus: Platform 4.18.26030.3011 / Engine 1.1.26030.3008",
+    "title": "Release - macOS",
+    "summary_no": "Description Release - macOS",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
@@ -2455,6 +2455,30 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-release-version-20-126032-16-0-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 20.126032.16.0 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-enhancements-and-features-for-this-release",

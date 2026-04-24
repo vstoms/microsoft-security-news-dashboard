@@ -966,6 +966,32 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
+    "id": "microsoft-defender-xdr-04-built-in-alert-tuning-rules",
+    "product_slug": "microsoft-defender-xdr",
+    "product": "Microsoft Defender XDR",
+    "category": "XDR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Built-in alert tuning rules",
+    "summary_no": "are now generally available. Built-in alert tuning rules suppress alerts from common benign activity in Defender for Endpoint and Defender for Office 365 without affecting Automated Investigation and Response (AIR) investigations and email notifications.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "AI",
+      "Endpoint"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+  },
+  {
     "id": "microsoft-purview-04-collection-policies-support",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -985,6 +1011,7 @@
       "Cloud"
     ],
     "theme_tags": [
+      "Container",
       "Endpoint",
       "Governance",
       "Cloud"
@@ -1012,7 +1039,8 @@
     ],
     "theme_tags": [
       "Hunting",
-      "Endpoint"
+      "Endpoint",
+      "Governance"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -1757,37 +1785,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-04-aiagentsinfo",
-    "product_slug": "microsoft-defender-xdr",
-    "product": "Microsoft Defender XDR",
-    "category": "XDR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "AIAgentsInfo",
-    "summary_no": "table in advanced hunting now includes additional columns that provide deeper visibility into AI agents operating in your Microsoft 365 environment. These fields expand coverage beyond Copilot Studio to all agent types, including Microsoft Foundry, third-party marketplace, and custom line-of-business agents.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Hunting",
-      "AI"
-    ],
-    "priority_score": 48,
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-04-release-macos",
+    "id": "microsoft-defender-for-endpoint-04-release-linux",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Release - macOS",
-    "summary_no": "Description Release - macOS",
+    "title": "Release - Linux",
+    "summary_no": "Description Release - Linux",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
@@ -2455,6 +2460,30 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-release-version-30-126032-0000-0-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 30.126032.0000.0 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-release-version-20-126032-16-0-released-see",

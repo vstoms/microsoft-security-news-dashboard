@@ -1434,6 +1434,44 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-xdr-04-built-in-alert-tuning-rules",
+    "product": "Microsoft Defender XDR",
+    "productSlug": "microsoft-defender-xdr",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Built-in alert tuning rules",
+    "summary": "are now generally available. Built-in alert tuning rules suppress alerts from common benign activity in Defender for Endpoint and Defender for Office 365 without affecting Automated Investigation and Response (AIR) investigations and email notifications.",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "XDR",
+    "themes": [
+      "Hunting",
+      "AI",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Hunting",
+      "AI",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: XDR"
+    ]
+  },
+  {
     "id": "microsoft-purview-04-collection-policies-support",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
@@ -1451,6 +1489,7 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
+      "Container",
       "Endpoint",
       "Governance",
       "Cloud"
@@ -1462,6 +1501,7 @@ export const newsItems = [
     "priorityScore": 63,
     "tags": [
       "GA",
+      "Container",
       "Endpoint",
       "Governance",
       "Cloud"
@@ -1491,7 +1531,8 @@ export const newsItems = [
     "category": "Data Security & Governance",
     "themes": [
       "Hunting",
-      "Endpoint"
+      "Endpoint",
+      "Governance"
     ],
     "platforms": [
       "Endpoint"
@@ -1500,7 +1541,8 @@ export const newsItems = [
     "tags": [
       "GA",
       "Hunting",
-      "Endpoint"
+      "Endpoint",
+      "Governance"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2590,49 +2632,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-04-aiagentsinfo",
-    "product": "Microsoft Defender XDR",
-    "productSlug": "microsoft-defender-xdr",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-01",
-    "title": "AIAgentsInfo",
-    "summary": "table in advanced hunting now includes additional columns that provide deeper visibility into AI agents operating in your Microsoft 365 environment. These fields expand coverage beyond Copilot Studio to all agent types, including Microsoft Foundry, third-party marketplace, and custom line-of-business agents.",
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "XDR",
-    "themes": [
-      "Hunting",
-      "AI"
-    ],
-    "platforms": [],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Hunting",
-      "AI"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: XDR"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-04-release-macos",
+    "id": "microsoft-defender-for-endpoint-04-release-linux",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Release - macOS",
-    "summary": "Description Release - macOS",
+    "title": "Release - Linux",
+    "summary": "Description Release - Linux",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3594,6 +3602,40 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-release-version-30-126032-0000-0-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Release version 30.126032.0000.0 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {

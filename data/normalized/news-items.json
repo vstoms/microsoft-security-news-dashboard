@@ -23,6 +23,36 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-sentinel-07-updated-call-to-action-update-automation-by-july-1-2026-account-name-is-now-consistently-the-upn-prefix-for-analytics-rule-alerts",
+    "product_slug": "microsoft-sentinel",
+    "product": "Microsoft Sentinel",
+    "category": "SIEM/SOAR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "[Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts",
+    "summary_no": "Microsoft Sentinel data federation (Preview)",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Action required",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Hunting",
+      "Automatisering",
+      "AI",
+      "Teams",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 135,
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-06-required-action",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -423,34 +453,6 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-sentinel-04-microsoft-sentinel-data-federation-preview",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Microsoft Sentinel data federation (Preview)",
-    "summary_no": "Transform data with filter and split features (Preview)",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "GA",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Hunting",
-      "AI",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "priority_score": 85,
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -477,6 +479,31 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-identity-04-custom-account-correlation-rules-preview",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Custom account correlation rules (Preview)",
+    "summary_no": "Custom account correlation rules let you link accounts that belong to the same identity, such as privileged accounts with unique naming conventions. You can correlate accounts that don't share strong identifiers such as account ID, SID, object ID, or UPN by defining rules based on UPN prefix, UPN suffix, domain UPN, or employee ID.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-defender-for-cloud-04-general-availability-of-container-security-capabilities-in-azure-government-cloud",
@@ -966,14 +993,14 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-04-built-in-alert-tuning-rules",
+    "id": "microsoft-defender-xdr-04-you-can-now-view-the-current-status-of-automatic-attack-disruption-and-predictive-shielding-actions-related-to-a-specific-incident-you-view-this-data-in-the",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Built-in alert tuning rules",
-    "summary_no": "are now generally available. Built-in alert tuning rules suppress alerts from common benign activity in Defender for Endpoint and Defender for Office 365 without affecting Automated Investigation and Response (AIR) investigations and email notifications.",
+    "title": "You can now view the current status of automatic attack disruption and predictive shielding actions related to a specific incident. You view this data in the",
+    "summary_no": "(Preview) You can now view the current status of automatic attack disruption and predictive shielding actions related to a specific incident. You view this data in the",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
@@ -1785,14 +1812,36 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-for-endpoint-04-release-linux",
+    "id": "microsoft-defender-for-endpoint-04-view-action-status-in-the-activities-tab-preview",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Release - Linux",
-    "summary_no": "Description Release - Linux",
+    "title": "View action status in the Activities tab (Preview)",
+    "summary_no": "Description Feature",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-you-can-now-view-the-current-status-of-automatic-attack-disruption-and-predictive-shielding-actions-related-to-a-specific-incident-you-view-this-data-in-the",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "You can now view the current status of automatic attack disruption and predictive shielding actions related to a specific incident. You view this data in the",
+    "summary_no": "tab of the incident page. The data applies to the",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",

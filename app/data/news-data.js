@@ -34,6 +34,52 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-sentinel-07-updated-call-to-action-update-automation-by-july-1-2026-account-name-is-now-consistently-the-upn-prefix-for-analytics-rule-alerts",
+    "product": "Microsoft Sentinel",
+    "productSlug": "microsoft-sentinel",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "[Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts",
+    "summary": "Microsoft Sentinel data federation (Preview)",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "releaseStage": "Action required",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "SIEM/SOAR",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "Automatisering",
+      "AI",
+      "Teams",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 135,
+    "tags": [
+      "Action required",
+      "Identitet",
+      "Hunting",
+      "Automatisering",
+      "AI",
+      "Teams",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
     "id": "microsoft-sentinel-06-required-action",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -630,48 +676,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-sentinel-04-microsoft-sentinel-data-federation-preview",
-    "product": "Microsoft Sentinel",
-    "productSlug": "microsoft-sentinel",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-01",
-    "title": "Microsoft Sentinel data federation (Preview)",
-    "summary": "Transform data with filter and split features (Preview)",
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "releaseStage": "GA",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "SIEM/SOAR",
-    "themes": [
-      "Hunting",
-      "AI",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 85,
-    "tags": [
-      "GA",
-      "Hunting",
-      "AI",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: SIEM/SOAR"
-    ]
-  },
-  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -711,6 +715,42 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity-04-custom-account-correlation-rules-preview",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Custom account correlation rules (Preview)",
+    "summary": "Custom account correlation rules let you link accounts that belong to the same identity, such as privileged accounts with unique naming conventions. You can correlate accounts that don't share strong identifiers such as account ID, SID, object ID, or UPN by defining rules based on UPN prefix, UPN suffix, domain UPN, or employee ID.",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
     ]
   },
   {
@@ -1434,15 +1474,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-04-built-in-alert-tuning-rules",
+    "id": "microsoft-defender-xdr-04-you-can-now-view-the-current-status-of-automatic-attack-disruption-and-predictive-shielding-actions-related-to-a-specific-incident-you-view-this-data-in-the",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Built-in alert tuning rules",
-    "summary": "are now generally available. Built-in alert tuning rules suppress alerts from common benign activity in Defender for Endpoint and Defender for Office 365 without affecting Automated Investigation and Response (AIR) investigations and email notifications.",
+    "title": "You can now view the current status of automatic attack disruption and predictive shielding actions related to a specific incident. You view this data in the",
+    "summary": "(Preview) You can now view the current status of automatic attack disruption and predictive shielding actions related to a specific incident. You view this data in the",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2632,15 +2672,47 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-04-release-linux",
+    "id": "microsoft-defender-for-endpoint-04-view-action-status-in-the-activities-tab-preview",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "Release - Linux",
-    "summary": "Description Release - Linux",
+    "title": "View action status in the Activities tab (Preview)",
+    "summary": "Description Feature",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Generelt"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-04-you-can-now-view-the-current-status-of-automatic-attack-disruption-and-predictive-shielding-actions-related-to-a-specific-incident-you-view-this-data-in-the",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "You can now view the current status of automatic attack disruption and predictive shielding actions related to a specific incident. You view this data in the",
+    "summary": "tab of the incident page. The data applies to the",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

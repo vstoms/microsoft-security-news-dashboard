@@ -2189,6 +2189,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-04-microsoft-secure-score-now-includes-the",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Microsoft Secure Score now includes the",
+    "summary": "Ensure devices are updated to Secure Boot 2023 certificates and boot manager",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-04-general-availability-of-defender-for-storage-integration-in-azure-portal-storage-center",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -2672,14 +2708,14 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-04-view-action-status-in-the-activities-tab-preview",
+    "id": "microsoft-defender-for-endpoint-04-new-microsoft-secure-score-recommendation",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "April",
     "monthKey": "2026-04",
     "date": "April 2026",
     "publishedAt": "2026-04-01",
-    "title": "View action status in the Activities tab (Preview)",
+    "title": "New Microsoft Secure Score recommendation",
     "summary": "Description Feature",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
@@ -3745,6 +3781,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-04-release-version-4-18-25040-1-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Release version 4.18.25040.1 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-endpoint-04-enhancements-and-features-for-this-release",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -3805,70 +3875,6 @@ export const newsItems = [
     "tags": [
       "Ikke oppgitt",
       "Endpoint"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-04-release-version-20-126022-18-0-released-see",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-01",
-    "title": "Release version 20.126022.18.0 released: See",
-    "summary": "enhancements and features for this release",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Generelt"
-    ],
-    "platforms": [],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Generelt"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-04-build-1-0-8805-0103-released-see",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-01",
-    "title": "Build 1.0.8805.0103 released: See",
-    "summary": "enhancements and features for this release",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Generelt"
-    ],
-    "platforms": [],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Generelt"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

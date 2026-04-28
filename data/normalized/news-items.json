@@ -1481,6 +1481,31 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
+    "id": "microsoft-defender-for-endpoint-04-microsoft-secure-score-now-includes-the",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Microsoft Secure Score now includes the",
+    "summary_no": "Ensure devices are updated to Secure Boot 2023 certificates and boot manager",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
     "id": "microsoft-defender-for-cloud-04-general-availability-of-defender-for-storage-integration-in-azure-portal-storage-center",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1812,13 +1837,13 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-for-endpoint-04-view-action-status-in-the-activities-tab-preview",
+    "id": "microsoft-defender-for-endpoint-04-new-microsoft-secure-score-recommendation",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "View action status in the Activities tab (Preview)",
+    "title": "New Microsoft Secure Score recommendation",
     "summary_no": "Description Feature",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2559,6 +2584,30 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
+    "id": "microsoft-defender-for-endpoint-04-release-version-4-18-25040-1-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 4.18.25040.1 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
     "id": "microsoft-defender-for-endpoint-04-enhancements-and-features-for-this-release",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
@@ -2602,50 +2651,6 @@
     ],
     "theme_tags": [
       "Endpoint"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-04-release-version-20-126022-18-0-released-see",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Release version 20.126022.18.0 released: See",
-    "summary_no": "enhancements and features for this release",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-04-build-1-0-8805-0103-released-see",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Build 1.0.8805.0103 released: See",
-    "summary_no": "enhancements and features for this release",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"

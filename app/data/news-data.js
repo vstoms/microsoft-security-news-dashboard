@@ -546,6 +546,51 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-purview-04-collection-policies-support",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "April",
+    "monthKey": "2026-04",
+    "date": "April 2026",
+    "publishedAt": "2026-04-01",
+    "title": "Collection policies support",
+    "summary": "for scoping detection to items with specific sensitivity labels applied. This condition is supported with browser and network cloud apps detection.",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "GA",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Identitet",
+      "Container",
+      "Endpoint",
+      "Governance",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 90,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Container",
+      "Endpoint",
+      "Governance",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-microsoft-entra-connect-identity-roles",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
@@ -1509,47 +1554,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: XDR"
-    ]
-  },
-  {
-    "id": "microsoft-purview-04-collection-policies-support",
-    "product": "Microsoft Purview",
-    "productSlug": "microsoft-purview",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-01",
-    "title": "Collection policies support",
-    "summary": "for scoping detection to items with specific sensitivity labels applied. This condition is supported with browser and network cloud apps detection.",
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Data Security & Governance",
-    "themes": [
-      "Container",
-      "Endpoint",
-      "Governance",
-      "Cloud"
-    ],
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "priorityScore": 63,
-    "tags": [
-      "GA",
-      "Container",
-      "Endpoint",
-      "Governance",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Data Security & Governance"
     ]
   },
   {

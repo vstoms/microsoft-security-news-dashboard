@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-05-01T08:08:20.413Z
+Generated: 2026-05-02T07:29:00.063Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
@@ -10,6 +10,7 @@ Generated: 2026-05-01T08:08:20.413Z
 - 2026-06-01 • Microsoft Entra • Action required • General Availability - Sign-in with username/alias
 - 2026-06-01 • Microsoft Sentinel • Action required • Required action
 - 2026-05-01 • Microsoft Entra • Deprecation • Plan for change – Agent Registry consolidation into Microsoft Agent 365
+- 2026-05-01 • Microsoft Purview • GA • General availability (GA)
 - 2026-04-30 • Microsoft Defender for Cloud • GA • Container runtime anti-malware detection and blocking is now generally available in Defender for Containers for Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service (EKS), and Google Kubernetes Engine (GKE).
 - 2026-04-30 • Microsoft Defender for Cloud • GA • Anti-malware detection and blocking is now generally available
 - 2026-04-20 • Microsoft Defender for Cloud • GA • DNS Detection for Kubernetes is now generally available
@@ -21,4 +22,3 @@ Generated: 2026-05-01T08:08:20.413Z
 - 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Release version 30.126032.0000.0 released: See
 - 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Release version 20.126032.16.0 released: See
 - 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • Release version 4.18.25040.1 released: See
-- 2026-04-01 • Microsoft Defender for Endpoint • Ikke oppgitt • enhancements and features for this release

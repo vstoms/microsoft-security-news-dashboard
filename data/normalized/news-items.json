@@ -613,6 +613,30 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
+    "id": "microsoft-entra-04-general-availability",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability",
+    "summary_no": "The Microsoft Entra Agent ID platform is now generally available. The Agent ID platform provides an identity and authorization framework built specifically for AI agents operating in enterprise environments. It enables developers to create and manage agent identities with enterprise-grade authentication, authorization, and governance, using standard protocols such as OAuth 2.0, MCP, and A2A.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet",
+      "AI",
+      "Governance"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
     "id": "microsoft-defender-xdr-03-identity-security-enhancements",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
@@ -1072,6 +1096,28 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
+    "id": "microsoft-purview-05-general-availability-ga",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General availability (GA)",
+    "summary_no": "Data security and compliance protections for Microsoft Agent 365",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "AI"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-cloud-04-anti-malware-detection-and-blocking-is-now-generally-available",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1357,6 +1403,29 @@
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-entra-04-general-availability-microsoft-entra-agent-id-platform",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability - Microsoft Entra Agent ID platform",
+    "summary_no": "General Availability - Microsoft Entra Agent ID platform Type:",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet",
+      "AI"
+    ],
+    "priority_score": 58,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
     "id": "microsoft-entra-03-general-availability-synced-passkeys-in-microsoft-entra-id",
@@ -1689,28 +1758,6 @@
     "platforms": [],
     "theme_tags": [
       "Identitet"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
-  },
-  {
-    "id": "microsoft-entra-04-public-preview-count-filtering-in-sign-ins-api",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Public Preview - $count filtering in sign-ins API",
-    "summary_no": "Public Preview - $count filtering in sign-ins API Type:",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Automatisering"
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"

@@ -150,6 +150,35 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
+    "id": "microsoft-defender-for-cloud-07-deprecation-notice-legacy-grouped-recommendations",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Deprecation notice: Legacy grouped recommendations",
+    "summary_no": "Grouped recommendation types are deprecated from the Azure portal and will be removed on",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-07-30",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Deprecation",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "AI",
+      "Teams",
+      "Governance",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 120,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "unified-secops",
     "product": "Unified SecOps",
@@ -392,6 +421,32 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
+    "id": "microsoft-defender-for-cloud-05-general-availability-of-microsoft-defender-for-cloud-and-github-advanced-security-integration",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
+    "summary_no": "General availability of individual recommendations for Defender for Cloud in Azure portal and deprecation of legacy grouped recommendations",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-05",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Deprecation",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 103,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-defender-for-cloud-03-deprecation-of-preview-of-container-and-container-images-vulnerability-recommendations",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -412,6 +467,31 @@
       "Lifecycle"
     ],
     "priority_score": 103,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-general-availability-of-individual-recommendations-for-defender-for-cloud-in-azure-portal-and-deprecation-of-legacy-grouped-recommendations",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations",
+    "summary_no": "GA General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations May 05, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-05",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Deprecation",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 93,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
@@ -560,33 +640,6 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-05-general-availability-of-microsoft-defender-for-cloud-and-github-advanced-security-integration",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
-    "summary_no": "The native integration between Microsoft Defender for Cloud and GitHub Advanced Security (GHAS) is now generally available. This integration connects runtime security signals from Defender for Cloud with code-level vulnerability management in GHAS, enabling developers and security teams to prioritize and remediate vulnerabilities based on actual production risk.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-05-03",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "GA",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Teams",
-      "Cloud"
-    ],
-    "priority_score": 68,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
     "id": "microsoft-defender-for-cloud-04-container-runtime-anti-malware-detection-and-blocking-is-now-generally-available-in-defender-for-containers-for-azure-kubernetes-service-aks-amazon-elastic-kubernetes-service-eks-and-google-kubernetes-engine-gke",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -615,14 +668,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-identity-04-custom-account-correlation-rules-preview",
+    "id": "microsoft-defender-for-identity-04-identity-explorer-preview",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
     "category": "Identity Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Custom account correlation rules (Preview)",
-    "summary_no": "Custom account correlation rules let you link accounts that belong to the same identity, such as privileged accounts with unique naming conventions. You can correlate accounts that don't share strong identifiers such as account ID, SID, object ID, or UPN by defining rules based on UPN prefix, UPN suffix, domain UPN, or employee ID.",
+    "title": "Identity Explorer (Preview)",
+    "summary_no": "tab for customers with a Microsoft Sentinel Data Lake license. This tab uses the",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-04-01",
@@ -634,6 +687,7 @@
     ],
     "theme_tags": [
       "Identitet",
+      "Hunting",
       "Endpoint"
     ],
     "priority_score": 68,
@@ -662,6 +716,33 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-purview-04-data-loss-prevention-policy-tip-reference-for-outlook-for-android-ios-and-macos",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Data loss prevention policy tip reference for Outlook for Android, iOS, and macOS",
+    "summary_no": ". A new reference article covering DLP policy tips, supported conditions, oversharing dialogs, and override capabilities for Outlook on Android, iOS, and macOS.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "Automatisering",
+      "Endpoint",
+      "Governance"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-defender-xdr-03-identity-security-enhancements",
@@ -1262,32 +1343,6 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-purview-04-data-loss-prevention-policy-tip-reference-for-outlook-for-android-ios-and-macos",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Data loss prevention policy tip reference for Outlook for Android, iOS, and macOS",
-    "summary_no": ". A new reference article covering DLP policy tips, supported conditions, oversharing dialogs, and override capabilities for Outlook on Android, iOS, and macOS.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-04-01",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "GA",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Hunting",
-      "Endpoint",
-      "Governance"
-    ],
-    "priority_score": 63,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
-  },
-  {
     "id": "microsoft-purview-03-general-availability-ga",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -1717,6 +1772,30 @@
     ],
     "priority_score": 58,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-general-availability-of-of-defender-for-cloud-integration-into-the-defender-portal",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "General availability of of Defender for Cloud integration into the Defender portal",
+    "summary_no": "GA General availability of of Defender for Cloud integration into the Defender portal May 3, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-03",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-microsoft-secure-score-now-includes-the",
@@ -2670,6 +2749,32 @@
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
+    "id": "microsoft-defender-for-identity-05-new-defender-for-identity-security-alerts",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New Defender for Identity security alerts",
+    "summary_no": "These new alerts were added to the Defender for Identity security alerts:",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "AI",
+      "Endpoint"
+    ],
+    "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-identity-02-defender-for-identity-sensor-updates",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
@@ -2716,6 +2821,28 @@
       "Automatisering"
     ],
     "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-sentinel-05-we-introduced-a-new-entry-point-and-created-a-consolidated-view-for-the-ueba-settings-and-the-behaviors-settings-you-can-now-access-the-ueba-settings-from-the-new-ueba-tab-in-the-microsoft-sentinel-settings-page-for-more-information-see",
+    "product_slug": "microsoft-sentinel",
+    "product": "Microsoft Sentinel",
+    "category": "SIEM/SOAR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "We introduced a new entry point and created a consolidated view for the UEBA Settings and the Behaviors Settings. You can now access the UEBA settings from the new UEBA tab in the Microsoft Sentinel settings page. For more information see",
+    "summary_no": "We introduced a new entry point and created a consolidated view for the UEBA Settings and the Behaviors Settings. You can now access the UEBA settings from the new UEBA tab in the Microsoft Sentinel settings page.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Hunting"
+    ],
+    "priority_score": 33,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
@@ -2888,6 +3015,30 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-daily-score-calculation-enhancement-for-risk-based-cloud-secure-score",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Daily score calculation enhancement for risk-based Cloud secure score",
+    "summary_no": "GA Daily score calculation enhancement for risk-based Cloud secure score May 05, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-05",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-release-version-30-126032-0000-0-released-see",

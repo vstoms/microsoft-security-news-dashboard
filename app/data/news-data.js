@@ -634,9 +634,9 @@ export const newsItems = [
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
-    "publishedAt": "2026-05-05",
+    "publishedAt": "2026-05-06",
     "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
-    "summary": "General availability of individual recommendations for Defender for Cloud in Azure portal and deprecation of legacy grouped recommendations",
+    "summary": "d Helm installation for Defender for Containers sensor",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -646,6 +646,7 @@ export const newsItems = [
     "category": "Cloud Security",
     "themes": [
       "Hunting",
+      "Container",
       "Cloud",
       "Lifecycle"
     ],
@@ -656,6 +657,7 @@ export const newsItems = [
     "tags": [
       "Deprecation",
       "Hunting",
+      "Container",
       "Cloud",
       "Lifecycle"
     ],
@@ -708,7 +710,7 @@ export const newsItems = [
     "date": "Mai 2026",
     "publishedAt": "2026-05-05",
     "title": "General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations",
-    "summary": "GA General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations May 05, 2026",
+    "summary": "GA General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations May 5, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -3990,15 +3992,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-05-hunting-graph",
+    "id": "microsoft-defender-xdr-05-in-advanced-hunting-the",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "hunting graph",
-    "summary": "in advanced hunting now includes new identity-focused predefined scenarios. These scenarios help you discover attack paths, privilege escalation routes, and credential access risks across on-premises and cloud environments, including Kerberoast and AS-REP roast paths, domain compromise routes, OAuth application risks, and external user access to cloud resources.",
+    "title": "In advanced hunting, the",
+    "summary": "wizard now lets customers allow or block top-level domains and files attachment hashes in emails based on query results.",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4417,6 +4419,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-05-updated-helm-installation-for-defender-for-containers-sensor",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-05",
+    "title": "Updated Helm installation for Defender for Containers sensor",
+    "summary": "d Helm installation for Defender for Containers sensor",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Container"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-05-daily-score-calculation-enhancement-for-risk-based-cloud-secure-score",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -4425,7 +4459,7 @@ export const newsItems = [
     "date": "Mai 2026",
     "publishedAt": "2026-05-05",
     "title": "Daily score calculation enhancement for risk-based Cloud secure score",
-    "summary": "GA Daily score calculation enhancement for risk-based Cloud secure score May 05, 2026",
+    "summary": "GA Daily score calculation enhancement for risk-based Cloud secure score May 5, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

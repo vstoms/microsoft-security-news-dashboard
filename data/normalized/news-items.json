@@ -600,7 +600,6 @@
       "Cloud"
     ],
     "theme_tags": [
-      "Identitet",
       "Automatisering",
       "AI",
       "Endpoint",
@@ -1181,30 +1180,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-purview-01-block-files-and-emails-with-sensitivity-labels-from-being-used-in-response-summaries",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Block files and emails with sensitivity labels from being used in response summaries",
-    "summary_no": "Use Network Data Security to help prevent sharing sensitive information with unmanaged AI",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-01-01",
-    "month": "2026-01",
-    "month_label": "Januar",
-    "release_stage": "GA",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Governance"
-    ],
-    "priority_score": 68,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
-  },
-  {
     "id": "microsoft-purview-05-general-availability-ga",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -1219,9 +1194,12 @@
     "month": "2026-05",
     "month_label": "Mai",
     "release_stage": "GA",
-    "platforms": [],
+    "platforms": [
+      "Cloud"
+    ],
     "theme_tags": [
-      "AI"
+      "AI",
+      "Cloud"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -1483,28 +1461,6 @@
       "Endpoint",
       "Governance",
       "Cloud"
-    ],
-    "priority_score": 63,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
-  },
-  {
-    "id": "microsoft-purview-01-block-sensitive-information-types-in-prompts",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Block sensitive information types in prompts",
-    "summary_no": "provides the ability to block specific sensitive information types from being used in prompts to Microsoft 365 Copilot and Copilot Chat. When a user attempts to use sensitive information types that are blocked by the DLP policy, they will receive a notification informing them that the prompt cannot be completed.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-01-01",
-    "month": "2026-01",
-    "month_label": "Januar",
-    "release_stage": "GA",
-    "platforms": [],
-    "theme_tags": [
-      "AI"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
@@ -2199,13 +2155,13 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-defender-for-endpoint-05-selective-response-actions",
+    "id": "microsoft-defender-for-endpoint-05-configure-offline-security-intelligence-update-settings-for-linux-from-the-defender-and-intune-portals",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Selective Response Actions",
+    "title": "Configure offline security intelligence update settings for Linux from the Defender and Intune portals",
     "summary_no": "Description Feature",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2213,9 +2169,11 @@
     "month": "2026-05",
     "month_label": "Mai",
     "release_stage": "Preview",
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "theme_tags": [
-      "Generelt"
+      "Endpoint"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -3062,6 +3020,30 @@
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-05-you-can-now-configure-offline-security-intelligence-update-settings-for-linux-directly-from-the-defender-and-intune-portals",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "You can now configure offline security intelligence update settings for Linux directly from the Defender and Intune portals.",
+    "summary_no": "GA You can now configure offline security intelligence update settings for Linux directly from the Defender and Intune portals. Feature",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-release-version-30-126032-0000-0-released-see",

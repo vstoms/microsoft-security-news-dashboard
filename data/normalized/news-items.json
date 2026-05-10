@@ -2734,6 +2734,29 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
+    "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",
+    "product_slug": "microsoft-sentinel",
+    "product": "Microsoft Sentinel",
+    "category": "SIEM/SOAR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "UEBA Okta anomalies now support the OktaV2_CL table alongside the existing Okta_CL table. This extends the existing Anomalous Activity and Anomalous MFA Failures detections to customers using the newer Okta connector format—no new anomaly types are introduced. For more information, see",
+    "summary_no": "UEBA Okta anomalies now support the OktaV2_CL table alongside the existing Okta_CL table. This extends the existing Anomalous Activity and Anomalous MFA Failures detections to customers using the newer Okta connector format—no new anomaly types are introduced.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet",
+      "Hunting"
+    ],
+    "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-identity-02-defender-for-identity-sensor-updates",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",

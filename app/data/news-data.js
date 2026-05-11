@@ -1751,6 +1751,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-05-custom-data-collection-is-now-generally-available-this-feature-enables-organizations-to-expand-and-customize-telemetry-collection-beyond-default-configurations-with-rule-based-filtering-for-specific-events-from-endpoint-devices-the-maximum-event-limit-per-rule-has-been-updated-from-25-000-to-75-000-events-per-device-within-a-24-hour-rolling-window",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Custom data collection is now generally available. This feature enables organizations to expand and customize telemetry collection beyond default configurations with rule-based filtering for specific events from endpoint devices. The maximum event limit per rule has been updated from 25,000 to 75,000 events per device within a 24-hour rolling window.",
+    "summary": "Configure offline security intelligence update settings for Linux from the Defender and Intune portals",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-purview-05-general-availability-ga",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
@@ -3174,14 +3208,14 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-05-configure-offline-security-intelligence-update-settings-for-linux-from-the-defender-and-intune-portals",
+    "id": "microsoft-defender-for-endpoint-05-custom-data-collection",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "Configure offline security intelligence update settings for Linux from the Defender and Intune portals",
+    "title": "Custom data collection",
     "summary": "Description Feature",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
@@ -3191,15 +3225,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Endpoint"
+      "Generelt"
     ],
-    "platforms": [
-      "Endpoint"
-    ],
+    "platforms": [],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Endpoint"
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4110,14 +4142,14 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-sentinel-05-we-introduced-a-new-entry-point-and-created-a-consolidated-view-for-the-ueba-settings-and-the-behaviors-settings-you-can-now-access-the-ueba-settings-from-the-new-ueba-tab-in-the-microsoft-sentinel-settings-page-for-more-information-see",
+    "id": "microsoft-sentinel-05-new-ueba-settings-experience-and-okta-v2-connector-support",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "We introduced a new entry point and created a consolidated view for the UEBA Settings and the Behaviors Settings. You can now access the UEBA settings from the new UEBA tab in the Microsoft Sentinel settings page. For more information see",
+    "title": "New UEBA settings experience and Okta V2 connector support",
     "summary": "We introduced a new entry point and created a consolidated view for the UEBA Settings and the Behaviors Settings. You can now access the UEBA settings from the new UEBA tab in the Microsoft Sentinel settings page.",
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
     "releaseStage": "Ikke oppgitt",

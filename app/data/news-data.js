@@ -1803,6 +1803,7 @@ export const newsItems = [
     "category": "Data Security & Governance",
     "themes": [
       "AI",
+      "Governance",
       "Cloud"
     ],
     "platforms": [
@@ -1812,6 +1813,7 @@ export const newsItems = [
     "tags": [
       "GA",
       "AI",
+      "Governance",
       "Cloud"
     ],
     "analysis": [
@@ -3998,15 +4000,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-05-new-defender-for-identity-security-alerts",
+    "id": "microsoft-defender-for-identity-05-increased-sensor-capacity",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "New Defender for Identity security alerts",
-    "summary": "These new alerts were added to the Defender for Identity security alerts:",
+    "title": "Increased sensor capacity",
+    "summary": "Defender for Identity now supports up to 1,000 sensors per workspace, increased from the previous limit of 350. To add more than 1,000 sensors, contact Defender for Identity support.",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4142,14 +4144,14 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-sentinel-05-new-ueba-settings-experience-and-okta-v2-connector-support",
+    "id": "microsoft-sentinel-05-ueba-enhancements-new-settings-experience-okta-v2-support-and-more-gcp-anomaly-detections",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "New UEBA settings experience and Okta V2 connector support",
+    "title": "UEBA enhancements: New settings experience, Okta V2 support, and more GCP anomaly detections",
     "summary": "We introduced a new entry point and created a consolidated view for the UEBA Settings and the Behaviors Settings. You can now access the UEBA settings from the new UEBA tab in the Microsoft Sentinel settings page.",
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
     "releaseStage": "Ikke oppgitt",
@@ -4159,13 +4161,53 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "SIEM/SOAR",
     "themes": [
-      "Hunting"
+      "Hunting",
+      "Cloud"
     ],
-    "platforms": [],
+    "platforms": [
+      "Cloud"
+    ],
     "priorityScore": 33,
     "tags": [
       "Ikke oppgitt",
-      "Hunting"
+      "Hunting",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
+    "id": "microsoft-sentinel-05-ueba-now-supports-five-new-gcp-audit-logs-anomaly-detections-that-identify-unusual-login-behavior-privileged-actions-resource-deployments-secret-kms-key-access-and-infrastructure-usage-patterns-for-more-information-see",
+    "product": "Microsoft Sentinel",
+    "productSlug": "microsoft-sentinel",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "UEBA now supports five new GCP Audit Logs anomaly detections that identify unusual login behavior, privileged actions, resource deployments, secret/KMS key access, and infrastructure usage patterns. For more information, see",
+    "summary": "UEBA now supports five new GCP Audit Logs anomaly detections that identify unusual login behavior, privileged actions, resource deployments, secret/KMS key access, and infrastructure usage patterns.",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "SIEM/SOAR",
+    "themes": [
+      "Hunting",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 33,
+    "tags": [
+      "Ikke oppgitt",
+      "Hunting",
+      "Cloud"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

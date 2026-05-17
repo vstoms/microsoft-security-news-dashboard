@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-05-16T08:00:06.497Z
+Generated: 2026-05-17T08:17:40.897Z
 
 - 2026-07-30 • Microsoft Defender for Cloud • Deprecation • Deprecation notice: Legacy grouped recommendations
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts

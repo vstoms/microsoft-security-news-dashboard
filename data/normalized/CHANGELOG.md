@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-05-17T08:17:40.897Z
+Generated: 2026-05-18T09:57:00.636Z
 
 - 2026-07-30 • Microsoft Defender for Cloud • Deprecation • Deprecation notice: Legacy grouped recommendations
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
@@ -10,7 +10,8 @@ Generated: 2026-05-17T08:17:40.897Z
 - 2026-06-15 • Microsoft Sentinel • Action required • Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 15, 2026
 - 2026-06-01 • Microsoft Entra • Action required • General Availability - Sign-in with username/alias
 - 2026-06-01 • Microsoft Sentinel • Action required • Required action
-- 2026-05-06 • Microsoft Defender for Cloud • Deprecation • General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration
+- 2026-05-17 • Microsoft Defender for Cloud • Deprecation • General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration
+- 2026-05-06 • Microsoft Defender for Cloud • Preview • SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)
 - 2026-05-05 • Microsoft Defender for Cloud • Deprecation • General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations
 - 2026-05-05 • Microsoft Defender for Cloud • Ikke oppgitt • Updated Helm installation for Defender for Containers sensor
 - 2026-05-05 • Microsoft Defender for Cloud • Ikke oppgitt • Daily score calculation enhancement for risk-based Cloud secure score
@@ -20,5 +21,4 @@ Generated: 2026-05-17T08:17:40.897Z
 - 2026-05-01 • Microsoft Defender for Endpoint • Preview • Microsoft Defender for Endpoint can now automatically isolate compromised devices as part of
 - 2026-05-01 • Microsoft Defender for Endpoint • Preview • Selective Response Actions enables organizations to tailor high-impact security operations on devices during onboarding. It provides precise control over how response actions are applied on Tier-0 systems and other high-value assets, helping maintain operational stability while delivering strong protection.
 - 2026-05-01 • Microsoft Defender for Endpoint • Ikke oppgitt • You can now configure offline security intelligence update settings for Linux directly from the Defender and Intune portals.
-- 2026-05-01 • Microsoft Defender for Identity • Ikke oppgitt • Increased sensor capacity
-- 2026-05-01 • Microsoft Defender XDR • Preview • Automatic attack disruption
+- 2026-05-01 • Microsoft Defender for Identity • Preview • Extended RPC auditing capabilities (Preview)

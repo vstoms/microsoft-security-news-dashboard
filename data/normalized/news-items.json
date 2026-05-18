@@ -157,7 +157,7 @@
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
     "title": "Deprecation notice: Legacy grouped recommendations",
-    "summary_no": "Grouped recommendation types are deprecated from the Azure portal and will be removed on",
+    "summary_no": "Grouped recommendation types are deprecated from the Azure portal and will be removed on July 30, 2026. These recommendations are currently tagged as",
     "impact_level": "Høy",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
     "published_at": "2026-07-30",
@@ -428,10 +428,10 @@
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
     "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
-    "summary_no": "d Helm installation for Defender for Containers sensor",
+    "summary_no": "SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-05-06",
+    "published_at": "2026-05-17",
     "month": "2026-05",
     "month_label": "Mai",
     "release_stage": "Deprecation",
@@ -439,12 +439,14 @@
       "Cloud"
     ],
     "theme_tags": [
+      "Identitet",
       "Hunting",
+      "Automatisering",
       "Container",
       "Cloud",
       "Lifecycle"
     ],
-    "priority_score": 103,
+    "priority_score": 108,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
@@ -1277,6 +1279,31 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
+    "id": "microsoft-defender-for-cloud-04-preview-announcement-for-sql-vulnerability-assessment-va-express-configuration-now-available-for-azure-sql-managed-instance-and-azure-synapse-analytics-workspaces",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Preview announcement for SQL Vulnerability Assessment (VA) Express Configuration now available for Azure SQL Managed Instance and Azure Synapse Analytics Workspaces.",
+    "summary_no": "Defender for Containers runtime protection on EKS Bottlerocket is now generally available",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-30",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Container",
+      "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-defender-for-cloud-04-dns-detection-for-kubernetes-is-now-generally-available",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1811,6 +1838,32 @@
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
+    "id": "microsoft-defender-for-identity-05-extended-rpc-auditing-capabilities-preview",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Extended RPC auditing capabilities (Preview)",
+    "summary_no": "Defender for Identity now supports extended RPC auditing capabilities for advanced identity detections. To enable these capabilities, apply the new",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "AI",
+      "Endpoint"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-endpoint-04-microsoft-secure-score-now-includes-the",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
@@ -2209,6 +2262,30 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-sql-vulnerability-assessment-express-configuration-now-available-for-azure-sql-managed-instance-and-synapse-preview",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)",
+    "summary_no": "Preview SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview) May 6, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-06",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-endpoint-05-automatic-device-isolation-automatic-attack-disruption",
@@ -2760,32 +2837,6 @@
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-identity-05-increased-sensor-capacity",
-    "product_slug": "microsoft-defender-for-identity",
-    "product": "Microsoft Defender for Identity",
-    "category": "Identity Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Increased sensor capacity",
-    "summary_no": "Defender for Identity now supports up to 1,000 sensors per workspace, increased from the previous limit of 350. To add more than 1,000 sensors, contact Defender for Identity support.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-05-01",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Endpoint"
-    ],
-    "priority_score": 38,
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",

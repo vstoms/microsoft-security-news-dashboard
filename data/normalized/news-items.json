@@ -150,35 +150,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-07-deprecation-notice-legacy-grouped-recommendations",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "Deprecation notice: Legacy grouped recommendations",
-    "summary_no": "Grouped recommendation types are deprecated from the Azure portal and will be removed on July 30, 2026. These recommendations are currently tagged as",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-07-30",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Deprecation",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Teams",
-      "Governance",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "priority_score": 120,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "unified-secops",
     "product": "Unified SecOps",
@@ -428,10 +399,10 @@
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
     "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
-    "summary_no": "SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)",
+    "summary_no": "Scanning support for Docker Hardened container images",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-05-17",
+    "published_at": "2026-05-19",
     "month": "2026-05",
     "month_label": "Mai",
     "release_stage": "Deprecation",
@@ -1274,31 +1245,6 @@
     "platforms": [],
     "theme_tags": [
       "Generelt"
-    ],
-    "priority_score": 63,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-04-preview-announcement-for-sql-vulnerability-assessment-va-express-configuration-now-available-for-azure-sql-managed-instance-and-azure-synapse-analytics-workspaces",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "Preview announcement for SQL Vulnerability Assessment (VA) Express Configuration now available for Azure SQL Managed Instance and Azure Synapse Analytics Workspaces.",
-    "summary_no": "Defender for Containers runtime protection on EKS Bottlerocket is now generally available",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-04-30",
-    "month": "2026-04",
-    "month_label": "April",
-    "release_stage": "GA",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Container",
-      "Cloud"
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
@@ -3034,6 +2980,32 @@
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
   },
   {
+    "id": "security-exposure-management-05-new-predefined-classification",
+    "product_slug": "security-exposure-management",
+    "product": "Security Exposure Management",
+    "category": "Exposure Management",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New predefined classification",
+    "summary_no": "classification rule was added to the critical assets list:",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Endpoint",
+      "Governance"
+    ],
+    "priority_score": 28,
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+  },
+  {
     "id": "security-exposure-management-04-new-predefined-classifications",
     "product_slug": "security-exposure-management",
     "product": "Security Exposure Management",
@@ -3130,6 +3102,50 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Scanning support for Docker Hardened container images",
+    "summary_no": "GA Scanning support for Docker Hardened container images May 18, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-18",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-microsoft-defender-experts-for-servers-as-a-managed-xdr-option",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Microsoft Defender Experts for Servers as a managed XDR option",
+    "summary_no": "GA Microsoft Defender Experts for Servers as a managed XDR option May 17, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-17",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-05-updated-helm-installation-for-defender-for-containers-sensor",

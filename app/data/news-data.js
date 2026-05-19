@@ -224,50 +224,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-07-deprecation-notice-legacy-grouped-recommendations",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-30",
-    "title": "Deprecation notice: Legacy grouped recommendations",
-    "summary": "Grouped recommendation types are deprecated from the Azure portal and will be removed on July 30, 2026. These recommendations are currently tagged as",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Identitet",
-      "AI",
-      "Teams",
-      "Governance",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 120,
-    "tags": [
-      "Deprecation",
-      "Identitet",
-      "AI",
-      "Teams",
-      "Governance",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Unified SecOps",
     "productSlug": "unified-secops",
@@ -634,9 +590,9 @@ export const newsItems = [
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
-    "publishedAt": "2026-05-17",
+    "publishedAt": "2026-05-19",
     "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
-    "summary": "SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)",
+    "summary": "Scanning support for Docker Hardened container images",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1888,42 +1844,6 @@ export const newsItems = [
     "tags": [
       "GA",
       "Generelt"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-04-preview-announcement-for-sql-vulnerability-assessment-va-express-configuration-now-available-for-azure-sql-managed-instance-and-azure-synapse-analytics-workspaces",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "April",
-    "monthKey": "2026-04",
-    "date": "April 2026",
-    "publishedAt": "2026-04-30",
-    "title": "Preview announcement for SQL Vulnerability Assessment (VA) Express Configuration now available for Azure SQL Managed Instance and Azure Synapse Analytics Workspaces.",
-    "summary": "Defender for Containers runtime protection on EKS Bottlerocket is now generally available",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container",
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 63,
-    "tags": [
-      "GA",
-      "Container",
-      "Cloud"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4439,6 +4359,44 @@ export const newsItems = [
     ]
   },
   {
+    "id": "security-exposure-management-05-new-predefined-classification",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "New predefined classification",
+    "summary": "classification rule was added to the critical assets list:",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "Identitet",
+      "Endpoint",
+      "Governance"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 28,
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "Endpoint",
+      "Governance"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
+    ]
+  },
+  {
     "id": "security-exposure-management-04-new-predefined-classifications",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
@@ -4578,6 +4536,70 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-18",
+    "title": "Scanning support for Docker Hardened container images",
+    "summary": "GA Scanning support for Docker Hardened container images May 18, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Container"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-microsoft-defender-experts-for-servers-as-a-managed-xdr-option",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-17",
+    "title": "Microsoft Defender Experts for Servers as a managed XDR option",
+    "summary": "GA Microsoft Defender Experts for Servers as a managed XDR option May 17, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
     ]
   },
   {

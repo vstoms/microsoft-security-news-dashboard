@@ -585,6 +585,33 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
+    "id": "microsoft-defender-for-identity-05-extended-rpc-auditing-capabilities-preview",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Extended RPC auditing capabilities (Preview)",
+    "summary_no": "Defender for Identity now supports extended RPC auditing capabilities for advanced identity detections. To enable these capabilities, apply the new",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Lifecycle"
+    ],
+    "priority_score": 75,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -1782,32 +1809,6 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-identity-05-extended-rpc-auditing-capabilities-preview",
-    "product_slug": "microsoft-defender-for-identity",
-    "product": "Microsoft Defender for Identity",
-    "category": "Identity Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Extended RPC auditing capabilities (Preview)",
-    "summary_no": "Defender for Identity now supports extended RPC auditing capabilities for advanced identity detections. To enable these capabilities, apply the new",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-05-01",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Endpoint"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-microsoft-secure-score-now-includes-the",

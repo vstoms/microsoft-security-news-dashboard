@@ -584,50 +584,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-05-general-availability-of-microsoft-defender-for-cloud-and-github-advanced-security-integration",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mai",
-    "monthKey": "2026-05",
-    "date": "Mai 2026",
-    "publishedAt": "2026-05-19",
-    "title": "General availability of Microsoft Defender for Cloud and GitHub Advanced Security integration",
-    "summary": "Scanning support for Docker Hardened container images",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Identitet",
-      "Hunting",
-      "Automatisering",
-      "Container",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 108,
-    "tags": [
-      "Deprecation",
-      "Identitet",
-      "Hunting",
-      "Automatisering",
-      "Container",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-cloud-03-deprecation-of-preview-of-container-and-container-images-vulnerability-recommendations",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -2632,15 +2588,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-05-automatic-attack-disruption",
+    "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "Automatic attack disruption",
-    "summary": "can now isolate compromised devices from the network when high-confidence incident analysis indicates the device is being used as an active foothold. Isolation blocks attacker communication and lateral movement while keeping the device connected to security services. The action is time-limited, scoped to devices involved in the incident, and can be released by security operators at any time.",
+    "title": "Microsoft Defender Experts for Servers",
+    "summary": "Microsoft Defender Experts for Hunting - Servers",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3256,6 +3212,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-05-cloud-security-reporting-in-microsoft-defender-portal-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-19",
+    "title": "Cloud security reporting in Microsoft Defender portal (Preview)",
+    "summary": "Preview Cloud security reporting in Microsoft Defender portal (Preview) May 19, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-05-sql-vulnerability-assessment-express-configuration-now-available-for-azure-sql-managed-instance-and-synapse-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -3366,7 +3356,7 @@ export const newsItems = [
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
     "title": "Selective Response Actions enables organizations to tailor high-impact security operations on devices during onboarding. It provides precise control over how response actions are applied on Tier-0 systems and other high-value assets, helping maintain operational stability while delivering strong protection.",
-    "summary": "Preview Selective Response Actions enables organizations to tailor high-impact security operations on devices during onboarding. It provides precise control over how response actions are applied on Tier-0 systems and other high-value assets, helping maintain operational stability while delivering strong protection.",
+    "summary": "Windows Defender Antivirus: Platform 4.18.26040.7 / Engine 1.1.26040.8",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4697,6 +4687,38 @@ export const newsItems = [
     "tags": [
       "Ikke oppgitt",
       "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-05-enhancements-and-features-for-this-release",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "enhancements and features for this release",
+    "summary": "GA See enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

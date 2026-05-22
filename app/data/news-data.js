@@ -926,6 +926,7 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
+      "Hunting",
       "Automatisering",
       "AI",
       "Endpoint",
@@ -939,6 +940,7 @@ export const newsItems = [
     "priorityScore": 68,
     "tags": [
       "GA",
+      "Hunting",
       "Automatisering",
       "AI",
       "Endpoint",

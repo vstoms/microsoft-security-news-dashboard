@@ -827,15 +827,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-05-extended-rpc-auditing-capabilities-preview",
+    "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "Extended RPC auditing capabilities (Preview)",
-    "summary": "Defender for Identity now supports extended RPC auditing capabilities for advanced identity detections. To enable these capabilities, apply the new",
+    "title": "Sensor v3.x supports all identity roles on domain controllers",
+    "summary": "Defender for Identity sensor v3.x now supports domain controllers running all identity roles, including Microsoft Entra Connect, AD FS, and AD CS identity roles. For deployment details, see",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "Preview",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -901,6 +901,40 @@ export const newsItems = [
       "Automatisering",
       "AI",
       "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
+    "id": "microsoft-sentinel-05-generate-playbooks-using-ai-in-microsoft-sentinel-is-now-generally-available-ga",
+    "product": "Microsoft Sentinel",
+    "productSlug": "microsoft-sentinel",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Generate playbooks using AI in Microsoft Sentinel is now generally available (GA)",
+    "summary": "Generate playbooks using AI in Microsoft Sentinel is now generally available (GA)",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "SIEM/SOAR",
+    "themes": [
+      "Automatisering",
+      "AI"
+    ],
+    "platforms": [],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Automatisering",
+      "AI"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

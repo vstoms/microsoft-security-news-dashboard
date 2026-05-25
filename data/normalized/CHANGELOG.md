@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-05-24T08:25:32.389Z
+Generated: 2026-05-25T09:59:53.518Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts

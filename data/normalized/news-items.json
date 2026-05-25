@@ -556,14 +556,14 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-defender-for-identity-05-extended-rpc-auditing-capabilities-preview",
+    "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
     "category": "Identity Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Extended RPC auditing capabilities (Preview)",
-    "summary_no": "Defender for Identity now supports extended RPC auditing capabilities for advanced identity detections. To enable these capabilities, apply the new",
+    "title": "Sensor v3.x supports all identity roles on domain controllers",
+    "summary_no": "Defender for Identity sensor v3.x now supports domain controllers running all identity roles, including Microsoft Entra Connect, AD FS, and AD CS identity roles. For deployment details, see",
     "impact_level": "Høy",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
     "published_at": "2026-05-01",
@@ -606,6 +606,29 @@
       "Automatisering",
       "AI",
       "Cloud"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-sentinel-05-generate-playbooks-using-ai-in-microsoft-sentinel-is-now-generally-available-ga",
+    "product_slug": "microsoft-sentinel",
+    "product": "Microsoft Sentinel",
+    "category": "SIEM/SOAR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Generate playbooks using AI in Microsoft Sentinel is now generally available (GA)",
+    "summary_no": "Generate playbooks using AI in Microsoft Sentinel is now generally available (GA)",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Automatisering",
+      "AI"
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"

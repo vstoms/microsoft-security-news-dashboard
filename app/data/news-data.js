@@ -1786,6 +1786,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-05-may-24-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-24",
+    "title": "May 24, 2026",
+    "summary": "Microsoft Defender for Open-Source Relational Databases on AWS RDS will become Generally Available",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-endpoint-05-custom-data-collection-is-now-generally-available-this-feature-enables-organizations-to-expand-and-customize-telemetry-collection-beyond-default-configurations-with-rule-based-filtering-for-specific-events-from-endpoint-devices-the-maximum-event-limit-per-rule-has-been-updated-from-25-000-to-75-000-events-per-device-within-a-24-hour-rolling-window",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -2590,40 +2624,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-05-general-availability-of-of-defender-for-cloud-integration-into-the-defender-portal",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mai",
-    "monthKey": "2026-05",
-    "date": "Mai 2026",
-    "publishedAt": "2026-05-03",
-    "title": "General availability of of Defender for Cloud integration into the Defender portal",
-    "summary": "GA General availability of of Defender for Cloud integration into the Defender portal May 3, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 53,
-    "tags": [
-      "GA",
-      "Cloud"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -3316,15 +3316,49 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-05-automatic-device-isolation-automatic-attack-disruption",
+    "id": "microsoft-defender-for-endpoint-05-schedule-antivirus-scans-on-linux",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-01",
-    "title": "Automatic device isolation (automatic attack disruption)",
+    "title": "Schedule antivirus scans on Linux",
     "summary": "Description Feature",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-05-you-can-now-configure-scheduled-antivirus-scans-on-microsoft-defender-for-endpoint-on-linux-scheduled-scans-support-daily-quick-scans-interval-based-quick-scans-and-weekly-full-scans-with-options-for-low-priority-execution-idle-time-scheduling-and-randomized-start-times-configure-scans-using-managed-json-the-microsoft-defender-portal-or-the-mdatp-cli",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "You can now configure scheduled antivirus scans on Microsoft Defender for Endpoint on Linux. Scheduled scans support daily quick scans, interval-based quick scans, and weekly full scans, with options for low-priority execution, idle-time scheduling, and randomized start times. Configure scans using managed JSON, the Microsoft Defender portal, or the mdatp CLI.",
+    "summary": "Automatic device isolation (automatic attack disruption)",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3799,7 +3833,7 @@ export const newsItems = [
     "date": "Februar 2026",
     "publishedAt": "2026-02-02",
     "title": "Threat protection for AI agents (Preview)",
-    "summary": "Microsoft Defender for Cloud now includes threat protection for AI agents built with Foundry, available in public preview as part of the Defender for AI Services plan. This new capability delivers advanced security from development through runtime, addressing high-impact, actionable threats aligned with OWASP guidance for LLM and agentic AI systems.",
+    "summary": "Microsoft Defender for Cloud now includes threat protection for AI agents built with Foundry, available in preview as part of the Defender for AI Services plan. This new capability delivers advanced security from development through runtime, addressing high-impact, actionable threats aligned with OWASP guidance for LLM and agentic AI systems.",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

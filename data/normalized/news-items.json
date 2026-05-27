@@ -762,7 +762,9 @@
     "theme_tags": [
       "Hunting",
       "Automatisering",
+      "AI",
       "Endpoint",
+      "Teams",
       "Governance"
     ],
     "priority_score": 68,
@@ -1204,13 +1206,13 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-05-may-24-2026",
+    "id": "microsoft-defender-for-cloud-05-general-availability-of-on-demand-malware-scanning-of-azure-files-in-microsoft-defender-for-storage",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
     "category": "Cloud Security",
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
-    "title": "May 24, 2026",
+    "title": "General availability of on-demand malware scanning of Azure Files in Microsoft Defender for Storage",
     "summary_no": "Microsoft Defender for Open-Source Relational Databases on AWS RDS will become Generally Available",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1342,6 +1344,29 @@
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-office-365-04-promotions-folder-for-bulk-email-preview",
+    "product_slug": "microsoft-defender-for-office-365",
+    "product": "Microsoft Defender for Office 365",
+    "category": "Email & Collaboration Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Promotions folder for bulk email (preview)",
+    "summary_no": "You can configure anti-spam policies to deliver bulk mail below the BCL threshold to the",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-04-01",
+    "month": "2026-04",
+    "month_label": "April",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "AI",
+      "Teams"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
   },
   {
     "id": "microsoft-defender-for-cloud-04-general-availability-of-container-security-capabilities-in-azure-government-cloud",
@@ -2254,14 +2279,36 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-05-schedule-antivirus-scans-on-linux",
+    "id": "microsoft-defender-for-endpoint-05-enhanced-exposure-score-in-defender-vulnerability-management",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Schedule antivirus scans on Linux",
+    "title": "Enhanced exposure score in Defender Vulnerability Management",
     "summary_no": "Description Feature",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-05-the-new-exposure-score-model-in-defender-vulnerability-management-is-now-available-in-preview-this-model-improves-risk-prioritization-and-recommendation-impact-accuracy-by-incorporating-exploit-prediction-data-epss-and-asset-context-factors-such-as-internet-facing-status-and-criticality-for-more-information-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "The new exposure score model in Defender Vulnerability Management is now available in preview. This model improves risk prioritization and recommendation impact accuracy by incorporating exploit prediction data (EPSS) and asset context factors such as internet-facing status and criticality. For more information, see",
+    "summary_no": "The new exposure score model in Defender Vulnerability Management is now available in preview. This model improves risk prioritization and recommendation impact accuracy by incorporating exploit prediction data (EPSS) and asset context factors such as internet-facing status and criticality.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-05-01",
@@ -2278,13 +2325,13 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
-    "id": "microsoft-defender-for-endpoint-05-you-can-now-configure-scheduled-antivirus-scans-on-microsoft-defender-for-endpoint-on-linux-scheduled-scans-support-daily-quick-scans-interval-based-quick-scans-and-weekly-full-scans-with-options-for-low-priority-execution-idle-time-scheduling-and-randomized-start-times-configure-scans-using-managed-json-the-microsoft-defender-portal-or-the-mdatp-cli",
+    "id": "microsoft-defender-for-endpoint-05-you-can-now-configure-scheduled-antivirus-scans-on-microsoft-defender-for-endpoint-on-linux-scheduled-scans-support-hourly-quick-scans-interval-based-quick-scans-and-weekly-full-scans-with-options-for-low-priority-execution-idle-time-scheduling-and-randomized-start-times-configure-scans-using-managed-json-the-microsoft-defender-portal-or-the-mdatp-cli",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "You can now configure scheduled antivirus scans on Microsoft Defender for Endpoint on Linux. Scheduled scans support daily quick scans, interval-based quick scans, and weekly full scans, with options for low-priority execution, idle-time scheduling, and randomized start times. Configure scans using managed JSON, the Microsoft Defender portal, or the mdatp CLI.",
+    "title": "You can now configure scheduled antivirus scans on Microsoft Defender for Endpoint on Linux. Scheduled scans support hourly quick scans, interval-based quick scans, and weekly full scans, with options for low-priority execution, idle-time scheduling, and randomized start times. Configure scans using managed JSON, the Microsoft Defender portal, or the mdatp CLI.",
     "summary_no": "Automatic device isolation (automatic attack disruption)",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

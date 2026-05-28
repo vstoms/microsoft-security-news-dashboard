@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-05-27T09:39:52.936Z
+Generated: 2026-05-28T09:56:38.639Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
@@ -11,7 +11,7 @@ Generated: 2026-05-27T09:39:52.936Z
 - 2026-06-01 • Microsoft Sentinel • Action required • Required action
 - 2026-05-24 • Microsoft Defender for Cloud • GA • General availability of on-demand malware scanning of Azure Files in Microsoft Defender for Storage
 - 2026-05-19 • Microsoft Defender for Cloud • Preview • Cloud security reporting in Microsoft Defender portal (Preview)
-- 2026-05-18 • Microsoft Defender for Cloud • Ikke oppgitt • Scanning support for Docker Hardened container images
+- 2026-05-18 • Microsoft Defender for Cloud • Preview • Scanning support for Docker Hardened container images
 - 2026-05-17 • Microsoft Defender for Cloud • Ikke oppgitt • Microsoft Defender Experts for Servers as a managed XDR option
 - 2026-05-06 • Microsoft Defender for Cloud • Preview • SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)
 - 2026-05-05 • Microsoft Defender for Cloud • Deprecation • General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations

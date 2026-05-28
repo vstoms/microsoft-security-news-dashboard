@@ -827,46 +827,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "Mai",
-    "monthKey": "2026-05",
-    "date": "Mai 2026",
-    "publishedAt": "2026-05-01",
-    "title": "Sensor v3.x supports all identity roles on domain controllers",
-    "summary": "Defender for Identity sensor v3.x now supports domain controllers running all identity roles, including Microsoft Entra Connect, AD FS, and AD CS identity roles. For deployment details, see",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet",
-      "AI",
-      "Endpoint",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 75,
-    "tags": [
-      "Preview",
-      "Identitet",
-      "AI",
-      "Endpoint",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
-    ]
-  },
-  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -1858,6 +1818,46 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-purview-05-block-access-for-specific-external-domains-or-users",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Block access for specific external domains or users",
+    "summary": "Restrict access or encrypt the content in Microsoft 365 locations",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Hunting",
+      "AI",
+      "Governance",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Hunting",
+      "AI",
+      "Governance",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-04-defender-for-containers-runtime-protection-on-eks-bottlerocket-is-now-generally-available",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -2268,6 +2268,46 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Data Security & Governance"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "Sensor v3.x supports all identity roles on domain controllers",
+    "summary": "Defender for Identity sensor v3.x now supports domain controllers running all identity roles, including Microsoft Entra Connect, AD FS, and AD CS identity roles. For deployment details, see",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Lifecycle"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 60,
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
     ]
   },
   {
@@ -3312,6 +3352,38 @@ export const newsItems = [
     "tags": [
       "Preview",
       "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-18",
+    "title": "Scanning support for Docker Hardened container images",
+    "summary": "Preview Scanning support for Docker Hardened container images May 18, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Container"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4671,38 +4743,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Mai",
-    "monthKey": "2026-05",
-    "date": "Mai 2026",
-    "publishedAt": "2026-05-18",
-    "title": "Scanning support for Docker Hardened container images",
-    "summary": "GA Scanning support for Docker Hardened container images May 18, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container"
-    ],
-    "platforms": [],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Container"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-cloud-05-microsoft-defender-experts-for-servers-as-a-managed-xdr-option",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -5832,8 +5872,8 @@ export const releaseStages = [
   "Action required",
   "Deprecation",
   "GA",
-  "Preview",
-  "Ikke oppgitt"
+  "Ikke oppgitt",
+  "Preview"
 ];
 export const sourceTypes = [
   "whats-new",

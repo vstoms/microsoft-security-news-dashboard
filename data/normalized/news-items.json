@@ -556,33 +556,6 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
-    "product_slug": "microsoft-defender-for-identity",
-    "product": "Microsoft Defender for Identity",
-    "category": "Identity Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Sensor v3.x supports all identity roles on domain controllers",
-    "summary_no": "Defender for Identity sensor v3.x now supports domain controllers running all identity roles, including Microsoft Entra Connect, AD FS, and AD CS identity roles. For deployment details, see",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-05-01",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "AI",
-      "Endpoint",
-      "Lifecycle"
-    ],
-    "priority_score": 75,
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
-  },
-  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -1254,6 +1227,33 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
+    "id": "microsoft-purview-05-block-access-for-specific-external-domains-or-users",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Block access for specific external domains or users",
+    "summary_no": "Restrict access or encrypt the content in Microsoft 365 locations",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "AI",
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-cloud-04-defender-for-containers-runtime-protection-on-eks-bottlerocket-is-now-generally-available",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1536,6 +1536,33 @@
     ],
     "priority_score": 63,
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Sensor v3.x supports all identity roles on domain controllers",
+    "summary_no": "Defender for Identity sensor v3.x now supports domain controllers running all identity roles, including Microsoft Entra Connect, AD FS, and AD CS identity roles. For deployment details, see",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Lifecycle"
+    ],
+    "priority_score": 60,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-entra-04-general-availability-microsoft-entra-agent-id-platform",
@@ -2250,6 +2277,28 @@
     ],
     "theme_tags": [
       "Cloud"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Scanning support for Docker Hardened container images",
+    "summary_no": "Preview Scanning support for Docker Hardened container images May 18, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-18",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
@@ -3193,28 +3242,6 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "Scanning support for Docker Hardened container images",
-    "summary_no": "GA Scanning support for Docker Hardened container images May 18, 2026",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-05-18",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Container"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-05-microsoft-defender-experts-for-servers-as-a-managed-xdr-option",

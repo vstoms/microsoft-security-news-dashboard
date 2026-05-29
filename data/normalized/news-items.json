@@ -626,7 +626,6 @@
       "Cloud"
     ],
     "theme_tags": [
-      "Hunting",
       "Automatisering",
       "AI",
       "Endpoint",
@@ -1203,6 +1202,30 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
+    "id": "microsoft-defender-for-endpoint-05-the-defender-for-endpoint-security-solution-for-legacy-windows-7-sp1-and-windows-server-2008-r2-sp1-devices-is-now-generally-available-the-solution-provides-advanced-protection-capabilities-and-improved-functionality-for-these-devices-compared-to-other-solutions-the-solution-is-available-using-the",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "The Defender for endpoint security solution for legacy Windows 7 SP1 and Windows Server 2008 R2 SP1 devices is now generally available. The solution provides advanced protection capabilities and improved functionality for these devices compared to other solutions. The solution is available using the",
+    "summary_no": "Enhanced exposure score in Defender Vulnerability Management",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
     "id": "microsoft-defender-for-endpoint-05-custom-data-collection-is-now-generally-available-this-feature-enables-organizations-to-expand-and-customize-telemetry-collection-beyond-default-configurations-with-rule-based-filtering-for-specific-events-from-endpoint-devices-the-maximum-event-limit-per-rule-has-been-updated-from-25-000-to-75-000-events-per-device-within-a-24-hour-rolling-window",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
@@ -1245,7 +1268,6 @@
       "Cloud"
     ],
     "theme_tags": [
-      "Hunting",
       "AI",
       "Governance",
       "Cloud"
@@ -2328,13 +2350,13 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-05-enhanced-exposure-score-in-defender-vulnerability-management",
+    "id": "microsoft-defender-for-endpoint-05-defender-endpoint-security-solution-for-windows-7-sp1-and-windows-server-2008-r2-sp1",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Enhanced exposure score in Defender Vulnerability Management",
+    "title": "Defender endpoint security solution for Windows 7 SP1 and Windows Server 2008 R2 SP1",
     "summary_no": "Description Feature",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2342,9 +2364,11 @@
     "month": "2026-05",
     "month_label": "Mai",
     "release_stage": "Preview",
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "theme_tags": [
-      "Generelt"
+      "Endpoint"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -2444,6 +2468,28 @@
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-purview-05-custom-posture-reports",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Custom posture reports",
+    "summary_no": "let admins build tailored views of information protection and DLP activity. Assemble metric and chart cards in sections to answer organization-specific questions that complement the built-in posture reports.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Hunting"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-new-microsoft-secure-score-recommendation",
@@ -3331,28 +3377,6 @@
     ],
     "theme_tags": [
       "Endpoint"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-05-enhancements-and-features-for-this-release",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "enhancements and features for this release",
-    "summary_no": "GA See enhancements and features for this release",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-05-01",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"

@@ -607,6 +607,53 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-entra-05-general-availability",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability",
+    "summary_no": "Microsoft Registration Campaigns now supports Passkeys (FIDO2) as an authentication method. Administrators can configure registration campaigns to nudge users to register passkeys during sign-in, helping organizations drive passkey adoption at scale. This first rollout experience is optimized for users who are in a passkey profile that doesn't have any restrictions.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-entra-05-general-availability-modernized-my-account-pages",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability - Modernized My Account pages",
+    "summary_no": "We're excited to announce the upcoming general availability of three redesigned pages in the My Account portal (myaccount.microsoft.com), bringing a modernized experience to help end users manage their account with greater ease and clarity.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
     "id": "microsoft-purview-05-general-availability-ga",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -1587,6 +1634,28 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
+    "id": "microsoft-entra-05-general-availability-support-for-passkeys-in-microsoft-entra-id-registration-campaign",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability - Support for passkeys in Microsoft Entra ID registration campaign",
+    "summary_no": "General Availability - Support for passkeys in Microsoft Entra ID registration campaign Type:",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet"
+    ],
+    "priority_score": 58,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
     "id": "microsoft-entra-04-general-availability-microsoft-entra-agent-id-platform",
     "product_slug": "microsoft-entra",
     "product": "Microsoft Entra",
@@ -1878,6 +1947,79 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+  },
+  {
+    "id": "microsoft-entra-05-public-preview-enable-soft-delete-for-microsoft-entra-device-objects",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Public Preview - Enable soft-delete for Microsoft Entra Device objects",
+    "summary_no": "Device Soft Delete, now available in preview, enables administrators to safely remove device objects by moving them to a recoverable state instead of permanently deleting them. This feature allows organizations to restore devices within a defined retention period while preserving critical data such as device identity and associated security artifacts. The feature supports Microsoft Entra joined, registered, and hybrid joined devices and helps reduce risk from accidental deletions while improving device lifecycle management.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-entra-05-public-preview-sensitivity-labels-for-microsoft-entra-security-groups",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Public Preview - Sensitivity labels for Microsoft Entra security groups",
+    "summary_no": "Microsoft Entra ID now supports applying Microsoft Purview sensitivity labels to Entra cloud security groups in public preview.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-entra-05-general-availability-cross-tenant-group-synchronization",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability - Cross tenant group synchronization",
+    "summary_no": "General Availability - Cross tenant group synchronization Type:",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-microsoft-secure-score-now-includes-the",

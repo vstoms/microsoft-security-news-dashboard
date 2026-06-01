@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-05-31T08:41:36.852Z
+Generated: 2026-06-01T11:26:44.891Z
 
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
@@ -9,14 +9,14 @@ Generated: 2026-05-31T08:41:36.852Z
 - 2026-06-15 • Microsoft Sentinel • Action required • Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 15, 2026
 - 2026-06-01 • Microsoft Entra • Action required • General Availability - Sign-in with username/alias
 - 2026-06-01 • Microsoft Sentinel • Action required • Required action
+- 2026-05-31 • Microsoft Defender for Cloud • Preview • Private clusters protection for gated deployment, binary drift detection, and malware detection
+- 2026-05-26 • Microsoft Defender for Cloud • Preview • Malware detection for EKS and GKE nodes
 - 2026-05-24 • Microsoft Defender for Cloud • GA • General availability of on-demand malware scanning of Azure Files in Microsoft Defender for Storage
 - 2026-05-19 • Microsoft Defender for Cloud • Preview • Cloud security reporting in Microsoft Defender portal (Preview)
 - 2026-05-18 • Microsoft Defender for Cloud • Preview • Scanning support for Docker Hardened container images
 - 2026-05-17 • Microsoft Defender for Cloud • Ikke oppgitt • Microsoft Defender Experts for Servers as a managed XDR option
 - 2026-05-06 • Microsoft Defender for Cloud • Preview • SQL Vulnerability Assessment Express Configuration now available for Azure SQL Managed Instance and Synapse (Preview)
-- 2026-05-05 • Microsoft Defender for Cloud • Deprecation • General availability of individual recommendations for Defender for Cloud in Azure portal and Deprecation of legacy grouped recommendations
 - 2026-05-05 • Microsoft Defender for Cloud • Ikke oppgitt • Updated Helm installation for Defender for Containers sensor
-- 2026-05-05 • Microsoft Defender for Cloud • Ikke oppgitt • Daily score calculation enhancement for risk-based Cloud secure score
 - 2026-05-01 • Microsoft Defender for Endpoint • GA • The Defender for endpoint security solution for legacy Windows 7 SP1 and Windows Server 2008 R2 SP1 devices is now generally available. The solution provides advanced protection capabilities and improved functionality for these devices compared to other solutions. The solution is available using the
 - 2026-05-01 • Microsoft Defender for Endpoint • GA • Custom data collection is now generally available. This feature enables organizations to expand and customize telemetry collection beyond default configurations with rule-based filtering for specific events from endpoint devices. The maximum event limit per rule has been updated from 25,000 to 75,000 events per device within a 24-hour rolling window.
 - 2026-05-01 • Microsoft Defender for Endpoint • Preview • Defender endpoint security solution for Windows 7 SP1 and Windows Server 2008 R2 SP1

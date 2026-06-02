@@ -181,6 +181,38 @@
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
   },
   {
+    "id": "microsoft-defender-for-cloud-06-serverless-protection-for-azure-and-aws-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Serverless protection for Azure and AWS is now generally available",
+    "summary_no": "General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Deprecation",
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Automatisering",
+      "AI",
+      "Container",
+      "Endpoint",
+      "Teams",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 120,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-entra-05-plan-for-change-agent-registry-consolidation-into-microsoft-agent-365",
     "product_slug": "microsoft-entra",
     "product": "Microsoft Entra",
@@ -1896,6 +1928,30 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
+    "id": "microsoft-defender-for-cloud-06-general-availability-of-microsoft-defender-for-open-source-relational-databases-on-aws-rds",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS",
+    "summary_no": "GA General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS June 1, 2026",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
@@ -2028,8 +2084,8 @@
     "category": "Cloud Security",
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
-    "title": "General availability of Defender for Storage integration in Azure Portal Storage Center",
-    "summary_no": "GA General availability of Defender for Storage integration in Azure Portal Storage Center April 1, 2026",
+    "title": "General availability of Defender for Storage integration in Azure portal Storage Center",
+    "summary_no": "GA General availability of Defender for Storage integration in Azure portal Storage Center April 1, 2026",
     "impact_level": "Lav",
     "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-04-01",
@@ -2395,6 +2451,50 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-container-level-misconfiguration-recommendations-for-kubernetes-preview",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Container-level misconfiguration recommendations for Kubernetes (Preview)",
+    "summary_no": "Preview Container-level misconfiguration recommendations for Kubernetes (Preview) June 1, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-new-actionable-recommendation-to-upgrade-aks-for-system-pod-vulnerabilities-preview",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "New actionable recommendation to upgrade AKS for system pod vulnerabilities (Preview)",
+    "summary_no": "Preview New actionable recommendation to upgrade AKS for system pod vulnerabilities (Preview) June 1, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-05-private-clusters-protection-for-gated-deployment-binary-drift-detection-and-malware-detection",

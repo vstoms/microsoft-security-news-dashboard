@@ -188,10 +188,10 @@
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
     "title": "Serverless protection for Azure and AWS is now generally available",
-    "summary_no": "General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS",
+    "summary_no": "Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview)",
     "impact_level": "Høy",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-06-01",
+    "published_at": "2026-06-04",
     "month": "2026-06",
     "month_label": "Juni",
     "release_stage": "Deprecation",
@@ -563,6 +563,33 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
+    "id": "microsoft-entra-05-public-preview-workload-identity-based-authentication-for-sap-successfactors-provisioning-integrations",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Public Preview - Workload identity-based authentication for SAP SuccessFactors provisioning integrations",
+    "summary_no": "Microsoft Entra is introducing workload identity–based authentication for SAP SuccessFactors provisioning. This new capability allows the Microsoft Entra provisioning service to authenticate to SAP SuccessFactors using Entra workload identity and short‑lived tokens instead of static credentials (username and password).",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "Preview",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Automatisering",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 75,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -612,28 +639,6 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-entra-05-general-availability",
-    "product_slug": "microsoft-entra",
-    "product": "Microsoft Entra",
-    "category": "Identity & Access",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "General Availability",
-    "summary_no": "Microsoft Registration Campaigns now supports Passkeys (FIDO2) as an authentication method. Administrators can configure registration campaigns to nudge users to register passkeys during sign-in, helping organizations drive passkey adoption at scale. This first rollout experience is optimized for users who are in a passkey profile that doesn't have any restrictions.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-05-01",
-    "month": "2026-05",
-    "month_label": "Mai",
-    "release_stage": "GA",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet"
-    ],
-    "priority_score": 68,
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
     "id": "microsoft-entra-05-general-availability-modernized-my-account-pages",
@@ -1232,6 +1237,35 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
+    "id": "microsoft-defender-xdr-06-local-ai-agent-discovery-on-windows-endpoints-as-part-of-the",
+    "product_slug": "microsoft-defender-xdr",
+    "product": "Microsoft Defender XDR",
+    "category": "XDR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Local AI agent discovery on Windows endpoints: as part of the",
+    "summary_no": "(Preview) Local AI agent discovery on Windows endpoints: as part of the",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams",
+      "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-cloud-05-general-availability-of-on-demand-malware-scanning-of-azure-files-in-microsoft-defender-for-storage",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1639,6 +1673,29 @@
     ],
     "priority_score": 60,
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
+    "id": "microsoft-entra-05-general-availability",
+    "product_slug": "microsoft-entra",
+    "product": "Microsoft Entra",
+    "category": "Identity & Access",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "General Availability",
+    "summary_no": "Cross tenant group synchronization allows organizations to synchronize security groups across Microsoft Entra tenants. This feature enables centralized management of group membership in a source tenant while making those groups available in one or more target tenants, simplifying cross-tenant collaboration and reducing administrative overhead associated with managing duplicate groups.",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-05-01",
+    "month": "2026-05",
+    "month_label": "Mai",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet",
+      "Governance"
+    ],
+    "priority_score": 58,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
     "id": "microsoft-entra-05-general-availability-support-for-passkeys-in-microsoft-entra-id-registration-campaign",
@@ -2451,6 +2508,124 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-vulnerability-assessment-extended-to-runtime-discovered-container-images-on-eks-and-gke-preview",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview)",
+    "summary_no": "Preview Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview) June 2, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-02",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-local-ai-agent-discovery",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Local AI agent discovery",
+    "summary_no": "Description Feature",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "AI"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-microsoft-defender-for-endpoint-now-automatically-discovers-supported-local-ai-agents-running-on-onboarded-windows-devices-including-coding-agents-and-ide-extensions-desktop-ai-assistants-local-ai-runtimes-and-agent-platforms-discovered-agents-appear-as-assets-in-the-ai-agent-inventory-exposure-map-and-advanced-hunting-giving-security-teams-visibility-into-local-ai-agent-usage-across-the-organization-for-more-information-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Microsoft Defender for Endpoint now automatically discovers supported local AI agents running on onboarded Windows devices — including coding agents and IDE extensions, desktop AI assistants, local AI runtimes, and agent platforms. Discovered agents appear as assets in the AI agent inventory, exposure map, and advanced hunting, giving security teams visibility into local AI agent usage across the organization. For more information, see",
+    "summary_no": "Microsoft Defender for Endpoint now automatically discovers supported local AI agents running on onboarded Windows devices — including coding agents and IDE extensions, desktop AI assistants, local AI runtimes, and agent platforms. Discovered agents appear as assets in the AI agent inventory, exposure map, and advanced hunting, giving security teams visibility into local AI agent usage across the organization.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-runtime-protection-for-supported-local-ai-agents-on-windows-endpoints-is-now-available-in-public-preview-microsoft-defender-inspects-the-agent-loop-user-prompts-tool-calls-and-tool-responses-and-can-block-risky-activity-before-it-executes-helping-stop-prompt-injection-and-unsafe-agent-actions-at-the-device-level-blocked-and-audited-events-appear-as-alerts-in-microsoft-defender-to-support-incident-correlation-and-investigation-workflows-for-more-information-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Runtime protection for supported local AI agents on Windows endpoints is now available in public preview. Microsoft Defender inspects the agent loop (user prompts, tool calls, and tool responses) and can block risky activity before it executes, helping stop prompt injection and unsafe agent actions at the device level. Blocked and audited events appear as alerts in Microsoft Defender to support incident correlation and investigation workflows. For more information, see",
+    "summary_no": "Runtime protection for supported local AI agents on Windows endpoints is now available in public preview. Microsoft Defender inspects the agent loop (user prompts, tool calls, and tool responses) and can block risky activity before it executes, helping stop prompt injection and unsafe agent actions at the device level. Blocked and audited events appear as alerts in Microsoft Defender to support incident correlation and investigation workflows.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "AI",
+      "Endpoint"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-kubernetes-node-vulnerability-assessment-extended-to-eks-and-gke-preview",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Kubernetes node vulnerability assessment extended to EKS and GKE (Preview)",
+    "summary_no": "Preview Kubernetes node vulnerability assessment extended to EKS and GKE (Preview) June 1, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-06-container-level-misconfiguration-recommendations-for-kubernetes-preview",
@@ -3302,6 +3477,32 @@
     ],
     "priority_score": 38,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-purview-06-data-loss-prevention",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Data Loss Prevention",
+    "summary_no": "Access Endpoint DLP device attribute data using Advanced Hunting",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "Endpoint",
+      "Governance"
+    ],
+    "priority_score": 33,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-sentinel-05-ueba-enhancements-new-settings-experience-okta-v2-support-and-more-gcp-anomaly-detections",

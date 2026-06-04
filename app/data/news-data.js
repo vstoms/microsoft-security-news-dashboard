@@ -277,9 +277,9 @@ export const newsItems = [
     "month": "Juni",
     "monthKey": "2026-06",
     "date": "Juni 2026",
-    "publishedAt": "2026-06-04",
+    "publishedAt": "2026-06-03",
     "title": "Serverless protection for Azure and AWS is now generally available",
-    "summary": "Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview)",
+    "summary": "Kubernetes misconfiguration enforcement in Defender for Containers (Preview)",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -687,6 +687,7 @@ export const newsItems = [
       "Identitet",
       "Container",
       "Endpoint",
+      "Teams",
       "Governance",
       "Cloud",
       "Lifecycle"
@@ -701,6 +702,7 @@ export const newsItems = [
       "Identitet",
       "Container",
       "Endpoint",
+      "Teams",
       "Governance",
       "Cloud",
       "Lifecycle"
@@ -810,27 +812,22 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
-      "Automatisering",
       "AI",
       "Endpoint",
       "Teams",
       "Governance",
-      "Cloud",
       "Lifecycle"
     ],
     "platforms": [
-      "Endpoint",
-      "Cloud"
+      "Endpoint"
     ],
-    "priorityScore": 90,
+    "priorityScore": 85,
     "tags": [
       "GA",
-      "Automatisering",
       "AI",
       "Endpoint",
       "Teams",
       "Governance",
-      "Cloud",
       "Lifecycle"
     ],
     "analysis": [
@@ -1837,13 +1834,13 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-06-local-ai-agent-discovery-on-windows-endpoints-as-part-of-the",
+    "id": "microsoft-defender-xdr-07-local-ai-agent-discovery-on-windows-endpoints-as-part-of-the",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
     "title": "Local AI agent discovery on Windows endpoints: as part of the",
     "summary": "(Preview) Local AI agent discovery on Windows endpoints: as part of the",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
@@ -1858,6 +1855,7 @@ export const newsItems = [
       "AI",
       "Endpoint",
       "Teams",
+      "Governance",
       "Cloud"
     ],
     "platforms": [
@@ -1871,6 +1869,7 @@ export const newsItems = [
       "AI",
       "Endpoint",
       "Teams",
+      "Governance",
       "Cloud"
     ],
     "analysis": [
@@ -2473,6 +2472,46 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-entra-05-general-availability-netbiosname-resolution-test-now-informational",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Mai",
+    "monthKey": "2026-05",
+    "date": "Mai 2026",
+    "publishedAt": "2026-05-01",
+    "title": "General Availability - NetBiosName resolution test now informational",
+    "summary": "The “NetBIOS Name Sysvol Connectivity resolution” test in the AD DS health monitoring agent has been",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 58,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
     "id": "microsoft-entra-05-general-availability",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
@@ -2499,38 +2538,6 @@ export const newsItems = [
       "GA",
       "Identitet",
       "Governance"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity & Access"
-    ]
-  },
-  {
-    "id": "microsoft-entra-05-general-availability-support-for-passkeys-in-microsoft-entra-id-registration-campaign",
-    "product": "Microsoft Entra",
-    "productSlug": "microsoft-entra",
-    "month": "Mai",
-    "monthKey": "2026-05",
-    "date": "Mai 2026",
-    "publishedAt": "2026-05-01",
-    "title": "General Availability - Support for passkeys in Microsoft Entra ID registration campaign",
-    "summary": "General Availability - Support for passkeys in Microsoft Entra ID registration campaign Type:",
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "releaseStage": "GA",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity & Access",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "priorityScore": 58,
-    "tags": [
-      "GA",
-      "Identitet"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
@@ -2927,6 +2934,44 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-microsoft-secure-score-now-includes-the",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Microsoft Secure Score now includes the",
+    "summary": "Reduce unnecessary inbound internet exposure on internet-facing devices",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "AI",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {
@@ -3694,6 +3739,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-06-kubernetes-misconfiguration-enforcement-in-defender-for-containers-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-02",
+    "title": "Kubernetes misconfiguration enforcement in Defender for Containers (Preview)",
+    "summary": "Preview Kubernetes misconfiguration enforcement in Defender for Containers (Preview) June 2, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Container"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-vulnerability-assessment-extended-to-runtime-discovered-container-images-on-eks-and-gke-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -3726,14 +3803,14 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-06-local-ai-agent-discovery",
+    "id": "microsoft-defender-for-endpoint-06-new-microsoft-secure-score-recommendation",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Juni",
     "monthKey": "2026-06",
     "date": "Juni 2026",
     "publishedAt": "2026-06-01",
-    "title": "Local AI agent discovery",
+    "title": "New Microsoft Secure Score recommendation",
     "summary": "Description Feature",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
@@ -3743,13 +3820,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "AI"
+      "Generelt"
     ],
     "platforms": [],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "AI"
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3930,6 +4007,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-sentinel-06-reason-over-microsoft-sentinel-graphs-with-graph-tool-preview",
+    "product": "Microsoft Sentinel",
+    "productSlug": "microsoft-sentinel",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Reason over Microsoft Sentinel graphs with graph tool (Preview)",
+    "summary": "The graph tool collection in the Microsoft Sentinel Model Context Protocol (MCP) server provides visual graph-based exploration of relationships across identities, devices, threats, and signals to assess coverage, dependencies, and configuration gaps.",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "SIEM/SOAR",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-05-private-clusters-protection-for-gated-deployment-binary-drift-detection-and-malware-detection",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -4028,15 +4139,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images",
+    "id": "microsoft-defender-for-cloud-05-scanning-support-for-docker-hardened-container-images-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
     "month": "Mai",
     "monthKey": "2026-05",
     "date": "Mai 2026",
     "publishedAt": "2026-05-18",
-    "title": "Scanning support for Docker Hardened container images",
-    "summary": "Preview Scanning support for Docker Hardened container images May 18, 2026",
+    "title": "Scanning support for Docker Hardened container images (preview)",
+    "summary": "Preview Scanning support for Docker Hardened container images (preview) May 18, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

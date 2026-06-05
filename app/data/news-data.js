@@ -277,9 +277,9 @@ export const newsItems = [
     "month": "Juni",
     "monthKey": "2026-06",
     "date": "Juni 2026",
-    "publishedAt": "2026-06-03",
+    "publishedAt": "2026-06-04",
     "title": "Serverless protection for Azure and AWS is now generally available",
-    "summary": "Kubernetes misconfiguration enforcement in Defender for Containers (Preview)",
+    "summary": "Discovery and posture for serverless container workloads (Preview)",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -3739,6 +3739,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-06-discovery-and-posture-for-serverless-container-workloads-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-03",
+    "title": "Discovery and posture for serverless container workloads (Preview)",
+    "summary": "Preview Discovery and posture for serverless container workloads (Preview) June 3, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Container"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-kubernetes-misconfiguration-enforcement-in-defender-for-containers-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -3746,8 +3778,8 @@ export const newsItems = [
     "monthKey": "2026-06",
     "date": "Juni 2026",
     "publishedAt": "2026-06-02",
-    "title": "Kubernetes misconfiguration enforcement in Defender for Containers (Preview)",
-    "summary": "Preview Kubernetes misconfiguration enforcement in Defender for Containers (Preview) June 2, 2026",
+    "title": "Kubernetes misconfiguration enforcement in Defender for Containers (preview)",
+    "summary": "Preview Kubernetes misconfiguration enforcement in Defender for Containers (preview) June 2, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

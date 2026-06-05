@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-06-04T09:52:06.428Z
+Generated: 2026-06-05T09:41:06.091Z
 
 - 2026-07-01 • Microsoft Defender XDR • GA • Local AI agent discovery on Windows endpoints: as part of the
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
@@ -8,8 +8,9 @@ Generated: 2026-06-04T09:52:06.428Z
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-07-01 • Unified SecOps • Deprecation • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-06-15 • Microsoft Sentinel • Action required • Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 15, 2026
-- 2026-06-03 • Microsoft Defender for Cloud • Deprecation • Serverless protection for Azure and AWS is now generally available
-- 2026-06-02 • Microsoft Defender for Cloud • Preview • Kubernetes misconfiguration enforcement in Defender for Containers (Preview)
+- 2026-06-04 • Microsoft Defender for Cloud • Deprecation • Serverless protection for Azure and AWS is now generally available
+- 2026-06-03 • Microsoft Defender for Cloud • Preview • Discovery and posture for serverless container workloads (Preview)
+- 2026-06-02 • Microsoft Defender for Cloud • Preview • Kubernetes misconfiguration enforcement in Defender for Containers (preview)
 - 2026-06-02 • Microsoft Defender for Cloud • Preview • Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview)
 - 2026-06-01 • Microsoft Defender for Cloud • GA • General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS
 - 2026-06-01 • Microsoft Defender for Cloud • Preview • Kubernetes node vulnerability assessment extended to EKS and GKE (Preview)
@@ -21,4 +22,3 @@ Generated: 2026-06-04T09:52:06.428Z
 - 2026-06-01 • Microsoft Defender for Endpoint • Preview • Runtime protection for supported local AI agents on Windows endpoints is now available in public preview. Microsoft Defender inspects the agent loop (user prompts, tool calls, and tool responses) and can block risky activity before it executes, helping stop prompt injection and unsafe agent actions at the device level. Blocked and audited events appear as alerts in Microsoft Defender to support incident correlation and investigation workflows. For more information, see
 - 2026-06-01 • Microsoft Entra • Action required • General Availability - Sign-in with username/alias
 - 2026-06-01 • Microsoft Purview • Ikke oppgitt • Data Loss Prevention
-- 2026-06-01 • Microsoft Sentinel • Action required • Required action

@@ -5125,6 +5125,46 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-purview-06-data-loss-prevention",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Data Loss Prevention",
+    "summary": "Access Endpoint DLP device attribute data using Advanced Hunting",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "Endpoint",
+      "Governance"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 38,
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "Hunting",
+      "Endpoint",
+      "Governance"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
     "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -5228,44 +5268,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
-    ]
-  },
-  {
-    "id": "microsoft-purview-06-data-loss-prevention",
-    "product": "Microsoft Purview",
-    "productSlug": "microsoft-purview",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
-    "title": "Data Loss Prevention",
-    "summary": "Access Endpoint DLP device attribute data using Advanced Hunting",
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Data Security & Governance",
-    "themes": [
-      "Hunting",
-      "Endpoint",
-      "Governance"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 33,
-    "tags": [
-      "Ikke oppgitt",
-      "Hunting",
-      "Endpoint",
-      "Governance"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Data Security & Governance"
     ]
   },
   {

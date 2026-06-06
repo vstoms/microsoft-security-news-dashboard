@@ -3505,6 +3505,33 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-purview-06-data-loss-prevention",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Data Loss Prevention",
+    "summary_no": "Access Endpoint DLP device attribute data using Advanced Hunting",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Hunting",
+      "Endpoint",
+      "Governance"
+    ],
+    "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -3575,32 +3602,6 @@
     ],
     "priority_score": 38,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-purview-06-data-loss-prevention",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Data Loss Prevention",
-    "summary_no": "Access Endpoint DLP device attribute data using Advanced Hunting",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Hunting",
-      "Endpoint",
-      "Governance"
-    ],
-    "priority_score": 33,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-sentinel-05-ueba-enhancements-new-settings-experience-okta-v2-support-and-more-gcp-anomaly-detections",

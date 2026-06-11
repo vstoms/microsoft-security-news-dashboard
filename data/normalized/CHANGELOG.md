@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-06-10T09:53:49.479Z
+Generated: 2026-06-11T10:18:32.849Z
 
 - 2026-07-01 • Microsoft Defender XDR • GA • Local AI agent discovery on Windows endpoints: as part of the
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts

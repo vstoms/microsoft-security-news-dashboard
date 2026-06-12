@@ -271,55 +271,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-06-serverless-protection-for-azure-and-aws-is-now-generally-available",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-04",
-    "title": "Serverless protection for Azure and AWS is now generally available",
-    "summary": "Discovery and posture for serverless container workloads (Preview)",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Identitet",
-      "Automatisering",
-      "AI",
-      "Container",
-      "Endpoint",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "priorityScore": 120,
-    "tags": [
-      "Deprecation",
-      "Identitet",
-      "Automatisering",
-      "AI",
-      "Container",
-      "Endpoint",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-entra-05-plan-for-change-agent-registry-consolidation-into-microsoft-agent-365",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
@@ -877,6 +828,53 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-xdr-07-identity-security-dashboard",
+    "product": "Microsoft Defender XDR",
+    "productSlug": "microsoft-defender-xdr",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Identity Security dashboard",
+    "summary": "card that shows your human identities by source (Entra ID, SaaS, and on-premises), giving you a single view of where your human identities live.",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "XDR",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams",
+      "Governance",
+      "Cloud"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams",
+      "Governance",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: XDR"
+    ]
+  },
+  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -1211,6 +1209,7 @@ export const newsItems = [
     "themes": [
       "Identitet",
       "Hunting",
+      "Teams",
       "Cloud"
     ],
     "platforms": [
@@ -1221,6 +1220,7 @@ export const newsItems = [
       "GA",
       "Identitet",
       "Hunting",
+      "Teams",
       "Cloud"
     ],
     "analysis": [
@@ -1834,48 +1834,75 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-07-local-ai-agent-discovery-on-windows-endpoints-as-part-of-the",
-    "product": "Microsoft Defender XDR",
-    "productSlug": "microsoft-defender-xdr",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-01",
-    "title": "Local AI agent discovery on Windows endpoints: as part of the",
-    "summary": "(Preview) Local AI agent discovery on Windows endpoints: as part of the",
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "id": "microsoft-defender-for-cloud-06-sql-vulnerability-assessment-express-configuration-is-now-generally-available-for-azure-sql-managed-instance-and-azure-synapse-analytics-workspaces",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-04",
+    "title": "SQL Vulnerability Assessment Express Configuration is now generally available for Azure SQL Managed Instance and Azure Synapse Analytics workspaces",
+    "summary": "GA SQL Vulnerability Assessment Express Configuration is now generally available for Azure SQL Managed Instance and Azure Synapse Analytics workspaces June 4, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "impactLevel": "Middels",
-    "sourceType": "whats-new",
+    "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
-    "category": "XDR",
+    "category": "Cloud Security",
     "themes": [
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Teams",
-      "Governance",
       "Cloud"
     ],
     "platforms": [
-      "Endpoint",
       "Cloud"
     ],
     "priorityScore": 63,
     "tags": [
       "GA",
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Teams",
-      "Governance",
       "Cloud"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-purview-06-block-external-email-from-being-processed-preview",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Block external email from being processed (preview)",
+    "summary": "Monitor device health with the device health reports dashboard",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "AI",
+      "Endpoint",
+      "Governance"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "AI",
+      "Endpoint",
+      "Governance"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: XDR"
+      "Kategori: Data Security & Governance"
     ]
   },
   {
@@ -3009,6 +3036,48 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-purview-06-data-loss-prevention",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Data Loss Prevention",
+    "summary": "Access Endpoint DLP device attribute data using Advanced Hunting",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Governance"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Governance"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -3518,6 +3587,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-02-the-new-version-of-the-tool-streamlines-onboarding-and-enhances-security-by",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Februar",
+    "monthKey": "2026-02",
+    "date": "Februar 2026",
+    "publishedAt": "2026-02-01",
+    "title": "The new version of the tool streamlines onboarding and enhances security by",
+    "summary": "The new version of the tool streamlines onboarding and enhances security by:",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-sentinel-02-ueba-behaviors-webinar",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -3739,6 +3844,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-06-new-multicloud-security-recommendations-now-in-public-preview",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-08",
+    "title": "New multicloud security recommendations now in public preview",
+    "summary": "Preview New multicloud security recommendations now in public preview June 8, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-discovery-and-posture-for-serverless-container-workloads-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -3835,15 +3974,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-06-new-microsoft-secure-score-recommendation",
+    "id": "microsoft-defender-for-endpoint-06-release-windows",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Juni",
     "monthKey": "2026-06",
     "date": "Juni 2026",
     "publishedAt": "2026-06-01",
-    "title": "New Microsoft Secure Score recommendation",
-    "summary": "Description Feature",
+    "title": "Release - Windows",
+    "summary": "Windows Defender Antivirus: Platform 4.18.26050.15 / Engine 1.1.26050.11",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3852,13 +3991,15 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Generelt"
+      "Endpoint"
     ],
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Generelt"
+      "Endpoint"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3984,38 +4125,6 @@ export const newsItems = [
     "publishedAt": "2026-06-01",
     "title": "Container-level misconfiguration recommendations for Kubernetes (Preview)",
     "summary": "Preview Container-level misconfiguration recommendations for Kubernetes (Preview) June 1, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container"
-    ],
-    "platforms": [],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Container"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-06-new-actionable-recommendation-to-upgrade-aks-for-system-pod-vulnerabilities-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
-    "title": "New actionable recommendation to upgrade AKS for system pod vulnerabilities (Preview)",
-    "summary": "Preview New actionable recommendation to upgrade AKS for system pod vulnerabilities (Preview) June 1, 2026",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4848,15 +4957,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-02-release-macos",
+    "id": "microsoft-defender-for-endpoint-02-what-s-new-and-release-notes-documentation-updates",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Februar",
     "monthKey": "2026-02",
     "date": "Februar 2026",
     "publishedAt": "2026-02-01",
-    "title": "Release - macOS",
-    "summary": "Description Release - macOS",
+    "title": "What's new and release notes documentation updates",
+    "summary": "Description Feature",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -4865,15 +4974,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Endpoint"
+      "Generelt"
     ],
-    "platforms": [
-      "Endpoint"
-    ],
+    "platforms": [],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Endpoint"
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -5122,46 +5229,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
-    ]
-  },
-  {
-    "id": "microsoft-purview-06-data-loss-prevention",
-    "product": "Microsoft Purview",
-    "productSlug": "microsoft-purview",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
-    "title": "Data Loss Prevention",
-    "summary": "Access Endpoint DLP device attribute data using Advanced Hunting",
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Data Security & Governance",
-    "themes": [
-      "Identitet",
-      "Hunting",
-      "Endpoint",
-      "Governance"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 38,
-    "tags": [
-      "Ikke oppgitt",
-      "Identitet",
-      "Hunting",
-      "Endpoint",
-      "Governance"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Data Security & Governance"
     ]
   },
   {
@@ -5625,6 +5692,38 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-enhancements-and-features-for-this-release",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "enhancements and features for this release",
+    "summary": "New Microsoft Secure Score recommendation",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {
@@ -6253,38 +6352,6 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-02-release-version-20-126012-12-0-released-see",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "Februar",
-    "monthKey": "2026-02",
-    "date": "Februar 2026",
-    "publishedAt": "2026-02-01",
-    "title": "Release version 20.126012.12.0 released: See",
-    "summary": "enhancements and features for this release",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Generelt"
-    ],
-    "platforms": [],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Generelt"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
     ]
   },
   {

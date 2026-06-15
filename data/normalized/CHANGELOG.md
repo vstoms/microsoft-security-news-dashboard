@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-06-14T09:29:41.094Z
+Generated: 2026-06-15T11:57:55.154Z
 
 - 2026-07-01 • Microsoft Defender XDR • GA • Identity Security dashboard
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
@@ -16,9 +16,9 @@ Generated: 2026-06-14T09:29:41.094Z
 - 2026-06-01 • Microsoft Defender for Cloud • GA • General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS
 - 2026-06-01 • Microsoft Defender for Cloud • Preview • Kubernetes node vulnerability assessment extended to EKS and GKE (Preview)
 - 2026-06-01 • Microsoft Defender for Cloud • Preview • Container-level misconfiguration recommendations for Kubernetes (Preview)
+- 2026-06-01 • Microsoft Defender for Endpoint • GA • The new exposure score model in Defender Vulnerability Management is now generally available. This model improves risk prioritization and recommendation impact accuracy by incorporating exploit prediction data (EPSS) and asset context factors such as internet-facing status and criticality. For more information, see
 - 2026-06-01 • Microsoft Defender for Endpoint • Preview • Microsoft Secure Score now includes the
-- 2026-06-01 • Microsoft Defender for Endpoint • Preview • Release - Windows
+- 2026-06-01 • Microsoft Defender for Endpoint • Preview • Enhanced exposure score in Defender Vulnerability Management
 - 2026-06-01 • Microsoft Defender for Endpoint • Preview • Microsoft Defender for Endpoint now automatically discovers supported local AI agents running on onboarded Windows devices — including coding agents and IDE extensions, desktop AI assistants, local AI runtimes, and agent platforms. Discovered agents appear as assets in the AI agent inventory, exposure map, and advanced hunting, giving security teams visibility into local AI agent usage across the organization. For more information, see
 - 2026-06-01 • Microsoft Defender for Endpoint • Preview • Runtime protection for supported local AI agents on Windows endpoints is now available in public preview. Microsoft Defender inspects the agent loop (user prompts, tool calls, and tool responses) and can block risky activity before it executes, helping stop prompt injection and unsafe agent actions at the device level. Blocked and audited events appear as alerts in Microsoft Defender to support incident correlation and investigation workflows. For more information, see
 - 2026-06-01 • Microsoft Defender for Endpoint • Ikke oppgitt • enhancements and features for this release
-- 2026-06-01 • Microsoft Entra • Action required • General Availability - Sign-in with username/alias

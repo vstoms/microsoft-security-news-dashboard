@@ -349,46 +349,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-01-cloud-posture-management-adds-serverless-protection-for-azure-and-aws-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Januar",
-    "monthKey": "2026-01",
-    "date": "Januar 2026",
-    "publishedAt": "2026-01-01",
-    "title": "Cloud posture management adds serverless protection for Azure and AWS (Preview)",
-    "summary": "AWS CloudTrail management event ingestion is now available in preview in Microsoft Defender for Cloud.",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Identitet",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 120,
-    "tags": [
-      "Deprecation",
-      "Identitet",
-      "Teams",
-      "Cloud",
-      "Lifecycle"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "unified-secops-01-updated-date-microsoft-sentinel-in-the-azure-portal-to-be-retired-march-2027",
     "product": "Unified SecOps",
     "productSlug": "unified-secops",
@@ -1865,6 +1825,40 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-the-new-exposure-score-model-in-defender-vulnerability-management-is-now-generally-available-this-model-improves-risk-prioritization-and-recommendation-impact-accuracy-by-incorporating-exploit-prediction-data-epss-and-asset-context-factors-such-as-internet-facing-status-and-criticality-for-more-information-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "The new exposure score model in Defender Vulnerability Management is now generally available. This model improves risk prioritization and recommendation impact accuracy by incorporating exploit prediction data (EPSS) and asset context factors such as internet-facing status and criticality. For more information, see",
+    "summary": "The new exposure score model in Defender Vulnerability Management is now generally available. This model improves risk prioritization and recommendation impact accuracy by incorporating exploit prediction data (EPSS) and asset context factors such as internet-facing status and criticality.",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {
@@ -3742,70 +3736,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-01-general-availability-of-the-endor-labs-integration",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Januar",
-    "monthKey": "2026-01",
-    "date": "Januar 2026",
-    "publishedAt": "2026-01-01",
-    "title": "General availability of the Endor Labs integration",
-    "summary": "GA General availability of the Endor Labs integration December 1, 2025",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Generelt"
-    ],
-    "platforms": [],
-    "priorityScore": 53,
-    "tags": [
-      "GA",
-      "Generelt"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-01-kubernetes-gated-deployment-ga",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Januar",
-    "monthKey": "2026-01",
-    "date": "Januar 2026",
-    "publishedAt": "2026-01-01",
-    "title": "Kubernetes gated deployment (GA)",
-    "summary": "GA Kubernetes gated deployment (GA) November 25, 2025",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container"
-    ],
-    "platforms": [],
-    "priorityScore": 53,
-    "tags": [
-      "GA",
-      "Container"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-sentinel-01-ueba-behaviors-can-be-enabled-independently-from-ueba-anomaly-detection",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -3974,15 +3904,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-06-release-windows",
+    "id": "microsoft-defender-for-endpoint-06-enhanced-exposure-score-in-defender-vulnerability-management",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
     "month": "Juni",
     "monthKey": "2026-06",
     "date": "Juni 2026",
     "publishedAt": "2026-06-01",
-    "title": "Release - Windows",
-    "summary": "Windows Defender Antivirus: Platform 4.18.26050.15 / Engine 1.1.26050.11",
+    "title": "Enhanced exposure score in Defender Vulnerability Management",
+    "summary": "Description Feature",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -3991,15 +3921,13 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Endpoint"
+      "Generelt"
     ],
-    "platforms": [
-      "Endpoint"
-    ],
+    "platforms": [],
     "priorityScore": 48,
     "tags": [
       "Preview",
-      "Endpoint"
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -5094,74 +5022,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-01-aws-cloudtrail-ingestion-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Januar",
-    "monthKey": "2026-01",
-    "date": "Januar 2026",
-    "publishedAt": "2026-01-01",
-    "title": "AWS CloudTrail ingestion (Preview)",
-    "summary": "Preview AWS CloudTrail ingestion (Preview) December 2, 2025",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-01-github-advanced-security-ghas-and-microsoft-defender-for-cloud-native-integration",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Januar",
-    "monthKey": "2026-01",
-    "date": "Januar 2026",
-    "publishedAt": "2026-01-01",
-    "title": "GitHub Advanced Security (GHAS) and Microsoft Defender for Cloud Native integration",
-    "summary": "Preview GitHub Advanced Security (GHAS) and Microsoft Defender for Cloud Native integration November 26, 2025",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-sentinel-01-new-entity-behavior-analytics-ueba-widget-in-the-defender-portal-home-page-preview",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -5457,7 +5317,7 @@ export const newsItems = [
     "date": "Januar 2026",
     "publishedAt": "2026-01-01",
     "title": "Microsoft Security Private Link for Microsoft Defender for Cloud",
-    "summary": "Microsoft Security Private Link for Microsoft Defender for Cloud . December 2025",
+    "summary": "What's new in security recommendations and alerts",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Ikke oppgitt",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -5466,6 +5326,7 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Cloud Security",
     "themes": [
+      "AI",
       "Cloud"
     ],
     "platforms": [
@@ -5474,6 +5335,7 @@ export const newsItems = [
     "priorityScore": 33,
     "tags": [
       "Ikke oppgitt",
+      "AI",
       "Cloud"
     ],
     "analysis": [

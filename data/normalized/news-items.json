@@ -588,6 +588,34 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-purview-06-copilot-cowork",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Copilot Cowork",
+    "summary_no": "Data security and compliance protections for Microsoft 365 Copilot Cowork",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Governance"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-05-generate-playbooks-using-ai-in-microsoft-sentinel-is-now-generally-available-ga",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -2030,34 +2058,6 @@
     ],
     "priority_score": 53,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
-    "id": "microsoft-purview-06-data-loss-prevention",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Data Loss Prevention",
-    "summary_no": "Access Endpoint DLP device attribute data using Advanced Hunting",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Governance"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",

@@ -1,12 +1,13 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-06-17T10:49:49.913Z
+Generated: 2026-06-18T10:16:03.499Z
 
 - 2026-07-01 • Microsoft Defender XDR • GA • Identity Security dashboard
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-07-01 • Unified SecOps • Deprecation • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
+- 2026-06-17 • Microsoft Defender for Cloud • Ikke oppgitt • June 17, 2026
 - 2026-06-15 • Microsoft Sentinel • Action required • Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 15, 2026
 - 2026-06-08 • Microsoft Defender for Cloud • Preview • New multicloud security recommendations now in public preview
 - 2026-06-04 • Microsoft Defender for Cloud • GA • SQL Vulnerability Assessment Express Configuration is now generally available for Azure SQL Managed Instance and Azure Synapse Analytics workspaces
@@ -15,7 +16,6 @@ Generated: 2026-06-17T10:49:49.913Z
 - 2026-06-02 • Microsoft Defender for Cloud • Preview • Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview)
 - 2026-06-01 • Microsoft Defender for Cloud • GA • General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS
 - 2026-06-01 • Microsoft Defender for Cloud • Preview • Kubernetes node vulnerability assessment extended to EKS and GKE (Preview)
-- 2026-06-01 • Microsoft Defender for Cloud • Preview • Container-level misconfiguration recommendations for Kubernetes (Preview)
 - 2026-06-01 • Microsoft Defender for Endpoint • GA • The new exposure score model in Defender Vulnerability Management is now generally available. This model improves risk prioritization and recommendation impact accuracy by incorporating exploit prediction data (EPSS) and asset context factors such as internet-facing status and criticality. For more information, see
 - 2026-06-01 • Microsoft Defender for Endpoint • Preview • Enhanced Defender deployment tool for Windows
 - 2026-06-01 • Microsoft Defender for Endpoint • Preview • Microsoft Defender for Endpoint now automatically discovers supported local AI agents running on onboarded Windows devices — including coding agents and IDE extensions, desktop AI assistants, local AI runtimes, and agent platforms. Discovered agents appear as assets in the AI agent inventory, exposure map, and advanced hunting, giving security teams visibility into local AI agent usage across the organization. For more information, see

@@ -2730,28 +2730,6 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-cloud-06-container-level-misconfiguration-recommendations-for-kubernetes-preview",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "Container-level misconfiguration recommendations for Kubernetes (Preview)",
-    "summary_no": "Preview Container-level misconfiguration recommendations for Kubernetes (Preview) June 1, 2026",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Container"
-    ],
-    "priority_score": 48,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
     "id": "microsoft-sentinel-06-reason-over-microsoft-sentinel-graphs-with-graph-tool-preview",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -3483,6 +3461,29 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
+    "id": "microsoft-defender-for-identity-06-new-defender-for-identity-security-alerts",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New Defender for Identity security alerts",
+    "summary_no": "These new alerts were added to the Defender for Identity security alerts:",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet",
+      "Automatisering"
+    ],
+    "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -3851,6 +3852,31 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-june-17-2026",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "June 17, 2026",
+    "summary_no": "Expanded container support for cloud scopes",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-06-17",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Container",
+      "Cloud"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-enhancements-and-features-for-this-release",

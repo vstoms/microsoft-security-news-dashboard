@@ -588,6 +588,32 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-defender-for-cloud-06-api-security-posture-management-for-function-apps-and-logic-apps-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "API security posture management for Function Apps and Logic Apps is now generally available",
+    "summary_no": "Expanded container support for cloud scopes",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-17",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Automatisering",
+      "Container",
+      "Cloud"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-purview-06-copilot-cowork",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -2632,13 +2658,13 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-06-enhanced-defender-deployment-tool-for-windows",
+    "id": "microsoft-defender-for-endpoint-06-local-ai-agent-discovery-macos-support-and-new-agents",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Enhanced Defender deployment tool for Windows",
+    "title": "Local AI agent discovery — macOS support and new agents",
     "summary_no": "Description Feature",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -2650,6 +2676,32 @@
       "Endpoint"
     ],
     "theme_tags": [
+      "AI",
+      "Endpoint"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-local-ai-agent-discovery-now-supports-macos-endpoints-in-addition-to-windows-this-update-also-adds-discovery-support-for-new-agents-including-junie-cli-kiro-cli-warp-hermes-agent-goose-desktop-perplexity-desktop-kiro-ide-devin-desktop-formerly-windsurf-and-qclaw-for-more-information-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Local AI agent discovery now supports macOS endpoints in addition to Windows. This update also adds discovery support for new agents including Junie CLI, Kiro CLI, Warp, Hermes Agent, Goose Desktop, Perplexity Desktop, Kiro IDE, Devin Desktop (formerly Windsurf), and QClaw. For more information, see",
+    "summary_no": "Local AI agent discovery now supports macOS endpoints in addition to Windows. This update also adds discovery support for new agents including Junie CLI, Kiro CLI, Warp, Hermes Agent, Goose Desktop, Perplexity Desktop, Kiro IDE, Devin Desktop (formerly Windsurf), and QClaw.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "AI",
       "Endpoint"
     ],
     "priority_score": 48,
@@ -2678,31 +2730,6 @@
       "AI",
       "Endpoint",
       "Teams"
-    ],
-    "priority_score": 48,
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-06-runtime-protection-for-supported-local-ai-agents-on-windows-endpoints-is-now-available-in-public-preview-microsoft-defender-inspects-the-agent-loop-user-prompts-tool-calls-and-tool-responses-and-can-block-risky-activity-before-it-executes-helping-stop-prompt-injection-and-unsafe-agent-actions-at-the-device-level-blocked-and-audited-events-appear-as-alerts-in-microsoft-defender-to-support-incident-correlation-and-investigation-workflows-for-more-information-see",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Runtime protection for supported local AI agents on Windows endpoints is now available in public preview. Microsoft Defender inspects the agent loop (user prompts, tool calls, and tool responses) and can block risky activity before it executes, helping stop prompt injection and unsafe agent actions at the device level. Blocked and audited events appear as alerts in Microsoft Defender to support incident correlation and investigation workflows. For more information, see",
-    "summary_no": "Runtime protection for supported local AI agents on Windows endpoints is now available in public preview. Microsoft Defender inspects the agent loop (user prompts, tool calls, and tool responses) and can block risky activity before it executes, helping stop prompt injection and unsafe agent actions at the device level. Blocked and audited events appear as alerts in Microsoft Defender to support incident correlation and investigation workflows.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "AI",
-      "Endpoint"
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -3484,6 +3511,36 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
+    "id": "security-exposure-management-06-new-predefined-classifications",
+    "product_slug": "security-exposure-management",
+    "product": "Security Exposure Management",
+    "category": "Exposure Management",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New predefined classifications",
+    "summary_no": "classification rules were added to the critical assets list. These classifications require onboarding to Microsoft Defender for Cloud Apps.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Automatisering",
+      "Endpoint",
+      "Teams",
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -3852,31 +3909,6 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-06-june-17-2026",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "June 17, 2026",
-    "summary_no": "Expanded container support for cloud scopes",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-06-17",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Container",
-      "Cloud"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-enhancements-and-features-for-this-release",

@@ -1959,6 +1959,7 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
+      "Hunting",
       "AI",
       "Endpoint",
       "Governance",
@@ -1971,6 +1972,7 @@ export const newsItems = [
     "priorityScore": 63,
     "tags": [
       "GA",
+      "Hunting",
       "AI",
       "Endpoint",
       "Governance",

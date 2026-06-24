@@ -529,14 +529,14 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-07-identity-security-dashboard",
+    "id": "microsoft-defender-xdr-07-entity-enrichments-with-threat-intelligence",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Identity Security dashboard",
-    "summary_no": "card that shows your human identities by source (Entra ID, SaaS, and on-premises), giving you a single view of where your human identities live.",
+    "title": "Entity enrichments with threat intelligence",
+    "summary_no": "Entity pages for IP addresses, domains, URLs, and files now include a",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-07-01",
@@ -1256,6 +1256,7 @@
     "theme_tags": [
       "Identitet",
       "Hunting",
+      "AI",
       "Cloud"
     ],
     "priority_score": 68,
@@ -2659,14 +2660,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-defender-for-endpoint-06-local-ai-agent-discovery-macos-support-and-new-agents",
+    "id": "microsoft-defender-for-endpoint-06-release-macos",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
     "category": "Endpoint Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Local AI agent discovery — macOS support and new agents",
-    "summary_no": "Description Feature",
+    "title": "Release - macOS",
+    "summary_no": "Description Release - macOS",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-06-01",
@@ -2677,7 +2678,6 @@
       "Endpoint"
     ],
     "theme_tags": [
-      "AI",
       "Endpoint"
     ],
     "priority_score": 48,
@@ -2709,33 +2709,6 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
-    "id": "microsoft-defender-for-endpoint-06-microsoft-defender-for-endpoint-now-automatically-discovers-supported-local-ai-agents-running-on-onboarded-windows-devices-including-coding-agents-and-ide-extensions-desktop-ai-assistants-local-ai-runtimes-and-agent-platforms-discovered-agents-appear-as-assets-in-the-ai-agent-inventory-exposure-map-and-advanced-hunting-giving-security-teams-visibility-into-local-ai-agent-usage-across-the-organization-for-more-information-see",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Microsoft Defender for Endpoint now automatically discovers supported local AI agents running on onboarded Windows devices — including coding agents and IDE extensions, desktop AI assistants, local AI runtimes, and agent platforms. Discovered agents appear as assets in the AI agent inventory, exposure map, and advanced hunting, giving security teams visibility into local AI agent usage across the organization. For more information, see",
-    "summary_no": "Microsoft Defender for Endpoint now automatically discovers supported local AI agents running on onboarded Windows devices — including coding agents and IDE extensions, desktop AI assistants, local AI runtimes, and agent platforms. Discovered agents appear as assets in the AI agent inventory, exposure map, and advanced hunting, giving security teams visibility into local AI agent usage across the organization.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Teams"
-    ],
-    "priority_score": 48,
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
     "id": "microsoft-defender-for-cloud-06-kubernetes-node-vulnerability-assessment-extended-to-eks-and-gke-preview",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -2758,14 +2731,14 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
-    "id": "microsoft-sentinel-06-reason-over-microsoft-sentinel-graphs-with-graph-tool-preview",
+    "id": "microsoft-sentinel-06-link-behavior-results-to-incidents-in-advanced-hunting-preview",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
     "category": "SIEM/SOAR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Reason over Microsoft Sentinel graphs with graph tool (Preview)",
-    "summary_no": "The graph tool collection in the Microsoft Sentinel Model Context Protocol (MCP) server provides visual graph-based exploration of relationships across identities, devices, threats, and signals to assess coverage, dependencies, and configuration gaps.",
+    "title": "Link behavior results to incidents in advanced hunting (Preview)",
+    "summary_no": "Reason over Microsoft Sentinel graphs with graph tool (Preview)",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-06-01",
@@ -2776,6 +2749,7 @@
       "Endpoint"
     ],
     "theme_tags": [
+      "Hunting",
       "Endpoint"
     ],
     "priority_score": 48,
@@ -3910,6 +3884,31 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-06-release-version-20-126042-20-0-released-see",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Release version 20.126042.20.0 released: See",
+    "summary_no": "enhancements and features for this release",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "AI",
+      "Endpoint"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-enhancements-and-features-for-this-release",

@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-06-28T08:47:13.637Z
+Generated: 2026-06-29T10:51:47.888Z
 
 - 2026-07-01 • Microsoft Defender XDR • GA • Entity enrichments with threat intelligence
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts

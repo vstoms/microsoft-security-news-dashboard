@@ -529,37 +529,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-07-entity-enrichments-with-threat-intelligence",
-    "product_slug": "microsoft-defender-xdr",
-    "product": "Microsoft Defender XDR",
-    "category": "XDR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Entity enrichments with threat intelligence",
-    "summary_no": "Entity pages for IP addresses, domains, URLs, and files now include a",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "GA",
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Teams",
-      "Governance",
-      "Cloud"
-    ],
-    "priority_score": 68,
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
-  },
-  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -612,6 +581,34 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-xdr-06-entity-enrichments-with-threat-intelligence",
+    "product_slug": "microsoft-defender-xdr",
+    "product": "Microsoft Defender XDR",
+    "category": "XDR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Entity enrichments with threat intelligence",
+    "summary_no": "Entity pages for IP addresses, domains, URLs, and files now include a",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-01",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "priority_score": 68,
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
     "id": "microsoft-purview-06-copilot-cowork",
@@ -1261,6 +1258,54 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-expanded-multicloud-security-coverage-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Expanded multicloud security coverage is now generally available",
+    "summary_no": "GA Expanded multicloud security coverage is now generally available June 30, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-30",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-cloud-security-reporting-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Cloud security reporting is now generally available",
+    "summary_no": "GA Cloud security reporting is now generally available June 18, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-06-18",
+    "month": "2026-06",
+    "month_label": "Juni",
+    "release_stage": "GA",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Cloud"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-06-sql-vulnerability-assessment-express-configuration-is-now-generally-available-for-azure-sql-managed-instance-and-azure-synapse-analytics-workspaces",
@@ -2064,30 +2109,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-06-general-availability-of-microsoft-defender-for-open-source-relational-databases-on-aws-rds",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS",
-    "summary_no": "GA General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS June 1, 2026",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "GA",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Cloud"
-    ],
-    "priority_score": 53,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
@@ -2570,6 +2591,35 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-defender-xdr-07-disruptionandresponseevents",
+    "product_slug": "microsoft-defender-xdr",
+    "product": "Microsoft Defender XDR",
+    "category": "XDR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "DisruptionAndResponseEvents",
+    "summary_no": "table contains information about automatic attack disruption events in Microsoft Defender XDR.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-new-multicloud-security-recommendations-now-in-public-preview",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -2707,28 +2757,6 @@
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-06-kubernetes-node-vulnerability-assessment-extended-to-eks-and-gke-preview",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "Kubernetes node vulnerability assessment extended to EKS and GKE (Preview)",
-    "summary_no": "Preview Kubernetes node vulnerability assessment extended to EKS and GKE (Preview) June 1, 2026",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-06-01",
-    "month": "2026-06",
-    "month_label": "Juni",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Container"
-    ],
-    "priority_score": 48,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-sentinel-06-link-behavior-results-to-incidents-in-advanced-hunting-preview",

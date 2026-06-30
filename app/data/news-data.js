@@ -788,53 +788,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-07-entity-enrichments-with-threat-intelligence",
-    "product": "Microsoft Defender XDR",
-    "productSlug": "microsoft-defender-xdr",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-01",
-    "title": "Entity enrichments with threat intelligence",
-    "summary": "Entity pages for IP addresses, domains, URLs, and files now include a",
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "XDR",
-    "themes": [
-      "Identitet",
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Teams",
-      "Governance",
-      "Cloud"
-    ],
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "priorityScore": 68,
-    "tags": [
-      "GA",
-      "Identitet",
-      "Hunting",
-      "AI",
-      "Endpoint",
-      "Teams",
-      "Governance",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: XDR"
-    ]
-  },
-  {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -912,6 +865,48 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-xdr-06-entity-enrichments-with-threat-intelligence",
+    "product": "Microsoft Defender XDR",
+    "productSlug": "microsoft-defender-xdr",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Entity enrichments with threat intelligence",
+    "summary": "Entity pages for IP addresses, domains, URLs, and files now include a",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "XDR",
+    "themes": [
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: XDR"
     ]
   },
   {
@@ -1873,6 +1868,74 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-expanded-multicloud-security-coverage-is-now-generally-available",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-30",
+    "title": "Expanded multicloud security coverage is now generally available",
+    "summary": "GA Expanded multicloud security coverage is now generally available June 30, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-cloud-security-reporting-is-now-generally-available",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-18",
+    "title": "Cloud security reporting is now generally available",
+    "summary": "GA Cloud security reporting is now generally available June 18, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
     ]
   },
   {
@@ -3045,40 +3108,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-06-general-availability-of-microsoft-defender-for-open-source-relational-databases-on-aws-rds",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
-    "title": "General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS",
-    "summary": "GA General availability of Microsoft Defender for Open-Source Relational Databases on AWS RDS June 1, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "GA",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 53,
-    "tags": [
-      "GA",
-      "Cloud"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
@@ -3781,6 +3810,49 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-xdr-07-disruptionandresponseevents",
+    "product": "Microsoft Defender XDR",
+    "productSlug": "microsoft-defender-xdr",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "DisruptionAndResponseEvents",
+    "summary": "table contains information about automatic attack disruption events in Microsoft Defender XDR.",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "XDR",
+    "themes": [
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Governance",
+      "Cloud"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Hunting",
+      "AI",
+      "Endpoint",
+      "Governance",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: XDR"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-new-multicloud-security-recommendations-now-in-public-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -3978,38 +4050,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-06-kubernetes-node-vulnerability-assessment-extended-to-eks-and-gke-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
-    "title": "Kubernetes node vulnerability assessment extended to EKS and GKE (Preview)",
-    "summary": "Preview Kubernetes node vulnerability assessment extended to EKS and GKE (Preview) June 1, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container"
-    ],
-    "platforms": [],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Container"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
     ]
   },
   {

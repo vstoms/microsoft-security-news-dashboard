@@ -868,15 +868,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-xdr-06-entity-enrichments-with-threat-intelligence",
+    "id": "microsoft-defender-xdr-06-phishing-triage-agent",
     "product": "Microsoft Defender XDR",
     "productSlug": "microsoft-defender-xdr",
     "month": "Juni",
     "monthKey": "2026-06",
     "date": "Juni 2026",
     "publishedAt": "2026-06-01",
-    "title": "Entity enrichments with threat intelligence",
-    "summary": "Entity pages for IP addresses, domains, URLs, and files now include a",
+    "title": "Phishing Triage Agent",
+    "summary": "Email & collaboration content: Emails associated with alerts (read)",
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -907,6 +907,155 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: XDR"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity-06-identity-risk-score-is-now-generally-available",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Identity risk score is now generally available",
+    "summary": "is now generally available. The score ranges from 0 to 100 and reflects how likely an identity is to be compromised and how much damage a compromise could cause, based on the identity's criticality level and privileged role assignments. The",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "Automatisering"
+    ],
+    "platforms": [],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Automatisering"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-general-availability-byod-support-for-windows-client-using-entra-registration",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "General Availability - BYOD support for Windows client using Entra registration",
+    "summary": "We are excited to announce Bring Your Own Device (BYOD) support for Windows client using Entra-registered devices is now generally available. You can now enable",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-general-availability-scim-2-0-apis-for-microsoft-entra-id-in-us-gov-cloud",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "General Availability - SCIM 2.0 APIs for Microsoft Entra ID in US Gov cloud",
+    "summary": "SCIM 2.0 APIs are now generally available in the US Gov cloud, giving customers, developers, and partners a standards-based option for managing users and groups in Microsoft Entra using the System for Cross-domain Identity Management (SCIM) 2.0 specification.",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Automatisering",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Automatisering",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-general-availability-microsoft-entra-backup-and-recovery-is-now-available",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "General Availability - Microsoft Entra Backup and Recovery is now available",
+    "summary": "Microsoft Entra Backup and Recovery is a built-in solution to help restore your tenant after accidental changes or malicious updates. Always on by default, it automatically backs up critical directory objects — including users, groups, applications, service principals, managed identities, Conditional Access policies, named locations, agent IDs, and authentication and authorization policy, so admins can quickly restore them to a previously known good state.",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Cloud"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "AI",
+      "Endpoint",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
     ]
   },
   {
@@ -2643,6 +2792,72 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-entra-06-general-availability-external-users-can-be-directly-assigned-to-access-packages",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "General Availability - External users can be directly assigned to Access Packages",
+    "summary": "This feature allows Entitlement Management admins to directly assign external users who are not in the directory to an access package using the user's email. Users are invited into the tenant as Guest users and are governed (as long as Entra ID Governance is configured).",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Governance"
+    ],
+    "platforms": [],
+    "priorityScore": 58,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Governance"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-general-availability-domainless-saml-idp-federation-for-workforce-tenants",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "General Availability - Domainless SAML IdP federation for workforce tenants",
+    "summary": "Domainless SAML federation with a SAML Identity Provider allows external users to authenticate into your apps or workforce resources using their IdP-managed credentials, regardless of their email domain. Domainless federation removes the need for domain matching between the user's email and preconfigured IdP domains during sign-in or invitation redemption. Learn more at",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "priorityScore": 58,
+    "tags": [
+      "GA",
+      "Identitet"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
     "id": "microsoft-entra-05-general-availability-netbiosname-resolution-test-now-informational",
     "product": "Microsoft Entra",
     "productSlug": "microsoft-entra",
@@ -3103,6 +3318,150 @@ export const newsItems = [
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-06-general-availability-of-defender-for-key-vault-in-azure-government-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-30",
+    "title": "General availability of Defender for Key Vault in Azure Government cloud",
+    "summary": "GA General availability of Defender for Key Vault in Azure Government cloud June 30, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-public-preview-extended-conditional-access-protections-for-agent-s-user-accounts",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Public Preview - Extended Conditional Access protections for Agent's user accounts",
+    "summary": "Conditional Access now provides broader controls to secure AI agents that have a user account. Administrators can:",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "AI",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-public-preview-new-built-in-entra-role-for-soc-identity-response-in-microsoft-defender",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Public Preview - New built-in Entra role for SOC identity response in Microsoft Defender",
+    "summary": "Starting June 8 we're introducing a new built-in role in Microsoft Entra—",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Teams",
+      "Governance"
+    ],
+    "platforms": [],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "Teams",
+      "Governance"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-entra-06-public-preview-prevent-unauthorized-changes-to-ad-groups-with-ad-group-enforcement",
+    "product": "Microsoft Entra",
+    "productSlug": "microsoft-entra",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Public Preview - Prevent unauthorized changes to AD groups with AD group enforcement",
+    "summary": "For customers leveraging group provisioning to AD, this capability ensures that changes to AD groups remain consistent with those managed in Microsoft Entra. With this preview, you can designate specific AD groups so that modifications to those groups can only be made through the Entra provisioning service. Changes made outside of Entra are blocked, helping prevent drift before it occurs and maintaining alignment between Entra ID and AD groups.",
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity & Access",
+    "themes": [
+      "Identitet",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Identitet",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity & Access"
     ]
@@ -3919,70 +4278,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-06-kubernetes-misconfiguration-enforcement-in-defender-for-containers-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-02",
-    "title": "Kubernetes misconfiguration enforcement in Defender for Containers (preview)",
-    "summary": "Preview Kubernetes misconfiguration enforcement in Defender for Containers (preview) June 2, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container"
-    ],
-    "platforms": [],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Container"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-06-vulnerability-assessment-extended-to-runtime-discovered-container-images-on-eks-and-gke-preview",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-02",
-    "title": "Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview)",
-    "summary": "Preview Vulnerability assessment extended to runtime-discovered container images on EKS and GKE (Preview) June 2, 2026",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Container"
-    ],
-    "platforms": [],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Container"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-endpoint-06-release-macos",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -4086,6 +4381,40 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
+    "id": "microsoft-purview-06-rolling-out-the-sensitivity-label-setting-to",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "Rolling out, the sensitivity label setting to",
+    "summary": "prevent connected experiences that analyze content",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
     ]
   },
   {
@@ -4760,40 +5089,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-endpoint-03-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-proactively-prevent-common-endpoint-attack-techniques",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "Mars",
-    "monthKey": "2026-03",
-    "date": "Mars 2026",
-    "publishedAt": "2026-03-01",
-    "title": "Microsoft Secure Score now includes new recommendations to help organizations proactively prevent common endpoint attack techniques",
-    "summary": "Microsoft Secure Score now includes new recommendations to help organizations proactively prevent common endpoint attack techniques:",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Endpoint"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 48,
-    "tags": [
-      "Preview",
-      "Endpoint"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-cloud-02-database-level-recommendations-experience-for-sql-vulnerability-assessment-findings-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -5100,40 +5395,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-identity-06-new-defender-for-identity-security-alerts",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "Juni",
-    "monthKey": "2026-06",
-    "date": "Juni 2026",
-    "publishedAt": "2026-06-01",
-    "title": "New Defender for Identity security alerts",
-    "summary": "These new alerts were added to the Defender for Identity security alerts:",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet",
-      "Automatisering"
-    ],
-    "platforms": [],
-    "priorityScore": 38,
-    "tags": [
-      "Ikke oppgitt",
-      "Identitet",
-      "Automatisering"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
     ]
   },
   {
@@ -5501,6 +5762,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-06-june-30-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-30",
+    "title": "June 30, 2026",
+    "summary": "Support for additional Azure regions in the UAE geography for Defender for APIs and API security posture management with Defender CSPM",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Automatisering",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 28,
+    "tags": [
+      "Ikke oppgitt",
+      "Automatisering",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-endpoint-06-microsoft-secure-score-now-includes-the",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -5536,6 +5833,42 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "security-exposure-management-06-new-predefined-classifications-for-ai-agents",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "Juni",
+    "monthKey": "2026-06",
+    "date": "Juni 2026",
+    "publishedAt": "2026-06-01",
+    "title": "New predefined classifications for AI agents",
+    "summary": "classification rules were added to the critical assets list:",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "Identitet",
+      "AI",
+      "Governance"
+    ],
+    "platforms": [],
+    "priorityScore": 28,
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "AI",
+      "Governance"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
     ]
   },
   {
@@ -6116,6 +6449,40 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-03-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-proactively-prevent-common-endpoint-attack-techniques",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Mars",
+    "monthKey": "2026-03",
+    "date": "Mars 2026",
+    "publishedAt": "2026-03-01",
+    "title": "Microsoft Secure Score now includes new recommendations to help organizations proactively prevent common endpoint attack techniques",
+    "summary": "Microsoft Secure Score now includes new recommendations to help organizations proactively prevent common endpoint attack techniques:",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {

@@ -337,6 +337,32 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Discovery and posture for serverless container workloads is now generally available",
+    "summary_no": "New container security capabilities are now generally available",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Deprecation",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Automatisering",
+      "Container",
+      "Cloud"
+    ],
+    "priority_score": 110,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-defender-for-cloud-02-container-runtime-anti-malware-detection-and-blocking-preview",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -474,34 +500,6 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-purview-01-restructured-the-microsoft-purview-data-loss-prevention-table-of-contents-to-better-support-customer-scenarios-of-protecting-enterprise-data-enterprise-data-on-devices-and-inline-data",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Restructured the Microsoft Purview Data Loss Prevention table of contents to better support customer scenarios of protecting enterprise data, enterprise data on devices and, inline data.",
-    "summary_no": "New Data Security Investigation Compute Units (compute units) have replaced Security Compute Units (SCUs) for",
-    "impact_level": "Høy",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-01-01",
-    "month": "2026-01",
-    "month_label": "Januar",
-    "release_stage": "GA",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "AI",
-      "Endpoint",
-      "Teams",
-      "Governance",
-      "Lifecycle"
-    ],
-    "priority_score": 85,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
-  },
-  {
     "id": "microsoft-entra-05-public-preview-workload-identity-based-authentication-for-sap-successfactors-provisioning-integrations",
     "product_slug": "microsoft-entra",
     "product": "Microsoft Entra",
@@ -628,7 +626,8 @@
     "platforms": [],
     "theme_tags": [
       "Identitet",
-      "Automatisering"
+      "Automatisering",
+      "Governance"
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
@@ -1032,13 +1031,13 @@
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-02-microsoft-defender-experts-for-hunting-customers-can-now-set-up",
+    "id": "microsoft-defender-xdr-02-microsoft-defender-experts-hunting-customers-can-now-set-up",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Microsoft Defender Experts for Hunting customers can now set up",
+    "title": "Microsoft Defender Experts Hunting customers can now set up",
     "summary_no": ". These contacts are the individuals or groups that Microsoft needs to notify if there are critical incidents or service updates.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -1145,6 +1144,7 @@
     ],
     "theme_tags": [
       "Automatisering",
+      "AI",
       "Endpoint",
       "Governance",
       "Cloud"
@@ -1360,6 +1360,72 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  },
+  {
+    "id": "microsoft-defender-xdr-07-security-for-microsoft-agent-365-with-defender",
+    "product_slug": "microsoft-defender-xdr",
+    "product": "Microsoft Defender XDR",
+    "category": "XDR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Security for Microsoft Agent 365 with Defender",
+    "summary_no": "With a Microsoft Agent 365 license, Microsoft Defender provides discovery, security posture, threat detection and investigation, and real-time protection for the AI agents in your tenant. Onboarding includes enabling data collection, connecting the Microsoft 365 app connector, and connecting Copilot Studio for real-time protection of Copilot Studio agents.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "AI"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-07-new-container-security-capabilities-are-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "New container security capabilities are now generally available",
+    "summary_no": "GA New container security capabilities are now generally available July 1, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-07-kubernetes-misconfiguration-enforcement-in-defender-for-containers-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Kubernetes misconfiguration enforcement in Defender for Containers is now generally available",
+    "summary_no": "GA Kubernetes misconfiguration enforcement in Defender for Containers is now generally available July 1, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-cloud-06-expanded-multicloud-security-coverage-is-now-generally-available",
@@ -1841,34 +1907,6 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
-    "id": "microsoft-purview-01-adaptive-scopes",
-    "product_slug": "microsoft-purview",
-    "product": "Microsoft Purview",
-    "category": "Data Security & Governance",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Adaptive scopes",
-    "summary_no": ". This cmdlet is helpful when the scope membership is large (1,000 or more), or you want to customize the export.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-01-01",
-    "month": "2026-01",
-    "month_label": "Januar",
-    "release_stage": "GA",
-    "platforms": [
-      "Endpoint",
-      "Cloud"
-    ],
-    "theme_tags": [
-      "AI",
-      "Endpoint",
-      "Governance",
-      "Cloud"
-    ],
-    "priority_score": 63,
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
-  },
-  {
     "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
@@ -2256,6 +2294,34 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
+    "id": "microsoft-purview-07-data-loss-prevention",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Data Loss Prevention",
+    "summary_no": "Protect sensitive data in text and prompts by integrating with Microsoft Entra Global Secure Access (GSA). This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, and add-ins, including generative AI platforms, social media, and collaborative platforms. See",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Preview",
+    "platforms": [
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Automatisering",
+      "AI",
+      "Governance",
+      "Cloud"
+    ],
+    "priority_score": 53,
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-general-availability-of-defender-for-key-vault-in-azure-government-cloud",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -2362,7 +2428,7 @@
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
     "title": "Microsoft Defender Experts for Servers",
-    "summary_no": "Microsoft Defender Experts for Hunting - Servers",
+    "summary_no": "Microsoft Defender Experts Hunting - Servers",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-05-01",

@@ -224,6 +224,82 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-05",
+    "title": "Discovery and posture for serverless container workloads is now generally available",
+    "summary": "Plan enablement API now blocks onboarding to five deprecated Defender plans",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Deprecation",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Hunting",
+      "Automatisering",
+      "Container",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 120,
+    "tags": [
+      "Deprecation",
+      "Hunting",
+      "Automatisering",
+      "Container",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-07-plan-enablement-api-now-blocks-onboarding-to-five-deprecated-defender-plans",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Plan enablement API now blocks onboarding to five deprecated Defender plans",
+    "summary": "Deprecation Plan enablement API now blocks onboarding to five deprecated Defender plans July 1, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Deprecation",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Automatisering",
+      "Lifecycle"
+    ],
+    "platforms": [],
+    "priorityScore": 120,
+    "tags": [
+      "Deprecation",
+      "Automatisering",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
     "product": "Unified SecOps",
     "productSlug": "unified-secops",
@@ -502,44 +578,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-01",
-    "title": "Discovery and posture for serverless container workloads is now generally available",
-    "summary": "New container security capabilities are now generally available",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "impactLevel": "Høy",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Automatisering",
-      "Container",
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 110,
-    "tags": [
-      "Deprecation",
-      "Automatisering",
-      "Container",
-      "Cloud"
-    ],
-    "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-cloud-02-container-runtime-anti-malware-detection-and-blocking-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -781,6 +819,72 @@ export const newsItems = [
       "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity & Access"
+    ]
+  },
+  {
+    "id": "microsoft-defender-xdr-07-domain-investigation",
+    "product": "Microsoft Defender XDR",
+    "productSlug": "microsoft-defender-xdr",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Domain investigation",
+    "summary": "page allows you to investigate an Active Directory domain. It shows Active Directory domain security, including domain properties, deployment health, identity summary, service account breakdown, sensitive entities, active recommendations, group policies, and trust relationships.",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "XDR",
+    "themes": [
+      "Identitet",
+      "AI"
+    ],
+    "platforms": [],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet",
+      "AI"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: XDR"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity-07-domain-investigation-page",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Domain investigation page",
+    "summary": "page allows you to investigate an Active Directory domain. It shows Active Directory domain security, including domain properties, deployment health, identity summary, service account breakdown, sensitive entities, active recommendations, group policies, and trust relationships.",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "priorityScore": 68,
+    "tags": [
+      "GA",
+      "Identitet"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
     ]
   },
   {
@@ -2019,38 +2123,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity & Access"
-    ]
-  },
-  {
-    "id": "microsoft-defender-xdr-07-security-for-microsoft-agent-365-with-defender",
-    "product": "Microsoft Defender XDR",
-    "productSlug": "microsoft-defender-xdr",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-01",
-    "title": "Security for Microsoft Agent 365 with Defender",
-    "summary": "With a Microsoft Agent 365 license, Microsoft Defender provides discovery, security posture, threat detection and investigation, and real-time protection for the AI agents in your tenant. Onboarding includes enabling data collection, connecting the Microsoft 365 app connector, and connecting Copilot Studio for real-time protection of Copilot Studio agents.",
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "XDR",
-    "themes": [
-      "AI"
-    ],
-    "platforms": [],
-    "priorityScore": 63,
-    "tags": [
-      "GA",
-      "AI"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: XDR"
     ]
   },
   {

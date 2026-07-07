@@ -3452,6 +3452,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-sentinel-07-custom-detection-rules-support-in-microsoft-sentinel-repositories-preview",
+    "product": "Microsoft Sentinel",
+    "productSlug": "microsoft-sentinel",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Custom detection rules support in Microsoft Sentinel Repositories (Preview)",
+    "summary": "as code in your GitHub or Azure DevOps repository using the Microsoft Security BICEP extension. Sync custom detection rules to Microsoft Sentinel using the Repositories feature, or deploy them directly using BICEP CLI.",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "SIEM/SOAR",
+    "themes": [
+      "Automatisering",
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "Preview",
+      "Automatisering",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
     "id": "microsoft-purview-07-data-loss-prevention",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",

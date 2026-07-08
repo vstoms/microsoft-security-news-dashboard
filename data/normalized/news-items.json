@@ -4254,6 +4254,31 @@
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
   },
   {
+    "id": "security-exposure-management-07-ot-data-connectors-in-microsoft-security-exposure-management",
+    "product_slug": "security-exposure-management",
+    "product": "Security Exposure Management",
+    "category": "Exposure Management",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "OT data connectors in Microsoft Security Exposure Management",
+    "summary_no": "Microsoft Security Exposure Management now supports operational technology (OT) data connectors for Armis, Dragos, and Forescout.",
+    "impact_level": "Lav",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint",
+      "Teams"
+    ],
+    "priority_score": 23,
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-endpoint-06-release-version-1-0-9029-0101-released-see",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",

@@ -1,12 +1,13 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-09T09:33:21.323Z
+Generated: 2026-07-10T09:29:33.307Z
 
 - 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • GA • Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
-- 2026-07-01 • Microsoft Defender for Identity • GA • Domain investigation page
+- 2026-07-01 • Microsoft Defender for Identity • GA • Expanded SaaS app support in Password protection (Preview)
+- 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Microsoft Defender for Office 365 Plan 1 included in Microsoft 365 E3
 - 2026-07-01 • Microsoft Defender XDR • GA • Domain investigation
 - 2026-07-01 • Microsoft Defender XDR • Preview • DisruptionAndResponseEvents
 - 2026-07-01 • Microsoft Purview • Preview • Data Loss Prevention
@@ -21,4 +22,3 @@ Generated: 2026-07-09T09:33:21.323Z
 - 2026-06-30 • Microsoft Defender for Cloud • Ikke oppgitt • June 30, 2026
 - 2026-06-18 • Microsoft Defender for Cloud • GA • Cloud security reporting is now generally available
 - 2026-06-17 • Microsoft Defender for Cloud • GA • API security posture management for Function Apps and Logic Apps is now generally available
-- 2026-06-15 • Microsoft Sentinel • Action required • Call to action: update older Microsoft Sentinel content as code (Sentinel repositories) API versions before June 15, 2026

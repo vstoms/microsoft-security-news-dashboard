@@ -856,15 +856,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-07-domain-investigation-page",
+    "id": "microsoft-defender-for-identity-07-expanded-saas-app-support-in-password-protection-preview",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Domain investigation page",
-    "summary": "page allows you to investigate an Active Directory domain. It shows Active Directory domain security, including domain properties, deployment health, identity summary, service account breakdown, sensitive entities, active recommendations, group policies, and trust relationships.",
+    "title": "Expanded SaaS app support in Password protection (Preview)",
+    "summary": "The Password protection page now includes password risks from SaaS apps connected through Microsoft Defender for Cloud Apps, in addition to Active Directory, Microsoft Entra ID, and Okta. SaaS apps that support SaaS Security Posture Management (SSPM), such as Salesforce and ServiceNow, appear on the Password Hygiene and Password Policies tabs. Each SaaS app requires a Defender for Cloud Apps app connector.",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -873,13 +873,17 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Identity Security",
     "themes": [
-      "Identitet"
+      "Identitet",
+      "Cloud"
     ],
-    "platforms": [],
+    "platforms": [
+      "Cloud"
+    ],
     "priorityScore": 68,
     "tags": [
       "GA",
-      "Identitet"
+      "Identitet",
+      "Cloud"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -6211,6 +6215,38 @@ export const newsItems = [
     "tags": [
       "Ikke oppgitt",
       "Identitet"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-office-365-07-microsoft-defender-for-office-365-plan-1-included-in-microsoft-365-e3",
+    "product": "Microsoft Defender for Office 365",
+    "productSlug": "microsoft-defender-for-office-365",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Microsoft Defender for Office 365 Plan 1 included in Microsoft 365 E3",
+    "summary": "Microsoft 365 E3 now includes Microsoft Defender for Office 365 Plan 1.",
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Email & Collaboration Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

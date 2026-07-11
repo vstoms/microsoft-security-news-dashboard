@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-10T09:29:33.307Z
+Generated: 2026-07-11T07:50:06.884Z
 
 - 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans

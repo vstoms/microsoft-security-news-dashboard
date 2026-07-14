@@ -654,6 +654,47 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-identity-07-expanded-automatic-auditing-for-identity-role-servers",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Expanded automatic auditing for identity role servers",
+    "summary": "Automatic Windows event auditing now also configures auditing for the Active Directory Federation Services (AD FS), Active Directory Certificate Services (AD CS), and Microsoft Entra Connect roles on domain controllers that run the Defender for Identity sensor v3.x.",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "GA",
+    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impactLevel": "Høy",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "Endpoint",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "priorityScore": 90,
+    "tags": [
+      "GA",
+      "Identitet",
+      "Endpoint",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "analysis": [
+      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
+    ]
+  },
+  {
     "id": "microsoft-purview-04-collection-policies-support",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
@@ -853,42 +894,6 @@ export const newsItems = [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: XDR"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-identity-07-expanded-saas-app-support-in-password-protection-preview",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-01",
-    "title": "Expanded SaaS app support in Password protection (Preview)",
-    "summary": "The Password protection page now includes password risks from SaaS apps connected through Microsoft Defender for Cloud Apps, in addition to Active Directory, Microsoft Entra ID, and Okta. SaaS apps that support SaaS Security Posture Management (SSPM), such as Salesforce and ServiceNow, appear on the Password Hygiene and Password Policies tabs. Each SaaS app requires a Defender for Cloud Apps app connector.",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "GA",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet",
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 68,
-    "tags": [
-      "GA",
-      "Identitet",
-      "Cloud"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
     ]
   },
   {
@@ -4423,6 +4428,44 @@ export const newsItems = [
     ]
   },
   {
+    "id": "security-exposure-management-07-codename-mdash-agentic-code-scanner-public-preview",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Codename MDASH - Agentic code scanner public preview",
+    "summary": "Codename MDASH - Agentic code scanner is now available in public preview in Microsoft Security Exposure Management.",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-new-multicloud-security-recommendations-now-in-public-preview",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -6252,42 +6295,6 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
-    ]
-  },
-  {
-    "id": "security-exposure-management-07-ot-data-connectors-in-microsoft-security-exposure-management",
-    "product": "Security Exposure Management",
-    "productSlug": "security-exposure-management",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-01",
-    "title": "OT data connectors in Microsoft Security Exposure Management",
-    "summary": "Microsoft Security Exposure Management now supports operational technology (OT) data connectors for Armis, Dragos, and Forescout.",
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Exposure Management",
-    "themes": [
-      "Endpoint",
-      "Teams"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Endpoint",
-      "Teams"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Exposure Management"
     ]
   },
   {

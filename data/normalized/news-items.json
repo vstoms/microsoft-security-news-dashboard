@@ -439,6 +439,34 @@
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
+    "id": "microsoft-defender-for-identity-07-expanded-automatic-auditing-for-identity-role-servers",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Expanded automatic auditing for identity role servers",
+    "summary_no": "Automatic Windows event auditing now also configures auditing for the Active Directory Federation Services (AD FS), Active Directory Certificate Services (AD CS), and Microsoft Entra Connect roles on domain controllers that run the Defender for Identity sensor v3.x.",
+    "impact_level": "Høy",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "GA",
+    "platforms": [
+      "Endpoint",
+      "Cloud"
+    ],
+    "theme_tags": [
+      "Identitet",
+      "Endpoint",
+      "Cloud",
+      "Lifecycle"
+    ],
+    "priority_score": 90,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
     "id": "microsoft-purview-04-collection-policies-support",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
@@ -573,31 +601,6 @@
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-identity-07-expanded-saas-app-support-in-password-protection-preview",
-    "product_slug": "microsoft-defender-for-identity",
-    "product": "Microsoft Defender for Identity",
-    "category": "Identity Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Expanded SaaS app support in Password protection (Preview)",
-    "summary_no": "The Password protection page now includes password risks from SaaS apps connected through Microsoft Defender for Cloud Apps, in addition to Active Directory, Microsoft Entra ID, and Okta. SaaS apps that support SaaS Security Posture Management (SSPM), such as Salesforce and ServiceNow, appear on the Password Hygiene and Password Policies tabs. Each SaaS app requires a Defender for Cloud Apps app connector.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "GA",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "Cloud"
-    ],
-    "priority_score": 68,
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
@@ -3009,6 +3012,32 @@
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
+    "id": "security-exposure-management-07-codename-mdash-agentic-code-scanner-public-preview",
+    "product_slug": "security-exposure-management",
+    "product": "Security Exposure Management",
+    "category": "Exposure Management",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Codename MDASH - Agentic code scanner public preview",
+    "summary_no": "Codename MDASH - Agentic code scanner is now available in public preview in Microsoft Security Exposure Management.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "AI",
+      "Endpoint",
+      "Teams"
+    ],
+    "priority_score": 48,
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+  },
+  {
     "id": "microsoft-defender-for-cloud-06-new-multicloud-security-recommendations-now-in-public-preview",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -4277,31 +4306,6 @@
     ],
     "priority_score": 23,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
-  },
-  {
-    "id": "security-exposure-management-07-ot-data-connectors-in-microsoft-security-exposure-management",
-    "product_slug": "security-exposure-management",
-    "product": "Security Exposure Management",
-    "category": "Exposure Management",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "OT data connectors in Microsoft Security Exposure Management",
-    "summary_no": "Microsoft Security Exposure Management now supports operational technology (OT) data connectors for Armis, Dragos, and Forescout.",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Endpoint",
-      "Teams"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-release-version-1-0-9029-0101-released-see",

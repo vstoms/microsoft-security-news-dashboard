@@ -1,12 +1,12 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-13T09:20:05.085Z
+Generated: 2026-07-14T07:57:57.556Z
 
 - 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • GA • Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
-- 2026-07-01 • Microsoft Defender for Identity • GA • Expanded SaaS app support in Password protection (Preview)
+- 2026-07-01 • Microsoft Defender for Identity • GA • Expanded automatic auditing for identity role servers
 - 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Microsoft Defender for Office 365 Plan 1 included in Microsoft 365 E3
 - 2026-07-01 • Microsoft Defender XDR • GA • Domain investigation
 - 2026-07-01 • Microsoft Defender XDR • Preview • DisruptionAndResponseEvents
@@ -15,7 +15,7 @@ Generated: 2026-07-13T09:20:05.085Z
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-07-01 • Microsoft Sentinel • Preview • Custom detection rules support in Microsoft Sentinel Repositories (Preview)
-- 2026-07-01 • Security Exposure Management • Ikke oppgitt • OT data connectors in Microsoft Security Exposure Management
+- 2026-07-01 • Security Exposure Management • Preview • Codename MDASH - Agentic code scanner public preview
 - 2026-07-01 • Unified SecOps • Deprecation • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-06-30 • Microsoft Defender for Cloud • GA • Expanded multicloud security coverage is now generally available
 - 2026-06-30 • Microsoft Defender for Cloud • GA • General availability of Defender for Key Vault in Azure Government cloud

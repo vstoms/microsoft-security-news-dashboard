@@ -6266,15 +6266,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-office-365-07-microsoft-defender-for-office-365-plan-1-included-in-microsoft-365-e3",
+    "id": "microsoft-defender-for-office-365-07-unified-rbac-is-the-default-permission-model-for-new-defender-for-office-365-plan-2-organizations",
     "product": "Microsoft Defender for Office 365",
     "productSlug": "microsoft-defender-for-office-365",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Microsoft Defender for Office 365 Plan 1 included in Microsoft 365 E3",
-    "summary": "Microsoft 365 E3 now includes Microsoft Defender for Office 365 Plan 1.",
+    "title": "Unified RBAC is the default permission model for new Defender for Office 365 Plan 2 organizations",
+    "summary": "Starting July 2026, new Microsoft Defender for Office 365 Plan 2 organizations use the Microsoft Defender unified role-based access control (Unified RBAC) model by default.",
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

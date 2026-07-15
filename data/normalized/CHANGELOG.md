@@ -1,13 +1,13 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-14T07:57:57.556Z
+Generated: 2026-07-15T08:03:07.088Z
 
 - 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • GA • Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
 - 2026-07-01 • Microsoft Defender for Identity • GA • Expanded automatic auditing for identity role servers
-- 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Microsoft Defender for Office 365 Plan 1 included in Microsoft 365 E3
+- 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Unified RBAC is the default permission model for new Defender for Office 365 Plan 2 organizations
 - 2026-07-01 • Microsoft Defender XDR • GA • Domain investigation
 - 2026-07-01 • Microsoft Defender XDR • Preview • DisruptionAndResponseEvents
 - 2026-07-01 • Microsoft Purview • Preview • Data Loss Prevention

@@ -654,15 +654,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-07-migrate-windows-server-2025-domain-controllers-to-sensor-v3-x",
+    "id": "microsoft-defender-for-identity-07-sensor-v2-x-to-v3-x-migration-is-now-generally-available",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Migrate Windows Server 2025 domain controllers to sensor v3.x",
-    "summary": "You can now migrate domain controllers running Windows Server 2025 from sensor v2.x to sensor v3.x.",
+    "title": "Sensor v2.x to v3.x migration is now generally available",
+    "summary": "Migration of Defender for Identity sensors from v2.x to v3.x is now generally available.",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "GA",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -672,19 +672,16 @@ export const newsItems = [
     "category": "Identity Security",
     "themes": [
       "Identitet",
-      "Endpoint",
       "Cloud",
       "Lifecycle"
     ],
     "platforms": [
-      "Endpoint",
       "Cloud"
     ],
     "priorityScore": 90,
     "tags": [
       "GA",
       "Identitet",
-      "Endpoint",
       "Cloud",
       "Lifecycle"
     ],

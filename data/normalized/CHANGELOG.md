@@ -1,14 +1,15 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-20T08:52:05.820Z
+Generated: 2026-07-21T08:22:40.637Z
 
+- 2026-08-01 • Microsoft Defender for Identity • Ikke oppgitt • New health alert for reverted auditing configuration
 - 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • GA • Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
 - 2026-07-01 • Microsoft Defender for Identity • GA • Sensor v2.x to v3.x migration is now generally available
 - 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Unified RBAC is the default permission model for new Defender for Office 365 Plan 2 organizations
-- 2026-07-01 • Microsoft Defender XDR • GA • Domain investigation
+- 2026-07-01 • Microsoft Defender XDR • GA • AI agent posture risk in Microsoft Defender
 - 2026-07-01 • Microsoft Defender XDR • Preview • DisruptionAndResponseEvents
 - 2026-07-01 • Microsoft Purview • Preview • Data Loss Prevention
 - 2026-07-01 • Microsoft Sentinel • Action required • [Updated] Call to action: update automation by July 1, 2026 - Account Name is now consistently the UPN prefix for analytics rule alerts
@@ -21,4 +22,3 @@ Generated: 2026-07-20T08:52:05.820Z
 - 2026-06-30 • Microsoft Defender for Cloud • GA • General availability of Defender for Key Vault in Azure Government cloud
 - 2026-06-30 • Microsoft Defender for Cloud • Ikke oppgitt • June 30, 2026
 - 2026-06-18 • Microsoft Defender for Cloud • GA • Cloud security reporting is now generally available
-- 2026-06-17 • Microsoft Defender for Cloud • GA • API security posture management for Function Apps and Logic Apps is now generally available

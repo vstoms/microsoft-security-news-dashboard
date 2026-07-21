@@ -578,24 +578,28 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-xdr-07-domain-investigation",
+    "id": "microsoft-defender-xdr-07-ai-agent-posture-risk-in-microsoft-defender",
     "product_slug": "microsoft-defender-xdr",
     "product": "Microsoft Defender XDR",
     "category": "XDR",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Domain investigation",
-    "summary_no": "page allows you to investigate an Active Directory domain. It shows Active Directory domain security, including domain properties, deployment health, identity summary, service account breakdown, sensitive entities, active recommendations, group policies, and trust relationships.",
+    "title": "AI agent posture risk in Microsoft Defender",
+    "summary_no": "Microsoft Defender now assesses posture risk for AI agents, including enterprise agents and local agents discovered on endpoint devices. Risk levels are based on active risk indicators, such as configuration, access, runtime activity, endpoint and user context, and active alerts. Security teams can use posture risk and recommendations to prioritize risky agents and improve agent security posture.",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-07-01",
     "month": "2026-07",
     "month_label": "Juli",
     "release_stage": "GA",
-    "platforms": [],
+    "platforms": [
+      "Endpoint"
+    ],
     "theme_tags": [
       "Identitet",
-      "AI"
+      "AI",
+      "Endpoint",
+      "Teams"
     ],
     "priority_score": 68,
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
@@ -3837,6 +3841,28 @@
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-identity-08-new-health-alert-for-reverted-auditing-configuration",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New health alert for reverted auditing configuration",
+    "summary_no": "Defender for Identity added a new health alert that notifies you when a conflicting policy, such as a Group Policy Object (GPO), repeatedly reverts the auditing configuration that the v3.x sensor requires on a domain controller.",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-08-01",
+    "month": "2026-08",
+    "month_label": "August",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet"
+    ],
+    "priority_score": 38,
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-the-new-version-of-the-tool-streamlines-onboarding-and-enhances-security-by",

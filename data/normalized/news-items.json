@@ -454,10 +454,12 @@
     "month_label": "Juli",
     "release_stage": "GA",
     "platforms": [
+      "Endpoint",
       "Cloud"
     ],
     "theme_tags": [
       "Identitet",
+      "Endpoint",
       "Cloud",
       "Lifecycle"
     ],
@@ -3841,28 +3843,6 @@
     ],
     "priority_score": 48,
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-identity-08-new-health-alert-for-reverted-auditing-configuration",
-    "product_slug": "microsoft-defender-for-identity",
-    "product": "Microsoft Defender for Identity",
-    "category": "Identity Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "New health alert for reverted auditing configuration",
-    "summary_no": "Defender for Identity added a new health alert that notifies you when a conflicting policy, such as a Group Policy Object (GPO), repeatedly reverts the auditing configuration that the v3.x sensor requires on a domain controller.",
-    "impact_level": "Middels",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-08-01",
-    "month": "2026-08",
-    "month_label": "August",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Identitet"
-    ],
-    "priority_score": 38,
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-the-new-version-of-the-tool-streamlines-onboarding-and-enhances-security-by",

@@ -1,8 +1,7 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-21T08:22:40.637Z
+Generated: 2026-07-22T08:23:03.350Z
 
-- 2026-08-01 • Microsoft Defender for Identity • Ikke oppgitt • New health alert for reverted auditing configuration
 - 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
@@ -22,3 +21,4 @@ Generated: 2026-07-21T08:22:40.637Z
 - 2026-06-30 • Microsoft Defender for Cloud • GA • General availability of Defender for Key Vault in Azure Government cloud
 - 2026-06-30 • Microsoft Defender for Cloud • Ikke oppgitt • June 30, 2026
 - 2026-06-18 • Microsoft Defender for Cloud • GA • Cloud security reporting is now generally available
+- 2026-06-17 • Microsoft Defender for Cloud • GA • API security posture management for Function Apps and Logic Apps is now generally available

@@ -672,16 +672,19 @@ export const newsItems = [
     "category": "Identity Security",
     "themes": [
       "Identitet",
+      "Endpoint",
       "Cloud",
       "Lifecycle"
     ],
     "platforms": [
+      "Endpoint",
       "Cloud"
     ],
     "priorityScore": 90,
     "tags": [
       "GA",
       "Identitet",
+      "Endpoint",
       "Cloud",
       "Lifecycle"
     ],
@@ -5621,38 +5624,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-08-new-health-alert-for-reverted-auditing-configuration",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "August",
-    "monthKey": "2026-08",
-    "date": "August 2026",
-    "publishedAt": "2026-08-01",
-    "title": "New health alert for reverted auditing configuration",
-    "summary": "Defender for Identity added a new health alert that notifies you when a conflicting policy, such as a Group Policy Object (GPO), repeatedly reverts the auditing configuration that the v3.x sensor requires on a domain controller.",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "impactLevel": "Middels",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "priorityScore": 38,
-    "tags": [
-      "Ikke oppgitt",
-      "Identitet"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-endpoint-06-the-new-version-of-the-tool-streamlines-onboarding-and-enhances-security-by",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -7494,8 +7465,7 @@ export const months = [
   "Mai",
   "Januar",
   "Februar",
-  "Mars",
-  "August"
+  "Mars"
 ];
 export const releaseStages = [
   "Action required",

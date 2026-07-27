@@ -230,9 +230,9 @@ export const newsItems = [
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
-    "publishedAt": "2026-07-05",
+    "publishedAt": "2026-07-26",
     "title": "Discovery and posture for serverless container workloads is now generally available",
-    "summary": "Plan enablement API now blocks onboarding to five deprecated Defender plans",
+    "summary": "Database-level recommendations for SQL Vulnerability Assessment (GA)",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -3467,6 +3467,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-07-database-level-recommendations-for-sql-vulnerability-assessment-ga",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-05",
+    "title": "Database-level recommendations for SQL Vulnerability Assessment (GA)",
+    "summary": "GA Database-level recommendations for SQL Vulnerability Assessment (GA) July 5, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 53,
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-sentinel-07-custom-detection-rules-support-in-microsoft-sentinel-repositories-preview",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -4434,15 +4468,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "security-exposure-management-07-codename-mdash-agentic-code-scanner-private-preview",
+    "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-private-preview",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Codename MDASH - Agentic code scanner private preview",
-    "summary": "Codename MDASH - Agentic code scanner is now available in private preview in Microsoft Security Exposure Management.",
+    "title": "Codename MDASH - MAI-Augmented scan profile private preview",
+    "summary": "The MAI-Augmented scan profile is now available in preview as part of Codename MDASH. The MAI-Augmented profile can be used when triggering a scan through the Defender CLI.",
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

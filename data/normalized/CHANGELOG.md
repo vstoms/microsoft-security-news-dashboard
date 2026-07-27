@@ -1,8 +1,9 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-26T08:21:33.872Z
+Generated: 2026-07-27T09:43:41.456Z
 
-- 2026-07-05 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
+- 2026-07-26 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
+- 2026-07-05 • Microsoft Defender for Cloud • GA • Database-level recommendations for SQL Vulnerability Assessment (GA)
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • GA • Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
@@ -15,10 +16,9 @@ Generated: 2026-07-26T08:21:33.872Z
 - 2026-07-01 • Microsoft Sentinel • Action required • Call to action: update queries and automation by July 1, 2026 - standardized account entity naming in incidents and alerts
 - 2026-07-01 • Microsoft Sentinel • GA • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-07-01 • Microsoft Sentinel • Preview • Custom detection rules support in Microsoft Sentinel Repositories (Preview)
-- 2026-07-01 • Security Exposure Management • Preview • Codename MDASH - Agentic code scanner private preview
+- 2026-07-01 • Security Exposure Management • Preview • Codename MDASH - MAI-Augmented scan profile private preview
 - 2026-07-01 • Unified SecOps • Deprecation • , Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.
 - 2026-06-30 • Microsoft Defender for Cloud • GA • Expanded multicloud security coverage is now generally available
 - 2026-06-30 • Microsoft Defender for Cloud • GA • General availability of Defender for Key Vault in Azure Government cloud
 - 2026-06-30 • Microsoft Defender for Cloud • Ikke oppgitt • June 30, 2026
 - 2026-06-18 • Microsoft Defender for Cloud • GA • Cloud security reporting is now generally available
-- 2026-06-17 • Microsoft Defender for Cloud • GA • API security posture management for Function Apps and Logic Apps is now generally available

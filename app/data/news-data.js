@@ -2141,6 +2141,42 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-07-available-from-defender-for-endpoint-on-linux-version-101-26042-0011-and-later",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Available from Defender for Endpoint on Linux version 101.26042.0011 and later.",
+    "summary": "The Defender Deployment Tool for Linux simplifies deployment by combining installation, onboarding, upgrades, and uninstallation into a single workflow. The tool automates prerequisite validation, supports custom installation paths, enables deployment of specific Defender versions from preferred update channels, and works seamlessly in environments that use local repositories.",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Hunting",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Hunting",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-07-new-container-security-capabilities-are-now-generally-available",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
@@ -4468,6 +4504,76 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-07-release-macos",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Release - macOS",
+    "summary": "Description Release - macOS",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-07-ai-agent-runtime-protection-includes-these-enhancements",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "AI agent runtime protection includes these enhancements",
+    "summary": "AI agent runtime protection includes these enhancements:",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "AI",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "AI",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-private-preview",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
@@ -5841,6 +5947,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-endpoint-07-release-version-1-1-78290102-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Release version 1.1.78290102 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "AI"
+    ],
+    "platforms": [],
+    "priorityScore": 33,
+    "tags": [
+      "Ikke oppgitt",
+      "AI"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-endpoint-06-selective-response-actions-enables-organizations-to-tailor-high-impact-security-operations-on-devices-during-onboarding-it-provides-precise-control-over-how-response-actions-are-applied-on-tier-0-systems-and-other-high-value-assets-helping-maintain-operational-stability-while-delivering-strong-protection",
     "product": "Microsoft Defender for Endpoint",
     "productSlug": "microsoft-defender-for-endpoint",
@@ -6335,6 +6473,72 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-07-release-version-20-126062-9-0-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Release version 20.126062.9.0 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-07-release-version-20-126052-16-0-released-see",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Release version 20.126052.16.0 released: See",
+    "summary": "enhancements and features for this release",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
     ]
   },
   {

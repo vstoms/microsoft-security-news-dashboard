@@ -4574,15 +4574,47 @@ export const newsItems = [
     ]
   },
   {
-    "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-private-preview",
+    "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-now-available-for-on-demand-scans-private-preview",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Codename MDASH - MAI-Augmented scan profile private preview",
-    "summary": "The MAI-Augmented scan profile is now available in preview as part of Codename MDASH. The MAI-Augmented profile can be used when triggering a scan through the Defender CLI.",
+    "title": "Codename MDASH - MAI-Augmented scan profile now available for on-demand scans private preview",
+    "summary": "Codename MDASH - MAI-Augmented scan profile now available for on-demand scans private preview",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "priorityScore": 48,
+    "tags": [
+      "Preview",
+      "Generelt"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
+    ]
+  },
+  {
+    "id": "security-exposure-management-07-expanding-on-the-previously-released-defender-cli-support-the-mai-augmented-scan-profile-is-now-also-available-in-preview-for-on-demand-scans-triggered-from-the-microsoft-defender-portal-security-teams-can-select-this-profile-when-starting-an-on-demand-scan-from-the-manage-scans-for-more-information-see",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Expanding on the previously released Defender CLI support, the MAI-Augmented scan profile is now also available in preview for on-demand scans triggered from the Microsoft Defender portal. Security teams can select this profile when starting an on-demand scan from the Manage scans. For more information, see",
+    "summary": "Expanding on the previously released Defender CLI support, the MAI-Augmented scan profile is now also available in preview for on-demand scans triggered from the Microsoft Defender portal. Security teams can select this profile when starting an on-demand scan from the Manage scans.",
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

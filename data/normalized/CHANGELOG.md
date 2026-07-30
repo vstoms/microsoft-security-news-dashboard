@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-29T08:34:38.024Z
+Generated: 2026-07-30T08:20:09.529Z
 
 - 2026-07-26 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-05 • Microsoft Defender for Cloud • GA • Database-level recommendations for SQL Vulnerability Assessment (GA)

@@ -230,9 +230,9 @@ export const newsItems = [
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
-    "publishedAt": "2026-07-26",
+    "publishedAt": "2026-07-30",
     "title": "Discovery and posture for serverless container workloads is now generally available",
-    "summary": "Database-level recommendations for SQL Vulnerability Assessment (GA)",
+    "summary": "Foundational CSPM moves to opt-in model for new Azure subscriptions",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -6476,15 +6476,49 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-office-365-07-unified-rbac-is-the-default-permission-model-for-new-defender-for-office-365-plan-2-organizations",
+    "id": "microsoft-defender-for-cloud-07-july-30-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-30",
+    "title": "July 30, 2026",
+    "summary": "Foundational CSPM moves to opt-in model for new Azure subscriptions",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "impactLevel": "Lav",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "priorityScore": 23,
+    "tags": [
+      "Ikke oppgitt",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-office-365-07-localized-default-mark-as-and-notify-email-templates",
     "product": "Microsoft Defender for Office 365",
     "productSlug": "microsoft-defender-for-office-365",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Unified RBAC is the default permission model for new Defender for Office 365 Plan 2 organizations",
-    "summary": "Starting July 2026, new Microsoft Defender for Office 365 Plan 2 organizations use the Microsoft Defender unified role-based access control (Unified RBAC) model by default.",
+    "title": "Localized default Mark as and notify email templates",
+    "summary": "When automatic notifications use the default template, users receive notification emails in their preferred language based on their Outlook language settings. Custom notification templates configured by admins aren't affected.",
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

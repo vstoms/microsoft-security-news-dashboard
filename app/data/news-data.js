@@ -224,15 +224,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "id": "microsoft-defender-for-cloud-07-deprecation-completed-legacy-grouped-recommendations-removed-from-azure-portal",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
-    "publishedAt": "2026-07-30",
-    "title": "Discovery and posture for serverless container workloads is now generally available",
-    "summary": "Foundational CSPM moves to opt-in model for new Azure subscriptions",
+    "publishedAt": "2026-07-31",
+    "title": "Deprecation completed: Legacy grouped recommendations removed from Azure portal",
+    "summary": "Retirement of legacy grouped recommendations (sub-assessments) has started. Customers can no longer access the deprecated data through the API. The Azure portal and Azure Resource Graph might take a few days to reflect the change. Individual recommendations replace the legacy grouped recommendations, as",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "Deprecation",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -244,6 +244,7 @@ export const newsItems = [
       "Hunting",
       "Automatisering",
       "Container",
+      "Governance",
       "Cloud",
       "Lifecycle"
     ],
@@ -256,6 +257,7 @@ export const newsItems = [
       "Hunting",
       "Automatisering",
       "Container",
+      "Governance",
       "Cloud",
       "Lifecycle"
     ],
@@ -2218,6 +2220,38 @@ export const newsItems = [
     "publishedAt": "2026-07-01",
     "title": "Kubernetes misconfiguration enforcement in Defender for Containers is now generally available",
     "summary": "GA Kubernetes misconfiguration enforcement in Defender for Containers is now generally available July 1, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "impactLevel": "Middels",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Container"
+    ],
+    "platforms": [],
+    "priorityScore": 63,
+    "tags": [
+      "GA",
+      "Container"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "Discovery and posture for serverless container workloads is now generally available",
+    "summary": "GA Discovery and posture for serverless container workloads is now generally available",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
     "releaseStage": "GA",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -6473,40 +6507,6 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Email & Collaboration Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-cloud-07-july-30-2026",
-    "product": "Microsoft Defender for Cloud",
-    "productSlug": "microsoft-defender-for-cloud",
-    "month": "Juli",
-    "monthKey": "2026-07",
-    "date": "Juli 2026",
-    "publishedAt": "2026-07-30",
-    "title": "July 30, 2026",
-    "summary": "Foundational CSPM moves to opt-in model for new Azure subscriptions",
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "impactLevel": "Lav",
-    "sourceType": "release-notes",
-    "sourceName": "Microsoft Learn",
-    "category": "Cloud Security",
-    "themes": [
-      "Cloud"
-    ],
-    "platforms": [
-      "Cloud"
-    ],
-    "priorityScore": 23,
-    "tags": [
-      "Ikke oppgitt",
-      "Cloud"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / release-notes",
-      "Kategori: Cloud Security"
     ]
   },
   {

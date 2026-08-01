@@ -1,13 +1,13 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-07-31T08:44:34.765Z
+Generated: 2026-08-01T08:14:29.375Z
 
-- 2026-07-30 • Microsoft Defender for Cloud • Deprecation • Discovery and posture for serverless container workloads is now generally available
-- 2026-07-30 • Microsoft Defender for Cloud • Ikke oppgitt • July 30, 2026
+- 2026-07-31 • Microsoft Defender for Cloud • Deprecation • Deprecation completed: Legacy grouped recommendations removed from Azure portal
 - 2026-07-05 • Microsoft Defender for Cloud • GA • Database-level recommendations for SQL Vulnerability Assessment (GA)
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans
 - 2026-07-01 • Microsoft Defender for Cloud • GA • New container security capabilities are now generally available
 - 2026-07-01 • Microsoft Defender for Cloud • GA • Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
+- 2026-07-01 • Microsoft Defender for Cloud • GA • Discovery and posture for serverless container workloads is now generally available
 - 2026-07-01 • Microsoft Defender for Endpoint • GA • Available from Defender for Endpoint on Linux version 101.26042.0011 and later.
 - 2026-07-01 • Microsoft Defender for Endpoint • Preview • Release - macOS
 - 2026-07-01 • Microsoft Defender for Endpoint • Preview • AI agent runtime protection includes these enhancements

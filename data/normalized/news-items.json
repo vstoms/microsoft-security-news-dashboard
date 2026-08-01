@@ -150,17 +150,17 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "id": "microsoft-defender-for-cloud-07-deprecation-completed-legacy-grouped-recommendations-removed-from-azure-portal",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
     "category": "Cloud Security",
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
-    "title": "Discovery and posture for serverless container workloads is now generally available",
-    "summary_no": "Foundational CSPM moves to opt-in model for new Azure subscriptions",
+    "title": "Deprecation completed: Legacy grouped recommendations removed from Azure portal",
+    "summary_no": "Retirement of legacy grouped recommendations (sub-assessments) has started. Customers can no longer access the deprecated data through the API. The Azure portal and Azure Resource Graph might take a few days to reflect the change. Individual recommendations replace the legacy grouped recommendations, as",
     "impact_level": "Høy",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-07-30",
+    "published_at": "2026-07-31",
     "month": "2026-07",
     "month_label": "Juli",
     "release_stage": "Deprecation",
@@ -171,6 +171,7 @@
       "Hunting",
       "Automatisering",
       "Container",
+      "Governance",
       "Cloud",
       "Lifecycle"
     ],
@@ -1498,6 +1499,28 @@
     "source_name": "Microsoft Learn",
     "title": "Kubernetes misconfiguration enforcement in Defender for Containers is now generally available",
     "summary_no": "GA Kubernetes misconfiguration enforcement in Defender for Containers is now generally available July 1, 2026",
+    "impact_level": "Middels",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "GA",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "priority_score": 63,
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-07-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Discovery and posture for serverless container workloads is now generally available",
+    "summary_no": "GA Discovery and posture for serverless container workloads is now generally available",
     "impact_level": "Middels",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-07-01",
@@ -4430,30 +4453,6 @@
     ],
     "priority_score": 28,
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-07-july-30-2026",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "July 30, 2026",
-    "summary_no": "Foundational CSPM moves to opt-in model for new Azure subscriptions",
-    "impact_level": "Lav",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-07-30",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Cloud"
-    ],
-    "priority_score": 23,
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
   },
   {
     "id": "microsoft-defender-for-office-365-07-localized-default-mark-as-and-notify-email-templates",

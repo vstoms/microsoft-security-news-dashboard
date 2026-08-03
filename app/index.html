@@ -18,10 +18,29 @@
       <section class="highlights">
         <div class="panel critical-panel">
           <div class="section-header">
-            <h2>Krever handling</h2>
-            <p>Oppdateringer med tydelig operativ konsekvens, deadlines eller lifecycle-endringer.</p>
+            <div>
+              <p class="section-kicker">Operativ arbeidsflate</p>
+              <h2>Krever handling</h2>
+              <p>Prioriter frister, fordel ansvar og ta med valgte saker til endringsmøtet.</p>
+            </div>
+            <div class="queue-summary" id="queue-summary"></div>
           </div>
-          <div id="critical-list" class="highlight-list"></div>
+          <div class="queue-toolbar">
+            <div class="deadline-filters" id="deadline-filters" aria-label="Filtrer på frist">
+              <button class="queue-filter active" data-due="all">Alle</button>
+              <button class="queue-filter" data-due="overdue">Forfalt</button>
+              <button class="queue-filter" data-due="7">Innen 7 dager</button>
+              <button class="queue-filter" data-due="30">Innen 30 dager</button>
+              <button class="queue-filter" data-due="90">Innen 90 dager</button>
+            </div>
+            <div class="export-actions">
+              <span id="selection-count">0 valgt</span>
+              <button id="export-csv" class="secondary-button" disabled>Eksporter CSV</button>
+              <button id="export-markdown" class="secondary-button" disabled>Eksporter Markdown</button>
+            </div>
+          </div>
+          <div id="critical-list" class="action-list"></div>
+          <div id="queue-empty" class="empty queue-empty" hidden>Ingen handlinger i dette fristintervallet.</div>
         </div>
       </section>
 
@@ -90,15 +109,30 @@
     </div>
 
     <template id="critical-template">
-      <article class="highlight-card">
-        <div class="badge-row compact-badges">
-          <span class="badge badge-stage"></span>
-          <span class="badge badge-impact"></span>
+      <article class="action-card">
+        <label class="action-select" title="Velg for eksport">
+          <input type="checkbox" class="action-checkbox" />
+          <span class="sr-only">Velg handling</span>
+        </label>
+        <div class="action-content">
+          <div class="badge-row compact-badges">
+            <span class="badge badge-deadline"></span>
+            <span class="badge badge-stage"></span>
+            <span class="badge badge-status"></span>
+          </div>
+          <h3></h3>
+          <p class="action-suggestion"></p>
+          <dl class="action-details">
+            <div><dt>Frist</dt><dd class="action-deadline"></dd></div>
+            <div><dt>Berørt tjeneste</dt><dd class="action-service"></dd></div>
+            <div><dt>Ansvarlig team</dt><dd class="action-team"></dd></div>
+          </dl>
         </div>
-        <h3></h3>
-        <p class="highlight-meta"></p>
-        <p class="highlight-summary"></p>
-        <a class="source-link" target="_blank" rel="noreferrer">Åpne kilde</a>
+        <div class="action-controls">
+          <label><span>Status</span><select class="status-select"></select></label>
+          <label><span>Ansvarlig team</span><input class="team-input" type="text" /></label>
+          <a class="source-link" target="_blank" rel="noreferrer">Åpne kilde</a>
+        </div>
       </article>
     </template>
 

@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-02T08:17:59.769Z
+Generated: 2026-08-03T09:37:08.606Z
 
 - 2026-07-31 • Microsoft Defender for Cloud • Deprecation • Deprecation completed: Legacy grouped recommendations removed from Azure portal
 - 2026-07-05 • Microsoft Defender for Cloud • GA • Database-level recommendations for SQL Vulnerability Assessment (GA)

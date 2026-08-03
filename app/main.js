@@ -29,6 +29,7 @@ const stageClass = (value) => ({ 'Action required': 'stage-action', Deprecation:
 const impactClass = (value) => value === 'Høy' ? 'impact-high' : value === 'Middels' ? 'impact-medium' : 'impact-low';
 const sourceLabel = (value) => ({ 'whats-new': 'What\'s new', 'release-notes': 'Release notes', blog: 'Blogg' }[value] || value);
 const impactLabel = (value) => value === 'Høy' ? 'Høy påvirkning' : value === 'Middels' ? 'Middels påvirkning' : 'Lav påvirkning';
+const displayDate = (item) => item.datePrecision === 'month' ? `${item.date} (estimert)` : item.publishedAt;
 
 function fillSelect(select, values) {
   select.innerHTML = ['Alle', ...values].map((value) => `<option value="${value}">${value}</option>`).join('');
@@ -104,7 +105,7 @@ function renderCriticalList() {
     badges[1].textContent = impactLabel(item.impactLevel);
     badges[1].classList.add(impactClass(item.impactLevel));
     node.querySelector('h3').textContent = item.title;
-    node.querySelector('.highlight-meta').textContent = `${item.product} • ${item.publishedAt}`;
+    node.querySelector('.highlight-meta').textContent = `${item.product} • ${displayDate(item)}`;
     const summary = item.summary.length > 220 ? `${item.summary.slice(0, 217).trim()}…` : item.summary;
     node.querySelector('.highlight-summary').textContent = summary;
     node.querySelector('.source-link').href = item.url;
@@ -129,13 +130,13 @@ function render() {
     badges[1].textContent = impactLabel(item.impactLevel);
     badges[1].classList.add(impactClass(item.impactLevel));
     badges[2].textContent = sourceLabel(item.sourceType);
-    node.querySelector('.meta').textContent = `${item.product} • ${item.date} • score ${item.priorityScore}`;
+    node.querySelector('.meta').textContent = `${item.product} • ${displayDate(item)} • score ${item.priorityScore}`;
     node.querySelector('h3').textContent = item.title;
     node.querySelector('.summary').textContent = item.summary;
     node.querySelector('.detail-product').textContent = item.product;
     node.querySelector('.detail-category').textContent = item.category;
     node.querySelector('.detail-source').textContent = `${item.sourceName} / ${sourceLabel(item.sourceType)}`;
-    node.querySelector('.detail-date').textContent = item.publishedAt;
+    node.querySelector('.detail-date').textContent = displayDate(item);
     node.querySelector('.source-link').href = item.url;
     node.querySelector('.tags').innerHTML = item.themes.map((tag) => `<span class="tag">${tag}</span>`).join('');
     node.querySelector('.analysis-list').innerHTML = item.analysis.map((line) => `<li>${line}</li>`).join('');

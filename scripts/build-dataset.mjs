@@ -10,6 +10,10 @@ const mapped = items.map((item) => ({
   monthKey: item.month,
   date: item.month_label + ' 2026',
   publishedAt: item.published_at,
+  effectiveAt: item.effective_at,
+  deadlineAt: item.deadline_at,
+  datePrecision: item.date_precision,
+  estimatedDate: item.estimated_date,
   title: item.title,
   summary: item.summary_no,
   url: item.url,
@@ -23,7 +27,13 @@ const mapped = items.map((item) => ({
   platforms: item.platforms,
   priorityScore: item.priority_score,
   tags: [item.release_stage, ...item.theme_tags].filter(Boolean),
-  analysis: [item.impact_no, `Kildetype: ${item.source_name} / ${item.source_type}`, `Kategori: ${item.category}`]
+  analysis: [
+    item.impact_no,
+    item.effective_at && `Ikrafttredelse: ${item.effective_at}`,
+    item.deadline_at && `Frist: ${item.deadline_at}`,
+    `Kildetype: ${item.source_name} / ${item.source_type}`,
+    `Kategori: ${item.category}`
+  ].filter(Boolean)
 }));
 
 const products = [...new Set(mapped.map((item) => item.product))].sort((a, b) => a.localeCompare(b, 'no'));

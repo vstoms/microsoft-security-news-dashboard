@@ -16,13 +16,29 @@ const el = {
   activeFilters: document.querySelector('#active-filters'),
   priorityList: document.querySelector('#priority-list'),
   criticalList: document.querySelector('#critical-list'),
+  queueEmpty: document.querySelector('#queue-empty'),
+  queueSummary: document.querySelector('#queue-summary'),
+  deadlineFilters: document.querySelector('#deadline-filters'),
+  selectionCount: document.querySelector('#selection-count'),
+  exportCsv: document.querySelector('#export-csv'),
+  exportMarkdown: document.querySelector('#export-markdown'),
   template: document.querySelector('#card-template'),
   criticalTemplate: document.querySelector('#critical-template')
 };
 
 const state = {
-  search: '', product: 'Alle', month: 'Alle', stage: 'Alle', source: 'Alle', theme: 'Alle', impact: 'Alle', sort: 'priority'
+  search: '', product: 'Alle', month: 'Alle', stage: 'Alle', source: 'Alle', theme: 'Alle', impact: 'Alle', sort: 'priority', due: 'all', selected: new Set()
 };
+
+const STORAGE_KEY = 'ms-security-action-queue-v1';
+const workflowStatuses = ['Ikke behandlet', 'Vurdert', 'Tildelt', 'Ignorert', 'Fullført'];
+const teamByCategory = {
+  'SIEM/SOAR': 'SOC-plattform',
+  'Identity & Access': 'Identitet og tilgang',
+  'Cloud Security': 'Skyplattform',
+  'Data Security': 'Informasjonsforvaltning'
+};
+let workflow = loadWorkflow();
 
 const stageWeight = { 'Action required': 4, Deprecation: 3, GA: 2, Preview: 1, 'Ikke oppgitt': 0 };
 const stageClass = (value) => ({ 'Action required': 'stage-action', Deprecation: 'stage-deprecation', GA: 'stage-ga', Preview: 'stage-preview' }[value] || 'stage-unknown');
@@ -56,6 +72,71 @@ function populateFilters() {
   buildStats();
   renderPriorityList();
   renderCriticalList();
+}
+
+function loadWorkflow() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch { return {}; }
+}
+
+function saveWorkflow() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(workflow)); } catch { /* Browser storage may be disabled. */ }
+}
+
+function parseVendorDeadline(item) {
+  const text = `${item.title} ${item.summary}`;
+  const months = { january: 0, february: 1, march: 2, april: 3, may: 4, june: 5, july: 6, august: 7, september: 8, october: 9, november: 10, december: 11 };
+  const match = text.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b/i);
+  if (match) return { date: new Date(Number(match[3]), months[match[1].toLowerCase()], Number(match[2])), vendor: true };
+  const monthYear = text.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})\b/i);
+  if (monthYear) return { date: new Date(Number(monthYear[2]), months[monthYear[1].toLowerCase()] + 1, 0), vendor: true };
+  return null;
+}
+
+function operationalize(item) {
+  const vendorDeadline = parseVendorDeadline(item);
+  const published = new Date(`${item.publishedAt}T12:00:00`);
+  const reviewDays = item.releaseStage === 'Action required' ? 7 : 30;
+  const deadline = vendorDeadline || { date: new Date(published.getTime() + reviewDays * 86400000), vendor: false };
+  const suggestedAction = item.releaseStage === 'Deprecation'
+    ? `Kartlegg bruk av ${item.product}, vurder erstatning og planlegg utfasing.`
+    : item.releaseStage === 'Action required'
+      ? `Bekreft om endringen gjelder miljøet, test berørte arbeidsflyter og opprett endringssak.`
+      : `Vurder operasjonell påvirkning og dokumenter om tiltak er nødvendig.`;
+  const saved = workflow[item.id] || {};
+  return { ...item, deadline: deadline.date, vendorDeadline: deadline.vendor, suggestedAction, team: saved.team || teamByCategory[item.category] || `${item.product}-ansvarlig`, status: saved.status || workflowStatuses[0] };
+}
+
+const actionItems = newsItems
+  .filter((item) => item.releaseStage === 'Action required' || item.releaseStage === 'Deprecation' || item.impactLevel === 'Høy')
+  .map(operationalize);
+
+function dayDifference(date) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const target = new Date(date);
+  target.setHours(0, 0, 0, 0);
+  return Math.ceil((target - today) / 86400000);
+}
+
+function deadlineBadge(item) {
+  const days = dayDifference(item.deadline);
+  if (days < 0) return { text: `Forfalt ${Math.abs(days)} d`, className: 'deadline-overdue' };
+  if (days === 0) return { text: 'Forfaller i dag', className: 'deadline-overdue' };
+  if (days <= 7) return { text: `${days} d igjen`, className: 'deadline-soon' };
+  if (days <= 30) return { text: `${days} d igjen`, className: 'deadline-upcoming' };
+  return { text: `${days} d igjen`, className: 'deadline-later' };
+}
+
+const dateFormatter = new Intl.DateTimeFormat('nb-NO', { day: 'numeric', month: 'short', year: 'numeric' });
+
+function filteredActionItems() {
+  const limit = Number(state.due);
+  return actionItems.filter((item) => {
+    const days = dayDifference(item.deadline);
+    if (state.due === 'overdue') return days < 0;
+    if (state.due === 'all') return true;
+    return days >= 0 && days <= limit;
+  }).sort((a, b) => a.deadline - b.deadline || b.priorityScore - a.priorityScore);
 }
 
 function matchesImpact(item, selected) {
@@ -94,22 +175,76 @@ function renderPriorityList() {
 }
 
 function renderCriticalList() {
-  const critical = newsItems.filter((item) => item.releaseStage === 'Action required' || item.releaseStage === 'Deprecation' || item.impactLevel === 'Høy').slice(0, 6);
+  const critical = filteredActionItems();
   el.criticalList.innerHTML = '';
+  el.queueEmpty.hidden = critical.length > 0;
+  const overdue = actionItems.filter((item) => dayDifference(item.deadline) < 0 && item.status !== 'Fullført' && item.status !== 'Ignorert').length;
+  const open = actionItems.filter((item) => item.status !== 'Fullført' && item.status !== 'Ignorert').length;
+  el.queueSummary.innerHTML = `<strong>${open}</strong><span>åpne</span><strong>${overdue}</strong><span>forfalt</span>`;
   for (const item of critical) {
     const node = el.criticalTemplate.content.firstElementChild.cloneNode(true);
+    node.dataset.id = item.id;
+    const deadline = deadlineBadge(item);
     const badges = node.querySelectorAll('.badge');
-    badges[0].textContent = item.releaseStage;
-    badges[0].classList.add(stageClass(item.releaseStage));
-    badges[1].textContent = impactLabel(item.impactLevel);
-    badges[1].classList.add(impactClass(item.impactLevel));
+    badges[0].textContent = deadline.text;
+    badges[0].classList.add(deadline.className);
+    badges[1].textContent = item.releaseStage;
+    badges[1].classList.add(stageClass(item.releaseStage));
+    badges[2].textContent = item.status;
+    badges[2].classList.add('status-badge');
     node.querySelector('h3').textContent = item.title;
-    node.querySelector('.highlight-meta').textContent = `${item.product} • ${item.publishedAt}`;
-    const summary = item.summary.length > 220 ? `${item.summary.slice(0, 217).trim()}…` : item.summary;
-    node.querySelector('.highlight-summary').textContent = summary;
+    node.querySelector('.action-suggestion').textContent = item.suggestedAction;
+    node.querySelector('.action-deadline').textContent = `${dateFormatter.format(item.deadline)} · ${item.vendorDeadline ? 'Microsoft-frist' : 'Intern vurderingsfrist'}`;
+    node.querySelector('.action-service').textContent = item.product;
+    node.querySelector('.action-team').textContent = item.team;
+    const statusSelect = node.querySelector('.status-select');
+    statusSelect.innerHTML = workflowStatuses.map((status) => `<option${status === item.status ? ' selected' : ''}>${status}</option>`).join('');
+    node.querySelector('.team-input').value = item.team;
+    node.querySelector('.action-checkbox').checked = state.selected.has(item.id);
     node.querySelector('.source-link').href = item.url;
     el.criticalList.appendChild(node);
   }
+  updateExportControls();
+}
+
+function updateItem(id, changes) {
+  const item = actionItems.find((candidate) => candidate.id === id);
+  if (!item) return;
+  Object.assign(item, changes);
+  workflow[id] = { status: item.status, team: item.team };
+  saveWorkflow();
+  renderCriticalList();
+}
+
+function updateExportControls() {
+  const count = state.selected.size;
+  el.selectionCount.textContent = `${count} valgt`;
+  el.exportCsv.disabled = el.exportMarkdown.disabled = count === 0;
+}
+
+function selectedActions() {
+  return actionItems.filter((item) => state.selected.has(item.id));
+}
+
+function downloadFile(filename, content, type) {
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(new Blob([content], { type }));
+  link.download = filename;
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(link.href), 0);
+}
+
+function exportCsv() {
+  const rows = [['Tittel', 'Foreslått tiltak', 'Berørt tjeneste', 'Ansvarlig team', 'Frist', 'Status', 'Kilde']];
+  for (const item of selectedActions()) rows.push([item.title, item.suggestedAction, item.product, item.team, item.deadline.toISOString().slice(0, 10), item.status, item.url]);
+  const csv = rows.map((row) => row.map((value) => `"${String(value).replaceAll('"', '""')}"`).join(',')).join('\r\n');
+  downloadFile('security-actions.csv', `\uFEFF${csv}`, 'text/csv;charset=utf-8');
+}
+
+function exportMarkdown() {
+  const lines = ['# Tiltak – Microsoft Security', '', `Eksportert ${dateFormatter.format(new Date())}`, ''];
+  for (const item of selectedActions()) lines.push(`## ${item.title}`, '', `- **Status:** ${item.status}`, `- **Frist:** ${dateFormatter.format(item.deadline)} (${item.vendorDeadline ? 'Microsoft-frist' : 'intern vurderingsfrist'})`, `- **Berørt tjeneste:** ${item.product}`, `- **Ansvarlig team:** ${item.team}`, `- **Foreslått tiltak:** ${item.suggestedAction}`, `- **Kilde:** ${item.url}`, '');
+  downloadFile('security-actions.md', lines.join('\n'), 'text/markdown;charset=utf-8');
 }
 
 function render() {
@@ -154,6 +289,25 @@ el.chips.addEventListener('click', (event) => {
   el.product.value = state.product;
   render();
 });
+el.deadlineFilters.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-due]');
+  if (!button) return;
+  state.due = button.dataset.due;
+  el.deadlineFilters.querySelectorAll('[data-due]').forEach((candidate) => candidate.classList.toggle('active', candidate === button));
+  renderCriticalList();
+});
+el.criticalList.addEventListener('change', (event) => {
+  const card = event.target.closest('[data-id]');
+  if (!card) return;
+  if (event.target.matches('.action-checkbox')) {
+    event.target.checked ? state.selected.add(card.dataset.id) : state.selected.delete(card.dataset.id);
+    updateExportControls();
+  }
+  if (event.target.matches('.status-select')) updateItem(card.dataset.id, { status: event.target.value });
+  if (event.target.matches('.team-input')) updateItem(card.dataset.id, { team: event.target.value.trim() || 'Ikke tildelt' });
+});
+el.exportCsv.addEventListener('click', exportCsv);
+el.exportMarkdown.addEventListener('click', exportMarkdown);
 
 populateFilters();
 render();

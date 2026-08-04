@@ -83,33 +83,42 @@ function saveWorkflow() {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(workflow)); } catch { /* Browser storage may be disabled. */ }
 }
 
-function parseVendorDeadline(item) {
-  const text = `${item.title} ${item.summary}`;
-  const months = { january: 0, february: 1, march: 2, april: 3, may: 4, june: 5, july: 6, august: 7, september: 8, october: 9, november: 10, december: 11 };
-  const match = text.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b/i);
-  if (match) return { date: new Date(Number(match[3]), months[match[1].toLowerCase()], Number(match[2])), vendor: true };
-  const monthYear = text.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})\b/i);
-  if (monthYear) return { date: new Date(Number(monthYear[2]), months[monthYear[1].toLowerCase()] + 1, 0), vendor: true };
-  return null;
+function structuredDate(value) {
+  if (!value) return null;
+  const [year, month, day] = value.split('-').map(Number);
+  return new Date(year, month - 1, day);
+}
+
+function reviewTarget(item) {
+  const target = structuredDate(item.publishedAt);
+  target.setDate(target.getDate() + (item.releaseStage === 'Action required' ? 7 : 30));
+  return target;
 }
 
 function operationalize(item) {
-  const vendorDeadline = parseVendorDeadline(item);
-  const published = new Date(`${item.publishedAt}T12:00:00`);
-  const reviewDays = item.releaseStage === 'Action required' ? 7 : 30;
-  const deadline = vendorDeadline || { date: new Date(published.getTime() + reviewDays * 86400000), vendor: false };
+  const deadlineAt = structuredDate(item.deadlineAt);
+  const effectiveAt = structuredDate(item.effectiveAt);
+  const targetAt = deadlineAt || reviewTarget(item);
   const suggestedAction = item.releaseStage === 'Deprecation'
     ? `Kartlegg bruk av ${item.product}, vurder erstatning og planlegg utfasing.`
-    : item.releaseStage === 'Action required'
-      ? `Bekreft om endringen gjelder miljøet, test berørte arbeidsflyter og opprett endringssak.`
-      : `Vurder operasjonell påvirkning og dokumenter om tiltak er nødvendig.`;
+    : `Bekreft om endringen gjelder miljøet, test berørte arbeidsflyter og opprett endringssak.`;
   const saved = workflow[item.id] || {};
-  return { ...item, deadline: deadline.date, vendorDeadline: deadline.vendor, suggestedAction, team: saved.team || teamByCategory[item.category] || `${item.product}-ansvarlig`, status: saved.status || workflowStatuses[0] };
+  return {
+    ...item,
+    deadlineAt,
+    effectiveAt,
+    targetAt,
+    calculatedReviewTarget: !deadlineAt,
+    suggestedAction,
+    team: saved.team || teamByCategory[item.category] || `${item.product}-ansvarlig`,
+    status: saved.status || workflowStatuses[0]
+  };
 }
 
 const actionItems = newsItems
-  .filter((item) => item.releaseStage === 'Action required' || item.releaseStage === 'Deprecation' || item.impactLevel === 'Høy')
+  .filter((item) => item.releaseStage === 'Action required' || item.releaseStage === 'Deprecation')
   .map(operationalize);
+
 
 function dayDifference(date) {
   const today = new Date();
@@ -120,7 +129,8 @@ function dayDifference(date) {
 }
 
 function deadlineBadge(item) {
-  const days = dayDifference(item.deadline);
+  if (item.calculatedReviewTarget) return { text: 'Vurderingsmål', className: 'deadline-review' };
+  const days = dayDifference(item.targetAt);
   if (days < 0) return { text: `Forfalt ${Math.abs(days)} d`, className: 'deadline-overdue' };
   if (days === 0) return { text: 'Forfaller i dag', className: 'deadline-overdue' };
   if (days <= 7) return { text: `${days} d igjen`, className: 'deadline-soon' };
@@ -133,11 +143,11 @@ const dateFormatter = new Intl.DateTimeFormat('nb-NO', { day: 'numeric', month: 
 function filteredActionItems() {
   const limit = Number(state.due);
   return actionItems.filter((item) => {
-    const days = dayDifference(item.deadline);
-    if (state.due === 'overdue') return days < 0;
+    const days = dayDifference(item.targetAt);
+    if (state.due === 'overdue') return !item.calculatedReviewTarget && days < 0;
     if (state.due === 'all') return true;
     return days >= 0 && days <= limit;
-  }).sort((a, b) => a.deadline - b.deadline || b.priorityScore - a.priorityScore);
+  }).sort((a, b) => a.targetAt - b.targetAt || b.priorityScore - a.priorityScore);
 }
 
 function matchesImpact(item, selected) {
@@ -179,7 +189,7 @@ function renderCriticalList() {
   const critical = filteredActionItems();
   el.criticalList.innerHTML = '';
   el.queueEmpty.hidden = critical.length > 0;
-  const overdue = actionItems.filter((item) => dayDifference(item.deadline) < 0 && item.status !== 'Fullført' && item.status !== 'Ignorert').length;
+  const overdue = actionItems.filter((item) => !item.calculatedReviewTarget && dayDifference(item.targetAt) < 0 && item.status !== 'Fullført' && item.status !== 'Ignorert').length;
   const open = actionItems.filter((item) => item.status !== 'Fullført' && item.status !== 'Ignorert').length;
   el.queueSummary.innerHTML = `<strong>${open}</strong><span>åpne</span><strong>${overdue}</strong><span>forfalt</span>`;
   for (const item of critical) {
@@ -195,8 +205,9 @@ function renderCriticalList() {
     badges[2].classList.add('status-badge');
     node.querySelector('h3').textContent = item.title;
     node.querySelector('.action-suggestion').textContent = item.suggestedAction;
-    node.querySelector('.action-deadline').textContent = `${dateFormatter.format(item.deadline)} · ${item.vendorDeadline ? 'Microsoft-frist' : 'Intern vurderingsfrist'}`;
-    node.querySelector('.action-service').textContent = item.product;
+    node.querySelector('.action-deadline-label').textContent = item.calculatedReviewTarget ? 'Vurderingsmål' : 'Microsoft-frist';
+    node.querySelector('.action-deadline').textContent = `${dateFormatter.format(item.targetAt)} · ${item.calculatedReviewTarget ? 'Beregnet fra publisering' : 'Oppgitt av Microsoft'}`;
+    node.querySelector('.action-effective').textContent = item.effectiveAt ? dateFormatter.format(item.effectiveAt) : 'Ikke oppgitt';
     node.querySelector('.action-team').textContent = item.team;
     const statusSelect = node.querySelector('.status-select');
     statusSelect.innerHTML = workflowStatuses.map((status) => `<option${status === item.status ? ' selected' : ''}>${status}</option>`).join('');
@@ -236,15 +247,35 @@ function downloadFile(filename, content, type) {
 }
 
 function exportCsv() {
-  const rows = [['Tittel', 'Foreslått tiltak', 'Berørt tjeneste', 'Ansvarlig team', 'Frist', 'Status', 'Kilde']];
-  for (const item of selectedActions()) rows.push([item.title, item.suggestedAction, item.product, item.team, item.deadline.toISOString().slice(0, 10), item.status, item.url]);
+  const rows = [['Tittel', 'Foreslått tiltak', 'Berørt tjeneste', 'Ansvarlig team', 'Frist / vurderingsmål', 'Ikrafttredelse', 'Status', 'Kilde']];
+  for (const item of selectedActions()) rows.push([
+    item.title,
+    item.suggestedAction,
+    item.product,
+    item.team,
+    `${item.targetAt.toISOString().slice(0, 10)} (${item.calculatedReviewTarget ? 'beregnet vurderingsmål' : 'Microsoft-frist'})`,
+    item.effectiveAt ? item.effectiveAt.toISOString().slice(0, 10) : '',
+    item.status,
+    item.url
+  ]);
   const csv = rows.map((row) => row.map((value) => `"${String(value).replaceAll('"', '""')}"`).join(',')).join('\r\n');
   downloadFile('security-actions.csv', `\uFEFF${csv}`, 'text/csv;charset=utf-8');
 }
 
 function exportMarkdown() {
   const lines = ['# Tiltak – Microsoft Security', '', `Eksportert ${dateFormatter.format(new Date())}`, ''];
-  for (const item of selectedActions()) lines.push(`## ${item.title}`, '', `- **Status:** ${item.status}`, `- **Frist:** ${dateFormatter.format(item.deadline)} (${item.vendorDeadline ? 'Microsoft-frist' : 'intern vurderingsfrist'})`, `- **Berørt tjeneste:** ${item.product}`, `- **Ansvarlig team:** ${item.team}`, `- **Foreslått tiltak:** ${item.suggestedAction}`, `- **Kilde:** ${item.url}`, '');
+  for (const item of selectedActions()) lines.push(
+    `## ${item.title}`,
+    '',
+    `- **Status:** ${item.status}`,
+    `- **${item.calculatedReviewTarget ? 'Vurderingsmål' : 'Microsoft-frist'}:** ${dateFormatter.format(item.targetAt)} (${item.calculatedReviewTarget ? 'beregnet fra publisering' : 'oppgitt av Microsoft'})`,
+    `- **Ikrafttredelse:** ${item.effectiveAt ? dateFormatter.format(item.effectiveAt) : 'Ikke oppgitt'}`,
+    `- **Berørt tjeneste:** ${item.product}`,
+    `- **Ansvarlig team:** ${item.team}`,
+    `- **Foreslått tiltak:** ${item.suggestedAction}`,
+    `- **Kilde:** ${item.url}`,
+    ''
+  );
   downloadFile('security-actions.md', lines.join('\n'), 'text/markdown;charset=utf-8');
 }
 

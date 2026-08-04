@@ -145,7 +145,7 @@ export function normalizeCandidate(source, candidate, index) {
   return {
     id: `${source.productSlug}-${candidate.month.slice(-2)}-${slugify(assessment.title || `${source.id}-${index}`)}`,
     product_slug: source.productSlug, product: source.product, category: source.category,
-    source_type: source.sourceType, source_name: source.sourceName,
+    source_id: source.id, source_type: source.sourceType, source_name: source.sourceName,
     title: assessment.title, summary_no: summary,
     impact_level: impactLevel, impact_no: impactLabel(impactLevel),
     ...dates,

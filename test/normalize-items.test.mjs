@@ -37,12 +37,13 @@ test('captures definition-list and page metadata', () => {
 });
 
 test('separates publication, effective, and deadline dates and marks month estimates', () => {
-  const source = { productSlug: 'sentinel', product: 'Sentinel', category: 'SIEM', sourceType: 'whats-new', sourceName: 'Learn', url: 'https://learn.microsoft.com/test' };
+  const source = { id: 'sentinel-whats-new', productSlug: 'sentinel', product: 'Sentinel', category: 'SIEM', sourceType: 'whats-new', sourceName: 'Learn', url: 'https://learn.microsoft.com/test' };
   const dated = normalizeCandidate(source, {
     month: '2026-07', rawTitle: 'Update repository API versions', metadata: {},
     text: 'Published July 2, 2026. Effective July 10, 2026. You must migrate before July 31, 2026.'
   }, 0);
   assert.equal(dated.published_at, '2026-07-02');
+  assert.equal(dated.source_id, 'sentinel-whats-new');
   assert.equal(dated.effective_at, '2026-07-10');
   assert.equal(dated.deadline_at, '2026-07-31');
   assert.equal(dated.date_precision, 'day');
@@ -55,6 +56,6 @@ test('separates publication, effective, and deadline dates and marks month estim
 });
 
 test('rejects generic titles', () => {
-  const source = { productSlug: 'sentinel', product: 'Sentinel', category: 'SIEM', sourceType: 'whats-new', sourceName: 'Learn', url: 'https://learn.microsoft.com/test' };
+  const source = { id: 'sentinel-whats-new', productSlug: 'sentinel', product: 'Sentinel', category: 'SIEM', sourceType: 'whats-new', sourceName: 'Learn', url: 'https://learn.microsoft.com/test' };
   assert.equal(normalizeCandidate(source, { month: '2026-08', rawTitle: 'Required action', metadata: {}, text: 'Useful content' }, 0), null);
 });

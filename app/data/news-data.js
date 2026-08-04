@@ -19,6 +19,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -57,6 +58,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Automatisering",
@@ -96,6 +98,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -135,6 +138,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -178,6 +182,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -219,6 +224,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -263,6 +269,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Hunting",
@@ -310,6 +317,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -359,6 +367,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Hunting",
@@ -407,6 +416,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -451,6 +461,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -491,6 +502,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -536,6 +548,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Hunting",
@@ -579,6 +592,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud",
@@ -620,6 +634,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Cloud",
@@ -661,6 +676,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Container",
@@ -700,6 +716,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud",
@@ -740,6 +757,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Cloud",
@@ -780,6 +798,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -821,6 +840,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -862,6 +882,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Governance",
@@ -902,6 +923,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -944,6 +966,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -982,6 +1005,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1024,6 +1048,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1062,6 +1087,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1104,6 +1130,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1149,6 +1176,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1191,6 +1219,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI",
@@ -1229,6 +1258,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1273,6 +1303,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint",
@@ -1313,6 +1344,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -1349,6 +1381,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -1392,6 +1425,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -1428,6 +1462,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -1471,6 +1506,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -1512,6 +1548,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -1555,6 +1592,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -1596,6 +1634,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1636,6 +1675,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1676,6 +1716,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1718,6 +1759,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1756,6 +1798,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -1799,6 +1842,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -1844,6 +1888,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -1889,6 +1934,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -1929,6 +1975,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -1967,6 +2014,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2007,6 +2055,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2043,6 +2092,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2081,6 +2131,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2121,6 +2172,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2161,6 +2213,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2197,6 +2250,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2233,6 +2287,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2269,6 +2324,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2309,6 +2365,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2347,6 +2404,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet"
@@ -2383,6 +2441,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet"
@@ -2419,6 +2478,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -2462,6 +2522,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2502,6 +2563,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2542,6 +2604,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2580,6 +2643,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Identitet",
@@ -2620,6 +2684,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -2663,6 +2728,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Automatisering"
@@ -2699,6 +2765,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2735,6 +2802,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -2771,6 +2839,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -2809,6 +2878,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2845,6 +2915,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -2881,6 +2952,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Automatisering"
@@ -2917,6 +2989,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Hunting",
@@ -2957,6 +3030,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -2996,6 +3070,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -3037,6 +3112,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -3073,6 +3149,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -3112,6 +3189,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -3151,6 +3229,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -3190,6 +3269,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI"
@@ -3226,6 +3306,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -3264,6 +3345,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -3302,6 +3384,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI"
@@ -3338,6 +3421,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Endpoint"
@@ -3376,6 +3460,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -3417,6 +3502,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -3458,6 +3544,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -3499,6 +3586,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Hunting",
@@ -3542,6 +3630,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -3579,6 +3668,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI"
@@ -3615,6 +3705,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Generelt"
@@ -3651,6 +3742,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container"
@@ -3688,6 +3780,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Hunting"
@@ -3724,6 +3817,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI"
@@ -3760,6 +3854,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Container",
@@ -3798,6 +3893,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -3836,6 +3932,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -3874,6 +3971,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -3910,6 +4008,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -3948,6 +4047,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Generelt"
@@ -3984,6 +4084,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Generelt"
@@ -4020,6 +4121,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud"
@@ -4058,6 +4160,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Cloud"
@@ -4096,6 +4199,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Generelt"
@@ -4132,6 +4236,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Cloud"
@@ -4170,6 +4275,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4212,6 +4318,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4256,6 +4363,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -4294,6 +4402,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -4341,6 +4450,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4379,6 +4489,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -4415,6 +4526,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -4451,6 +4563,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4489,6 +4602,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4527,6 +4641,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4567,6 +4682,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -4608,6 +4724,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -4644,6 +4761,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4689,6 +4807,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -4725,6 +4844,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -4761,6 +4881,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -4797,6 +4918,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4835,6 +4957,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Automatisering",
@@ -4873,6 +4996,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4911,6 +5035,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4949,6 +5074,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -4989,6 +5115,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5027,6 +5154,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -5063,6 +5191,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5103,6 +5232,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5145,6 +5275,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5183,6 +5314,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5225,6 +5357,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -5261,6 +5394,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5301,6 +5435,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Endpoint",
@@ -5341,6 +5476,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Lifecycle"
@@ -5377,6 +5513,7 @@ export const newsItems = [
     "impactLevel": "Høy",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Endpoint",
@@ -5417,6 +5554,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -5457,6 +5595,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Automatisering",
@@ -5497,6 +5636,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Identitet",
@@ -5543,6 +5683,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Identitet",
@@ -5581,6 +5722,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet",
@@ -5621,6 +5763,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet",
@@ -5661,6 +5804,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -5699,6 +5843,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -5737,6 +5882,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -5780,6 +5926,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5822,6 +5969,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5862,6 +6010,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -5902,6 +6051,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI"
@@ -5938,6 +6088,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Identitet",
@@ -5984,6 +6135,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -6023,6 +6175,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -6063,6 +6216,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -6106,6 +6260,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6146,6 +6301,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6188,6 +6344,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6228,6 +6385,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6270,6 +6428,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet",
@@ -6310,6 +6469,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -6348,6 +6508,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -6384,6 +6545,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6422,6 +6584,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -6458,6 +6621,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -6494,6 +6658,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Automatisering"
@@ -6530,6 +6695,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "AI",
@@ -6570,6 +6736,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Generelt"
@@ -6606,6 +6773,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Cloud"
@@ -6644,6 +6812,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -6680,6 +6849,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -6716,6 +6886,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -6759,6 +6930,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -6801,6 +6973,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -6846,6 +7019,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6884,6 +7058,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6924,6 +7099,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -6962,6 +7138,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -7004,6 +7181,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -7042,6 +7220,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -7084,6 +7263,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -7122,6 +7302,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Generelt"
@@ -7158,6 +7339,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet"
@@ -7194,6 +7376,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Identitet",
@@ -7234,6 +7417,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -7274,6 +7458,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -7314,6 +7499,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -7354,6 +7540,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -7390,6 +7577,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -7426,6 +7614,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting",
@@ -7470,6 +7659,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Generelt"
@@ -7506,6 +7696,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -7544,6 +7735,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -7580,6 +7772,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -7616,6 +7809,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Automatisering",
@@ -7656,6 +7850,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -7707,6 +7902,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Identitet"
@@ -7743,6 +7939,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -7784,6 +7981,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -7820,6 +8018,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -7858,6 +8057,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -7894,6 +8094,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "AI"
@@ -7930,6 +8131,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -7968,6 +8170,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Teams"
@@ -8004,6 +8207,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Teams"
@@ -8040,6 +8244,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "AI",
@@ -8078,6 +8283,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -8114,6 +8320,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -8152,6 +8359,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "AI",
@@ -8192,6 +8400,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -8230,6 +8439,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -8268,6 +8478,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Hunting",
@@ -8312,6 +8523,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "AI",
@@ -8352,6 +8564,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -8390,6 +8603,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -8430,6 +8644,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -8471,6 +8686,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -8511,6 +8727,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -8551,6 +8768,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -8593,6 +8811,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Endpoint",
@@ -8634,6 +8853,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -8670,6 +8890,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Endpoint"
@@ -8708,6 +8929,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Hunting",
@@ -8750,6 +8972,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Endpoint"
@@ -8788,6 +9011,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Endpoint"
@@ -8826,6 +9050,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container"
@@ -8862,6 +9087,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container"
@@ -8898,6 +9124,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -8934,6 +9161,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -8972,6 +9200,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9010,6 +9239,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9048,6 +9278,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9086,6 +9317,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9124,6 +9356,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -9165,6 +9398,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container"
@@ -9201,6 +9435,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -9241,6 +9476,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Cloud"
@@ -9279,6 +9515,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -9315,6 +9552,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -9351,6 +9589,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9389,6 +9628,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9427,6 +9667,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9465,6 +9706,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9503,6 +9745,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9541,6 +9784,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -9579,6 +9823,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -9615,6 +9860,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting",
@@ -9655,6 +9901,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -9691,6 +9938,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI"
@@ -9727,6 +9975,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI"
@@ -9763,6 +10012,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -9799,6 +10049,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Teams"
@@ -9835,6 +10086,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Cloud"
@@ -9873,6 +10125,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Endpoint",
@@ -9914,6 +10167,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI",
@@ -9954,6 +10208,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -9990,6 +10245,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -10026,6 +10282,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Generelt"
@@ -10062,6 +10319,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -10100,6 +10358,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -10136,6 +10395,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10174,6 +10434,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10212,6 +10473,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10250,6 +10512,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10288,6 +10551,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10326,6 +10590,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "AI",
@@ -10368,6 +10633,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -10410,6 +10676,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Governance"
@@ -10446,6 +10713,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Governance"
@@ -10482,6 +10750,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Governance"
@@ -10518,6 +10787,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -10554,6 +10824,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI",
@@ -10594,6 +10865,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -10632,6 +10904,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10670,6 +10943,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -10706,6 +10980,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint",
@@ -10747,6 +11022,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10785,6 +11061,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10823,6 +11100,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10861,6 +11139,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10899,6 +11178,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -10937,6 +11217,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -10977,6 +11258,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container"
@@ -11013,6 +11295,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "AI",
@@ -11054,6 +11337,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -11090,6 +11374,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11128,6 +11413,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11166,6 +11452,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11204,6 +11491,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint",
@@ -11245,6 +11533,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -11288,6 +11577,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Cloud"
@@ -11326,6 +11616,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -11362,6 +11653,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -11398,6 +11690,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11436,6 +11729,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11474,6 +11768,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -11510,6 +11805,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -11546,6 +11842,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11584,6 +11881,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11622,6 +11920,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -11658,6 +11957,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11696,6 +11996,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11734,6 +12035,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Hunting"
@@ -11770,6 +12072,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -11806,6 +12109,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11844,6 +12148,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11882,6 +12187,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -11920,6 +12226,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Hunting"
@@ -11956,6 +12263,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -11992,6 +12300,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12028,6 +12337,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12064,6 +12374,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12102,6 +12413,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12138,6 +12450,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12174,6 +12487,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12212,6 +12526,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint",
@@ -12253,6 +12568,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12291,6 +12607,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12327,6 +12644,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12365,6 +12683,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12401,6 +12720,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12439,6 +12759,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12477,6 +12798,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12515,6 +12837,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12553,6 +12876,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Generelt"
@@ -12589,6 +12913,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-endpoint-whats-new",
     "category": "Endpoint Security",
     "themes": [
       "Endpoint"
@@ -12627,6 +12952,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "AI",
@@ -12669,6 +12995,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Cloud"
@@ -12707,6 +13034,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -12743,6 +13071,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Teams"
@@ -12779,6 +13108,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI"
@@ -12815,6 +13145,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Generelt"
@@ -12851,6 +13182,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Hunting"
@@ -12887,6 +13219,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Teams",
@@ -12927,6 +13260,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI",
@@ -12967,6 +13301,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -13003,6 +13338,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -13039,6 +13375,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Teams"
@@ -13075,6 +13412,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Endpoint"
@@ -13113,6 +13451,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Generelt"
@@ -13149,6 +13488,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -13187,6 +13527,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -13236,6 +13577,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -13278,6 +13620,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -13314,6 +13657,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet"
@@ -13350,6 +13694,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -13392,6 +13737,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -13434,6 +13780,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -13476,6 +13823,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet"
@@ -13512,6 +13860,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet"
@@ -13548,6 +13897,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -13590,6 +13940,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Endpoint"
@@ -13628,6 +13979,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting",
@@ -13668,6 +14020,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "AI",
@@ -13708,6 +14061,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -13744,6 +14098,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Endpoint",
@@ -13784,6 +14139,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud"
@@ -13823,6 +14179,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI",
@@ -13861,6 +14218,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -13897,6 +14255,7 @@ export const newsItems = [
     "impactLevel": "Middels",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Cloud"
@@ -13936,6 +14295,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -13972,6 +14332,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Identitet",
@@ -14015,6 +14376,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Automatisering",
@@ -14057,6 +14419,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -14097,6 +14460,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -14140,6 +14504,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14176,6 +14541,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14212,6 +14578,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Hunting",
@@ -14254,6 +14621,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -14296,6 +14664,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -14338,6 +14707,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Automatisering",
@@ -14380,6 +14750,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -14420,6 +14791,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14456,6 +14828,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -14496,6 +14869,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14532,6 +14906,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -14572,6 +14947,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14608,6 +14984,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "entra-whats-new",
     "category": "Identity & Access",
     "themes": [
       "Identitet",
@@ -14648,6 +15025,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14684,6 +15062,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14720,6 +15099,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -14760,6 +15140,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14796,6 +15177,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14832,6 +15214,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -14874,6 +15257,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Identitet",
@@ -14914,6 +15298,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -14952,6 +15337,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet"
@@ -14988,6 +15374,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Identitet",
@@ -15026,6 +15413,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -15071,6 +15459,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -15120,6 +15509,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -15158,6 +15548,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -15196,6 +15587,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Identitet",
@@ -15236,6 +15628,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -15275,6 +15668,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Endpoint",
@@ -15315,6 +15709,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Generelt"
@@ -15351,6 +15746,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -15391,6 +15787,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Cloud"
@@ -15429,6 +15826,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Cloud"
@@ -15467,6 +15865,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI"
@@ -15503,6 +15902,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Teams"
@@ -15539,6 +15939,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Generelt"
@@ -15575,6 +15976,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "AI",
@@ -15615,6 +16017,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Generelt"
@@ -15651,6 +16054,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "AI",
@@ -15689,6 +16093,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-cloud-release-notes",
     "category": "Cloud Security",
     "themes": [
       "Container",
@@ -15730,6 +16135,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "purview-whats-new",
     "category": "Data Security & Governance",
     "themes": [
       "Endpoint"
@@ -15768,6 +16174,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "defender-for-identity-whats-new",
     "category": "Identity Security",
     "themes": [
       "Cloud"
@@ -15806,6 +16213,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud"
@@ -15844,6 +16252,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Cloud"
@@ -15882,6 +16291,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Teams",
@@ -15922,6 +16332,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "AI"
@@ -15958,6 +16369,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud"
@@ -15996,6 +16408,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Endpoint"
@@ -16034,6 +16447,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Hunting"
@@ -16070,6 +16484,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Hunting"
@@ -16106,6 +16521,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -16142,6 +16558,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "sentinel-whats-new",
     "category": "SIEM/SOAR",
     "themes": [
       "Generelt"
@@ -16178,6 +16595,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -16214,6 +16632,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Endpoint"
@@ -16252,6 +16671,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Endpoint",
@@ -16295,6 +16715,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Hunting",
@@ -16335,6 +16756,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Generelt"
@@ -16371,6 +16793,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -16407,6 +16830,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "unified-secops-whats-new",
     "category": "SecOps Platform",
     "themes": [
       "Cloud"
@@ -16445,6 +16869,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Container",
@@ -16487,6 +16912,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Teams",
@@ -16527,6 +16953,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Endpoint"
@@ -16565,6 +16992,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Hunting",
@@ -16605,6 +17033,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Endpoint"
@@ -16643,6 +17072,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -16679,6 +17109,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -16715,6 +17146,7 @@ export const newsItems = [
     "impactLevel": "Lav",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
+    "sourceId": "exposure-management-whats-new",
     "category": "Exposure Management",
     "themes": [
       "Generelt"
@@ -16786,3 +17218,98 @@ export const impacts = [
   "Middels",
   "Lav"
 ];
+export const dataHealth = {
+  "generatedAt": "2026-08-04T14:28:04.394Z",
+  "newestPublishedAt": "2026-07-01",
+  "fetchStatusAvailable": false,
+  "sourcesConfigured": 12,
+  "sourcesCovered": 8,
+  "sourcesFailed": 0,
+  "sourcesMissing": 4,
+  "sourceCoverage": [
+    {
+      "id": "defender-xdr-whats-new",
+      "product": "Microsoft Defender XDR",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "missing"
+    },
+    {
+      "id": "defender-office-365-whats-new",
+      "product": "Microsoft Defender for Office 365",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "missing"
+    },
+    {
+      "id": "defender-endpoint-whats-new",
+      "product": "Microsoft Defender for Endpoint",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "defender-for-identity-whats-new",
+      "product": "Microsoft Defender for Identity",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "defender-for-cloud-release-notes",
+      "product": "Microsoft Defender for Cloud",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "release-notes",
+      "status": "covered"
+    },
+    {
+      "id": "unified-secops-whats-new",
+      "product": "Unified SecOps",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "exposure-management-whats-new",
+      "product": "Security Exposure Management",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "sentinel-whats-new",
+      "product": "Microsoft Sentinel",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "entra-whats-new",
+      "product": "Microsoft Entra",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "intune-whats-new",
+      "product": "Microsoft Intune",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "missing"
+    },
+    {
+      "id": "purview-whats-new",
+      "product": "Microsoft Purview",
+      "sourceName": "Microsoft Learn",
+      "sourceType": "whats-new",
+      "status": "covered"
+    },
+    {
+      "id": "defender-xdr-blog",
+      "product": "Microsoft Defender XDR",
+      "sourceName": "Microsoft Tech Community",
+      "sourceType": "blog",
+      "status": "missing"
+    }
+  ]
+};

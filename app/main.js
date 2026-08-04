@@ -1,4 +1,4 @@
-import { newsItems, products, months, releaseStages, sourceTypes, themes, impacts } from './data/news-data.js';
+import { dataHealth, newsItems, products, months, releaseStages, sourceTypes, themes, impacts } from './data/news-data.js';
 
 const el = {
   search: document.querySelector('#search'),
@@ -22,6 +22,8 @@ const el = {
   selectionCount: document.querySelector('#selection-count'),
   exportCsv: document.querySelector('#export-csv'),
   exportMarkdown: document.querySelector('#export-markdown'),
+  dataHealthSummary: document.querySelector('#data-health-summary'),
+  dataHealthDetails: document.querySelector('#data-health-details'),
   template: document.querySelector('#card-template'),
   criticalTemplate: document.querySelector('#critical-template')
 };
@@ -61,6 +63,32 @@ function buildStats() {
   ].map((text) => `<div class="stat">${text}</div>`).join('');
 }
 
+function formatSourceDate(value) {
+  return dateFormatter.format(new Date(`${value}T12:00:00`));
+}
+
+function sourceLabelForHealth(source) {
+  return `${source.product} / ${source.sourceName}`;
+}
+
+function renderDataHealth() {
+  el.dataHealthSummary.textContent = `${dataHealth.sourcesCovered} av ${dataHealth.sourcesConfigured} konfigurerte kilder har data i dette datasettet.`;
+  const details = [
+    `Datasett bygget ${dateTimeFormatter.format(new Date(dataHealth.generatedAt))}.`,
+    `Nyeste publiserte oppdatering: ${formatSourceDate(dataHealth.newestPublishedAt)}.`
+  ];
+  const failed = dataHealth.sourceCoverage.filter((source) => source.status === 'failed');
+  const missing = dataHealth.sourceCoverage.filter((source) => source.status === 'missing');
+  if (failed.length) details.push(`Henting feilet for: ${failed.map(sourceLabelForHealth).join(', ')}.`);
+  if (missing.length) details.push(`Ingen data fra: ${missing.map(sourceLabelForHealth).join(', ')}.`);
+  if (!dataHealth.fetchStatusAvailable) details.push('Status for siste kildehenting er ikke tilgjengelig.');
+  el.dataHealthDetails.replaceChildren(...details.map((text) => {
+    const detail = document.createElement('li');
+    detail.textContent = text;
+    return detail;
+  }));
+}
+
 function populateFilters() {
   fillSelect(el.product, products);
   fillSelect(el.month, months);
@@ -71,6 +99,7 @@ function populateFilters() {
 
   el.chips.innerHTML = products.map((product) => `<button class="chip" data-product="${product}">${product}</button>`).join('');
   buildStats();
+  renderDataHealth();
   renderPriorityList();
   renderCriticalList();
 }
@@ -139,6 +168,7 @@ function deadlineBadge(item) {
 }
 
 const dateFormatter = new Intl.DateTimeFormat('nb-NO', { day: 'numeric', month: 'short', year: 'numeric' });
+const dateTimeFormatter = new Intl.DateTimeFormat('nb-NO', { dateStyle: 'medium', timeStyle: 'short' });
 
 function filteredActionItems() {
   const limit = Number(state.due);

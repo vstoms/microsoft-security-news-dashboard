@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-04T08:31:17.648Z
+Generated: 2026-08-05T08:29:56.864Z
 
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Deprecation completed: Legacy grouped recommendations removed from Azure portal
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Plan enablement API now blocks onboarding to five deprecated Defender plans

@@ -17219,9 +17219,9 @@ export const impacts = [
   "Lav"
 ];
 export const dataHealth = {
-  "generatedAt": "2026-08-04T14:28:04.394Z",
+  "generatedAt": "2026-08-05T08:29:56.710Z",
   "newestPublishedAt": "2026-07-01",
-  "fetchStatusAvailable": false,
+  "fetchStatusAvailable": true,
   "sourcesConfigured": 12,
   "sourcesCovered": 8,
   "sourcesFailed": 0,

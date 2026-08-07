@@ -147,14 +147,14 @@
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
   },
   {
-    "id": "microsoft-defender-for-office-365-07-localized-default-mark-as-and-notify-email-templates",
+    "id": "microsoft-defender-for-office-365-07-unified-rbac-is-the-default-permission-model-for-new-defender-for-office-365-plan-2-organizations",
     "product_slug": "microsoft-defender-for-office-365",
     "product": "Microsoft Defender for Office 365",
     "category": "Email & Collaboration Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Localized default Mark as and notify email templates",
-    "summary_no": ": When automatic notifications use the default template, users receive notification emails in their preferred language based on their Outlook language settings. Custom notification templates configured by admins aren't affected. For more information, see Admin review for user reported messages . Unified RBAC is the default permission model for new Defender for Office 365 Plan 2 organizations",
+    "title": "Unified RBAC is the default permission model for new Defender for Office 365 Plan 2 organizations",
+    "summary_no": ": Starting July 2026, new Microsoft Defender for Office 365 Plan 2 organizations use the Microsoft Defender unified role-based access control (Unified RBAC) model by default. For more information, see Configure Unified RBAC for Microsoft Defender for Office 365 and MC1246006",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-07-01",
     "month": "2026-07",
@@ -347,108 +347,6 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-07-preview-ga",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Preview/GA",
-    "summary_no": "Description Release - macOS Build 101.26062.0009",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Preview",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Endpoint"
-    ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-07-ga-release-version-20-126062-9-0-released-see-enhancements-and-features-for-this-release",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "GA Release version 20.126062.9.0 released: See enhancements and features for this release",
-    "summary_no": "Release version 20.126062.9.0 released: See enhancements and features for this release . Release - iOS",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
-    ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-07-ga-release-version-1-1-78290102-released-see-enhancements-and-features-for-this-release",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "GA Release version 1.1.78290102 released: See enhancements and features for this release",
-    "summary_no": "Release version 1.1.78290102 released: See enhancements and features for this release . Feature",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
-    ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-07-preview",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Preview",
-    "summary_no": "AI agent runtime protection includes these enhancements: - Vendor-supported agent event interfaces now work with standard platform and engine update channels, so no Beta channel configuration is required. Agent-native event inspection now supports Codex CLI and the GitHub Copilot app. - Network inspection is now supported for agents that don't expose vendor-supported event interfaces, including OpenClaw and similar Node.js-based Claw agents. For more information, see",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "AI"
-    ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-07-ga-release-version-20-126052-16-0-released-see-enhancements-and-features-for-this-release",
-    "product_slug": "microsoft-defender-for-endpoint",
-    "product": "Microsoft Defender for Endpoint",
-    "category": "Endpoint Security",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "GA Release version 20.126052.16.0 released: See enhancements and features for this release",
-    "summary_no": "Release version 20.126052.16.0 released: See enhancements and features for this release . Feature",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
-    ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-preview-ga",
@@ -1031,18 +929,15 @@
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
     "title": "Sensor v2.x to v3.x migration is now generally available",
-    "summary_no": "Migration of Defender for Identity sensors from v2.x to v3.x is now generally available. For more information, see Migrate to Defender for Identity sensor v3.x . Migrate Windows Server 2025 domain controllers to sensor v3.x",
+    "summary_no": "Migration of Defender for Identity sensors from v2.x to v3.x is now generally available. For more information, see Migrate to Defender for Identity sensor v3.x . Expanded SaaS app support in Password protection (Preview)",
     "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
     "published_at": "2026-07-01",
     "month": "2026-07",
     "month_label": "Juli",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Endpoint"
-    ],
+    "release_stage": "Preview",
+    "platforms": [],
     "theme_tags": [
-      "Identitet",
-      "Endpoint"
+      "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
@@ -1500,48 +1395,6 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-07-deprecation-completed-legacy-grouped-recommendations-removed-from-azure-portal",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "Deprecation completed: Legacy grouped recommendations removed from Azure portal",
-    "summary_no": "July 30, 2026 Upcoming change Foundational CSPM moves to opt-in model for new Azure subscriptions July 26, 2026",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Deprecation",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Cloud"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
-    "id": "microsoft-defender-for-cloud-07-ga-database-level-recommendations-for-sql-vulnerability-assessment-ga-july-5-2026",
-    "product_slug": "microsoft-defender-for-cloud",
-    "product": "Microsoft Defender for Cloud",
-    "category": "Cloud Security",
-    "source_type": "release-notes",
-    "source_name": "Microsoft Learn",
-    "title": "GA Database-level recommendations for SQL Vulnerability Assessment (GA) July 5, 2026",
-    "summary_no": "Database-level recommendations for SQL Vulnerability Assessment (GA) July 5, 2026",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "GA",
-    "platforms": [],
-    "theme_tags": [
-      "Generelt"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
-  },
-  {
     "id": "microsoft-defender-for-cloud-07-deprecation",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
@@ -1590,6 +1443,26 @@
     "source_name": "Microsoft Learn",
     "title": "GA Kubernetes misconfiguration enforcement in Defender for Containers is now generally available",
     "summary_no": "Kubernetes misconfiguration enforcement in Defender for Containers is now generally available July 1, 2026",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Container"
+    ],
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
+    "id": "microsoft-defender-for-cloud-07-ga-discovery-and-posture-for-serverless-container-workloads-is-now-generally-available",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "GA Discovery and posture for serverless container workloads is now generally available",
+    "summary_no": "Discovery and posture for serverless container workloads is now generally available July 1, 2026",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-07-01",
     "month": "2026-07",
@@ -2277,14 +2150,14 @@
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
   },
   {
-    "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-now-available-for-on-demand-scans-preview",
+    "id": "security-exposure-management-07-codename-mdash-agentic-code-scanner-private-preview",
     "product_slug": "security-exposure-management",
     "product": "Security Exposure Management",
     "category": "Exposure Management",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Codename MDASH - MAI-Augmented scan profile now available for on-demand scans preview",
-    "summary_no": "July 2026",
+    "title": "Codename MDASH - Agentic code scanner private preview",
+    "summary_no": "Codename MDASH - Agentic code scanner is now available in private preview in Microsoft Security Exposure Management. Codename MDASH uses a multi-model agentic AI system to detect code vulnerabilities with greater depth and accuracy than traditional static analysis. Security teams can run scans from Defender CLI or through a GitHub connector, review findings in the Defender portal, and use results to help prioritize code security risks. For more information, see Agentic code security overview",
     "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-07-01",
     "month": "2026-07",
@@ -2292,26 +2165,7 @@
     "release_stage": "Preview",
     "platforms": [],
     "theme_tags": [
-      "Generelt"
-    ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
-  },
-  {
-    "id": "security-exposure-management-07-expanding-on-the-previously-released-defender-cli-support-the-mai-augmented-scan-profile-is-now-also-available-in-preview-for-on-demand-scans-triggered-from-the-microsoft-defender-portal-security-teams-can-select-this-profile-when-starting-an-on-demand-scan-from-the-manage-scans-for-more-information-see",
-    "product_slug": "security-exposure-management",
-    "product": "Security Exposure Management",
-    "category": "Exposure Management",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "Expanding on the previously released Defender CLI support, the MAI-Augmented scan profile is now also available in preview for on-demand scans triggered from the Microsoft Defender portal. Security teams can select this profile when starting an on-demand scan from the Manage scans. For more information, see",
-    "summary_no": "Trigger an on-demand agentic scan . Codename MDASH - MAI-Augmented scan profile preview The MAI-Augmented scan profile is now available in preview as part of Codename MDASH. The MAI-Augmented profile can be used when triggering a scan through the Defender CLI.",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-07-01",
-    "month": "2026-07",
-    "month_label": "Juli",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
+      "AI",
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
@@ -2532,93 +2386,6 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
-  },
-  {
-    "id": "microsoft-sentinel-08-new-data-sources-for-ueba-behaviors-and-anomaly-detection-preview",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "New data sources for UEBA behaviors and anomaly detection (Preview)",
-    "summary_no": "August 2026",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-08-01",
-    "month": "2026-08",
-    "month_label": "August",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Hunting"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-sentinel-08-ueba-anomaly-detection-now-supports-check-point-fortinet-fortigate-and-zscaler-firewall-vpn-and-web-proxy-events-from-the",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "UEBA anomaly detection now supports Check Point, Fortinet FortiGate, and Zscaler firewall, VPN, and web proxy events from the",
-    "summary_no": "CommonSecurityLog table. Ten new anomaly rules compare each user and device against its own history and organization-wide activity to identify: Anomalous and failed VPN sign-ins Unusual access to high-risk web categories",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
-    "published_at": "2026-08-01",
-    "month": "2026-08",
-    "month_label": "August",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Endpoint"
-    ],
-    "theme_tags": [
-      "Hunting",
-      "Endpoint"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-sentinel-08-ueba-anomaly-detection-also-supports-identity-linked-aws-guardduty-findings-from-the",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "UEBA anomaly detection also supports identity-linked AWS GuardDuty findings from the",
-    "summary_no": "AWSGuardDuty table, mapped to MITRE ATT&CK techniques including T1078, T1078.004, T1110, T1087.004, and T1567.002.",
-    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "published_at": "2026-08-01",
-    "month": "2026-08",
-    "month_label": "August",
-    "release_stage": "Ikke oppgitt",
-    "platforms": [
-      "Cloud"
-    ],
-    "theme_tags": [
-      "Identitet",
-      "Hunting",
-      "Cloud"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-sentinel-08-ueba-anomalies-on-behaviors-preview",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "UEBA anomalies on behaviors (Preview)",
-    "summary_no": "Microsoft Sentinel now adds contextual anomaly insights directly to UEBA behavior records. These insights help analysts identify first-seen activity, unusually high behavior volumes, uncommon values, and threat intelligence matches without manually correlating raw events. For more information, see Investigate anomalies on UEBA behaviors .",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-08-01",
-    "month": "2026-08",
-    "month_label": "August",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Hunting"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
     "id": "microsoft-sentinel-07-custom-detection-rules-support-in-microsoft-sentinel-repositories-preview",

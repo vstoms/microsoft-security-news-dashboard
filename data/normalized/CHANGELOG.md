@@ -1,7 +1,9 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-08T06:45:24.556Z
+Generated: 2026-08-09T06:50:44.288Z
 
+- 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
+- 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.11.0 released: See enhancements and features for this release
 - 2026-08-01 • Microsoft Sentinel • Preview • New data sources for UEBA behaviors and anomaly detection (Preview)
 - 2026-08-01 • Microsoft Sentinel • Ikke oppgitt • UEBA anomaly detection now supports Check Point, Fortinet FortiGate, and Zscaler firewall, VPN, and web proxy events from the
 - 2026-08-01 • Microsoft Sentinel • Ikke oppgitt • UEBA anomaly detection also supports identity-linked AWS GuardDuty findings from the
@@ -20,5 +22,3 @@ Generated: 2026-08-08T06:45:24.556Z
 - 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Localized default Mark as and notify email templates
 - 2026-07-01 • Microsoft Defender XDR • Ikke oppgitt • AI agent posture risk in Microsoft Defender : Microsoft Defender now
 - 2026-07-01 • Microsoft Purview • Preview • Data Loss Prevention
-- 2026-07-01 • Microsoft Sentinel • Preview • Custom detection rules support in Microsoft Sentinel Repositories (Preview)
-- 2026-07-01 • Microsoft Sentinel • Ikke oppgitt • Microsoft Sentinel will be supported in the Defender portal only, and any remaining customers using the Azure portal will be automatically redirected.

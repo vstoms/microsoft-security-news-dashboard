@@ -1,7 +1,8 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-09T06:50:44.288Z
+Generated: 2026-08-10T07:25:14.942Z
 
+- 2026-08-01 • Microsoft Defender for Cloud • Preview • Date Category Update August 6, 2026 Public preview On-demand malware scanning now
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.11.0 released: See enhancements and features for this release
 - 2026-08-01 • Microsoft Sentinel • Preview • New data sources for UEBA behaviors and anomaly detection (Preview)
@@ -21,4 +22,3 @@ Generated: 2026-08-09T06:50:44.288Z
 - 2026-07-01 • Microsoft Defender for Identity • Ikke oppgitt • Sensor v2.x to v3.x migration is now generally available
 - 2026-07-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Localized default Mark as and notify email templates
 - 2026-07-01 • Microsoft Defender XDR • Ikke oppgitt • AI agent posture risk in Microsoft Defender : Microsoft Defender now
-- 2026-07-01 • Microsoft Purview • Preview • Data Loss Prevention

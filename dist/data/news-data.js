@@ -2294,6 +2294,36 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-cloud-08-date-category-update-august-6-2026-public-preview-on-demand-malware-scanning-now",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "Date Category Update August 6, 2026 Public preview On-demand malware scanning now",
+    "summary": "Category Update August 6, 2026 Public preview",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Preview",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "tags": [
+      "Preview",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-cloud-07-deprecation-completed-legacy-grouped-recommendations-removed-from-azure-portal",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",

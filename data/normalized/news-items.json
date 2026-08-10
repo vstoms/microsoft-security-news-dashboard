@@ -1542,6 +1542,26 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
+    "id": "microsoft-defender-for-cloud-08-date-category-update-august-6-2026-public-preview-on-demand-malware-scanning-now",
+    "product_slug": "microsoft-defender-for-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "category": "Cloud Security",
+    "source_type": "release-notes",
+    "source_name": "Microsoft Learn",
+    "title": "Date Category Update August 6, 2026 Public preview On-demand malware scanning now",
+    "summary_no": "Category Update August 6, 2026 Public preview",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-08-01",
+    "month": "2026-08",
+    "month_label": "August",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+  },
+  {
     "id": "microsoft-defender-for-cloud-07-deprecation-completed-legacy-grouped-recommendations-removed-from-azure-portal",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",

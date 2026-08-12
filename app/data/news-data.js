@@ -1612,18 +1612,48 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-07-sensor-v2-x-to-v3-x-migration-is-now-generally-available",
+    "id": "microsoft-defender-for-identity-08-new-health-alert-for-reverted-auditing-configuration",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "New health alert for reverted auditing configuration",
+    "summary": "A new Defender for Identity health alert notifies you when a conflicting policy, such as a Group Policy Object (GPO), repeatedly reverts the auditing configuration required by sensor v3.x on a domain controller. For more information, see Microsoft Defender for Identity health issues . Script to find GPO conflicts that revert auditing",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity-07-defender-for-identity-sensor-updates",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Sensor v2.x to v3.x migration is now generally available",
-    "summary": "Migration of Defender for Identity sensors from v2.x to v3.x is now generally available. For more information, see Migrate to Defender for Identity sensor v3.x . Migrate Windows Server 2025 domain controllers to sensor v3.x",
+    "title": "Defender for Identity sensor updates",
+    "summary": "Version number Updates 2.255.19295.47272 This sensor update adds support for a new Event Tracing for Windows (ETW) provider and includes other improvements.",
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
     "releaseStage": "Ikke oppgitt",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
     "category": "Identity Security",
@@ -1640,7 +1670,7 @@ export const newsItems = [
       "Endpoint"
     ],
     "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity Security"
     ]
@@ -3919,6 +3949,36 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-sentinel-08-ueba-anomalies-on-behaviors-preview",
+    "product": "Microsoft Sentinel",
+    "productSlug": "microsoft-sentinel",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "UEBA anomalies on behaviors (Preview)",
+    "summary": "SAP solution releases",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "SIEM/SOAR",
+    "themes": [
+      "Hunting"
+    ],
+    "platforms": [],
+    "tags": [
+      "Preview",
+      "Hunting"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: SIEM/SOAR"
+    ]
+  },
+  {
     "id": "microsoft-sentinel-08-ueba-anomaly-detection-now-supports-check-point-fortinet-fortigate-and-zscaler-firewall-vpn-and-web-proxy-events-from-the",
     "product": "Microsoft Sentinel",
     "productSlug": "microsoft-sentinel",
@@ -3984,36 +4044,6 @@ export const newsItems = [
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: SIEM/SOAR"
-    ]
-  },
-  {
-    "id": "microsoft-sentinel-08-ueba-anomalies-on-behaviors-preview",
-    "product": "Microsoft Sentinel",
-    "productSlug": "microsoft-sentinel",
-    "month": "August",
-    "monthKey": "2026-08",
-    "date": "August 2026",
-    "publishedAt": "2026-08-01",
-    "title": "UEBA anomalies on behaviors (Preview)",
-    "summary": "Microsoft Sentinel now adds contextual anomaly insights directly to UEBA behavior records. These insights help analysts identify first-seen activity, unusually high behavior volumes, uncommon values, and threat intelligence matches without manually correlating raw events. For more information, see Investigate anomalies on UEBA behaviors .",
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "SIEM/SOAR",
-    "themes": [
-      "Hunting"
-    ],
-    "platforms": [],
-    "tags": [
-      "Preview",
-      "Hunting"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: SIEM/SOAR"
     ]

@@ -1087,15 +1087,35 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
-    "id": "microsoft-defender-for-identity-07-sensor-v2-x-to-v3-x-migration-is-now-generally-available",
+    "id": "microsoft-defender-for-identity-08-new-health-alert-for-reverted-auditing-configuration",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
     "category": "Identity Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Sensor v2.x to v3.x migration is now generally available",
-    "summary_no": "Migration of Defender for Identity sensors from v2.x to v3.x is now generally available. For more information, see Migrate to Defender for Identity sensor v3.x . Migrate Windows Server 2025 domain controllers to sensor v3.x",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "title": "New health alert for reverted auditing configuration",
+    "summary_no": "A new Defender for Identity health alert notifies you when a conflicting policy, such as a Group Policy Object (GPO), repeatedly reverts the auditing configuration required by sensor v3.x on a domain controller. For more information, see Microsoft Defender for Identity health issues . Script to find GPO conflicts that revert auditing",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-08-01",
+    "month": "2026-08",
+    "month_label": "August",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet"
+    ],
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+  },
+  {
+    "id": "microsoft-defender-for-identity-07-defender-for-identity-sensor-updates",
+    "product_slug": "microsoft-defender-for-identity",
+    "product": "Microsoft Defender for Identity",
+    "category": "Identity Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Defender for Identity sensor updates",
+    "summary_no": "Version number Updates 2.255.19295.47272 This sensor update adds support for a new Event Tracing for Windows (ETW) provider and includes other improvements.",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-07-01",
     "month": "2026-07",
     "month_label": "Juli",
@@ -2637,6 +2657,26 @@
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },
   {
+    "id": "microsoft-sentinel-08-ueba-anomalies-on-behaviors-preview",
+    "product_slug": "microsoft-sentinel",
+    "product": "Microsoft Sentinel",
+    "category": "SIEM/SOAR",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "UEBA anomalies on behaviors (Preview)",
+    "summary_no": "SAP solution releases",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-08-01",
+    "month": "2026-08",
+    "month_label": "August",
+    "release_stage": "Preview",
+    "platforms": [],
+    "theme_tags": [
+      "Hunting"
+    ],
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+  },
+  {
     "id": "microsoft-sentinel-08-ueba-anomaly-detection-now-supports-check-point-fortinet-fortigate-and-zscaler-firewall-vpn-and-web-proxy-events-from-the",
     "product_slug": "microsoft-sentinel",
     "product": "Microsoft Sentinel",
@@ -2680,26 +2720,6 @@
       "Identitet",
       "Hunting",
       "Cloud"
-    ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
-  },
-  {
-    "id": "microsoft-sentinel-08-ueba-anomalies-on-behaviors-preview",
-    "product_slug": "microsoft-sentinel",
-    "product": "Microsoft Sentinel",
-    "category": "SIEM/SOAR",
-    "source_type": "whats-new",
-    "source_name": "Microsoft Learn",
-    "title": "UEBA anomalies on behaviors (Preview)",
-    "summary_no": "Microsoft Sentinel now adds contextual anomaly insights directly to UEBA behavior records. These insights help analysts identify first-seen activity, unusually high behavior volumes, uncommon values, and threat intelligence matches without manually correlating raw events. For more information, see Investigate anomalies on UEBA behaviors .",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "published_at": "2026-08-01",
-    "month": "2026-08",
-    "month_label": "August",
-    "release_stage": "Preview",
-    "platforms": [],
-    "theme_tags": [
-      "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
   },

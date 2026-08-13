@@ -1612,36 +1612,6 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-identity-08-new-health-alert-for-reverted-auditing-configuration",
-    "product": "Microsoft Defender for Identity",
-    "productSlug": "microsoft-defender-for-identity",
-    "month": "August",
-    "monthKey": "2026-08",
-    "date": "August 2026",
-    "publishedAt": "2026-08-01",
-    "title": "New health alert for reverted auditing configuration",
-    "summary": "A new Defender for Identity health alert notifies you when a conflicting policy, such as a Group Policy Object (GPO), repeatedly reverts the auditing configuration required by sensor v3.x on a domain controller. For more information, see Microsoft Defender for Identity health issues . Script to find GPO conflicts that revert auditing",
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Identity Security",
-    "themes": [
-      "Identitet"
-    ],
-    "platforms": [],
-    "tags": [
-      "Ikke oppgitt",
-      "Identitet"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Identity Security"
-    ]
-  },
-  {
     "id": "microsoft-defender-for-identity-07-defender-for-identity-sensor-updates",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",

@@ -5349,6 +5349,36 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-purview-08-sensitivity-labels",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "Sensitivity labels",
+    "summary": "Before enforcing an auto-labeling policy, run it in simulation mode to identify which items it would label without making any changes. Review the match results and source distribution to determine whether the policy is ready to enforce. For more information, see Review simulation results for auto-labeling policies in Microsoft Purview . The",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Governance"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Governance"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
     "id": "microsoft-purview-07-data-loss-prevention",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",

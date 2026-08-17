@@ -3510,6 +3510,36 @@ export const newsItems = [
     ]
   },
   {
+    "id": "security-exposure-management-08-codename-mdash-cancel-scan",
+    "product": "Security Exposure Management",
+    "productSlug": "security-exposure-management",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "Codename MDASH - Cancel scan",
+    "summary": "Scan cancellation, previously available only in Defender CLI, is now also available in the Microsoft Defender portal. You can cancel queued or running scans from the scan details page in the Scans tab.",
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Exposure Management",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Exposure Management"
+    ]
+  },
+  {
     "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-now-available-for-on-demand-scans-preview",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",

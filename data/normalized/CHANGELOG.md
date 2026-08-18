@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-17T06:47:14.218Z
+Generated: 2026-08-18T06:36:51.757Z
 
 - 2026-08-01 • Microsoft Defender for Cloud • Preview • Date Category Update August 6, 2026 Public preview On-demand malware scanning now
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA

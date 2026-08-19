@@ -1,8 +1,8 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-18T06:36:51.757Z
+Generated: 2026-08-19T06:37:39.199Z
 
-- 2026-08-01 • Microsoft Defender for Cloud • Preview • Date Category Update August 6, 2026 Public preview On-demand malware scanning now
+- 2026-08-01 • Microsoft Defender for Cloud • Deprecation • Date Category Update August 17, 2026 Upcoming deprecation Classic Defender for SQL
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview
 - 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.11.0 released: See enhancements and features for this release

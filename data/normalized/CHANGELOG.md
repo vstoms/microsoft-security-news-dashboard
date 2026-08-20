@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-19T06:37:39.199Z
+Generated: 2026-08-20T06:39:07.006Z
 
 - 2026-08-01 • Microsoft Defender for Cloud • Deprecation • Date Category Update August 17, 2026 Upcoming deprecation Classic Defender for SQL
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA

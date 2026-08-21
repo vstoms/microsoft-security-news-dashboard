@@ -356,12 +356,34 @@
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
     "title": "Preview/GA",
-    "summary_no": "Description Feature Vulnerability assessment for Microsoft Store applications",
+    "summary_no": "Description Release - macOS Build 101.26062.0012",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-08-01",
     "month": "2026-08",
     "month_label": "August",
     "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Endpoint"
+    ],
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-08-ga-release-version-20-126062-12-0-released-see-enhancements-and-features-for-this-release",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "GA Release version 20.126062.12.0 released: See enhancements and features for this release",
+    "summary_no": "Release version 20.126062.12.0 released: See enhancements and features for this release . Feature",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-08-01",
+    "month": "2026-08",
+    "month_label": "August",
+    "release_stage": "Ikke oppgitt",
     "platforms": [],
     "theme_tags": [
       "Generelt"

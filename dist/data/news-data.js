@@ -530,9 +530,41 @@ export const newsItems = [
     "date": "August 2026",
     "publishedAt": "2026-08-01",
     "title": "Preview/GA",
-    "summary": "Description Feature Vulnerability assessment for Microsoft Store applications",
+    "summary": "Description Release - macOS Build 101.26062.0012",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "tags": [
+      "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-08-ga-release-version-20-126062-12-0-released-see-enhancements-and-features-for-this-release",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "GA Release version 20.126062.12.0 released: See enhancements and features for this release",
+    "summary": "Release version 20.126062.12.0 released: See enhancements and features for this release . Feature",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
@@ -542,7 +574,7 @@ export const newsItems = [
     ],
     "platforms": [],
     "tags": [
-      "Preview",
+      "Ikke oppgitt",
       "Generelt"
     ],
     "analysis": [

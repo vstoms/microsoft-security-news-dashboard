@@ -3634,14 +3634,14 @@
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
   },
   {
-    "id": "microsoft-purview-08-sensitivity-labels",
+    "id": "microsoft-purview-08-new-before-enforcing-an-auto-labeling-policy-run-it-in-simulation-mode",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
     "category": "Data Security & Governance",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Sensitivity labels",
-    "summary_no": "Before enforcing an auto-labeling policy, run it in simulation mode to identify which items it would label without making any changes. Review the match results and source distribution to determine whether the policy is ready to enforce. For more information, see Review simulation results for auto-labeling policies in Microsoft Purview . The",
+    "title": "New : Before enforcing an auto-labeling policy, run it in simulation mode",
+    "summary_no": ": Before enforcing an auto-labeling policy, run it in simulation mode to identify which items it would label without making any changes. Review the match results and source distribution to determine whether the policy is ready to enforce.",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-08-01",
     "month": "2026-08",
@@ -3649,33 +3649,71 @@
     "release_stage": "Ikke oppgitt",
     "platforms": [],
     "theme_tags": [
-      "Governance"
+      "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },
   {
-    "id": "microsoft-purview-07-data-loss-prevention",
+    "id": "microsoft-purview-08-new-the-insights-tab-in-the-policy-details-panel-provides-an",
     "product_slug": "microsoft-purview",
     "product": "Microsoft Purview",
     "category": "Data Security & Governance",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Data Loss Prevention",
-    "summary_no": "In preview : Protect sensitive data in text and prompts by integrating with Microsoft Entra Global Secure Access (GSA). This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, and add-ins, including generative AI platforms, social media, and collaborative platforms. See Learn about Microsoft Purview Network Data Security .",
+    "title": "New : The Insights tab in the policy details panel provides an",
+    "summary_no": ": The Insights tab",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-08-01",
+    "month": "2026-08",
+    "month_label": "August",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Generelt"
+    ],
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-purview-07-data-governance",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Data Governance",
+    "summary_no": "Updated : Microsoft Purview protection policies no longer support Azure SQL Database .",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-07-01",
     "month": "2026-07",
     "month_label": "Juli",
-    "release_stage": "Preview",
+    "release_stage": "Ikke oppgitt",
     "platforms": [
       "Cloud"
     ],
     "theme_tags": [
-      "Identitet",
-      "Automatisering",
-      "AI",
       "Governance",
       "Cloud"
+    ],
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+  },
+  {
+    "id": "microsoft-purview-07-new-configure-a-manual-business-continuity-and-disaster-recovery-environment-for",
+    "product_slug": "microsoft-purview",
+    "product": "Microsoft Purview",
+    "category": "Data Security & Governance",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "New : Configure a manual business continuity and disaster recovery environment for",
+    "summary_no": ": Configure a manual business continuity and disaster recovery environment for Microsoft Purview Data Map . The guidance covers creating a secondary account, mirroring scans, validating the environment, and requesting account promotion during a regional outage. Data Loss Prevention",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-07-01",
+    "month": "2026-07",
+    "month_label": "Juli",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Identitet",
+      "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new"
   },

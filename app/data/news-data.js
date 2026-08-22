@@ -5411,15 +5411,15 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-purview-08-sensitivity-labels",
+    "id": "microsoft-purview-08-new-before-enforcing-an-auto-labeling-policy-run-it-in-simulation-mode",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
     "month": "August",
     "monthKey": "2026-08",
     "date": "August 2026",
     "publishedAt": "2026-08-01",
-    "title": "Sensitivity labels",
-    "summary": "Before enforcing an auto-labeling policy, run it in simulation mode to identify which items it would label without making any changes. Review the match results and source distribution to determine whether the policy is ready to enforce. For more information, see Review simulation results for auto-labeling policies in Microsoft Purview . The",
+    "title": "New : Before enforcing an auto-labeling policy, run it in simulation mode",
+    "summary": ": Before enforcing an auto-labeling policy, run it in simulation mode to identify which items it would label without making any changes. Review the match results and source distribution to determine whether the policy is ready to enforce.",
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
     "releaseStage": "Ikke oppgitt",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -5427,12 +5427,12 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
-      "Governance"
+      "Generelt"
     ],
     "platforms": [],
     "tags": [
       "Ikke oppgitt",
-      "Governance"
+      "Generelt"
     ],
     "analysis": [
       "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -5441,25 +5441,52 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-purview-07-data-loss-prevention",
+    "id": "microsoft-purview-08-new-the-insights-tab-in-the-policy-details-panel-provides-an",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "New : The Insights tab in the policy details panel provides an",
+    "summary": ": The Insights tab",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
+    "id": "microsoft-purview-07-data-governance",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",
     "month": "Juli",
     "monthKey": "2026-07",
     "date": "Juli 2026",
     "publishedAt": "2026-07-01",
-    "title": "Data Loss Prevention",
-    "summary": "In preview : Protect sensitive data in text and prompts by integrating with Microsoft Entra Global Secure Access (GSA). This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, and add-ins, including generative AI platforms, social media, and collaborative platforms. See Learn about Microsoft Purview Network Data Security .",
+    "title": "Data Governance",
+    "summary": "Updated : Microsoft Purview protection policies no longer support Azure SQL Database .",
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "releaseStage": "Preview",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
     "category": "Data Security & Governance",
     "themes": [
-      "Identitet",
-      "Automatisering",
-      "AI",
       "Governance",
       "Cloud"
     ],
@@ -5467,15 +5494,44 @@ export const newsItems = [
       "Cloud"
     ],
     "tags": [
-      "Preview",
-      "Identitet",
-      "Automatisering",
-      "AI",
+      "Ikke oppgitt",
       "Governance",
       "Cloud"
     ],
     "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
+    "id": "microsoft-purview-07-new-configure-a-manual-business-continuity-and-disaster-recovery-environment-for",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "Juli",
+    "monthKey": "2026-07",
+    "date": "Juli 2026",
+    "publishedAt": "2026-07-01",
+    "title": "New : Configure a manual business continuity and disaster recovery environment for",
+    "summary": ": Configure a manual business continuity and disaster recovery environment for Microsoft Purview Data Map . The guidance covers creating a secondary account, mirroring scans, validating the environment, and requesting account promotion during a regional outage. Data Loss Prevention",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Identitet",
+      "Governance"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "Governance"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Data Security & Governance"
     ]

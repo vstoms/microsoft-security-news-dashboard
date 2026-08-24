@@ -1,8 +1,8 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-23T06:34:52.051Z
+Generated: 2026-08-24T06:51:07.592Z
 
-- 2026-08-01 • Microsoft Defender for Cloud • Deprecation • Date Category Update August 17, 2026 Upcoming deprecation Classic Defender for SQL
+- 2026-08-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update August 21, 2026 Update Update to CVE details data
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.12.0 released: See enhancements and features for this release
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview

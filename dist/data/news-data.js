@@ -2358,18 +2358,18 @@ export const newsItems = [
     ]
   },
   {
-    "id": "microsoft-defender-for-cloud-08-date-category-update-august-17-2026-upcoming-deprecation-classic-defender-for-sql",
+    "id": "microsoft-defender-for-cloud-08-date-category-update-august-21-2026-update-update-to-cve-details-data",
     "product": "Microsoft Defender for Cloud",
     "productSlug": "microsoft-defender-for-cloud",
     "month": "August",
     "monthKey": "2026-08",
     "date": "August 2026",
     "publishedAt": "2026-08-01",
-    "title": "Date Category Update August 17, 2026 Upcoming deprecation Classic Defender for SQL",
-    "summary": "Category Update August 17, 2026 Upcoming deprecation",
+    "title": "Date Category Update August 21, 2026 Update Update to CVE details data",
+    "summary": "Category Update August 21, 2026 Update",
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "releaseStage": "Deprecation",
-    "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "sourceType": "release-notes",
     "sourceName": "Microsoft Learn",
     "category": "Cloud Security",
@@ -2378,11 +2378,11 @@ export const newsItems = [
     ],
     "platforms": [],
     "tags": [
-      "Deprecation",
+      "Ikke oppgitt",
       "Generelt"
     ],
     "analysis": [
-      "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / release-notes",
       "Kategori: Cloud Security"
     ]

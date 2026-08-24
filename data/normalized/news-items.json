@@ -1585,19 +1585,19 @@
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
   },
   {
-    "id": "microsoft-defender-for-cloud-08-date-category-update-august-17-2026-upcoming-deprecation-classic-defender-for-sql",
+    "id": "microsoft-defender-for-cloud-08-date-category-update-august-21-2026-update-update-to-cve-details-data",
     "product_slug": "microsoft-defender-for-cloud",
     "product": "Microsoft Defender for Cloud",
     "category": "Cloud Security",
     "source_type": "release-notes",
     "source_name": "Microsoft Learn",
-    "title": "Date Category Update August 17, 2026 Upcoming deprecation Classic Defender for SQL",
-    "summary_no": "Category Update August 17, 2026 Upcoming deprecation",
-    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
+    "title": "Date Category Update August 21, 2026 Update Update to CVE details data",
+    "summary_no": "Category Update August 21, 2026 Update",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-08-01",
     "month": "2026-08",
     "month_label": "August",
-    "release_stage": "Deprecation",
+    "release_stage": "Ikke oppgitt",
     "platforms": [],
     "theme_tags": [
       "Generelt"

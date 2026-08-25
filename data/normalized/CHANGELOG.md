@@ -1,12 +1,13 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-24T06:51:07.592Z
+Generated: 2026-08-25T06:39:54.543Z
 
 - 2026-08-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update August 21, 2026 Update Update to CVE details data
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.12.0 released: See enhancements and features for this release
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview
 - 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.11.0 released: See enhancements and features for this release
+- 2026-08-01 • Microsoft Defender for Identity • Ikke oppgitt • Expanded automatic auditing for AD CS, AD FS and Entra Connect servers
 - 2026-08-01 • Microsoft Purview • Ikke oppgitt • New : Before enforcing an auto-labeling policy, run it in simulation mode
 - 2026-08-01 • Microsoft Purview • Ikke oppgitt • New : The Insights tab in the policy details panel provides an
 - 2026-08-01 • Microsoft Sentinel • Preview • New data sources for UEBA behaviors and anomaly detection (Preview)
@@ -21,4 +22,3 @@ Generated: 2026-08-24T06:51:07.592Z
 - 2026-07-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA Kubernetes misconfiguration enforcement in Defender for Containers is now generally available
 - 2026-07-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-07-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.9.0 released: See enhancements and features for this release
-- 2026-07-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 1.1.78290102 released: See enhancements and features for this release

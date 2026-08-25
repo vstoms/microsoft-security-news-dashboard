@@ -1644,6 +1644,40 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-defender-for-identity-08-expanded-automatic-auditing-for-ad-cs-ad-fs-and-entra-connect-servers",
+    "product": "Microsoft Defender for Identity",
+    "productSlug": "microsoft-defender-for-identity",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "Expanded automatic auditing for AD CS, AD FS and Entra Connect servers",
+    "summary": "Automatic Windows event auditing now configures auditing for AD FS, AD CS, and Microsoft Entra Connect. Auditing is configured automatically on any eligible server that runs Defender for Identity sensor v3.x, including servers that aren't domain controllers. For more information, see Configure Defender for Identity to collect Windows events automatically .",
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Identity Security",
+    "themes": [
+      "Identitet",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "tags": [
+      "Ikke oppgitt",
+      "Identitet",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Identity Security"
+    ]
+  },
+  {
     "id": "microsoft-defender-for-identity-07-defender-for-identity-sensor-updates",
     "product": "Microsoft Defender for Identity",
     "productSlug": "microsoft-defender-for-identity",

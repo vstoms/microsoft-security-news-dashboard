@@ -1,12 +1,12 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-25T06:39:54.543Z
+Generated: 2026-08-26T06:41:44.818Z
 
 - 2026-08-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update August 21, 2026 Update Update to CVE details data
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
-- 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.12.0 released: See enhancements and features for this release
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview
-- 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.11.0 released: See enhancements and features for this release
+- 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Enables organizations to automate the offboarding of Linux servers from Microsoft
+- 2026-08-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126062.12.0 released: See enhancements and features for this release
 - 2026-08-01 • Microsoft Defender for Identity • Ikke oppgitt • Expanded automatic auditing for AD CS, AD FS and Entra Connect servers
 - 2026-08-01 • Microsoft Purview • Ikke oppgitt • New : Before enforcing an auto-labeling policy, run it in simulation mode
 - 2026-08-01 • Microsoft Purview • Ikke oppgitt • New : The Insights tab in the policy details panel provides an

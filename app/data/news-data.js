@@ -530,7 +530,7 @@ export const newsItems = [
     "date": "August 2026",
     "publishedAt": "2026-08-01",
     "title": "Preview/GA",
-    "summary": "Description Release - macOS Build 101.26062.0012",
+    "summary": "Description Feature Antivirus audit mode for Linux",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -545,6 +545,74 @@ export const newsItems = [
     ],
     "tags": [
       "Preview",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-08-preview",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "Preview",
+    "summary": "Provides real-time malware detection and alerting without automatically quarantining files or terminating processes. This enables organizations to evaluate Defender detection efficacy and performance on sensitive workloads before enabling enforcement. Available in Microsoft Defender for Endpoint on Linux version 101.26062.0007 or later. Feature Offboarding API support for Linux",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Preview",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Automatisering",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "tags": [
+      "Preview",
+      "Automatisering",
+      "Endpoint"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Endpoint Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-08-ga-enables-organizations-to-automate-the-offboarding-of-linux-servers-from-microsoft",
+    "product": "Microsoft Defender for Endpoint",
+    "productSlug": "microsoft-defender-for-endpoint",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "GA Enables organizations to automate the offboarding of Linux servers from Microsoft",
+    "summary": "Enables organizations to automate the offboarding of Linux servers from Microsoft Defender for Endpoint through the Offboard machine API, simplifying device lifecycle management at scale. Available in Microsoft Defender for Endpoint on Linux version 101.26062.0007 or later. Release - macOS Build 101.26062.0012",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Endpoint Security",
+    "themes": [
+      "Automatisering",
+      "Endpoint"
+    ],
+    "platforms": [
+      "Endpoint"
+    ],
+    "tags": [
+      "Ikke oppgitt",
+      "Automatisering",
       "Endpoint"
     ],
     "analysis": [
@@ -563,70 +631,6 @@ export const newsItems = [
     "publishedAt": "2026-08-01",
     "title": "GA Release version 20.126062.12.0 released: See enhancements and features for this release",
     "summary": "Release version 20.126062.12.0 released: See enhancements and features for this release . Feature",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Ikke oppgitt",
-    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Generelt"
-    ],
-    "platforms": [],
-    "tags": [
-      "Ikke oppgitt",
-      "Generelt"
-    ],
-    "analysis": [
-      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-08-preview",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "August",
-    "monthKey": "2026-08",
-    "date": "August 2026",
-    "publishedAt": "2026-08-01",
-    "title": "Preview",
-    "summary": "You can now monitor vulnerabilities on devices running Microsoft Store applications, including Microsoft Teams, Mozilla Firefox, WhatsApp, Slack, Dropbox, DuckDuckGo, Dell Command, HP Smart, HP Support Assistant, Dell SupportAssist for Home PCs, and NVIDIA Control Panel (see Microsoft Store applications for the full list). Use the Software evidence",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "releaseStage": "Preview",
-    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-    "sourceType": "whats-new",
-    "sourceName": "Microsoft Learn",
-    "category": "Endpoint Security",
-    "themes": [
-      "Endpoint",
-      "Teams"
-    ],
-    "platforms": [
-      "Endpoint"
-    ],
-    "tags": [
-      "Preview",
-      "Endpoint",
-      "Teams"
-    ],
-    "analysis": [
-      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
-      "Kildetype: Microsoft Learn / whats-new",
-      "Kategori: Endpoint Security"
-    ]
-  },
-  {
-    "id": "microsoft-defender-for-endpoint-08-ga-release-version-20-126062-11-0-released-see-enhancements-and-features-for-this-release",
-    "product": "Microsoft Defender for Endpoint",
-    "productSlug": "microsoft-defender-for-endpoint",
-    "month": "August",
-    "monthKey": "2026-08",
-    "date": "August 2026",
-    "publishedAt": "2026-08-01",
-    "title": "GA Release version 20.126062.11.0 released: See enhancements and features for this release",
-    "summary": "Release version 20.126062.11.0 released: See enhancements and features for this release .",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Ikke oppgitt",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",

@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-08-26T06:41:44.818Z
+Generated: 2026-08-27T17:17:32.433Z
 
 - 2026-08-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update August 21, 2026 Update Update to CVE details data
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA

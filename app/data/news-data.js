@@ -5449,6 +5449,38 @@ export const newsItems = [
     ]
   },
   {
+    "id": "microsoft-purview-08-data-loss-prevention",
+    "product": "Microsoft Purview",
+    "productSlug": "microsoft-purview",
+    "month": "August",
+    "monthKey": "2026-08",
+    "date": "August 2026",
+    "publishedAt": "2026-08-01",
+    "title": "Data Loss Prevention",
+    "summary": "In preview : Use data loss prevention policies for non-Microsoft connected apps . Create DLP policies that protect sensitive data at rest in non-Microsoft connected applications, such as Box and Google Workspace. These policies use the existing Microsoft Defender for Cloud Apps connectors and support the same classification engine available for Microsoft 365 locations.",
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "releaseStage": "Preview",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "whats-new",
+    "sourceName": "Microsoft Learn",
+    "category": "Data Security & Governance",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "tags": [
+      "Preview",
+      "Cloud"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / whats-new",
+      "Kategori: Data Security & Governance"
+    ]
+  },
+  {
     "id": "microsoft-purview-08-new-before-enforcing-an-auto-labeling-policy-run-it-in-simulation-mode",
     "product": "Microsoft Purview",
     "productSlug": "microsoft-purview",

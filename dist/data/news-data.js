@@ -3580,28 +3580,30 @@ export const newsItems = [
     ]
   },
   {
-    "id": "security-exposure-management-08-codename-mdash-cancel-scan",
+    "id": "security-exposure-management-08-keyless-authentication-for-the-microsoft-foundry-connection-preview",
     "product": "Security Exposure Management",
     "productSlug": "security-exposure-management",
     "month": "August",
     "monthKey": "2026-08",
     "date": "August 2026",
     "publishedAt": "2026-08-01",
-    "title": "Codename MDASH - Cancel scan",
-    "summary": "Scan cancellation, previously available only in Defender CLI, is now also available in the Microsoft Defender portal. You can cancel queued or running scans from the scan details page in the Scans tab.",
+    "title": "Keyless authentication for the Microsoft Foundry connection preview",
+    "summary": "You can now connect your Microsoft Foundry resource to codename MDASH using Keyless authentication , the recommended method. Keyless relies on a managed identity instead of a stored secret - no API key is kept in Defender, and there's no key to rotate.",
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "releaseStage": "Ikke oppgitt",
+    "releaseStage": "Preview",
     "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "sourceType": "whats-new",
     "sourceName": "Microsoft Learn",
     "category": "Exposure Management",
     "themes": [
-      "Generelt"
+      "Identitet",
+      "Automatisering"
     ],
     "platforms": [],
     "tags": [
-      "Ikke oppgitt",
-      "Generelt"
+      "Preview",
+      "Identitet",
+      "Automatisering"
     ],
     "analysis": [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",

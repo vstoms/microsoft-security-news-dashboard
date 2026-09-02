@@ -349,6 +349,54 @@
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
   },
   {
+    "id": "microsoft-defender-for-endpoint-09-preview-ga",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Preview/GA",
+    "summary_no": "Description Feature Microsoft Defender for Endpoint plug-in support for WSL containers (WSLc)",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-09-01",
+    "month": "2026-09",
+    "month_label": "September",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Container",
+      "Endpoint"
+    ],
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
+    "id": "microsoft-defender-for-endpoint-09-preview",
+    "product_slug": "microsoft-defender-for-endpoint",
+    "product": "Microsoft Defender for Endpoint",
+    "category": "Endpoint Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Preview",
+    "summary_no": "Extend Microsoft Defender for Endpoint protection to workloads running in WSL containers (WSLc). Gain visibility into WSL container activity through device inventory, alerts, incidents, device timeline, and Advanced Hunting, helping security teams investigate and respond to threats across both Windows and Linux workloads. Available in Public Preview. To enroll, complete the registration form .",
+    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "published_at": "2026-09-01",
+    "month": "2026-09",
+    "month_label": "September",
+    "release_stage": "Preview",
+    "platforms": [
+      "Endpoint"
+    ],
+    "theme_tags": [
+      "Hunting",
+      "Container",
+      "Endpoint",
+      "Teams"
+    ],
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+  },
+  {
     "id": "microsoft-defender-for-endpoint-08-preview-ga",
     "product_slug": "microsoft-defender-for-endpoint",
     "product": "Microsoft Defender for Endpoint",
@@ -356,7 +404,7 @@
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
     "title": "Preview/GA",
-    "summary_no": "Description Feature Antivirus audit mode for Linux",
+    "summary_no": "Description Feature Tamper protection in audit mode for Linux",
     "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
     "published_at": "2026-08-01",
     "month": "2026-08",
@@ -378,8 +426,8 @@
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
     "title": "Preview",
-    "summary_no": "Provides real-time malware detection and alerting without automatically quarantining files or terminating processes. This enables organizations to evaluate Defender detection efficacy and performance on sensitive workloads before enabling enforcement. Available in Microsoft Defender for Endpoint on Linux version 101.26062.0007 or later. Feature Offboarding API support for Linux",
-    "impact_no": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "summary_no": "Detects and alerts on unauthorized modifications to Defender configurations, files, directories, processes, and services, including attempts by root users. Tampering activity is surfaced through alerts, the device timeline, and Advanced Hunting without blocking the activity. Available in Microsoft Defender for Endpoint on Linux version 101.26072.0004 or later. Feature Antivirus audit mode for Linux",
+    "impact_no": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
     "published_at": "2026-08-01",
     "month": "2026-08",
     "month_label": "August",
@@ -388,7 +436,7 @@
       "Endpoint"
     ],
     "theme_tags": [
-      "Automatisering",
+      "Hunting",
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
@@ -1112,14 +1160,14 @@
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
   },
   {
-    "id": "microsoft-defender-for-identity-08-sensor-v2-x-installation-restriction-for-new-workspaces",
+    "id": "microsoft-defender-for-identity-08-expanded-automatic-auditing-for-ad-cs-ad-fs-and-entra-connect-servers",
     "product_slug": "microsoft-defender-for-identity",
     "product": "Microsoft Defender for Identity",
     "category": "Identity Security",
     "source_type": "whats-new",
     "source_name": "Microsoft Learn",
-    "title": "Sensor v2.x installation restriction for new workspaces",
-    "summary_no": "In new Defender for Identity workspaces, you can install sensor v2.x only on servers running Windows Server 2016 or earlier. This restriction applies to all server roles. Existing workspaces aren't affected. For more information, see Select your deployment method . Expanded automatic auditing for AD CS, AD FS, and Entra Connect servers",
+    "title": "Expanded automatic auditing for AD CS, AD FS and Entra Connect servers",
+    "summary_no": "Automatic Windows event auditing now configures auditing for AD FS, AD CS, and Microsoft Entra Connect. Auditing is configured automatically on any eligible server that runs Defender for Identity sensor v3.x, including servers that aren't domain controllers. For more information, see Configure Defender for Identity to collect Windows events automatically .",
     "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
     "published_at": "2026-08-01",
     "month": "2026-08",

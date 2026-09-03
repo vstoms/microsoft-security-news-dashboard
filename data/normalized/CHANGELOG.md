@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-02T10:34:25.227Z
+Generated: 2026-09-03T10:37:59.361Z
 
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview

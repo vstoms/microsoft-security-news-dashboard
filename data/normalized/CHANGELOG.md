@@ -1,7 +1,10 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-03T10:37:59.361Z
+Generated: 2026-09-04T10:34:23.611Z
 
+- 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update September 3, 2026
+- 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset
+- 2026-09-01 • Microsoft Defender for Cloud • GA • GA General availability of Defender for Cosmos DB in Azure Government cloud
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview
 - 2026-08-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update August 21, 2026 Update Update to CVE details data
@@ -19,6 +22,3 @@ Generated: 2026-09-03T10:37:59.361Z
 - 2026-08-01 • Microsoft Sentinel • Ikke oppgitt • UEBA anomaly detection also supports identity-linked AWS GuardDuty findings from the
 - 2026-08-01 • Security Exposure Management • Preview • Keyless authentication for the Microsoft Foundry connection preview
 - 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Deprecation completed: Legacy grouped recommendations removed from Azure portal
-- 2026-07-01 • Microsoft Defender for Cloud • GA • GA Database-level recommendations for SQL Vulnerability Assessment (GA) July 5, 2026
-- 2026-07-01 • Microsoft Defender for Cloud • Deprecation • Deprecation
-- 2026-07-01 • Microsoft Defender for Cloud • Ikke oppgitt • New container security capabilities are now generally available

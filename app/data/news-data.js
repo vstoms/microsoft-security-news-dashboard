@@ -530,7 +530,7 @@ export const newsItems = [
     "date": "September 2026",
     "publishedAt": "2026-09-01",
     "title": "Preview/GA",
-    "summary": "Description Feature Microsoft Defender for Endpoint plug-in support for WSL containers (WSLc)",
+    "summary": "Description Feature Memory scan for Linux",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -538,7 +538,6 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Container",
       "Endpoint"
     ],
     "platforms": [
@@ -546,7 +545,6 @@ export const newsItems = [
     ],
     "tags": [
       "Preview",
-      "Container",
       "Endpoint"
     ],
     "analysis": [
@@ -564,7 +562,7 @@ export const newsItems = [
     "date": "September 2026",
     "publishedAt": "2026-09-01",
     "title": "Preview",
-    "summary": "Extend Microsoft Defender for Endpoint protection to workloads running in WSL containers (WSLc). Gain visibility into WSL container activity through device inventory, alerts, incidents, device timeline, and Advanced Hunting, helping security teams investigate and respond to threats across both Windows and Linux workloads. Available in Public Preview. To enroll, complete the registration form .",
+    "summary": "Memory Scan extends Microsoft Defender for Endpoint protection capabilities on Linux by enabling inspection of process memory for known malicious behaviours and memory-resident threats, providing an additional layer of protection against advanced attacks. Memory-resident threats are increasingly challenging for security teams because they can execute directly in memory with little or no footprint on disk, making them more difficult to detect using traditional file-based scanning techniques. Memory Scan helps improve visibility into these threats and strengthens protection against sophisticated attack methods such as in-memory malware and malicious code injection. Available in Defender version 101.26071.0005 or later in Insiders-slow channel. Feature Microsoft Defender for Endpoint plug-in support for WSL containers (WSLc)",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
@@ -572,7 +570,6 @@ export const newsItems = [
     "sourceName": "Microsoft Learn",
     "category": "Endpoint Security",
     "themes": [
-      "Hunting",
       "Container",
       "Endpoint",
       "Teams"
@@ -582,7 +579,6 @@ export const newsItems = [
     ],
     "tags": [
       "Preview",
-      "Hunting",
       "Container",
       "Endpoint",
       "Teams"
@@ -634,7 +630,7 @@ export const newsItems = [
     "date": "August 2026",
     "publishedAt": "2026-08-01",
     "title": "Preview",
-    "summary": "Detects and alerts on unauthorized modifications to Defender configurations, files, directories, processes, and services, including attempts by root users. Tampering activity is surfaced through alerts, the device timeline, and Advanced Hunting without blocking the activity. Available in Microsoft Defender for Endpoint on Linux version 101.26072.0004 or later. Feature Antivirus audit mode for Linux",
+    "summary": "Detects and alerts on unauthorized modifications to Defender configurations, files, directories, processes, and services, including attempts by root users. Tampering activity is surfaced through alerts, the device timeline, and Advanced Hunting without blocking the activity. Available in Microsoft Defender for Endpoint on Linux version 101.26072.0004 or later in Insiders-slow channel. Feature Antivirus audit mode for Linux",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
     "releaseStage": "Preview",
     "impact": "Høy operasjonell påvirkning: bør vurderes raskt for migrering, deteksjoner eller arbeidsflyt.",
@@ -2465,6 +2461,100 @@ export const newsItems = [
       "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
       "Kildetype: Microsoft Learn / whats-new",
       "Kategori: Identity Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-09-date-category-update-september-3-2026",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "September",
+    "monthKey": "2026-09",
+    "date": "September 2026",
+    "publishedAt": "2026-09-01",
+    "title": "Date Category Update September 3, 2026",
+    "summary": "Category Update September 3, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Generelt"
+    ],
+    "platforms": [],
+    "tags": [
+      "Ikke oppgitt",
+      "Generelt"
+    ],
+    "analysis": [
+      "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-09-ga-aws-guardduty-coverage-status-is-now-shown-on-the-s3-asset",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "September",
+    "monthKey": "2026-09",
+    "date": "September 2026",
+    "publishedAt": "2026-09-01",
+    "title": "GA AWS GuardDuty coverage status is now shown on the S3 asset",
+    "summary": "AWS GuardDuty coverage status is now shown on the S3 asset page September 3, 2026",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "Ikke oppgitt",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "tags": [
+      "Ikke oppgitt",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-09-ga-general-availability-of-defender-for-cosmos-db-in-azure-government-cloud",
+    "product": "Microsoft Defender for Cloud",
+    "productSlug": "microsoft-defender-for-cloud",
+    "month": "September",
+    "monthKey": "2026-09",
+    "date": "September 2026",
+    "publishedAt": "2026-09-01",
+    "title": "GA General availability of Defender for Cosmos DB in Azure Government cloud",
+    "summary": "General availability of Defender for Cosmos DB in Azure Government cloud AWS GuardDuty coverage status is now shown on the S3 asset page September 3, 2026 Microsoft Defender for Cloud now shows Amazon GuardDuty coverage status for AWS S3 buckets, in the",
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "releaseStage": "GA",
+    "impact": "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+    "sourceType": "release-notes",
+    "sourceName": "Microsoft Learn",
+    "category": "Cloud Security",
+    "themes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "Cloud"
+    ],
+    "tags": [
+      "GA",
+      "Cloud"
+    ],
+    "analysis": [
+      "Middels påvirkning: relevant for produksjonsbruk, drift eller sikkerhetsforbedring.",
+      "Kildetype: Microsoft Learn / release-notes",
+      "Kategori: Cloud Security"
     ]
   },
   {

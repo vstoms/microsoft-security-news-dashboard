@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-06T10:13:09.755Z
+Generated: 2026-09-07T11:30:46.565Z
 
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update September 3, 2026
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset

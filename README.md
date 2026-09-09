@@ -12,6 +12,15 @@ python3 -m http.server 4173
 
 Åpne deretter <http://localhost:4173>.
 
+## Personlig arbeidsflate
+
+Dashboardet lagrer valgene lokalt i nettleseren, uten konto eller backend:
+
+- nye og endrede saker siden forrige besøk
+- en personlig liste over produkter du følger
+- lagret, gjennomgått og håndtert status per sak
+- visning av når kildene sist ble kontrollert og hvilke felt som er maskinelt utledet
+
 ## V2 fase 1–3
 
 Prosjektet er nå satt opp med en enkel ingest-pipeline og automatisering via GitHub Actions / GitHub Pages:

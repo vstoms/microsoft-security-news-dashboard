@@ -10,11 +10,17 @@ const mapped = items.map((item) => ({
   monthKey: item.month,
   date: item.month_label + ' 2026',
   publishedAt: item.published_at,
+  firstSeenAt: item.first_seen_at,
+  updatedAt: item.updated_at,
+  sourceFetchedAt: item.source_fetched_at,
+  datePrecision: item.date_precision,
   title: item.title,
   summary: item.summary_no,
   url: item.url,
   releaseStage: item.release_stage,
+  releaseStageConfidence: item.release_stage_confidence,
   impact: item.impact_no,
+  impactConfidence: item.impact_confidence,
   sourceType: item.source_type,
   sourceName: item.source_name,
   category: item.category,
@@ -30,6 +36,12 @@ const releaseStages = [...new Set(mapped.map((item) => item.releaseStage))];
 const sourceTypes = [...new Set(mapped.map((item) => item.sourceType))];
 const themes = [...new Set(mapped.flatMap((item) => item.themes))].sort((a, b) => a.localeCompare(b, 'no'));
 const impacts = [...new Set(mapped.map((item) => item.impact))];
-const moduleText = `export const newsItems = ${JSON.stringify(mapped, null, 2)};\n\nexport const products = ${JSON.stringify(products, null, 2)};\nexport const months = ${JSON.stringify(months, null, 2)};\nexport const releaseStages = ${JSON.stringify(releaseStages, null, 2)};\nexport const sourceTypes = ${JSON.stringify(sourceTypes, null, 2)};\nexport const themes = ${JSON.stringify(themes, null, 2)};\nexport const impacts = ${JSON.stringify(impacts, null, 2)};\n`;
+const sourceDates = mapped.map((item) => item.sourceFetchedAt).filter(Boolean).sort();
+const datasetMeta = {
+  sourceCheckedAt: sourceDates.at(-1) || null,
+  datePrecision: 'month',
+  classifications: 'inferred'
+};
+const moduleText = `export const newsItems = ${JSON.stringify(mapped, null, 2)};\n\nexport const datasetMeta = ${JSON.stringify(datasetMeta, null, 2)};\n\nexport const products = ${JSON.stringify(products, null, 2)};\nexport const months = ${JSON.stringify(months, null, 2)};\nexport const releaseStages = ${JSON.stringify(releaseStages, null, 2)};\nexport const sourceTypes = ${JSON.stringify(sourceTypes, null, 2)};\nexport const themes = ${JSON.stringify(themes, null, 2)};\nexport const impacts = ${JSON.stringify(impacts, null, 2)};\n`;
 await writeFile(new URL('../app/data/news-data.js', import.meta.url), moduleText);
 console.log(`Built app/data/news-data.js with ${mapped.length} items`);

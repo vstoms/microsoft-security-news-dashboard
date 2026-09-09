@@ -13,6 +13,7 @@
         <h1>Nyhetsdashboard for Microsoft Security</h1>
         <p class="hero-copy">Se hva som faktisk har landet i Microsofts sikkerhetsportefølje, filtrer på produkt og status, og prioriter det som krever handling før det blir et driftsproblem.</p>
         <div class="hero-stats" id="hero-stats"></div>
+        <p class="freshness" id="data-freshness"></p>
       </header>
 
       <section class="controls">
@@ -45,6 +46,17 @@
           <select id="impact-filter"></select>
         </label>
         <label>
+          <span>Min visning</span>
+          <select id="view-filter">
+            <option value="all">Alle oppdateringer</option>
+            <option value="new">Nytt siden sist</option>
+            <option value="products">Mine produkter</option>
+            <option value="saved">Lagret</option>
+            <option value="unreviewed">Ikke gjennomgått</option>
+            <option value="handled">Håndtert</option>
+          </select>
+        </label>
+        <label>
           <span>Sorter</span>
           <select id="sort-filter">
             <option value="priority">Mest kritisk først</option>
@@ -61,6 +73,17 @@
             <div id="product-chips" class="chip-list"></div>
           </div>
           <div class="panel">
+            <h2>Mine produkter</h2>
+            <p class="panel-copy">Velg produktene du følger. Valget lagres bare i denne nettleseren.</p>
+            <div id="my-product-list" class="preference-list"></div>
+            <button id="show-my-products" class="secondary-button" type="button">Vis mine produkter</button>
+          </div>
+          <div class="panel visit-panel">
+            <h2>Siden sist</h2>
+            <p id="visit-summary" class="panel-copy"></p>
+            <button id="show-new" class="secondary-button" type="button">Vis nye og oppdaterte</button>
+          </div>
+          <div class="panel">
             <h2>Rask prioritering</h2>
             <ul class="insight-list" id="priority-list"></ul>
           </div>
@@ -72,7 +95,10 @@
               <h2>Oppdateringer</h2>
               <p id="result-count"></p>
             </div>
-            <div id="active-filters" class="chip-list"></div>
+            <div class="result-actions">
+              <div id="active-filters" class="chip-list"></div>
+              <button id="reset-filters" class="text-button" type="button">Nullstill filtre</button>
+            </div>
           </div>
           <div id="news-list" class="news-list"></div>
         </main>
@@ -84,6 +110,7 @@
         <div class="card-top">
           <div>
             <div class="badge-row">
+              <span class="badge badge-new" hidden>Ny siden sist</span>
               <span class="badge badge-stage"></span>
               <span class="badge badge-impact"></span>
               <span class="badge badge-source"></span>
@@ -100,6 +127,14 @@
           <div><dt>Kilde</dt><dd class="detail-source"></dd></div>
           <div><dt>Publisert</dt><dd class="detail-date"></dd></div>
         </dl>
+        <div class="card-personal">
+          <div class="item-actions" aria-label="Personlig status">
+            <button class="status-button save-button" type="button">Lagre</button>
+            <button class="status-button review-button" type="button">Gjennomgått</button>
+            <button class="status-button handle-button" type="button">Håndtert</button>
+          </div>
+          <p class="confidence-note"></p>
+        </div>
         <div class="tags"></div>
         <div class="analysis-block">
           <h4>Hvorfor dette betyr noe</h4>

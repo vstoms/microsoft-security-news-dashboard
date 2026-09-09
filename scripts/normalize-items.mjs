@@ -1,10 +1,20 @@
+import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { sourceCatalog } from '../sources/source-config.js';
 import { cleanLines, inferOperationalImpact, inferReleaseStage, inferThemeTags, monthNameToNumber, norwegianMonthLabel, slugify, stripHtml } from './lib/utils.mjs';
 
 const rawDir = new URL('../data/raw/', import.meta.url);
 const normalizedDir = new URL('../data/normalized/', import.meta.url);
+const normalizedFile = new URL('news-items.json', normalizedDir);
 await mkdir(normalizedDir, { recursive: true });
+
+let previousItems = [];
+try {
+  previousItems = JSON.parse(await readFile(normalizedFile, 'utf8'));
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
+const previousById = new Map(previousItems.map((item) => [item.id, item]));
 
 function parseMonthSections(lines) {
   const monthHeader = /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+2026$/i;
@@ -41,14 +51,31 @@ function deriveTitle(rawChunk) {
   return title.replace(/^\((preview|ga)\)\s*/i, '').trim();
 }
 
-function normalizeChunk(source, section, chunk, index) {
+function contentFingerprint(item) {
+  const content = {
+    product: item.product,
+    category: item.category,
+    source_type: item.source_type,
+    title: item.title,
+    summary_no: item.summary_no,
+    impact_no: item.impact_no,
+    published_at: item.published_at,
+    release_stage: item.release_stage,
+    platforms: item.platforms,
+    theme_tags: item.theme_tags,
+    url: item.url
+  };
+  return createHash('sha256').update(JSON.stringify(content)).digest('hex');
+}
+
+function normalizeChunk(source, section, chunk, index, fetchedAt) {
   const monthMatch = section.heading.match(/^(\w+)\s+2026$/i);
   const month = monthNameToNumber(monthMatch[1]);
   const title = deriveTitle(chunk);
   const summary = chunk.split('|').slice(1, 5).join(' ').replace(/\s+/g, ' ').trim();
   const idBase = `${source.productSlug}-${month}-${slugify(title || `${source.id}-${index}`)}`;
   const basis = `${title} ${summary}`;
-  return {
+  const item = {
     id: idBase,
     product_slug: source.productSlug,
     product: source.product,
@@ -68,8 +95,20 @@ function normalizeChunk(source, section, chunk, index) {
     release_stage: inferReleaseStage(basis),
     platforms: inferThemeTags(basis).filter((tag) => ['Cloud', 'Endpoint'].includes(tag)),
     theme_tags: inferThemeTags(basis),
-    url: source.url
+    url: source.url,
+    source_fetched_at: fetchedAt,
+    date_precision: 'month',
+    release_stage_confidence: 'inferred',
+    impact_confidence: 'inferred'
   };
+  const previous = previousById.get(item.id);
+  item.content_fingerprint = contentFingerprint(item);
+  const unchanged = previous && (previous.content_fingerprint || contentFingerprint(previous)) === item.content_fingerprint;
+  item.first_seen_at = previous?.first_seen_at || previous?.source_fetched_at || fetchedAt;
+  item.updated_at = unchanged
+    ? (previous.updated_at || previous.first_seen_at || previous.source_fetched_at || fetchedAt)
+    : fetchedAt;
+  return item;
 }
 
 const items = [];
@@ -79,7 +118,7 @@ for (const source of sourceCatalog) {
   const sections = parseMonthSections(lines);
   for (const section of sections) {
     const chunks = chunkSection(section).slice(0, 5);
-    chunks.forEach((chunk, index) => items.push(normalizeChunk(source, section, chunk, index)));
+    chunks.forEach((chunk, index) => items.push(normalizeChunk(source, section, chunk, index, raw.fetchedAt)));
   }
 }
 
@@ -92,5 +131,5 @@ for (const item of items) {
   unique.push(item);
 }
 
-await writeFile(new URL('news-items.json', normalizedDir), JSON.stringify(unique, null, 2));
+await writeFile(normalizedFile, JSON.stringify(unique, null, 2));
 console.log(`Normalized ${unique.length} items`);

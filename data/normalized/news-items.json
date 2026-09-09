@@ -21,7 +21,14 @@
       "Endpoint",
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "267139fd4372c24ecc8a77ca80934f42674ebfc7c7741cb3be03391a524204a0",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-xdr-06-the-phishing-triage-agent-and-security-alert-triage-agent-now-use-the",
@@ -41,7 +48,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "68d593a5336f2b349f9b33651b8820503be59ff1a69beda70bab454b9e822070",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-xdr-05-microsoft-defender-experts-for-servers",
@@ -64,7 +78,14 @@
       "Hunting",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f277c2b5c179cf26a009cf8a6aff37808126ed09c4f270131e48fa8bcbf34db5",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-xdr-04-preview-you-can-now-view-the-current-status-of-automatic-attack-disruption-and-predictive-shielding-actions-related-to-a-specific-incident-you-view-this-data-in-the",
@@ -84,7 +105,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "7540a90d09222f75f11770d6e18c39760dd7a1251a7e3afca6ac0874d15dc3da",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-xdr-03-identity-security-enhancements",
@@ -104,7 +132,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4d11a7ad8eecb992a0a5293b78ffc67fce5f1597936abe771b0174f0a6529cf2",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-xdr-02-microsoft-defender-experts-hunting-customers-can-now-set-up",
@@ -124,7 +159,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d5e82dc9f1af6e2e75ebdf472db73f5b22026dfe1e7d8af569cdbd0f631646db",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-xdr-01-preview-custom-detection-rules-in-microsoft-defender-now-support-near-real-time-nrt-configuration-on",
@@ -144,7 +186,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.887Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "18d6a6003156aac8989569346deb8de961d9094f4581cca88167ce5fff27bd14",
+    "first_seen_at": "2026-09-09T10:43:17.887Z",
+    "updated_at": "2026-09-09T10:43:17.887Z"
   },
   {
     "id": "microsoft-defender-for-office-365-07-localized-default-mark-as-and-notify-email-templates",
@@ -164,7 +213,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a29fe67212bef636421591a367142b36d1aa3bef71a3cd8c5b01ab247b8f397c",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-04-promotions-folder-for-bulk-email-preview",
@@ -184,7 +240,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "57ab28aca51f5c9be1b2c5b466a82b2ff064bd9a00d125007e3a9e743843c533",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-04-new-rbac-permission-for-email-content-associated-with-alerts",
@@ -204,7 +267,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8a157a0f96ba4a95458eed3401e3511680b7864fc63466367d277f0c50cb90f6",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-03-expanding-user-reporting-in-teams-to-include-calls",
@@ -224,7 +294,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "2d7ec0d16df8c1d9c6df99e7bf7cf0b4f1a382b5c86d492ba7c6752d091e0cb2",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-02-expanding-user-reporting-in-teams-to-defender-for-office-365-plan-1",
@@ -244,7 +321,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5c45591e6955cb1ecf5934d4324d5b93d41363aa3f1213dba9e56f50233dad57",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-01-block-communication-from-sender-email-address-and-domains-in-teams",
@@ -264,7 +348,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1b0aa54bda7bd2a4196ad1b18b0d84a1ed541e4607fb9cd8eeb7302d2c994a2d",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-01-expanding-zap-and-teams-admin-quarantine-to-plan-1",
@@ -284,7 +375,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "877690a6fa967f7b65ab613c69887313c86cfa201036715b6bd1c793878e2420",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-01-new-email-actions-in-advanced-hunting",
@@ -304,7 +402,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "12178b2cff6729c68d692575bf5b195143cb4bc60da7b44e10dcc47cb3727918",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-01-threat-protection-status-report",
@@ -326,7 +431,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9a6fb5c480624e9192f762aff82081acdcd92d4a1da833d7e6be303d99aba96a",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-office-365-01-block-entries-in-the-tenant-allow-block-list",
@@ -346,7 +458,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-09-09T10:43:17.994Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "04a3df8da56c4a2fe2c0946fe91bc337dbb2884c987afc34f447fdd4979cecd7",
+    "first_seen_at": "2026-09-09T10:43:17.994Z",
+    "updated_at": "2026-09-09T10:43:17.994Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-09-preview-ga",
@@ -368,7 +487,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "202647771f38278ea0c479417d55aae6ac57cf27d718e2f1cf1cde2104621688",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-09-preview",
@@ -392,7 +518,14 @@
       "Endpoint",
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4258cb9e91f4c780888a90f704c60160ddc3828a9877c4216c5ddb49e34f08d3",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-08-preview-ga",
@@ -414,7 +547,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "e77128f8686706cae30174514a47a1ae938367c652c92be1b3552fedffc9dbce",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-08-preview",
@@ -437,7 +577,14 @@
       "Hunting",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a5f283e8c769207d9eaea888df9ea6af58645f8bada6e0461237b26058b1b6a9",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-08-ga-enables-organizations-to-automate-the-offboarding-of-linux-servers-from-microsoft",
@@ -460,7 +607,14 @@
       "Automatisering",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "7f9b280a71223d828b645098177e70023bd1c49885230ee228aac4f619e930b6",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-08-ga-release-version-20-126062-12-0-released-see-enhancements-and-features-for-this-release",
@@ -480,7 +634,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "869f559eb3570f983df749544c66bb166a3dfa917aba0afb1b2798c3064f2308",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-07-preview-ga",
@@ -502,7 +663,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "cc415e87e07c700b72fb3be43ed0c49700d6dace1643f9f9a67a00fbc52f8fcb",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-07-ga-release-version-20-126062-9-0-released-see-enhancements-and-features-for-this-release",
@@ -522,7 +690,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d54c76501e011e7cabf37fa399dd8a5e82fd801aafae1c9d7bae0cc0dc5f56b9",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-07-ga-release-version-1-1-78290102-released-see-enhancements-and-features-for-this-release",
@@ -542,7 +717,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "48e92245f0d9ceeaf8fa16fa7aa7a89e0dfab2950ba6058c59d8982485c8c494",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-07-preview",
@@ -562,7 +744,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "728cc857b9d98c861c128e66f2d1c9a3ac688cb84d604b2f812ee66c4d5b75a2",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-07-ga-release-version-20-126052-16-0-released-see-enhancements-and-features-for-this-release",
@@ -582,7 +771,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "eaf9f07d5b319ae834f5f4bde6dadb315832bedbddf48a65c5dac9306292ceca",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-preview-ga",
@@ -602,7 +798,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "3a030d7f55ff1029e91f1df79929884a00bdf15affc5ef7bbe67b3ab39902334",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-ga-release-version-1-0-9029-0101-released-see-enhancements-and-features-for-this-release",
@@ -624,7 +827,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "bafb36970e7fccd80414cd4bdb15e8e6976a8cb6d8c3f6f22412be06a6fe69fe",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-ga-release-version-20-126042-20-0-released-see-enhancements-and-features-for-this-release",
@@ -644,7 +854,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "69ddb5649150af3ab88fb875d635b04871b1a349d251f0f556f7d924b45b8800",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-preview",
@@ -667,7 +884,14 @@
       "AI",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1301f7f82149ca142f95d0e24af84e4352de7853b26c796aa2c0368f3a8ef0dd",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-06-ga-the-new-version-of-the-tool-streamlines-onboarding-and-enhances-security",
@@ -687,7 +911,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "33a3fd4c6dd228780b8893932c3ca7e0fbec742d4a3be90c85aa190eae8bd05e",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-05-preview-ga",
@@ -709,7 +940,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a6e7263d06b362d3c9c4581fbe20fff1a17260d517925ea8db934d284dba4dfd",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-05-ga-the-defender-for-endpoint-security-solution-for-legacy-windows-7-sp1",
@@ -731,7 +969,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "7e20e507ab1d1702bbf7707150eb72663e00e8c5335b7f03cd961332a2c4390c",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-05-preview",
@@ -751,7 +996,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f38f02fc73e4c993950d642d964870848649b3a9f846700aec3a2d1db5fea01f",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-new-microsoft-secure-score-recommendation",
@@ -771,7 +1023,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1dc9466ae852e3f5d345912f25e8c0240c1870adf2f90984107edbb2014e990e",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-preview",
@@ -793,7 +1052,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b2e6d9eb00b5856d88bbec07d4b12e8e19382665ed1cf10db753bcd921152fde",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-ga-release-version-30-126032-0000-0-released-see-enhancements-and-features-for-this-release",
@@ -815,7 +1081,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "96830e6a1550b28679a3a328c2ec31b86d010fd4ef127f6872154726280dec69",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-04-ga-release-version-20-126032-16-0-released-see-enhancements-and-features-for-this-release",
@@ -837,7 +1110,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1da06e7e4679ee958727ea2d7965a1ef9a026f78f2da3e95b7ed3b1abc6beebf",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-new-microsoft-secure-score-recommendations",
@@ -857,7 +1137,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8479f36a9e483a9b4bbbf05348f96ad3fe9e807028d96f119c027af0a608d5a3",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-ga-microsoft-secure-score-now-includes-new-recommendations-to-help-organizations-proactively",
@@ -879,7 +1166,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "3befd492e6513a4163ad6d093eb4b70a72cbcba83446260f90114e7f98547f70",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-block-outbound-network-connections-from-microsoft-html-application-host-mshta-exe",
@@ -901,7 +1195,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1e7cde01bbf4a7a03b6dc9e7a230dabbaa53abbbe59c5df33dceca4908745847",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-ga-release-version-30-126021-0002-0-released-see-enhancements-and-features-for-this-release",
@@ -923,7 +1224,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "31cfd920e1f6039b0d2216d8c23a98d80d5c2dc556572233617f55e68f8f00a4",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-03-ga-see-enhancements-and-features-for-this-release",
@@ -943,7 +1251,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b523cd7faf2997b7c70db7d530dd2650af7c8ec5594429aae31a218e2858b7be",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-02-preview-ga",
@@ -963,7 +1278,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5d55de7451f3e1b47f14c42265cd3eb3320677e3b7dbb2fb60c016e2b0495a48",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-02-ga-the-what-s-new-and-os-specific-release-notes-pages-are-now-updated",
@@ -983,7 +1305,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a5052b2a340f6576fe1dcc23a1b3cf0148c97fb7bf3b9b656e923464474df11c",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-02-new-features-in-microsoft-defender-for-endpoint",
@@ -1005,7 +1334,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a7b6c31527e9105f3d6f57fddcce9bf453828b70b3e8b452e6dc08a2d29a3406",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-02-ga-to-provide-comprehensive-vulnerability-management-capabilities-across-all-supported-windows-versions",
@@ -1027,7 +1363,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "bbfa709f77928a94962245787449c2de40d8e6d2899a7d6c53574970711b02d1",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-02-preview",
@@ -1047,7 +1390,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "c270d42db1e818d000ced137ec29dec4e9ce89f420996eeb43cef49d56b1c420",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-01-preview-ga",
@@ -1069,7 +1419,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d1b7a2549972398b0c987ed2cc9a7eeb11ae8944ae4368fe237248541b683489",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-01-ga-release-version-30-125102-0005-0-released-see-enhancements-and-features-for-this-release",
@@ -1091,7 +1448,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "af5b0d00baad99f32d429ed663db07c5f9d0fb083aa48218ff52b0c50e888a72",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-01-ga-release-version-20-125122-7-0-released-see-enhancements-and-features-for-this-release",
@@ -1113,7 +1477,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1217add5079a54ea3b1a78cb0dec29217ae0e875827b23bdf97d9728d8518d2c",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-01-ga-release-version-20-125122-6-0-released-see-enhancements-and-features-for-this-release",
@@ -1133,7 +1504,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "7bd12d8d32db3ea13c7c739737ec69d5ff3fe539bd2f3c382b4c41b2a752988e",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-endpoint-01-preview",
@@ -1155,7 +1533,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "source_fetched_at": "2026-09-09T10:43:18.098Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "69d7f322be1a3b16292b1687078fbc774e9c7af2c27886424c7f7005860f50d5",
+    "first_seen_at": "2026-09-09T10:43:18.098Z",
+    "updated_at": "2026-09-09T10:43:18.098Z"
   },
   {
     "id": "microsoft-defender-for-identity-08-expanded-automatic-auditing-for-ad-cs-ad-fs-and-entra-connect-servers",
@@ -1178,7 +1563,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "e8f60e002eccd684363f2d2fb41728b169e2a55a3c375d055a3aa862c7cc0ba9",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-07-defender-for-identity-sensor-updates",
@@ -1201,7 +1593,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "67c0e5dd26135cc593a31fd124f849a7616b54c64ad837222ea8fdff43e34a77",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-06-identity-risk-score-is-now-generally-available",
@@ -1221,7 +1620,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4c37ffdf1db962174b00e43bdf400b4f71d3ad42a6c19c55d3a06fb4681a7791",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-06-new-defender-for-identity-security-alerts",
@@ -1241,7 +1647,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4a2b1df3af7161ae5a5e574902d556836005c19c18fe3c6412e95c098b46c71b",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-06-new-alerts-related-to-entra-id",
@@ -1261,7 +1674,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5ecde854d271625418c189509e64e7615662af5c8aa2417105041ecbb74343f8",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-06-new-alerts-related-to-active-directory",
@@ -1281,7 +1701,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d421e3baebecce7e470694e05cbb489b44dfc1584faaa65c4fca6c8fa0c786cd",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-06-new-alerts-related-to-other-identity-providers",
@@ -1301,7 +1728,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "cb85151673e640daed22d0d774eca41d7cc747ace487f70a16e5156b84c57438",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-05-sensor-v3-x-supports-all-identity-roles-on-domain-controllers",
@@ -1321,7 +1755,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "91a04742db3b7bb37b7923fbfdf64f3192459f0f28e61b63ff41f1910068be73",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-05-new-defender-for-identity-security-alerts",
@@ -1341,7 +1782,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "928be172cdd477b680388cdbaf59e93d614e5d4546fae4dc674ded4bf844a9c9",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-05-new-alerts-related-to-entra-id",
@@ -1361,7 +1809,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1075f3b5e3f6928da3313c0c71e887a5f03b78a6fcb82da61e566a5d047bc42f",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-04-identity-explorer-preview",
@@ -1382,7 +1837,14 @@
       "Identitet",
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a3a847a70a9a5bfc7761779cb0235fb07f2366d6153a5d1fa9f7ada98563db7b",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-03-sensor-v3-x-support-for-domain-controllers-with-microsoft-entra-connect-identity-roles",
@@ -1405,7 +1867,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "c7cd596ebad8e9f6eea2865e6d8be99179e676c120bb2e6a0141d08a3e2e0eb8",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-03-new-identity-security-capabilities-help-you-monitor-and-manage-identity-security-for-human-and-non-human-identities",
@@ -1425,7 +1894,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "aedcf3308a9ca655daf4345c8c980b8688dd9a89d3e1ac61399443b3530dae8f",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-03-new-defender-for-identity-security-alerts",
@@ -1445,7 +1921,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "2ac6931acdd61c77f0174d6fb574fb8f8aafc8de98da35d0577eb7a0ac798735",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-03-new-alerts-related-to-entra-id",
@@ -1468,7 +1951,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ba2175a74653b67d9a10592bd9e917f7225b0b8cb9486e113e238cd1598d964d",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-02-defender-for-identity-sensor-updates",
@@ -1488,7 +1978,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "fb2465f1920d7bbafc6135096241844e451cfbc970a197201a71d875117d5291",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-02-new-defender-for-identity-security-alerts",
@@ -1508,7 +2005,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "e303196778d2f5aedfa9a44f3314aafa1a64d0bddf7c941d5b61167d485d3ecc",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-02-new-alerts-related-to-entra-id",
@@ -1532,7 +2036,14 @@
       "Automatisering",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d396f3bc962cf384eeaa55a5cc0b2eb69a3d1c29918478b08d1276be5061f022",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-02-new-alerts-related-to-active-directory",
@@ -1552,7 +2063,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d485ccb60aaa6e55f79ec5fcea9750e4ae27243f8711d687a361b26aa816b60d",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-01-new-defender-for-identity-security-alerts",
@@ -1572,7 +2090,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "699d702f71d2afb7fdca99f79b4d8337c6d7c8b05f37adb683288002acbb9dd2",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-01-new-alerts-related-to-entra-id",
@@ -1593,7 +2118,14 @@
       "Identitet",
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a4f7ab8e311c59260630b2d6a42357e0e305c32c487c5d9c37fc7d2324f96f82",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-01-new-alerts-related-to-active-directory",
@@ -1613,7 +2145,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5fe47d221438e7d465c9d0428b2afb7c556b6e0cd13b4bfb1f27ce93c15e12a1",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-01-new-advanced-hunting-table",
@@ -1634,7 +2173,14 @@
       "Identitet",
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "e46a9a8600b19c155cb6a38e9de947accf1f38d655d126cafb0ea7a70eeb1e22",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-identity-01-new-security-posture-assessments",
@@ -1654,7 +2200,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+    "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.200Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4f69acb9ee2a7669286e817d096f845d920bb0ff681dcb994a569c99075a4d05",
+    "first_seen_at": "2026-09-09T10:43:18.200Z",
+    "updated_at": "2026-09-09T10:43:18.200Z"
   },
   {
     "id": "microsoft-defender-for-cloud-09-date-category-update-september-3-2026",
@@ -1674,7 +2227,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "840a787026706f624b5cf70b6c292511e2fdc6ec5deee3ca37f92f923b561e39",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-09-ga-aws-guardduty-coverage-status-is-now-shown-on-the-s3-asset",
@@ -1696,7 +2256,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d80edfa1c3c487f1c0eb893b0952a8ab419a76d1a439f6d1452f66d59cea16d3",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-09-ga-general-availability-of-defender-for-cosmos-db-in-azure-government-cloud",
@@ -1718,7 +2285,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "62d43c6b1640a90c95a13aa48995d95250f0f070a07b76b3f2ea28d7cb4a6b29",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-08-date-category-update-august-21-2026-update-update-to-cve-details-data",
@@ -1738,7 +2312,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "826e78eb370bf97900d458bc469a7d308e42b74b3eec89792a3bee8be390687f",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-07-deprecation-completed-legacy-grouped-recommendations-removed-from-azure-portal",
@@ -1760,7 +2341,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a15b6a33aee7a4ae7f0cc1dbd16f7c148f59072ef574bb05c0a964ed559ef48e",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-07-ga-database-level-recommendations-for-sql-vulnerability-assessment-ga-july-5-2026",
@@ -1780,7 +2368,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "43249749f93ea3d4cea361c3959d02a74b15a09c978b3b11d967b0cba7e3b375",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-07-deprecation",
@@ -1800,7 +2395,14 @@
     "theme_tags": [
       "Automatisering"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "684d8abc74488fa17f9ef231e55d006a0c692aa061a7f663e0301cfa9f6882db",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-07-new-container-security-capabilities-are-now-generally-available",
@@ -1820,7 +2422,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "3df7d206ebb4abe9dae09e0066802bbf9301a6bc630614bb51ad259017884096",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-07-ga-kubernetes-misconfiguration-enforcement-in-defender-for-containers-is-now-generally-available",
@@ -1840,7 +2449,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5716325c3041b6c92c1fa71a0f88b8cb5dc3a1d6bdce1f6d5a29921fbaff2c36",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-06-date-category-update-june-30-2026-update-support-for-additional-azure-regions",
@@ -1862,7 +2478,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "951aba4dccc318005bba945c59f3b0530c5493b59945408d77f6f7075db55b0f",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-06-ga-general-availability-of-defender-for-key-vault-in-azure-government-cloud",
@@ -1884,7 +2507,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b09dc84eb8e1f7e6f9742aec1a21dcb36113a33fced288558bb821c25fd22a2b",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-06-ga-expanded-multicloud-security-coverage-is-now-generally-available-june-30-2026",
@@ -1906,7 +2536,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "13415c376b85ed5d6daf5051ea75433ed91f92a964b99de3e4ab1b26596eab55",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-06-ga-cloud-security-reporting-is-now-generally-available-june-18-2026",
@@ -1928,7 +2565,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ff03360fbee222aac721037c9cc20bc528e9c8079c2bc6eeb202158dd4ec490f",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-06-ga-api-security-posture-management-for-function-apps-and-logic-apps-is",
@@ -1952,7 +2596,14 @@
       "Container",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "6c6eac310a0c4011880aaac84772901b698273dad6d3091cde15dc06c38a74c0",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-05-preview",
@@ -1972,7 +2623,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "c9ada86261d63bea7c5907494ff33e843b8a00bc3a237bfa9bfed88c551ff378",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-05-ga-general-availability-of-on-demand-malware-scanning-of-azure-files-in-microsoft",
@@ -1994,7 +2652,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f68c559f4d1c1644cd14fbb03303ec62a9545a1bce07adddfee7e4ce4e90b2fc",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-04-date-category-update-april-30-2026",
@@ -2014,7 +2679,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "86ebad77798f6644c02ed8f84524c0140d7c34dbb68bc6144b24c26db7ecae68",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-04-ga-defender-for-containers-runtime-protection-on-eks-bottlerocket-is-now-generally",
@@ -2034,7 +2706,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a2f41027a5fe70ea66452f3fde59412bbafa4094c309fc8d074b1f2e1fc2edec",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-04-ga-anti-malware-detection-and-blocking-is-now-generally-available-april-30-2026",
@@ -2054,7 +2733,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5e3d277022cb9ed06a7508d4821d1c53860a186233febcfc708a6b6158b393e2",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-04-ga-dns-detection-for-kubernetes-is-now-generally-available-april-20-2026",
@@ -2074,7 +2760,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "162b7392e536c412fbc569c077b3c6f7e9f25fe9a014b15c5169da4c90172c7d",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-04-ga-general-availability-of-defender-for-storage-integration-in-azure-portal-storage",
@@ -2096,7 +2789,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "29042f5d22c204bd6db11545f497140a67b0723053f2fa669938f499bb27dbf3",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-03-date-category-update-march-31-2026",
@@ -2116,7 +2816,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "366349f393c1ab7309f5d5ff503c79d7d807be3268fb4b52efa5acc7feba2d99",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-03-ga-malware-automated-remediation-in-defender-for-storage-march-31-2026-update",
@@ -2139,7 +2846,14 @@
       "Automatisering",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "060a82137ab26e7aa4f0d29c5e11fbb036d636df0660c83934094dc2caa6b7b1",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-03-preview",
@@ -2162,7 +2876,14 @@
       "AI",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "92f81cdf31e53e4ab3cd1c0efed961a8b6922e119cebd9a86f742ebd494b621d",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-03-ga-kubernetes-gated-deployment-support-for-aks-automatic-ga-march-11-2026",
@@ -2182,7 +2903,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8c77aaf28f13813bc911d8a41382e72f4bbbf21ea365415bd27d840309ea594c",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-02-date-category-update-february-22-2026",
@@ -2202,7 +2930,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "7d83affb4bdd758756951d307b058c14e524bdd4048b7c5bfd961ed684849bd9",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-02-container-runtime-anti-malware-detection-and-blocking-preview",
@@ -2222,7 +2957,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "78def0c74914b2ed77fdfd9096acf3397df77a6e03add6c6b7d97afd6ccedc81",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-02-preview",
@@ -2242,7 +2984,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4ff3f26166d0ea91ac84a6b0258dd6a89394c632cf09ff9837cc1a45fe7f1f5c",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-02-ga-scanning-support-for-minimus-and-photon-os-container-images-february-9",
@@ -2262,7 +3011,14 @@
     "theme_tags": [
       "Container"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "586b827fdf0cb4dd73112a46176d509d44f67cd4e6ea4392c32eae60214e27d5",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-02-ga-simulate-alerts-for-sql-servers-on-machines-february-3-2026",
@@ -2282,7 +3038,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "618e44890b91de913be1522b5d60cbb89e6841283e4f7f2fc76be4faca6e72b6",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-01-date-category-update-january-8-2026",
@@ -2302,7 +3065,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ca242f4eede345213ae9a1aecb3669a2e52df12a1cd54ca0a1a77c1bae3fa284",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "microsoft-defender-for-cloud-01-preview",
@@ -2324,7 +3094,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+    "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+    "source_fetched_at": "2026-09-09T10:43:18.299Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8809c209f5a7cf1f565bf920342396302e9436fdc35b13dd9ee78a1717162abf",
+    "first_seen_at": "2026-09-09T10:43:18.299Z",
+    "updated_at": "2026-09-09T10:43:18.299Z"
   },
   {
     "id": "unified-secops-02-new-content-types-for-cross-tenant-distribution-now-generally-available",
@@ -2344,7 +3121,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "213128b27cde7a232b8e96016af517d06cddf44d260caaabc0d00b5742ce106c",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-01-updated-date-microsoft-sentinel-in-the-azure-portal-to-be-retired-march-2027",
@@ -2366,7 +3150,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "32d7126c036f584e539aed91bc9f28ac7bea57a733708984a167155b9aa1b6a3",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-01-new-entity-behavior-analytics-ueba-experiences-in-the-defender-portal-preview",
@@ -2386,7 +3177,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1707a19edbc2fff0ce4edbc13ed09ca9c4d5d11812cd3fa5e884c81a95bd588c",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-01-ueba-anomalies",
@@ -2406,7 +3204,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "47eff88760f9123da85a091848ec7776ad5416173634d7d4f05b05e754cf8380",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-01-ueba-experiences-in-the-defender-portal-empower-analysts-and-streamline-workflows",
@@ -2431,7 +3236,14 @@
       "Teams",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d5b3f1b2180007b484c4d225dc0525e0a7627e493c51b3111d2b99b65929295a",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-01-new-customers-who-don-t-have-relevant-permissions-aren-t-automatically-onboarded-to-the-defender-portal-but-they-do-still-see-redirection-links-in-the-azure-portal-together-with-prompts-to-have-a-user-with-relevant-permissions-manually-onboard-the-workspace-to-the-defender-portal",
@@ -2453,7 +3265,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8f85802069ffed375902b55895719fbd242a968974d0de86551a3a78c9b99faa",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
@@ -2475,7 +3294,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4f89603d07894690eaef48936897dc55e7fc483781edc42b7de0537226567510",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-07-new-stix-objects-in-microsoft-sentinel",
@@ -2495,7 +3321,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ac94551dfca92225b0987188080e0f96b1489210d907887cd43c1f728d280f5e",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "unified-secops-07-new-soc-optimization-recommendations-based-on-similar-organizations-preview",
@@ -2515,7 +3348,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new"
+    "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.747Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "be73d492c1001347c388053331406bc4866b03d216f77ad121510f926f2cf856",
+    "first_seen_at": "2026-09-09T10:43:18.747Z",
+    "updated_at": "2026-09-09T10:43:18.747Z"
   },
   {
     "id": "security-exposure-management-08-keyless-authentication-for-the-microsoft-foundry-connection-preview",
@@ -2536,7 +3376,14 @@
       "Identitet",
       "Automatisering"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f3d5f48ffd6a634a8c3e82ef192526c0f2cc97c2e4a08b99da276e92e952dd7f",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-07-codename-mdash-mai-augmented-scan-profile-now-available-for-on-demand-scans-preview",
@@ -2556,7 +3403,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "fae5c63ddb2b48cc5adb8034fa47d9b454097f34edcbeaec917023947e8993cd",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-07-expanding-on-the-previously-released-defender-cli-support-the-mai-augmented-scan-profile-is-now-also-available-in-preview-for-on-demand-scans-triggered-from-the-microsoft-defender-portal-security-teams-can-select-this-profile-when-starting-an-on-demand-scan-from-the-manage-scans-for-more-information-see",
@@ -2576,7 +3430,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "3b7dd37d944ea68e75ee69f19b96c2fe6f2364e0b433c19158e3ff6f81370bbe",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-06-new-predefined-classifications-for-ai-agents",
@@ -2596,7 +3457,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "218369ba01185b26de59704e5b546155f1c86fb66013327782ae31b79642fc96",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-06-new-predefined-classifications",
@@ -2616,7 +3484,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b9ba0c6800aba72ebf1877c92c33347907f77e9d2518e1d809460950bf28d998",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-05-new-predefined-classification",
@@ -2638,7 +3513,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "00604b6042bfa8eee8a762fc15f34c777833cbc2587313e35c31fd1e2d637638",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-04-new-predefined-classifications",
@@ -2660,7 +3542,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9750f4ec2454f64ccd269dca8a9f6d05b1713c1bd3badd445e91e5adac42501d",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-03-updates-to-secure-score-category-calculations-for-increased-accuracy",
@@ -2683,7 +3572,14 @@
       "Identitet",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1b4c2ed3ec4ce586f1d76a9cb51b5b3a90faf6bd234b4989a8699b3c311c2c2e",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-01-new-predefined-classifications",
@@ -2705,7 +3601,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "6b05c2f7b0b289e5d14c10d1193dfb2012b8c806190b5d6964856d631814d1a6",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-01-new-unified-recommendations-catalog",
@@ -2725,7 +3628,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ffa1b1f97500979762cfbf948421249e22f496dfe37f1d9d5918bc3a2ce63d61",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-01-new-risk-based-scoring-that-weighs-recommendations-based-on-severity-asset-context-and-potential-impact",
@@ -2747,7 +3657,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d8ff77ff4112940b8dbe2a201aaaff796135b3b3cbc8ded24d9a22ad907ff672",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-01-new-secure-score-integration",
@@ -2769,7 +3686,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a7e0a659b3fc7cdd2477c71904702be45f3a05f8a7373eee59e7025e6aeea0fb",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "security-exposure-management-01-new-home-under-exposure-management",
@@ -2793,7 +3717,14 @@
       "Endpoint",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new"
+    "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:18.953Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "3177172da2b5b3b2c3966bb9579b0f75695ec9f17610000b62e55593140c0586",
+    "first_seen_at": "2026-09-09T10:43:18.953Z",
+    "updated_at": "2026-09-09T10:43:18.953Z"
   },
   {
     "id": "microsoft-sentinel-08-new-data-sources-for-ueba-behaviors-and-anomaly-detection-preview",
@@ -2813,7 +3744,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1e22a8836805ace01d66fef4833cd19b77c0687224b2d3e5986de82339b4ffbf",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-08-ueba-anomalies-on-behaviors-preview",
@@ -2833,7 +3771,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1d1b74e6b591ec858f3a6c39373609fb8b842a85c557d40adbc93a9f559d1533",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-08-ueba-anomaly-detection-now-supports-check-point-fortinet-fortigate-and-zscaler-firewall-vpn-and-web-proxy-events-from-the",
@@ -2856,7 +3801,14 @@
       "Hunting",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "2348f0f8d3b505e7a004c502620ad69a2b897d460b11725204311b5e390f5007",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-08-ueba-anomaly-detection-also-supports-identity-linked-aws-guardduty-findings-from-the",
@@ -2880,7 +3832,14 @@
       "Hunting",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "13f8e911683f383a112762bba73edf754d7577ad955e0f3200e082e485ca19d2",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-07-custom-detection-rules-support-in-microsoft-sentinel-repositories-preview",
@@ -2902,7 +3861,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f1a63dd6dc67b961d6ee4e878d7c258180d66db73b5be09f8d2412800bdb045e",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-06-link-behavior-results-to-incidents-in-advanced-hunting-preview",
@@ -2922,7 +3888,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4107ea715857f42e7bbba6daf13449da55b9205ed319836e24aecaaa4041a87a",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-05-generate-playbooks-using-ai-in-microsoft-sentinel-is-now-generally-available-ga",
@@ -2943,7 +3916,14 @@
       "Automatisering",
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9a48e40ba7dabf64a02f215f57d1edef44711924a5af7002181207dd14c78ce1",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-05-ueba-enhancements-new-settings-experience-okta-v2-support-and-more-gcp-anomaly-detections",
@@ -2969,7 +3949,14 @@
       "AI",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "47e50d0e4fee157ca6cf235e98f28fef0068d125b4116160e9a0c532806a8368",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-05-ueba-okta-anomalies-now-support-the-oktav2-cl-table-alongside-the-existing-okta-cl-table-this-extends-the-existing-anomalous-activity-and-anomalous-mfa-failures-detections-to-customers-using-the-newer-okta-connector-format-no-new-anomaly-types-are-introduced-for-more-information-see",
@@ -2990,7 +3977,14 @@
       "Identitet",
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8a9f88ec56aeba338aa1fb1e5275711b7c458c417b3f88d32a0b6268bb8d06f9",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-05-ueba-now-supports-five-new-gcp-audit-logs-anomaly-detections-that-identify-unusual-login-behavior-privileged-actions-resource-deployments-secret-kms-key-access-and-infrastructure-usage-patterns-for-more-information-see",
@@ -3013,7 +4007,14 @@
       "Hunting",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1f0fc8869cdf984b0492486d6de8d02b76a12e787eef89a71c765c5a7b12fd78",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-04-updated-call-to-action-update-automation-by-july-1-2026-account-name-is-now-consistently-the-upn-prefix-for-analytics-rule-alerts",
@@ -3035,7 +4036,14 @@
       "Automatisering",
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "562ce4c4d1f6e569a1bad45e2e4141706fa18eb454683d764f3c484d1ac57a83",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-03-call-to-action-update-older-microsoft-sentinel-content-as-code-sentinel-repositories-api-versions-before-june-15-2026",
@@ -3055,7 +4063,14 @@
     "theme_tags": [
       "Automatisering"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "2967915b8a053c29d9815153963511eed06e0a5daf47aa55baf600a5c95f071e",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-03-preview-api-versions-click-to-expand",
@@ -3075,7 +4090,14 @@
     "theme_tags": [
       "Automatisering"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9689b74f546de03c8eb450763fa8837631a53fa90404b1130e20296c37f6cd7b",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-02-microsoft-sentinel-ueba-behaviors-layer-is-now-generally-available",
@@ -3095,7 +4117,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "e6921ca38a9a76fd3db5ca92c5d5cef02403af23ec1a55126832e2f2c14bb607",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-02-ueba-behaviors-webinar",
@@ -3115,7 +4144,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "5dd4b8fba4e188806635eea8a8834eeac523d6bd4f39313b7acb43afde8a4f10",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-02-new-ueba-behaviors-workbook",
@@ -3136,7 +4172,14 @@
       "Hunting",
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9cff400b0398a9b3d74fe4d209a74f87d88e17911f77ccc460d95b254346146a",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-01-new-entity-behavior-analytics-ueba-widget-in-the-defender-portal-home-page-preview",
@@ -3156,7 +4199,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d32f838979f2e772e80433b7fd85011f4823953b49373bba3f73e7598352e7f1",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-01-updated-date-microsoft-sentinel-in-the-azure-portal-to-be-retired-march-2027",
@@ -3178,7 +4228,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "2b0062a7390e73804f99e2c09d2c8e31838c135b6adf529e9045640ec24374a0",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-01-ueba-behaviors-layer-aggregates-actionable-insights-from-raw-logs-in-near-real-time-preview",
@@ -3202,7 +4259,14 @@
       "AI",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b58ddb507f99881928bfd4a5a44a6495a83c5c0476dca21d972e8ec27c1d3be1",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-01-ueba-behaviors",
@@ -3222,7 +4286,14 @@
     "theme_tags": [
       "Hunting"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f9120e2a8673f3888500f444786640437be879c6ce140f67a641a4d6581dbf80",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-01-ueba-behaviors-can-be-enabled-independently-from-ueba-anomaly-detection",
@@ -3245,7 +4316,14 @@
       "Hunting",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b59dc6229960a6a717d2adc143388df8d77e11bbcf7fe5abb70e9b4181b1f749",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-sentinel-07-microsoft-sentinel-will-be-supported-in-the-defender-portal-only-and-any-remaining-customers-using-the-azure-portal-will-be-automatically-redirected",
@@ -3267,7 +4345,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new"
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.223Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "6e064b0abbc1b3f9a7fae227b425b760430bb563fe7ff639505476bc20f9c2ad",
+    "first_seen_at": "2026-09-09T10:43:19.223Z",
+    "updated_at": "2026-09-09T10:43:19.223Z"
   },
   {
     "id": "microsoft-entra-06-general-availability-external-users-can-be-directly-assigned-to-access-packages",
@@ -3287,7 +4372,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d75cf840fa99945ef130bc699e99714f2469ffe228b67e00d04b3d1b8a5d286a",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-06-new-feature",
@@ -3308,7 +4400,14 @@
       "Identitet",
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "918aacf669d8b041eba47c98d516cd5700a110a1562cfb85c3e1cb5c747fceb0",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-06-general-availability-byod-support-for-windows-client-using-entra-registration",
@@ -3331,7 +4430,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ca923a9842490be133f6822608ab99f54ae26921b6d6f86723ad698dad2b055c",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-05-public-preview-enable-soft-delete-for-microsoft-entra-device-objects",
@@ -3354,7 +4460,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f0e42fc2b66fdd8f3b022550b57ace8aa375f5f52a7fc9f2d53329cc1861cb1f",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-05-new-feature",
@@ -3377,7 +4490,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "c389f5d17399897796bba2b872c829e5e9b417987abb4165461517b077507979",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-05-general-availability-netbiosname-resolution-test-now-informational",
@@ -3397,7 +4517,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "178607d4c3916085c86f75ca348b7fea1e43606427dbd67236fe9a24bd1f58b7",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-05-public-preview-workload-identity-based-authentication-for-sap-successfactors-provisioning-integrations",
@@ -3417,7 +4544,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "fbdae27151c27a16caf2241615b86524e2a3a1c2fa5d32007feb48879d93077c",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-04-general-availability-microsoft-entra-agent-id-platform",
@@ -3438,7 +4572,14 @@
       "Identitet",
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ec3d93d959c8b99a2da9235c1763dc3bffb4ff21dcc542b5f253fef6503de6e6",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-04-general-availability",
@@ -3458,7 +4599,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "06d4e5635df7d10720b5ea9365f84e3defcb50e054ddf99fac04bf25536c4180",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-04-public-preview-account-discovery",
@@ -3478,7 +4626,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4502f887f97b3d6f8ba1829bbf55ddb63553ebdd1d7a30124963649c233b6e5e",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-04-public-preview",
@@ -3498,7 +4653,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "84d8350e1112332cebc1908bb89ca987bd321c876adaa66452f57028a1d2b6bf",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-04-public-preview-microsoft-entra-id-federation-with-external-id-eeid",
@@ -3518,7 +4680,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a700b542bc4b4e48fed9871e936eab916c29163f9dbc6b97c4cfcd656df9cad8",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-03-plan-for-change-agent-registry-consolidation-into-microsoft-agent-365",
@@ -3538,7 +4707,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "53bc4dc6462bc80795b4d10f3f701d0c8711253d3010a68ba86de0e176481557",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-03-public-preview-microsoft-entra-backup-and-recovery-is-now-available",
@@ -3558,7 +4734,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "84f8f7d1fd83571635a32f92fa839022828a04375ba56eb5f5158602aefeaaf9",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-03-public-preview",
@@ -3578,7 +4761,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8e5c173c916ba3ec778ff6d95eb385c734598402d97faef5e588293c0d550525",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-03-public-preview-entra-hybrid-join-using-entra-kerberos",
@@ -3598,7 +4788,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "fbf41d5f2bc64970217f8afac136ccde98d0efc69bfe5c0e43177428b3377e4c",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-02-general-availability-expanded-attribute-support-in-lifecycle-workflows-attribute-changes-trigger",
@@ -3618,7 +4815,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "8b6a22a029e7f45af5814ef9f70124790b283532a6f4b85d3857fc70657e3a20",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-02-new-feature",
@@ -3639,7 +4843,14 @@
       "Identitet",
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "bfdbc56c5420716ad88287149092d766f91408d44351d0565e0c8c87273ce836",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-02-general-availability-delegated-workflow-management-in-lifecycle-workflows",
@@ -3659,7 +4870,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "2c79924f0377fbb9e027a035e52d9fa08578915c92eb40b8d5751713b1810b43",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-02-general-availability-device-authorization-grant-flow-in-microsoft-entra-external-id",
@@ -3682,7 +4900,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "1dac516d22d06d57fa1fc3bc36e61e239f49c13a376fcdfed0a4f1d3544eb2ca",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-01-general-availability-ability-to-convert-source-of-authority-of-synced-on-premises-ad-users-to-cloud-users-is-now-available",
@@ -3704,7 +4929,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "a8721fe53c39a914be24bd1748fb02cfe8ab130368b5a2c9b8697e7661315bd7",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-01-new-feature",
@@ -3727,7 +4959,14 @@
       "Identitet",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "99214fe85482ca55cb95ee9692b5474b6277fbd9407689b10e803a3b040bfe0a",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-01-general-availability-microsoft-entra-id-governance-guest-billing-meter-enforcement",
@@ -3748,7 +4987,14 @@
       "Identitet",
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "ef432fa876988eb6e3c7e0a4285209fce030e069b0aa6b0e86d42be100a8261c",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-entra-01-general-availability-client-credentials-in-microsoft-entra-external-id",
@@ -3768,7 +5014,14 @@
     "theme_tags": [
       "Identitet"
     ],
-    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.323Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "b1b5552fd868fab9783f54a56ba82e32fd582f3a520f13b071200a4df2deaae0",
+    "first_seen_at": "2026-09-09T10:43:19.323Z",
+    "updated_at": "2026-09-09T10:43:19.323Z"
   },
   {
     "id": "microsoft-purview-08-data-loss-prevention",
@@ -3790,7 +5043,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f59c7c70a6206726e17ff9aa1e2707fe71fbefadbffb80a814382938be8cebc8",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-08-new-before-enforcing-an-auto-labeling-policy-run-it-in-simulation-mode",
@@ -3810,7 +5070,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "0a8e0e62559150fe8d83d5c0a87bbbb0e805da5bd8d2d6fb229382ed73848ddf",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-08-new-the-insights-tab-in-the-policy-details-panel-provides-an",
@@ -3830,7 +5097,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "e68ab0c74c3591428d173253b720a7257b8c80ee0fe9756befce1b2ff3bd9c8d",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-07-data-governance",
@@ -3853,7 +5127,14 @@
       "Governance",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "c0de3e4c12efa73194bb94e7da3dd15a11d7124100fdc5e64b0e221942bdc2e4",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-07-new-configure-a-manual-business-continuity-and-disaster-recovery-environment-for",
@@ -3874,7 +5155,14 @@
       "Identitet",
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "f5c4acb91d8f95bd85cbbb697d7a759260fc209ca68cf651efb55e1fe5e41283",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-06-copilot-cowork",
@@ -3894,7 +5182,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "c61b4e8fcc8f92b661ace897fc95b544007ca8376bb643477679a02dc3a0e12c",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-06-new-access-endpoint-dlp-device-attribute-data-using-advanced-hunting",
@@ -3918,7 +5213,14 @@
       "Endpoint",
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4e7e5c5188eefa177612d3a7b160e7d181fafb508947c11baf5a5d5d50ee2b36",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-06-new-create-a-dlp-policy-that-uses-device-scoping",
@@ -3941,7 +5243,14 @@
       "Identitet",
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "98d97c33b4e3151bb3fa99581a1abfde950cbd28b99153654219dc9f5aadb91c",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-06-block-external-email-from-being-processed-preview",
@@ -3961,7 +5270,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4ea542adcefda35f4172f4fc4ce74aa6d0bcd608a8a1ed5841f8e3c96f4e520b",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-06-new-monitor-device-health-with-the-device-health-reports-dashboard",
@@ -3983,7 +5299,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "80908c179fac781ced690facabb5045b80f26f77a386c5524a031928ded21264",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-05-agent-365",
@@ -4003,7 +5326,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "7e5f931b8fb06552b40d288b08744deed6191f1a2e4139a4ae7b70609c716884",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-05-block-access-for-specific-external-domains-or-users",
@@ -4023,7 +5353,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "22d30adeb68fded22c9319d1ae0315daa3f4ec17ce546b6daa68871bc8453f5b",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-05-new-ocr-support-in-data-security-investigations",
@@ -4043,7 +5380,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "10bbc5dc39619c3ebda1197a53a219f995b4e8f097ef2c6068a58fa4c844ec56",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-05-new-custom-examinations-in-data-security-investigations",
@@ -4063,7 +5407,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "31d3def8bb62f423cd16a7c9ee593dfd7b89fea3330f429e0174617d05029922",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-05-new-support-for-administrative-units-to-bring-parity-with-the",
@@ -4083,7 +5434,14 @@
     "theme_tags": [
       "AI"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9b251e2e8075d426240149f4a6324e276311db332c790e1a228c95e4b58cc030",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-04-preview",
@@ -4105,7 +5463,14 @@
     "theme_tags": [
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "4bc75c0f16041598987ce541a09ecb09f14e9aea13d1c5a33deede3dabb0b06c",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-04-new-newly-created-teams-call-data-records-often-abbreviated-to-cdrs",
@@ -4125,7 +5490,14 @@
     "theme_tags": [
       "Teams"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d9a94451a856853c2fd0cacbc1cc589a82bbe89cbba7cd2eda25a536fa3b228d",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-04-new-a-new-conceptual-article-learn-about-just-in-time-protection-now",
@@ -4147,7 +5519,14 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "76b6f21d20acdaa634d9db36b6ccf533f51f52f076a4dc66cacb682bcae899c3",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-03-data-governance",
@@ -4170,7 +5549,14 @@
       "Governance",
       "Cloud"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "d9157f07e0fc11c86f8969d10db4f432a342f54e29fcece450580bea130ea5e4",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-03-preview",
@@ -4190,7 +5576,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "819f4fe7a470f6fa1f9d6b781ddd308ca805f45d22cd11261e427da5364937a7",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-03-new-categorization-now-includes-a-standard-and-advanced-option",
@@ -4210,7 +5603,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "119abdcf5f6d2a748a3e5c7b04799b269091f985bb937283b2892c212664bda5",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-03-new-data-security-investigations-now-supports-soft-purge-for-exchange-mailbox",
@@ -4230,7 +5630,14 @@
     "theme_tags": [
       "Generelt"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "9780cb41bd488b3720557bc2308c4b26e36b48e5f37bbbb38d5f372bc2e87354",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-03-new-audit-search-in-data-security-investigations-is-now-generally-available",
@@ -4250,7 +5657,14 @@
     "theme_tags": [
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "fe3157e53a936d78c37f4d1582bb190899833adb59de45fd033dabc80525a7fb",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-02-data-governance",
@@ -4270,7 +5684,14 @@
     "theme_tags": [
       "Governance"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "51e4d4abee992a42e2ed3bd40de73eeb6858f17fccaea3f4d36942012cfe207e",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   },
   {
     "id": "microsoft-purview-02-new-the-client-side-improvements-for-sensitivity-labels-that-extend-sharepoint-permissions",
@@ -4292,6 +5713,13 @@
     "theme_tags": [
       "Endpoint"
     ],
-    "url": "https://learn.microsoft.com/en-us/purview/whats-new"
+    "url": "https://learn.microsoft.com/en-us/purview/whats-new",
+    "source_fetched_at": "2026-09-09T10:43:19.982Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "0823c93ad3a47b56b8c601201cb1ca3cd712ba3dbaee5758b0d84484e7f5ae13",
+    "first_seen_at": "2026-09-09T10:43:19.982Z",
+    "updated_at": "2026-09-09T10:43:19.982Z"
   }
 ]

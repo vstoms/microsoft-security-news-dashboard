@@ -1,10 +1,10 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-10T10:33:12.547Z
+Generated: 2026-09-11T10:33:31.699Z
 
-- 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update September 3, 2026
+- 2026-09-01 • Microsoft Defender for Cloud • Deprecation • Date Category Update September 10, 2026 Upcoming deprecation Upcoming deprecation of the
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset
-- 2026-09-01 • Microsoft Defender for Cloud • GA • GA General availability of Defender for Cosmos DB in Azure Government cloud
+- 2026-09-01 • Microsoft Defender for Cloud • Deprecation • GA General availability of Defender for Cosmos DB in Azure Government cloud
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview
 - 2026-09-01 • Microsoft Defender for Identity • Preview • Sensor v3.x onboarding without Microsoft Defender for Endpoint deployment (Preview)

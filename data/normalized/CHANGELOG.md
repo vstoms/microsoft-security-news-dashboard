@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-14T11:43:44.184Z
+Generated: 2026-09-15T11:00:50.115Z
 
 - 2026-09-01 • Microsoft Defender for Cloud • Deprecation • Date Category Update September 10, 2026 Upcoming deprecation Upcoming deprecation of the
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset
@@ -8,6 +8,8 @@ Generated: 2026-09-14T11:43:44.184Z
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview
 - 2026-09-01 • Microsoft Defender for Identity • Preview • Sensor v3.x onboarding without Microsoft Defender for Endpoint deployment (Preview)
+- 2026-09-01 • Microsoft Defender XDR • Ikke oppgitt • Identity Security dashboard and Coverage & Maturity : The Identity Security
+- 2026-09-01 • Security Exposure Management • Ikke oppgitt • Codename MDASH - Scan progress monitoring
 - 2026-08-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update August 21, 2026 Update Update to CVE details data
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-08-01 • Microsoft Defender for Endpoint • Preview • Preview
@@ -20,5 +22,3 @@ Generated: 2026-09-14T11:43:44.184Z
 - 2026-08-01 • Microsoft Sentinel • Preview • New data sources for UEBA behaviors and anomaly detection (Preview)
 - 2026-08-01 • Microsoft Sentinel • Preview • UEBA anomalies on behaviors (Preview)
 - 2026-08-01 • Microsoft Sentinel • Ikke oppgitt • UEBA anomaly detection now supports Check Point, Fortinet FortiGate, and Zscaler firewall, VPN, and web proxy events from the
-- 2026-08-01 • Microsoft Sentinel • Ikke oppgitt • UEBA anomaly detection also supports identity-linked AWS GuardDuty findings from the
-- 2026-08-01 • Security Exposure Management • Preview • Keyless authentication for the Microsoft Foundry connection preview

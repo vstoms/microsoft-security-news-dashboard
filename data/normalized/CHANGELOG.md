@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-18T10:31:05.615Z
+Generated: 2026-09-19T10:15:41.933Z
 
 - 2026-09-01 • Microsoft Defender for Cloud • Deprecation • Date Category Update September 10, 2026 Upcoming deprecation Upcoming deprecation of the
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset

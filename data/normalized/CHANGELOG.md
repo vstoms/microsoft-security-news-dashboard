@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-09-30T11:52:41.890Z
+Generated: 2026-10-01T12:23:20.847Z
 
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update Sep 30, 2026 Upcoming update Upcoming billing updates for
 - 2026-09-01 • Microsoft Defender for Cloud • Deprecation • GA Enhanced agent for Defender for SQL Servers on Machines is fully

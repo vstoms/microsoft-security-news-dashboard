@@ -19,7 +19,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -50,7 +50,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -77,7 +77,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -107,7 +107,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -134,7 +134,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -161,7 +161,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -189,7 +189,7 @@
       "Automatisering"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -216,13 +216,40 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-xdr/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.153Z",
+    "source_fetched_at": "2026-10-02T11:50:14.022Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
     "content_fingerprint": "18d6a6003156aac8989569346deb8de961d9094f4581cca88167ce5fff27bd14",
     "first_seen_at": "2026-09-09T10:43:17.887Z",
     "updated_at": "2026-09-09T10:43:17.887Z"
+  },
+  {
+    "id": "microsoft-defender-for-office-365-09-separating-teams-user-reporting-settings-from-email-settings",
+    "product_slug": "microsoft-defender-for-office-365",
+    "product": "Microsoft Defender for Office 365",
+    "category": "Email & Collaboration Security",
+    "source_type": "whats-new",
+    "source_name": "Microsoft Learn",
+    "title": "Separating Teams user reporting settings from email settings",
+    "summary_no": ": Customers in Worldwide (WW) environments with Defender for Office 365 Plan 1, Defender for Office 365 Plan 2, Microsoft 365 E5, or Office 365 E5 can now manage Teams user reporting settings on a separate page at https://security.microsoft.com/securitysettings/teamsUserSubmission . This separation lets you configure different reporting destinations for Teams and Outlook user reports. For more information, see MC1478463",
+    "impact_no": "Lavere påvirkning: mest relevant som kontekst eller planleggingssignal.",
+    "published_at": "2026-09-01",
+    "month": "2026-09",
+    "month_label": "September",
+    "release_stage": "Ikke oppgitt",
+    "platforms": [],
+    "theme_tags": [
+      "Teams"
+    ],
+    "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
+    "date_precision": "month",
+    "release_stage_confidence": "inferred",
+    "impact_confidence": "inferred",
+    "content_fingerprint": "27506e89d708612fecd874da29a11f463d9714e81d6ba24f705e559ccbf5fa53",
+    "first_seen_at": "2026-10-02T11:50:14.082Z",
+    "updated_at": "2026-10-02T11:50:14.082Z"
   },
   {
     "id": "microsoft-defender-for-office-365-09-expanding-user-reporting-in-teams-to-include-group-calls",
@@ -243,7 +270,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -270,7 +297,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -297,7 +324,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -324,7 +351,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -351,7 +378,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -378,7 +405,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -405,7 +432,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -432,7 +459,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -459,7 +486,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -488,7 +515,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -515,7 +542,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.226Z",
+    "source_fetched_at": "2026-10-02T11:50:14.082Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -545,7 +572,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -577,7 +604,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -606,7 +633,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -633,7 +660,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -660,7 +687,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -689,7 +716,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -719,7 +746,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -749,7 +776,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -776,7 +803,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -805,7 +832,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -832,7 +859,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -859,7 +886,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -886,7 +913,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -913,7 +940,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -940,7 +967,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -969,7 +996,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -996,7 +1023,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1026,7 +1053,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1053,7 +1080,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1082,7 +1109,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1111,7 +1138,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1138,7 +1165,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1165,7 +1192,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1194,7 +1221,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1223,7 +1250,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1252,7 +1279,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1279,7 +1306,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1308,7 +1335,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1337,7 +1364,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1366,7 +1393,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1393,7 +1420,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1420,7 +1447,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1447,7 +1474,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1476,7 +1503,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1505,7 +1532,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1532,7 +1559,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1561,7 +1588,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1590,7 +1617,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1619,7 +1646,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1646,7 +1673,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1675,7 +1702,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
-    "source_fetched_at": "2026-10-01T12:23:15.266Z",
+    "source_fetched_at": "2026-10-02T11:50:14.123Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1705,7 +1732,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1735,7 +1762,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1762,7 +1789,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1792,7 +1819,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1819,7 +1846,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1846,7 +1873,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1873,7 +1900,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1900,7 +1927,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1927,7 +1954,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1954,7 +1981,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -1981,7 +2008,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2008,7 +2035,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2036,7 +2063,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2066,7 +2093,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2093,7 +2120,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2120,7 +2147,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2150,7 +2177,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2177,7 +2204,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2204,7 +2231,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2235,7 +2262,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2262,7 +2289,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2289,7 +2316,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2317,7 +2344,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2344,7 +2371,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2372,7 +2399,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2399,7 +2426,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.305Z",
+    "source_fetched_at": "2026-10-02T11:50:14.171Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2426,7 +2453,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2456,7 +2483,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2485,7 +2512,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2514,7 +2541,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2541,7 +2568,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2570,7 +2597,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2597,7 +2624,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2624,7 +2651,7 @@
       "Automatisering"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2651,7 +2678,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2678,7 +2705,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2707,7 +2734,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2736,7 +2763,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2765,7 +2792,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2794,7 +2821,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2825,7 +2852,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2852,7 +2879,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2881,7 +2908,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2908,7 +2935,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2935,7 +2962,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2962,7 +2989,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -2989,7 +3016,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3018,7 +3045,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3045,7 +3072,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3075,7 +3102,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3105,7 +3132,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3132,7 +3159,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3159,7 +3186,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3186,7 +3213,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3213,7 +3240,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3240,7 +3267,7 @@
       "Container"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3267,7 +3294,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3294,7 +3321,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3323,7 +3350,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
-    "source_fetched_at": "2026-10-01T12:23:15.435Z",
+    "source_fetched_at": "2026-10-02T11:50:14.218Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3351,7 +3378,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3382,7 +3409,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3409,7 +3436,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3439,7 +3466,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3466,7 +3493,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3493,7 +3520,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3521,7 +3548,7 @@
       "Automatisering"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3548,7 +3575,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/unified-secops-platform/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.646Z",
+    "source_fetched_at": "2026-10-02T11:50:14.401Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3575,7 +3602,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3603,7 +3630,7 @@
       "Automatisering"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3630,7 +3657,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3657,7 +3684,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3684,7 +3711,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3711,7 +3738,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3740,7 +3767,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3769,7 +3796,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3799,7 +3826,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3828,7 +3855,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3855,7 +3882,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3884,7 +3911,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3913,7 +3940,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3944,7 +3971,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/security-exposure-management/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.733Z",
+    "source_fetched_at": "2026-10-02T11:50:14.477Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3971,7 +3998,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -3998,7 +4025,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4025,7 +4052,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4055,7 +4082,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4086,7 +4113,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4115,7 +4142,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4142,7 +4169,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4170,7 +4197,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4203,7 +4230,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4231,7 +4258,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4261,7 +4288,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4290,7 +4317,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4317,7 +4344,7 @@
       "Automatisering"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4344,7 +4371,7 @@
       "Automatisering"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4371,7 +4398,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4398,7 +4425,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4426,7 +4453,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4453,7 +4480,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4482,7 +4509,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4513,7 +4540,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4540,7 +4567,7 @@
       "Hunting"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4570,7 +4597,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4599,7 +4626,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/azure/sentinel/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.820Z",
+    "source_fetched_at": "2026-10-02T11:50:14.528Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4626,7 +4653,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4654,7 +4681,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4684,7 +4711,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4714,7 +4741,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4744,7 +4771,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4771,7 +4798,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4798,7 +4825,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4826,7 +4853,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4853,7 +4880,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4880,7 +4907,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4907,7 +4934,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4934,7 +4961,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4961,7 +4988,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -4988,7 +5015,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5015,7 +5042,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5042,7 +5069,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5069,7 +5096,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5097,7 +5124,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5124,7 +5151,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5154,7 +5181,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5183,7 +5210,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5213,7 +5240,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5241,7 +5268,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5268,7 +5295,7 @@
       "Identitet"
     ],
     "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:15.859Z",
+    "source_fetched_at": "2026-10-02T11:50:14.551Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5301,7 +5328,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5332,7 +5359,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5359,7 +5386,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5386,7 +5413,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5413,7 +5440,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5442,7 +5469,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5472,7 +5499,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5500,7 +5527,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5527,7 +5554,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5558,7 +5585,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5588,7 +5615,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5615,7 +5642,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5644,7 +5671,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5671,7 +5698,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5698,7 +5725,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5725,7 +5752,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5752,7 +5779,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5779,7 +5806,7 @@
       "AI"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5808,7 +5835,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5835,7 +5862,7 @@
       "Teams"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5864,7 +5891,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5894,7 +5921,7 @@
       "Cloud"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5921,7 +5948,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5948,7 +5975,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -5975,7 +6002,7 @@
       "Generelt"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -6002,7 +6029,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -6029,7 +6056,7 @@
       "Governance"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",
@@ -6058,7 +6085,7 @@
       "Endpoint"
     ],
     "url": "https://learn.microsoft.com/en-us/purview/whats-new",
-    "source_fetched_at": "2026-10-01T12:23:16.082Z",
+    "source_fetched_at": "2026-10-02T11:50:14.682Z",
     "date_precision": "month",
     "release_stage_confidence": "inferred",
     "impact_confidence": "inferred",

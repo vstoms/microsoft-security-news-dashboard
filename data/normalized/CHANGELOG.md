@@ -1,9 +1,12 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-05T13:31:55.535Z
+Generated: 2026-10-06T12:42:18.264Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update October 5, 2026
+- 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA KSPM misconfiguration recommendations moving to controller-level scope October 5, 2026
 - 2026-10-01 • Microsoft Defender for Cloud • GA • GA On-demand malware scanning now supports scanning specific blobs, files, containers, and
+- 2026-10-01 • Microsoft Defender for Identity • GA • General availability of sensor v3.x activation without Defender for Endpoint
+- 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include meetings
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update Sep 30, 2026 Upcoming update Upcoming billing updates for
 - 2026-09-01 • Microsoft Defender for Cloud • Deprecation • GA Enhanced agent for Defender for SQL Servers on Machines is fully
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset
@@ -19,6 +22,3 @@ Generated: 2026-10-05T13:31:55.535Z
 - 2026-09-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include group calls
 - 2026-09-01 • Microsoft Defender XDR • Ikke oppgitt • Integrated Security Operations Center (ISOC) in Microsoft Defender brings XDR, SIEM,
 - 2026-09-01 • Microsoft Purview • GA • Data Loss Prevention
-- 2026-09-01 • Microsoft Purview • Ikke oppgitt • New : Create an Information Barriers policy compliance report to identify SharePoint
-- 2026-09-01 • Microsoft Sentinel • Ikke oppgitt • Customers onboarding after September 23rd, 2026, should follow the updated guidance below.
-- 2026-09-01 • Security Exposure Management • Ikke oppgitt • Improved onboarding experience for MDASH

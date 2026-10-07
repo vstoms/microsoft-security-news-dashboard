@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-06T12:42:18.264Z
+Generated: 2026-10-07T12:36:24.189Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update October 5, 2026
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA KSPM misconfiguration recommendations moving to controller-level scope October 5, 2026

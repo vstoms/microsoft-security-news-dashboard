@@ -1,10 +1,11 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-07T12:36:24.189Z
+Generated: 2026-10-08T12:46:09.038Z
 
-- 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update October 5, 2026
+- 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 6, 2026 Public preview
+- 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA KSPM misconfiguration recommendations moving to controller-level scope October 5, 2026
-- 2026-10-01 • Microsoft Defender for Cloud • GA • GA On-demand malware scanning now supports scanning specific blobs, files, containers, and
+- 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA On-demand malware scanning now supports scanning specific blobs, files, containers, and
 - 2026-10-01 • Microsoft Defender for Identity • GA • General availability of sensor v3.x activation without Defender for Endpoint
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include meetings
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update Sep 30, 2026 Upcoming update Upcoming billing updates for
@@ -21,4 +22,3 @@ Generated: 2026-10-07T12:36:24.189Z
 - 2026-09-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Separating Teams user reporting settings from email settings
 - 2026-09-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include group calls
 - 2026-09-01 • Microsoft Defender XDR • Ikke oppgitt • Integrated Security Operations Center (ISOC) in Microsoft Defender brings XDR, SIEM,
-- 2026-09-01 • Microsoft Purview • GA • Data Loss Prevention

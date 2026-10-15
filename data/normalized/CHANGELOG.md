@@ -1,12 +1,15 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-14T11:07:32.020Z
+Generated: 2026-10-15T10:48:57.002Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 6, 2026 Public preview
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA KSPM misconfiguration recommendations moving to controller-level scope October 5, 2026
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA On-demand malware scanning now supports scanning specific blobs, files, containers, and
-- 2026-10-01 • Microsoft Defender for Identity • GA • General availability of sensor v3.x activation without Defender for Endpoint
+- 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New Defender for Identity security alerts
+- 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New alerts related to Entra ID
+- 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New alerts related to Active Directory
+- 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New alerts related to other identity providers
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include meetings
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update Sep 30, 2026 Upcoming update Upcoming billing updates for
 - 2026-09-01 • Microsoft Defender for Cloud • Deprecation • GA Enhanced agent for Defender for SQL Servers on Machines is fully
@@ -19,6 +22,3 @@ Generated: 2026-10-14T11:07:32.020Z
 - 2026-09-01 • Microsoft Defender for Endpoint • Ikke oppgitt • New Microsoft Secure Score recommendations for AI-Readiness
 - 2026-09-01 • Microsoft Defender for Identity • Ikke oppgitt • Automatic sensor v3.x activation and Windows auditing by default
 - 2026-09-01 • Microsoft Defender for Identity • Ikke oppgitt • New Microsoft Defender for Endpoint customers:
-- 2026-09-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Separating Teams user reporting settings from email settings
-- 2026-09-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include group calls
-- 2026-09-01 • Microsoft Defender XDR • Ikke oppgitt • Integrated Security Operations Center (ISOC) in Microsoft Defender brings XDR, SIEM,

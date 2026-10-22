@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-21T11:07:10.521Z
+Generated: 2026-10-22T11:07:04.333Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 20, 2026 Public preview Expanded server onboarding experience
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience
@@ -17,8 +17,8 @@ Generated: 2026-10-21T11:07:10.521Z
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • New ApproverUpn field in the EmailPostDeliveryEvents table
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include meetings
 - 2026-10-01 • Microsoft Purview • GA • Data Loss Prevention
+- 2026-10-01 • Microsoft Sentinel • Preview • Detect use of vulnerable SAP BTP custom apps (Preview)
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update Sep 30, 2026 Upcoming update Upcoming billing updates for
 - 2026-09-01 • Microsoft Defender for Cloud • Deprecation • GA Enhanced agent for Defender for SQL Servers on Machines is fully
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA AWS GuardDuty coverage status is now shown on the S3 asset
 - 2026-09-01 • Microsoft Defender for Cloud • GA • GA General availability of Defender for Cosmos DB in Azure Government cloud
-- 2026-09-01 • Microsoft Defender for Endpoint • Preview • Preview/GA

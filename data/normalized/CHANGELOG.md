@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-24T10:14:48.574Z
+Generated: 2026-10-25T10:39:40.442Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 20, 2026 Public preview Expanded server onboarding experience
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience

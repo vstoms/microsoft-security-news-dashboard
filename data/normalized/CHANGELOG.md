@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-28T12:03:59.211Z
+Generated: 2026-10-29T12:14:38.197Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 20, 2026 Public preview Expanded server onboarding experience
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience
@@ -15,10 +15,10 @@ Generated: 2026-10-28T12:03:59.211Z
 - 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New alerts related to Entra ID
 - 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • Newly created user performed organization branding change
 - 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New alerts related to Active Directory
+- 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Hunt across activities in Microsoft Teams calls and meetings
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • New ApproverUpn field in the EmailPostDeliveryEvents table
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include meetings
 - 2026-10-01 • Microsoft Purview • GA • Data Loss Prevention
 - 2026-10-01 • Microsoft Sentinel • Preview • Detect use of vulnerable SAP BTP custom apps (Preview)
 - 2026-10-01 • Security Exposure Management • Preview • Codename MDASH - MAI Cyber configuration now uses MAI-Cyber-1.1-Flash
 - 2026-09-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update Sep 30, 2026 Upcoming update Upcoming billing updates for
-- 2026-09-01 • Microsoft Defender for Cloud • Deprecation • GA Enhanced agent for Defender for SQL Servers on Machines is fully

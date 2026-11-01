@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-10-31T11:38:55.745Z
+Generated: 2026-11-01T12:38:17.147Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 28, 2026 Public preview Posture policies and recommendation
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience

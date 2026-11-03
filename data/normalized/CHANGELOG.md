@@ -1,16 +1,16 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-11-02T14:42:06.992Z
+Generated: 2026-11-03T13:34:57.356Z
 
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 28, 2026 Public preview Posture policies and recommendation
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • New Defender server security experience
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA KSPM misconfiguration recommendations moving to controller-level scope October 5, 2026
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • GA On-demand malware scanning now supports scanning specific blobs, files, containers, and
 - 2026-10-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
+- 2026-10-01 • Microsoft Defender for Endpoint • Preview • GA Discover supported local AI agents and their configured MCP servers on
 - 2026-10-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Provides real-time malware detection and alerting without automatically quarantining files or
 - 2026-10-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126092.9.0 released: See enhancements and features for this release
 - 2026-10-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126082.12.0 released: See enhancements and features for this release
-- 2026-10-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Vulnerability assessment for applications installed via the Microsoft Store is now
 - 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • Automatic sensor v3.x activation and Windows auditing for existing customers
 - 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New Defender for Identity security alerts
 - 2026-10-01 • Microsoft Defender for Identity • Ikke oppgitt • New alerts related to Entra ID

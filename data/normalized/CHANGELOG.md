@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-11-04T13:44:21.258Z
+Generated: 2026-11-05T13:56:47.905Z
 
 - 2026-11-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-11-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126092.12.0 released: See enhancements and features for this release

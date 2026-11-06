@@ -1,7 +1,8 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-11-05T13:56:47.905Z
+Generated: 2026-11-06T13:42:04.698Z
 
+- 2026-11-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update November 4, 2026 Update Arc proxy support for Defender
 - 2026-11-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
 - 2026-11-01 • Microsoft Defender for Endpoint • Ikke oppgitt • GA Release version 20.126092.12.0 released: See enhancements and features for this release
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • Date Category Update October 28, 2026 Public preview Posture policies and recommendation
@@ -21,4 +22,3 @@ Generated: 2026-11-05T13:56:47.905Z
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Hunt across activities in Microsoft Teams calls and meetings
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • New ApproverUpn field in the EmailPostDeliveryEvents table
 - 2026-10-01 • Microsoft Defender for Office 365 • Ikke oppgitt • Expanding user reporting in Teams to include meetings
-- 2026-10-01 • Microsoft Purview • GA • Data Loss Prevention

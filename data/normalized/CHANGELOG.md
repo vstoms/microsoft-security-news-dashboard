@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-11-20T14:51:23.634Z
+Generated: 2026-11-21T14:09:36.366Z
 
 - 2026-11-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update November 4, 2026 Update Arc proxy support for Defender
 - 2026-11-01 • Microsoft Defender for Endpoint • Preview • Preview
@@ -12,6 +12,7 @@ Generated: 2026-11-20T14:51:23.634Z
 - 2026-11-01 • Microsoft Defender XDR • Ikke oppgitt • New
 - 2026-11-01 • Microsoft Defender XDR • Ikke oppgitt • New location
 - 2026-11-01 • Microsoft Sentinel • Ikke oppgitt • SAP solution pricing for ISOC customers
+- 2026-11-01 • Security Exposure Management • Preview • Codename MDASH - Finding validation and scan improvements
 - 2026-11-01 • Unified SecOps • Ikke oppgitt • Expanded identity activity visibility in advanced hunting
 - 2026-11-01 • Unified SecOps • Ikke oppgitt • New navigation
 - 2026-11-01 • Unified SecOps • Ikke oppgitt • New
@@ -21,4 +22,3 @@ Generated: 2026-11-20T14:51:23.634Z
 - 2026-10-01 • Microsoft Defender for Cloud • Ikke oppgitt • GA KSPM misconfiguration recommendations moving to controller-level scope October 5, 2026
 - 2026-10-01 • Microsoft Defender for Cloud • Preview • GA On-demand malware scanning now supports scanning specific blobs, files, containers, and
 - 2026-10-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
-- 2026-10-01 • Microsoft Defender for Endpoint • Preview • GA Discover supported local AI agents and their configured MCP servers on

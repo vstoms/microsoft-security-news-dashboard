@@ -1,6 +1,6 @@
 # Latest Microsoft Security News Changes
 
-Generated: 2026-11-27T16:04:50.712Z
+Generated: 2026-11-28T14:59:34.866Z
 
 - 2026-11-01 • Microsoft Defender for Cloud • Ikke oppgitt • Date Category Update November 4, 2026 Update Arc proxy support for Defender
 - 2026-11-01 • Microsoft Defender for Endpoint • Preview • Preview/GA
